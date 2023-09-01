@@ -1,0 +1,40 @@
+---
+title: Parasal Sınırlar
+layout: page
+---
+<div class="card-header">
+  <h3 class="card-title">Parasal Sınırlar</h3>
+  </div>
+
+<div id="table-default" class="table-responsive">
+    <table class="table" id="parasalsinirlar" name="parasalsinirlar">
+      <thead>
+        <tr>
+          <th><button class="table-sort" data-sort="sort-yil">Yıl</button></th>
+					<th><button class="table-sort" data-sort="sort-mahkeme">Mahkeme / Dava</button></th>
+					<th><button class="table-sort" data-sort="sort-miktar">Miktar</button></th>									
+        </tr>
+      </thead>
+      <tbody class="table-tbody">
+      {% for satir in site.data.parasalsinirlar %}
+      <tr><td class="sort-yil">{{ satir.yil }}<td class="sort-mahkeme">{{ satir.birim }}<td class="sort-miktar">{{ satir.miktar }}</td></tr>
+      {% endfor %}         										
+      </tbody>
+    </table>
+  </div>
+  
+ <script>
+    if($('#parasalsinirlar').length>0){
+		
+		window.dataT = $('#parasalsinirlar').DataTable({
+			"fixedHeader": true,
+			"order": [[ 0, "desc" ]],			
+			"lengthMenu": [[10, 25, 50, 100, -1], [10, 25, 50, 100, "Hepsi"]],
+			"dom": '<"topleft"PlBf><"dataTables_filter">rt<"bottom"lip><"clear">',
+			"pageLength": 50,	
+			"language": {
+            "url": "./tr.json"
+			},
+		});
+	}	
+ </script>
