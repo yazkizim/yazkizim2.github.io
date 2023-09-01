@@ -1,0 +1,40 @@
+---
+title: Avukatlık Asgari Ücret Tarifesi
+layout: page
+---
+<div class="card-header">
+  <h3 class="card-title">Bilirkişi Ücret Tarifesi</h3>
+  </div>
+
+<div id="table-default" class="table-responsive">
+    <table class="table" id="bilirkisiucret" name="bilirkisiucret">
+      <thead>
+        <tr>
+          <th><button class="table-sort" data-sort="sort-yil">Yıl</button></th>
+										<th><button class="table-sort" data-sort="sort-mahkeme">Mahkeme / Dava</button></th>
+										<th><button class="table-sort" data-sort="sort-ucret">Ücret</button></th>									
+        </tr>
+      </thead>
+      <tbody class="table-tbody">
+      {% for satir in site.data.bilirkisiucret %}
+      <tr><td class="sort-yil">{{ satir.yil }}<td class="sort-mahkeme">{{ satir.birim }}<td class="sort-ucret">{{ satir.ucret }} TL</td></tr>
+      {% endfor %}         										
+      </tbody>
+    </table>
+  </div>
+  
+ <script>
+    if($('#avukatlikucret').length>0){
+		
+		window.dataT = $('#bilirkisiucret').DataTable({
+			"fixedHeader": true,
+			"order": [[ 0, "desc" ]],			
+			"lengthMenu": [[10, 25, 50, 100, -1], [10, 25, 50, 100, "Hepsi"]],
+			"dom": '<"topleft"PlBf><"dataTables_filter">rt<"bottom"lip><"clear">',
+			"pageLength": 50,	
+			"language": {
+            "url": "./tr.json"
+			},
+		});
+	}	
+ </script>

@@ -27,8 +27,6 @@ tarifeler:
       url: /bilirkisiucret
     - text: Uzlaştırmacı Ücret Tarifesi
       url: /uzlastirmaciucret
-    - text: Tanıklık Ücret Tarifesi
-      url: /taniklikucret
     - text: Parasal Sınırlar
       url: /parasalsinirlar  
 
