@@ -13,8 +13,8 @@ layout: page
         </tr>
       </thead>
       <tbody class="table-tbody">
-      {% for product in site.data.avukatlikasgari %}
-      <tr><td class="sort-yil"> {{ yil }} <td class="sort-mahkeme">' {{ birim }}'<td class="sort-ucret"> {{ ucret }} </td></tr>'
+      {% for satir in site.data.avukatlikasgari %}
+      <tr><td class="sort-yil"> {{ satir.yil }} <td class="sort-mahkeme">' {{ satir.birim }}'<td class="sort-ucret"> {{ satir.ucret }} </td></tr>'
       {% endfor %}         										
       </tbody>
     </table>
