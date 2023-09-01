@@ -163,7 +163,7 @@ function myNoty(MYlayout,MYtype,MYtext){
 }
 
 $.ajax({
-  url: "./dist/katsayilar.json",
+  url: "../dist/katsayilar.json",
   dataType: 'json',
   async: false,
   success: function(data) {
@@ -172,7 +172,7 @@ $.ajax({
 });
 
 $.ajax({
-  url: "./dist/datalar.json",
+  url: "../dist/datalar.json",
   dataType: 'json',
   async: false,
   success: function(data) {
@@ -190,34 +190,6 @@ function escapeHtml(unsafe)
          .replace(/'/g, "&#039;");
  }
 
-$.getJSON('./dist/haberler.json', function(response) {    
-	window.haberlerArr = response;	
-	var html = '';
-	
-	for (let i = 0; i < window.haberlerArr.length &&  i < window.sayfadakiHaber; i++) {
-	  var resim = window.haberlerArr[i]['resim'];	
-	  var sitelink;
-	  var btn = 'class="btn btn-ghost-info float-end"> Tümünü Oku</a>';
-	  
-	  //console.log(window.haberlerArr[i]['link']);
-	  if (window.haberlerArr[i]['link'] != '-') { 
-		sitelink = window.haberlerArr[i]['link'];
-		btn = 'class="btn btn-ghost-success float-end"> Bağlantıya Git</a>';
-	  } else { 
-		sitelink = '/oku?id=' + window.haberlerArr[i]['id'];
-	  }
-	  html = html + '<div> <div class="row"><div class="col-auto"><span class="gokhanavatar" style="background-image: url(' + window.haberlerArr[i]['resim'] +')"></span></div><div class="col"><div class="text-truncate p-1">' + window.haberlerArr[i]['baslik'] + '</div><div class="text-muted p-1">' + window.haberlerArr[i]['aciklama'].substring(0,200) +'</p><a href=' + sitelink +  '" ' + btn + '</div><hr/></div></div>';
-	  
-	}	
-	$("#habericerikleri").html(html);
-	
-});
-
-/*
-$.getJSON("https://api.countapi.xyz/hit/adliyeci.com.tr/visits", function(response) {
-    $("#ziyaretci").html(response.value);	
-});	
-*/
 
 var d = new Date();
 var tarih = d.setHours(0,0,0,0) / 1000;
