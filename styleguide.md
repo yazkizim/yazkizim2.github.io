@@ -1,5 +1,5 @@
 ---
-title: Styleguide
+title: Sayfa
 layout: page
 permalink: /styleguide/
 ---
