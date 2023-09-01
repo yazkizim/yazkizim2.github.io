@@ -33,22 +33,7 @@ layout: page
 			"order": [[ 0, "desc" ]],			
 			"lengthMenu": [[10, 25, 50, 100, -1], [10, 25, 50, 100, "Hepsi"]],
 			"dom": '<"topleft"PlBf><"dataTables_filter">rt<"bottom"lip><"clear">',
-			"pageLength": 50,
-			"buttons": [			
-			{	
-				"text": "Tümü",				
-				"className": "btn btn-sm btn-flat bg-blue",
-				"action": function () {
-					dataT.column(1).search("").draw();
-				},
-			},
-			{	
-				"extend": 'excelHtml5',
-				"className": "btn btn-sm btn-flat bg-blue",
-				"autoFilter": true,
-				"title": "Yasaklı Listesi - ",
-			},			
-			],	
+			"pageLength": 50,	
 			"language": {
             "url": "./dist/tr.json"
 			},
