@@ -3,21 +3,113 @@ title: Datatables
 layout: page
 ---
 
-<div id="my-table">
+<div id="table-default" class="table-responsive">
+    <table class="table" id="avukatlikucret" name="avukatlikucret">
+      <thead>
+        <tr>
+          <th><button class="table-sort" data-sort="sort-yil">Yıl</button></th>
+          <th><button class="table-sort" data-sort="sort-mahkeme">Mahkeme / Dava</button></th>
+          <th><button class="table-sort" data-sort="sort-ucret">Ücret</button></th>										
+        </tr>
+      </thead>
+      <tbody class="table-tbody">
+      <?php 
+          $veri = json_decode(file_get_contents('./dist/avukatlikasgari.json'), true);
+          $count = 0;
+          foreach($veri as $item) {																	
+              echo '<tr><td class="sort-yil">' . $item['yil'] . '<td class="sort-mahkeme">' . $item['birim'] . '<td class="sort-ucret">' . $item['ucret'] . '</td></tr>' ;
+              
+          }?>											
+      </tbody>
+    </table>
+  </div>
 
-    <!-- The pre-processor for this pen is set to Markdown   -->
-    
-    | Food    | Description                           | Category | Sample type |
-    | ------- | ------------------------------------- | -------- | ----------- |
-    | Apples  | A small, somewhat round ...           | Fruit    | Fuji        |
-    | Bananas | A long and curved, often-yellow ...   | Fruit    | Snow        |
-    | Kiwis   | A small, hairy-skinned sweet ...      | Fruit    | Golden      |
-    | Oranges | A spherical, orange-colored sweet ... | Fruit    | Navel       |
-    
- </div>
-
+  
  <script>
-    $(document).ready(function () {
-    $("#my-table > table").DataTable();
-    });
+    if($('#avukatlikucret').length>0){
+		
+		window.dataT = $('#avukatlikucret').DataTable({
+			"fixedHeader": true,
+			"order": [[ 0, "desc" ]],			
+			"lengthMenu": [[10, 25, 50, 100, -1], [10, 25, 50, 100, "Hepsi"]],
+			"dom": '<"topleft"PlBf><"dataTables_filter">rt<"bottom"lip><"clear">',
+			"pageLength": 50,
+			"buttons": [			
+			{	
+				"text": "Tümü",				
+				"className": "btn btn-sm btn-flat bg-blue",
+				"action": function () {
+					dataT.column(1).search("").draw();
+				},
+			},
+			{	
+				"extend": 'excelHtml5',
+				"className": "btn btn-sm btn-flat bg-blue",
+				"autoFilter": true,
+				"title": "Yasaklı Listesi - ",
+			},			
+			],	
+			"language": {
+            "url": "./dist/tr.json"
+			},
+		});
+	}
+	
+	if($('#kadropersonel').length>0){
+		
+		window.dataT = $('#kadropersonel').DataTable({
+			"fixedHeader": true,
+			"order": [[ 0, "desc" ]],			
+			"lengthMenu": [[10, 25, 50, 100, -1], [10, 25, 50, 100, "Hepsi"]],
+			"dom": '<"topleft"PlBf><"dataTables_filter">rt<"bottom"lip><"clear">',
+			"pageLength": 50,
+			"buttons": [			
+			{	
+				"text": "Tümü",				
+				"className": "btn btn-sm btn-flat bg-blue",
+				"action": function () {
+					dataT.column(1).search("").draw();
+				},
+			},
+			{	
+				"extend": 'excelHtml5',
+				"className": "btn btn-sm btn-flat bg-blue",
+				"autoFilter": true,
+				"title": "Tümü ",
+			},			
+			],	
+			"language": {
+            "url": "./dist/tr.json"
+			},
+		});
+	}
+	
+		if($('#teskilat').length>0){
+		
+		window.dataT = $('#teskilat').DataTable({
+			"fixedHeader": true,
+			"order": [[ 0, "asc" ]],			
+			"lengthMenu": [[10, 25, 50, 100, -1], [10, 25, 50, 100, "Hepsi"]],
+			"dom": '<"topleft"PlBf><"dataTables_filter">rt<"bottom"lip><"clear">',
+			"pageLength": 50,
+			"buttons": [			
+			{	
+				"text": "Tümü",				
+				"className": "btn btn-sm btn-flat bg-blue",
+				"action": function () {
+					dataT.column(1).search("").draw();
+				},
+			},
+			{	
+				"extend": 'excelHtml5',
+				"className": "btn btn-sm btn-flat bg-blue",
+				"autoFilter": true,
+				"title": "Teşkilat Şeması",
+			},			
+			],	
+			"language": {
+            "url": "./dist/tr.json"
+			},
+		});
+	}
  </script>
