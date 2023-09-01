@@ -1,0 +1,30 @@
+[	
+		
+		{
+        "id": "12",
+        "baslik": "<strong>Yasa Teklifinin mevcut hali ile geçmesi durumunda oluşacak maaşlar, maaş robotuna yansıtılmıştır</strong>",
+		"link": ".\/maas",
+		"aciklama": "Maaş hesabı için bağlantıya tıklayınız.",
+        "metin": "-",
+        "resim": ".\/dist\/img\/logos\/tl.png"
+    	},
+		{
+        "id": "11",
+        "baslik": "<strong>Adalet Bakanlığı Görevde Yükselme Yönetmeliğinde değişiklik Resmi Gazetede yayınlandı</strong>",
+		"link": ".\/webview?sayfa=https:\//www.resmigazete.gov.tr\/eskiler\/2023\/04\/20230407-6.htm?fbclid=IwAR1_kKeyg8_secFvV9rWgjeO7QRaqRGQsmx3Z1mbCpbfms-TD9RTGR-HAfo",
+		"aciklama": "Detaylar için bağlantıya tıklayınız.",
+        "metin": "-",
+        "resim": ".\/dist\/img\/logos\/adalet.jpg"
+    	},
+
+	
+    	{
+        "id": "10",
+        "baslik": "<strong>2023 yılına ait parasal sınırlar sisteme yüklenmiştir.</strong>",
+		"link": ".\/parasalsinirlar",
+		"aciklama": "Detaylar için bağlantıya tıklayınız.",
+        "metin": "-",
+        "resim": ".\/dist\/img\/logos\/adalet.jpg"
+    	}
+    
+]

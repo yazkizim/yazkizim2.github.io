@@ -1,0 +1,67 @@
+[
+    {
+        "isim": "Adalet Bakanlığı",
+        "link": "https://www.adalet.gov.tr/",
+        "img": "https://edb.adalet.gov.tr/Resimler/icon/logo_adalet.png"
+    },
+    {
+        "isim": "Anayasa Mahkemesi",
+        "link": "https://www.anayasa.gov.tr/tr/anasayfa/",
+        "img": "https://edb.adalet.gov.tr/Resimler/icon/logo_anayasa.png"
+    },
+    {
+        "isim": "Yargıtay",
+        "link": "https://www.yargitay.gov.tr/",
+        "img": "https://edb.adalet.gov.tr/Resimler/icon/logo_yargitay.png"
+    },
+    {
+        "isim": "Danıştay",
+        "link": "https://www.danistay.gov.tr/",
+        "img": "https://edb.adalet.gov.tr/Resimler/icon/logo_danistay.png"
+    },
+    {
+        "isim": "HSK",
+        "link": "http://www.hsk.gov.tr/",
+        "img": "https://edb.adalet.gov.tr/Resimler/icon/logo_hsk.png"
+    },
+    {
+        "isim": "UYAP",
+        "link": "https://www.uyap.gov.tr/",
+        "img": "https://edb.adalet.gov.tr/Resimler/icon/logo_uyap.png"
+    },
+    {
+        "isim": "E-Devlet",
+        "link": "https://www.turkiye.gov.tr/",
+        "img": "https://edb.adalet.gov.tr/Resimler/icon/logo_edevlet.png"
+    },
+    {
+        "isim": "Bilirkişi Portal",
+        "link": "https://bilirkisi.uyap.gov.tr/giris",
+        "img": "./dist/img/logos/bilirkisi.png"
+    },
+    {
+        "isim": "Vatandaş Portal",
+        "link": "http://vatandas.uyap.gov.tr/main/vatandas/giris.jsp",
+        "img": "./dist/img/logos/vatandas.png"
+    },
+    {
+        "isim": "Avukat Portal",
+        "link": "https://avukat.uyap.gov.tr/main/avukat/giris.jsp",
+        "img": "./dist/img/logos/avukat.png"
+    },
+    {
+        "isim": "Kurum Portal",
+        "link": "https://kurum.uyap.gov.tr/main/kurum/giris.jsp",
+        "img": "./dist/img/logos/kurum.png"
+    },
+    {
+        "isim": "Arabulucu Portal",
+        "link": "http://arabulucu.uyap.gov.tr/main/arabulucu/index.jsp",
+        "img": "./dist/img/logos/arabulucu.png"
+    },
+    {
+        "isim": "Uzlaştırmacı Portal",
+        "link": "https://uzlastirmaci.uyap.gov.tr/main/uzlastirmaci/giris.jsp",
+        "img": "./dist/img/logos/uzlastirmaci.png"
+    }
+]
