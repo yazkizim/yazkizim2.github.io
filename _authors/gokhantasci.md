@@ -3,7 +3,7 @@ name: Gökhan TAŞÇI
 username: gokhantasci
 bio: "Sakarya 11.Asliye Ceza Mahkemesi Yazı İşleri Müdürü"
 site: http://johndoe.com
-avatar: gokhan.jpg
+avatar: gokhantasci.jpg
 email: ab139329@adalet.gov.tr
 social:
     - title: "github"
