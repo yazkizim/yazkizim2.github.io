@@ -13,13 +13,9 @@ layout: page
         </tr>
       </thead>
       <tbody class="table-tbody">
-      <?php 
-          $veri = json_decode(file_get_contents('./dist/avukatlikasgari.json'), true);
-          $count = 0;
-          foreach($veri as $item) {																	
-              echo '<tr><td class="sort-yil">' . $item['yil'] . '<td class="sort-mahkeme">' . $item['birim'] . '<td class="sort-ucret">' . $item['ucret'] . '</td></tr>' ;
-              
-          }?>											
+      {% for product in site.data.avukatlikasgari %}
+      <tr><td class="sort-yil"> {{ yil }} <td class="sort-mahkeme">' {{ birim }}'<td class="sort-ucret"> {{ ucret }} </td></tr>'
+      {% endfor %}         										
       </tbody>
     </table>
   </div>
