@@ -11,6 +11,8 @@ siteslogan: "www.Adliyeci.com.tr"
 urls:
     - text: Home
       url: /
+    - text: Contact
+      url: /Contact
     - text: About
       url: /about
     - text: Blog
@@ -22,7 +24,7 @@ urls:
     - text: Contact
       url : /contact
         sublinks:
-      - title: Contact
+      - text: Contact
         url: /Contact
 
 
