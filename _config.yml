@@ -5,6 +5,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
+siteslogan: "www.Adliyeci.com.tr"
 
 # Navigation
 urls:
@@ -30,8 +31,8 @@ author_bio: Merhabalar benim adım Gökhan.
 author_email: "mail@sujaykundu.com"
 author_location: India
 author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
-hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
+typewrite-text: www.adliyeci.com.tr Adliye personelleri ile ilgili haberleşme kanalıdır.
+hero_cover_img: cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
