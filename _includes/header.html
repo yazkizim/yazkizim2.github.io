@@ -14,6 +14,20 @@
           <a class="navbar-brand" href="/">{{site.title}}</a>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
+              <li class="nav-item"> <a class="nav-link" href="/">Anasayfa</a> </li>
+              {% for i in site.tarifeler %}
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Tarifeler</a>
+                <div class="dropdown-menu">
+                  <a
+                  class="dropdown-item"
+                  href="{{ site.url}}{{site.baseurl}}{{ i.url }}"
+                  >{{ i.text }}</a
+                  >
+                </div>
+              </li>
+              {% endfor %}
+
               {% for i in site.urls %}
               <li class="nav-item">
                 <a
