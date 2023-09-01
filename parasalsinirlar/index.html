@@ -23,18 +23,3 @@ layout: page
     </table>
   </div>
   
- <script>
-    if($('#parasalsinirlar').length>0){
-		
-		window.dataT = $('#parasalsinirlar').DataTable({
-			"fixedHeader": true,
-			"order": [[ 0, "desc" ]],			
-			"lengthMenu": [[10, 25, 50, 100, -1], [10, 25, 50, 100, "Hepsi"]],
-			"dom": '<"topleft"PlBf><"dataTables_filter">rt<"bottom"lip><"clear">',
-			"pageLength": 50,	
-			"language": {
-            "url": "./tr.json"
-			},
-		});
-	}	
- </script>
