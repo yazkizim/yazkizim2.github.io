@@ -1183,16 +1183,7 @@ $(document).ready(function(){
 	  interval: 2000
 	})	
 	
-	
-	var owl = $('#althaber');
-		owl.owlCarousel({
-			items:4,
-			loop:true,
-			margin:0,
-			autoplay:true,
-			autoplayTimeout:3000,
-			autoplayHoverPause:true
-	});
+
 	
 	if($('#sendikaikramiye').length>0) {
 		
