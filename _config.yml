@@ -24,8 +24,6 @@ urls:
     - text: Contact
       url : /contact
 
-          
-
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
