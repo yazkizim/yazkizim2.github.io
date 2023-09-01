@@ -24,6 +24,17 @@ urls:
     - text: Contact
       url : /contact
 
+tarifeler:
+    - text: Avukatlık Asgari Ücret Tarifesi
+      url: /avukatlikasgari
+    - text: Bilirkişilik Ücret Tarifesi
+      url: /bilirkisiucret
+    - text: Uzlaştırmacı Ücret Tarifesi
+      url: /uzlastirmaciucret
+    - text: Tanıklık Ücret Tarifesi
+      url: /taniklikucret
+    - text: Parasal Sınırlar
+      url: /parasalsinirlar  
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
