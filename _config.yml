@@ -9,10 +9,10 @@ siteslogan: "www.Adliyeci.com.tr"
 
 # Navigation
 urls:
-    - text: Home
+    - text: Anasayfa
       url: /
-    - text: Contact
-      url: /Contact
+    - text: Avukatlık Asgari Ücret Tarifesi
+      url: /avukatlikasgari
     - text: About
       url: /about
     - text: Blog
