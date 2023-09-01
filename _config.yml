@@ -23,9 +23,6 @@ urls:
       url : /shop
     - text: Contact
       url : /contact
-        sublinks:
-      - text: Contact
-        url: /Contact
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
