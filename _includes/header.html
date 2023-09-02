@@ -28,6 +28,20 @@
               {% endfor %}
                 </div>
               </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Hesaplamalar</a>
+                <div class="dropdown-menu">
+              {% for i in site.hesaplamalar %}
+              
+                  <a
+                  class="dropdown-item"
+                  href="{{ site.url}}{{site.baseurl}}{{ i.url }}"
+                  >{{ i.text }}</a
+                  >                
+              {% endfor %}
+                </div>
+              </li>
  
               {% for i in site.urls %}
               <li class="nav-item">

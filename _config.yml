@@ -11,14 +11,6 @@ siteslogan: "www.Adliyeci.com.tr"
 urls:
     - text: About
       url: /about
-    - text: Blog
-      url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Shop
-      url : /shop
-    - text: Contact
-      url : /contact
 
 tarifeler:
     - text: Avukatlık Asgari Ücret Tarifesi
@@ -29,6 +21,15 @@ tarifeler:
       url: /uzlastirmaciucret
     - text: Parasal Sınırlar
       url: /parasalsinirlar  
+
+hesaplamalar:      
+    - text: Islah Harcı Hesaplama
+      url: /islahharci
+    - text: Vekalet Harcı Hesaplama (Nispi)  
+      url: /nispivekalet
+    - text: İstinaf Harcı Hesaplama (Nispi)  
+      url: /istinafharci
+    - text: Gün Farkı Hesaplama  
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
