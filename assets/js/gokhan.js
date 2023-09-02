@@ -344,13 +344,7 @@ $(document).ready(function(){
 			"language": {
             "url": "../dist/tr.json"
 			},
-			"columns": [				
-				null,
-				null,
-				null,
-				null,
-				{ "width": "20%" }
-			  ]
+			"columnDefs": [{ width: 200, targets: 4 }],
 		});
 	}
 	
