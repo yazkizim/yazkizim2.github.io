@@ -316,16 +316,10 @@ $(document).ready(function(){
 				"action": function () {
 					dataT.column(1).search("").draw();
 				},
-			},
-			{	
-				"extend": 'excelHtml5',
-				"className": "btn btn-sm btn-flat bg-blue",
-				"autoFilter": true,
-				"title": "Yasaklı Listesi - ",
-			},			
+			},					
 			],	
 			"language": {
-            "url": "./dist/tr.json"
+            "url": "../dist/tr.json"
 			},
 		});
 	}
@@ -345,16 +339,10 @@ $(document).ready(function(){
 				"action": function () {
 					dataT.column(1).search("").draw();
 				},
-			},
-			{	
-				"extend": 'excelHtml5',
-				"className": "btn btn-sm btn-flat bg-blue",
-				"autoFilter": true,
-				"title": "Tümü ",
-			},			
+			},				
 			],	
 			"language": {
-            "url": "./dist/tr.json"
+            "url": "../dist/tr.json"
 			},
 		});
 	}
@@ -374,16 +362,10 @@ $(document).ready(function(){
 				"action": function () {
 					dataT.column(1).search("").draw();
 				},
-			},
-			{	
-				"extend": 'excelHtml5',
-				"className": "btn btn-sm btn-flat bg-blue",
-				"autoFilter": true,
-				"title": "Teşkilat Şeması",
 			},			
 			],	
 			"language": {
-            "url": "./dist/tr.json"
+            "url": "../dist/tr.json"
 			},
 		});
 	}
@@ -403,16 +385,10 @@ $(document).ready(function(){
 				"action": function () {
 					dataT.column(1).search("").draw();
 				},
-			},
-			{	
-				"extend": 'excelHtml5',
-				"className": "btn btn-sm btn-flat bg-blue",
-				"autoFilter": true,
-				"title": "Parasal Sınırlar",
-			},			
+			},				
 			],	
 			"language": {
-            "url": "./dist/tr.json"
+            "url": "../dist/tr.json"
 			},
 		});
 	}
@@ -435,7 +411,7 @@ $(document).ready(function(){
 			},			
 			],	
 			"language": {
-            "url": "./dist/tr.json"
+            "url": "../dist/tr.json"
 			},
 		});
 	}
@@ -458,15 +434,9 @@ $(document).ready(function(){
 				},
 				
 			},
-			{	
-				"extend": 'excelHtml5',
-				"className": "btn btn-sm btn-flat bg-blue",
-				"autoFilter": true,
-				"title": "Yasaklı Listesi - ",
-			},
 			],	
 			"language": {
-            "url": "./dist/tr.json"
+            "url": "../dist/tr.json"
 			},
 		});
 	}	
