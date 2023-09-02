@@ -930,6 +930,7 @@ $(document).ready(function(){
 		var engellicocuk72aydanbuyuk = $('#engellicocuk72aydanbuyuk').val();
 		var sendikauye = $('#sendikauye').val();
 		var sendikaikramiye = $('#sendikaikramiye').val();
+		var seyyanen_zam =  parseFloat(15965 * aylik_gosterge).toFixed(2);
 		
 		// ## GELİRLER ## //
 		// aile yardımı eş
@@ -953,14 +954,14 @@ $(document).ready(function(){
 		}
 		var sendika_kesinti_tutar = parseFloat(((sozlesme_ucret * 1) + (ek_odeme * 1)) * 0.5 / 100).toFixed(2);
 		
-		var gelir_vergisi = parseFloat((gelir_vergisi_istisna * 1) - (((sozlesme_ucret *1) - (em_kes_kisi * 1) - (gss_primi *1) - (sendika_kesinti_tutar *1)) * 15 / 100));
+		var gelir_vergisi = parseFloat((gelir_vergisi_istisna * 1) - (((sozlesme_ucret *1) - (em_kes_kisi * 1) - (gss_primi *1) - (seyyanen_zam *1) - (sendika_kesinti_tutar *1)) * 15 / 100));
 		if (gelir_vergisi * 1 > 0) { 
 			gelir_vergisi = 0.00;
 		} else { 
 			gelir_vergisi = gelir_vergisi * -1;
 		}
 				
-		var artilartoplam = parseFloat((sozlesme_ucret * 1) + (sendika_ikramiye_tutar * 1) + (es_yardimi_tutar * 1) + (cocuk_yardim_tutar * 1) + (ek_odeme * 1) + (cocuk_yardim_tutar * 1)).toFixed(2);		
+		var artilartoplam = parseFloat((sozlesme_ucret * 1) + (sendika_ikramiye_tutar * 1) + (es_yardimi_tutar * 1) + (cocuk_yardim_tutar * 1) + (ek_odeme * 1) + (seyynane_zam * 1)  + (cocuk_yardim_tutar * 1)).toFixed(2);		
 		var eksilertoplam = parseFloat((gelir_vergisi * 1) + (damga_vergisi * 1) + (damga_vergisi * 1) + (em_kes_kisi * 1) + (gss_primi * 1) + (sendika_kesinti_tutar * 1)).toFixed(2);
 
 		net_maas = (artilartoplam * 1) - (eksilertoplam *1);
@@ -969,7 +970,7 @@ $(document).ready(function(){
 		
 		
 			
-		$("#hesapsonuchtml").html('<div class="mb-3"><div class="row"><div class="mb-3 text-green">Gelirler</div><div class="table"><table class="table table-vcenter card-table"><thead><tr><th>İstihaklar</th><th>Oran</th><th>Tutar</th></tr></thead><tbody><tr><td>Sözleşme Ücreti</td><td></td><td>' + sozlesme_ucret +'</td></tr><tr><td>Ek Ödeme</td><td>' + hizmet_yili +'</td><td>' + ek_odeme +'</td></tr><tr><td>Aile Yardımı (Eş)</td><td>2273</td><td>' + es_yardimi_tutar +'</td></tr><tr><td>Çocuk Yardımı</td><td></td><td>' + cocuk_yardim_tutar +'</td></tr><tr><td>Toplu Sözleşme İkramiyesi</td><td>2119</td><td>' + sendika_ikramiye_tutar +'</td></tr></tbody></table></div></div><div class="mb-3 text-red">Kesintiler</div><div class="table"><table class="table table-vcenter card-table"><thead><tr><th>Kesintiler</th><th>Oran</th><th>Tutar</th></tr></thead><tbody><tr><td>Gelir Vergisi</td><td>%15</td><td>' + gelir_vergisi.toFixed(2) + '</td></tr><tr><td>Damga Vergisi</td><td>7,59</td><td>' + damga_vergisi + '</td></tr><tr><td>Em.Kes.Karşılığı - Devlet</td><td>%9</td><td>' + em_kes_kisi + '</td></tr><tr><td>SGK Primi - Kişi</td><td>%5</td><td>' + gss_primi + '</td></tr><tr><td>Sendika Kesintisi</td><td>%0.50</td><td>' + sendika_kesinti_tutar + '</td></tr></tbody></table></div><div class="mb-3 text-blue">Toplam</div><div class="table"><table class="table table-vcenter card-table"><thead><tr><th>Toplam</th><th>Tutar</th><th></th></tr></thead><tbody><tr><td>İstihaklar Toplamı</td><td></td><td>' + artilartoplam + ' ₺</td></tr><tr><td>Kesintiler Toplamı</td><td></td><td>-' + eksilertoplam + ' ₺</td></tr><tr><th class="text-green">Net Maaş</th><td></td><td>' + net_maas.toFixed(2) + ' ₺</td></tr><tr><td class="text-indigo">%' + fark_artis + ' Enflasyon farkı Ekli Net Maaş</td><td></td><td>' + fark_maas.toFixed(2) + ' ₺</td></tr><tr><td class="text-pink">%' + fark_artis + ' Enflasyon farkı ve %' + toplu_soz_artis + ' toplu sözleşme ekli net maaş</td><td></td><td>' + toplu_soz_maas.toFixed(2) + ' ₺</td></tr></tbody></table></div></div>');
+		$("#hesapsonuchtml").html('<div class="mb-3"><div class="row"><div class="mb-3 text-green">Gelirler</div><div class="table"><table class="table table-vcenter card-table"><thead><tr><th>İstihaklar</th><th>Oran</th><th>Tutar</th></tr></thead><tbody><tr><td>Sözleşme Ücreti</td><td></td><td>' + sozlesme_ucret +'</td></tr><tr><td>Ek Ödeme</td><td>' + hizmet_yili +'</td><td>' + ek_odeme +'</td></tr><tr><td>Aile Yardımı (Eş)</td><td>2273</td><td>' + es_yardimi_tutar +'</td></tr><tr><td>Çocuk Yardımı</td><td></td><td>' + cocuk_yardim_tutar +'</td></tr><tr><td>Toplu Sözleşme İkramiyesi</td><td>2119</td><td>' + sendika_ikramiye_tutar +'</td></tr><tr><td>375 SK EK Madde 40</td><td>' + 15965 + '</td><td>' + seyyanen_zam + '</td></tr></tbody></table></div></div><div class="mb-3 text-red">Kesintiler</div><div class="table"><table class="table table-vcenter card-table"><thead><tr><th>Kesintiler</th><th>Oran</th><th>Tutar</th></tr></thead><tbody><tr><td>Gelir Vergisi</td><td>%15</td><td>' + gelir_vergisi.toFixed(2) + '</td></tr><tr><td>Damga Vergisi</td><td>7,59</td><td>' + damga_vergisi + '</td></tr><tr><td>Em.Kes.Karşılığı - Devlet</td><td>%9</td><td>' + em_kes_kisi + '</td></tr><tr><td>SGK Primi - Kişi</td><td>%5</td><td>' + gss_primi + '</td></tr><tr><td>Sendika Kesintisi</td><td>%0.50</td><td>' + sendika_kesinti_tutar + '</td></tr></tbody></table></div><div class="mb-3 text-blue">Toplam</div><div class="table"><table class="table table-vcenter card-table"><thead><tr><th>Toplam</th><th>Tutar</th><th></th></tr></thead><tbody><tr><td>İstihaklar Toplamı</td><td></td><td>' + artilartoplam + ' ₺</td></tr><tr><td>Kesintiler Toplamı</td><td></td><td>-' + eksilertoplam + ' ₺</td></tr><tr><th class="text-green">Net Maaş</th><td></td><td>' + net_maas.toFixed(2) + ' ₺</td></tr><tr><td class="text-indigo">%' + fark_artis + ' Enflasyon farkı Ekli Net Maaş</td><td></td><td>' + fark_maas.toFixed(2) + ' ₺</td></tr><tr><td class="text-pink">%' + fark_artis + ' Enflasyon farkı ve %' + toplu_soz_artis + ' toplu sözleşme ekli net maaş</td><td></td><td>' + toplu_soz_maas.toFixed(2) + ' ₺</td></tr></tbody></table></div></div>');
 	})
 
 	
