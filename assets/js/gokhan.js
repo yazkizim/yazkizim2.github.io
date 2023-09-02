@@ -345,7 +345,7 @@ $(document).ready(function(){
 			"language": {
             "url": "../dist/tr.json"
 			},
-			"columnDefs": [{ width: 200, targets: 4 }],
+			"columnDefs": [{ width: 100, targets: 4 }],
 		});
 	}
 	
