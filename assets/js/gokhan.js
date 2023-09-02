@@ -344,6 +344,13 @@ $(document).ready(function(){
 			"language": {
             "url": "../dist/tr.json"
 			},
+			"columns": [				
+				null,
+				null,
+				null,
+				null,
+				{ "width": "20%" },
+			  ]
 		});
 	}
 	
