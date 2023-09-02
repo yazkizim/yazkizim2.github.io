@@ -9,7 +9,7 @@ siteslogan: "www.Adliyeci.com.tr"
 
 # Navigation
 urls:
-    - text: About
+    - text: Hakkında
       url: /about
 
 tarifeler:
