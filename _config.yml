@@ -32,7 +32,7 @@ hesaplamalar:
 
 maas:      
     - text: Memur Maaşları
-      url: /memurmaas
+      url: /maas
     - text: Sözleşmeli Memur Maaşları
       url: /sozlesmelimaas
     - text: Emekli Maaşları
