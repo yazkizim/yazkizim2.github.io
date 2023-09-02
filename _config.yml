@@ -9,6 +9,8 @@ siteslogan: "www.Adliyeci.com.tr"
 
 # Navigation
 urls:
+    - text: Konsolosluklar
+      url: /konsolosluk
     - text: Hakkında
       url: /about
 

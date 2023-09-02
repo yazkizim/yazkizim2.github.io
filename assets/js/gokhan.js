@@ -323,6 +323,29 @@ $(document).ready(function(){
 			},
 		});
 	}
+
+	if($('#konsolosluklar').length>0){
+		
+		window.dataT = $('#konsolosluklar').DataTable({
+			"fixedHeader": true,
+			"order": [[ 0, "desc" ]],			
+			"lengthMenu": [[10, 25, 50, 100, -1], [10, 25, 50, 100, "Hepsi"]],
+			"dom": '<"topleft"PlBf><"dataTables_filter">rt<"bottom"lip><"clear">',
+			"pageLength": 50,
+			"buttons": [			
+			{	
+				"text": "Tümü",				
+				"className": "btn btn-sm btn-flat bg-blue",
+				"action": function () {
+					dataT.column(1).search("").draw();
+				},
+			},					
+			],	
+			"language": {
+            "url": "../dist/tr.json"
+			},
+		});
+	}
 	
 	if($('#kadropersonel').length>0){
 		
