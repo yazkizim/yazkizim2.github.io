@@ -1,0 +1,113 @@
+---
+title: Maaş Hesaplama
+layout: page
+---
+        <!-- Page body -->
+        <div class="page-body">
+			<div class="container-xxl">
+			  <div class="row row-deck row-cards">
+				  <div class="col-9">
+					  <div class="row row-deck row-cards">
+						  <div class="col-lg-12">
+							  <div class="card">
+								<div class="card-header">
+								  <h3 class="card-title">Sürekli Görev Yolluğu Hesaplama İşlemleri</h3>
+								</div>
+								<div class="card-body">
+								  <div class="mb-3">
+									  <label class="form-label required">Ünvan</label>
+									  <div>
+										<select type="text" class="form-select" placeholder="Seçiniz" id="unvan" value="">
+											<option value="0" disabled>Seçiniz</option>	
+											<option value="1" selected>Müdür</option>
+											<option value="2">Zabıt Katibi</option>
+											<option value="3">Mübaşir</option>
+											<option value="4">Diğeri</option>
+											 
+										</select>
+									  </div>
+									  <small class="form-hint">				</a></small>
+								  </div>
+								  <div class="mb-3">
+									  <label class="form-label required">Kadro Dereceniz</label>
+									  <div>
+										<select type="text" class="form-select" placeholder="Seçiniz" id="kadroderece" value="">
+											<option selected="" value="203">1 den 4 dereceye kadar</option>
+											<option value="200">5 den 15 dereceye kadar</option>
+										</select>
+									  </div>
+								  </div>
+								  <div class="mb-3">
+									  <label class="form-label required">Aile Ferdi Sayısı (Şahıs Hariç)</label>
+									  <div>
+										<select type="text" class="form-select" placeholder="Seçiniz" id="fertsayisi" value="">
+											<option value="0">Yok</option>	
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4+</option>
+											 
+										</select>
+									  </div>
+									  <small class="form-hint">Aile fertleri: Memur ve hizmetlinin, harcırah verilmesini gerektiren olay sırasında evlilik bağıyla bağlı olduğu eşi, çocukları ile bakmakla yükümlü olduğu usul(anne-baba) ve füruu(alt soy) ve erkek ve kız kardeşlerini; ifade eder. Aile fertleri 4 ten fazla olsa dahi tüm fertlerin yol ücretleri karşılanır.
+									  </a></small>
+								  </div>
+								  <div class="mb-3">
+									  <label class="form-label required">Mesafe</label>
+									  <div>
+										<input type="number" class="form-control" data-type="currency" placeholder="Kabul edilen değeri giriniz" name="mesafemiktar">
+										<small class="form-hint">Bulunduğunuz yerden gidilecek yere olan mesafenin km si.
+									  </a></small>
+									  </div>
+								  </div>
+								  <div class="mb-3">
+									  <label class="form-label required">Yol Ücreti</label>
+									  <div>
+										<input type="number" class="form-control" data-type="currency" placeholder="Kabul edilen değeri giriniz" name="biletmiktar">
+										<small class="form-hint">1 kişinin otobüs bileti karşılığı yazılacaktır. 
+									  </a></small>
+									  </div>
+								  </div>
+								  <div class="mb-3">
+									  <div class="col-6 col-sm-4 col-md-2 col-xl py-3">
+										  <a href="#" class="btn btn-green active w-100" id ="suryolhesapla" name="suryolhesapla">
+											Hesapla
+										  </a>
+									  </div>
+									  <small class="form-hint"></small>
+								  </div>
+								</div>
+							  </div>
+							</div>
+					  </div>
+					  
+				  </div>
+				  <div class="col-3">
+					  <div class="row row-deck row-cards">
+						  <div class="col-lg-12">
+							  <div class="card">
+								<div class="card-stamp">
+								  <div class="card-stamp-icon bg-pink">
+								   <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-road" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+									 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+									 <path d="M4 19l4 -14"></path>
+									 <path d="M16 5l4 14"></path>
+									 <path d="M12 8v-2"></path>
+									 <path d="M12 13v-2"></path>
+									 <path d="M12 18v-2"></path>
+								  </svg>
+								  </div>
+								</div>
+								<div class="card-body d-flex align-items-center justify-content-center h-100">
+								  <label id="hesapsonuc" name="hesapsonuc" class="text-justify mh-25"><h1 class="m-0"></h1></label>
+								</div>
+							  </div>
+							</div>
+					  </div>
+					  
+				  </div>
+			  </div>
+			</div>
+		  </div>
+	
+	
