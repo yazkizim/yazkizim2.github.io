@@ -349,7 +349,7 @@ $(document).ready(function(){
 				null,
 				null,
 				null,
-				{ "width": "20%" },
+				{ "width": "20%" }
 			  ]
 		});
 	}
