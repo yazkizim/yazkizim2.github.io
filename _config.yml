@@ -30,6 +30,7 @@ hesaplamalar:
     - text: İstinaf Harcı Hesaplama (Nispi)  
       url: /istinafharci
     - text: Gün Farkı Hesaplama  
+      url: /gunfarki
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
