@@ -30,6 +30,16 @@ hesaplamalar:
     - text: İstinaf Harcı Hesaplama (Nispi)  
       url: /istinafharci
 
+maas:      
+    - text: Memur Maaşları
+      url: /memurmaas
+    - text: Sözleşmeli Memur Maaşları
+      url: /sozlesmelimaas
+    - text: Emekli Maaşları
+      url: /emeklimaas
+    - text: Sürekli Görev Yolluğu
+      url: /surekligorev
+
 # Edit Author details (For multi authors check _data/authors.yml)
 
 author_logo: profile.png
