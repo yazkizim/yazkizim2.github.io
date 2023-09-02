@@ -332,6 +332,7 @@ $(document).ready(function(){
 			"lengthMenu": [[10, 25, 50, 100, -1], [10, 25, 50, 100, "Hepsi"]],
 			"dom": '<"topleft"PlBf><"dataTables_filter">rt<"bottom"lip><"clear">',
 			"pageLength": 50,
+			"autoWidth": false,
 			"buttons": [			
 			{	
 				"text": "Tümü",				
