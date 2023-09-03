@@ -1,17 +1,21 @@
 ---
 layout: post
-title:  "2023 Yılı Avukatlık Asgari Ücret Tarifesi"
+title:  "Çeşitli hesaplamalar sisteme eklenmiştir"
 summary: "Web Sitesine eklenmiştir"
 author: gokhantasci
-date: '2023-09-01 01:00:00 +0530'
+date: '2023-09-01 06:00:00 +0530'
 category: Tarifeler
-thumbnail: /assets/img/posts/resmigazete.png
-keywords: avukatlık ücreti, asgari ücret tarifesi, aaüt, avukatlık asgari ücret
-permalink: /blog/avukatlik-asgari-ucret-2023/
+thumbnail: /assets/img/posts/harc.jpg
+keywords: ıslah harcı hesaplama, ıslah
+permalink: /blog/islah-harci-2023/
 usemathjax: true
 ---
 
-2023 Yılı Avukatlık asgari ücret tarifesi sisteme eklenmiştir. 
+Mahkemelerde yapılan harçlar  sisteme eklenmiştir.
 
 
-[Avukatlık Asgari Ücret Tarifesi için tıklayınız]({{ site.url }}{% link avukatlikasgari/index.html%})
+[Islah Harcı için tıklayınız]({{ site.url }}{% link islahharci/index.html%})
+
+[Vekalet Harcı için tıklayınız]({{ site.url }}{% link nispivekalet/index.html%})
+
+[İstinaf Harcı için tıklayınız]({{ site.url }}{% link istinafharci/index.html%})
