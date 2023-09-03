@@ -3,7 +3,7 @@ layout: post
 title:  "7. Dönem Toplu sözleşmesi Resmi Gazetede yayınlanmıştır"
 summary: ""
 author: gokhantasci
-date: '2023-09-03 042:00:00 +0530'
+date: '2023-09-03 04:21:00 +0530'
 category: Toplu Sözleşme
 thumbnail: /assets/img/posts/para.jpg
 keywords: 7. Dönem Toplu Sözleşme, Memur Zammı, Toplu Sözleşme, Katip Maaşı, Adliye Maaşları
