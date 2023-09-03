@@ -796,9 +796,9 @@ $(document).ready(function(){
 			ek_odeme_oran = ilgili_derece_bilgileri['ek_odeme_ayligi_mubasir'];
 			yan_odeme_oran = 	ilgili_derece_bilgileri['yan_odeme_mubasir'];				
 		} 
-		
+
 		if (tasiniryetkili > 0) { 
-			yan_odeme_oran = (yan_odeme_oran * 1) + tasiniryetkili;
+			yan_odeme_oran = (yan_odeme_oran * 1) + (tasiniryetkili * 1);
 		}
 
 		var yan_odeme_tutar = parseFloat(yan_odeme_oran * yan_odeme_katsayisi).toFixed(2);
@@ -1009,7 +1009,7 @@ $(document).ready(function(){
 		} 	
 		
 		if (tasiniryetkili > 0) { 
-			yan_odeme_oran = (yan_odeme_oran * 1) + tasiniryetkili;
+			yan_odeme_oran = (yan_odeme_oran * 1) + (tasiniryetkili * 1);
 		}
 
 		var yan_odeme_tutar = parseFloat(yan_odeme_oran * yan_odeme_katsayisi).toFixed(2);
