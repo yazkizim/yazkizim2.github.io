@@ -2,11 +2,11 @@
     {
         "durum": "eski",
         "enflasyon": 1,
-        "aylik_katsayi": 0.433684,
-        "taban_ayligi_katsayi": 6.787992,
-        "yan_odeme_katsayi": 0.137535,
-        "gelir_vergisi_istisna": 1701.36,
-        "damga_vergisi_istisna": 75.96
+        "aylik_katsayi": 0.640253,
+        "taban_ayligi_katsayi": 10.021184,
+        "yan_odeme_katsayi": 0.203045,
+        "gelir_vergisi_istisna": 2864,
+        "damga_vergisi_istisna": 127.87
     },
     {
         "durum": "suan",
@@ -36,5 +36,9 @@
 	{
         "durum": "toplu_sozlesme_4",
         "enflasyon": "5"
+    },
+    {
+        "durum": "beklenti",
+        "enflasyon": "33"
     }
 ]
