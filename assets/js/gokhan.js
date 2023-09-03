@@ -901,6 +901,215 @@ $(document).ready(function(){
 		
 		
 	})
+
+	$( "#yenimaashesapla" ).click(function() {
+		
+		var aylik_gosterge = window.katsayilar[1].aylik_katsayi;		
+		var taban_ayligi_katsayisi = window.katsayilar[1].taban_ayligi_katsayi;
+		var yan_odeme_katsayisi = window.katsayilar[1].yan_odeme_katsayi;
+		var gelir_vergisi_istisna = window.katsayilar[1].gelir_vergisi_istisna;
+		var damga_vergisi_istisna = window.katsayilar[1].damga_vergisi_istisna;
+		var son_artis = window.katsayilar[1].enflasyon;
+		var fark_artis = window.katsayilar[2].enflasyon;		
+		var toplu_soz_artis = window.katsayilar[3].enflasyon;
+		var toplu_soz_artis2 = window.katsayilar[4].enflasyon;
+		var toplu_soz_artis3 = window.katsayilar[5].enflasyon;
+		var toplu_soz_artis4 = window.katsayilar[6].enflasyon;
+		// formdaki veriler 
+		var unvan = $('#unvan').val();
+		var kadro_derece = $('#kadroderece').val();
+		var hizmet_yili = $('input[name="hizmetyili"]').val();
+		var medeni_durum = $('#medenidurum').val();
+		var mezuniyet = $('#mezuniyet').val();
+		var cocuk72aydankucuk = $('#cocuk72aydankucuk').val();
+		var cocuk72aydanbuyuk = $('#cocuk72aydanbuyuk').val();
+		var engellicocuk72aydankucuk = $('#engellicocuk72aydankucuk').val();
+		var engellicocuk72aydanbuyuk = $('#engellicocuk72aydanbuyuk').val();
+		var sendikauye = 707; 
+		/*
+			2024 Ocak sonrası 
+			var sendikauye = 707; 
+			
+		*/
+		var gorevyeri = $('#gorevyeri').val();
+		var yabancidil = $('#yabancidil').val();
+		var tabikanun = $('#tabikanun').val();
+		var sendikaikramiye = 1;
+		/*
+			2024 Ocak sonrası 
+			var sendikaikramiye = 1;
+			
+			## maas.php den bu ay toplu sözleşme alınacak mı silinecek
+		*/	
+		var ilgili_derece_bilgileri = getGosterge(kadro_derece);
+		var bes_uye_mi = $('#beskesintisi').val();
+		var haciz = $('#haciz').val();
+		
+		// ## GELİRLER ## //
+		// gösterge aylığı
+		var gosterge_ayligi = ilgili_derece_bilgileri['gosterge'];
+		var gosterge_ayligi_tutar = parseFloat(aylik_gosterge * gosterge_ayligi).toFixed(2);
+		// ek gösterge
+		var ek_gosterge_ayligi;
+		var haciz_miktar;
+		
+		if (haciz > 0) {
+			haciz_miktar = parseFloat(haciz * 1.0455).toFixed(2);
+		} else {
+			haciz_miktar = 0;
+		}
+		
+		if (unvan == 1) {  // Müdür
+			ek_gosterge_ayligi = ilgili_derece_bilgileri['ek_gosterge_mudur'];
+			
+		} else {  
+			if (mezuniyet == 1) { 
+				ek_gosterge_ayligi = ilgili_derece_bilgileri['ek_gosterge_uni'];
+			} else { 
+				ek_gosterge_ayligi = ilgili_derece_bilgileri['ek_gosterge_digerleri'];
+			}
+		}		
+		var ek_gosterge_ayligi_tutar = parseFloat(ek_gosterge_ayligi * aylik_gosterge).toFixed(2);		
+		// taban aylık
+		var taban_ayligi_tutar = parseFloat(1000 * taban_ayligi_katsayisi).toFixed(2);
+		// kıdem aylığı;
+		if (hizmet_yili > 25) { 
+			hizmet_yili = 25;
+		}
+		var kidem_ayligi_tutar = parseFloat(20 * hizmet_yili * aylik_gosterge).toFixed(2);
+		// yan ödeme aylığı
+		var ozel_hizmet_oran;
+		var ek_odeme_oran;
+		var yan_odeme_oran;
+		if (unvan == 1) {  // Müdür
+			ozel_hizmet_oran = ilgili_derece_bilgileri['ozel_hizmet_tazminat_mudur'];
+			ozel_hizmet_oran =  (ozel_hizmet_oran * 1) + 20;
+			/*
+				2024 Ocak ayı itibariyle yeni formül
+				ozel_hizmet_oran =  (ozel_hizmet_oran * 1) + 20;
+			*/			
+			ek_odeme_oran = ilgili_derece_bilgileri['ek_odeme_ayligi_mudur'];	
+			yan_odeme_oran = 	ilgili_derece_bilgileri['yan_odeme_mudur'];			
+		} else if (unvan == 2) { // Katip
+			ozel_hizmet_oran = ilgili_derece_bilgileri['ozel_hizmet_tazminat_katip'];
+			ek_odeme_oran = ilgili_derece_bilgileri['ek_odeme_ayligi_katip'];	
+			yan_odeme_oran = 	ilgili_derece_bilgileri['yan_odeme_katip'];					
+		} else if (unvan == 3) {  // Mübaşir
+			ozel_hizmet_oran = ilgili_derece_bilgileri['ozel_hizmet_tazminat_mubasir'];	
+			ek_odeme_oran = ilgili_derece_bilgileri['ek_odeme_ayligi_mubasir'];
+			yan_odeme_oran = 	ilgili_derece_bilgileri['yan_odeme_mubasir'];				
+		} 		
+		var yan_odeme_tutar = parseFloat(yan_odeme_oran * yan_odeme_katsayisi).toFixed(2);
+		
+		// aile yardımı eş
+		var es_yardimi_tutar = parseFloat(medeni_durum * aylik_gosterge).toFixed(2);
+		// çocuk yardımı
+		var cocuk_yardim_tutar = parseFloat(((cocuk72aydankucuk * 500) + (cocuk72aydanbuyuk * 250) + (engellicocuk72aydankucuk * 750) + (engellicocuk72aydanbuyuk * 375)) * aylik_gosterge).toFixed(2);
+		// özel hizmet tazminatı			
+		var ozel_hizmet_tutar = parseFloat(9500 * aylik_gosterge * ozel_hizmet_oran / 100).toFixed(2);		
+		// ek ödeme
+		var ek_odeme_tutar = parseFloat(9500 * aylik_gosterge * ek_odeme_oran / 100).toFixed(2);
+		// il adalet hizmetleri tazminatı
+		var il_adalet_hizmetleri_tazminat_tutar	= parseFloat(9500 * aylik_gosterge * gorevyeri / 100).toFixed(2);
+		// sendika ödemesi
+		if ($('#sendikauye').val() > 0) { 
+			var sendika_ikramiye_tutar = parseFloat(aylik_gosterge * sendikaikramiye * sendikauye).toFixed(2);
+		} else {
+			var sendika_ikramiye_tutar = parseFloat(aylik_gosterge * sendikaikramiye * 0).toFixed(2);	
+		}
+		// dil tazminatı
+		var dil_tazminat_tutar = parseFloat(aylik_gosterge * yabancidil).toFixed(2);
+		// seyyanen zam
+		var seyyanen_zam =  parseFloat(15965 * aylik_gosterge).toFixed(2);
+		
+		var artilartoplam = (dil_tazminat_tutar * 1) + (sendika_ikramiye_tutar * 1) + (il_adalet_hizmetleri_tazminat_tutar * 1) + (ek_odeme_tutar * 1) + (ozel_hizmet_tutar * 1) + (cocuk_yardim_tutar * 1) + (es_yardimi_tutar * 1) + (yan_odeme_tutar * 1) + (kidem_ayligi_tutar * 1) + (taban_ayligi_tutar * 1) + (ek_gosterge_ayligi_tutar * 1) + (gosterge_ayligi_tutar *1)+ (seyyanen_zam *1);
+		
+		// ## GİDERLER ## //
+		// sendika kesintisi
+		if ($('#sendikauye').val() > 0) { 
+			var sendika_kesinti_tutar = parseFloat(((gosterge_ayligi_tutar *1) + (ek_gosterge_ayligi_tutar *1) + (taban_ayligi_tutar * 1) + (kidem_ayligi_tutar * 1) + (yan_odeme_tutar * 1) + (ozel_hizmet_tutar * 1) + (sendika_ikramiye_tutar * 1) + (ek_odeme_tutar * 1) + (il_adalet_hizmetleri_tazminat_tutar * 1) + (seyyanen_zam * 1)) * 0.005);
+		} else { 
+			var sendika_kesinti_tutar = 0;
+		}
+		
+		// gelir vergisi
+		var gelir_vergisi = parseFloat(((gelir_vergisi_istisna * 1) - (((gosterge_ayligi_tutar *1) + (ek_gosterge_ayligi_tutar *1) + (taban_ayligi_tutar * 1) + (kidem_ayligi_tutar * 1) + (yan_odeme_tutar * 1) + (sendika_ikramiye_tutar * 1) - (sendika_kesinti_tutar * 1)) * 15 / 100))).toFixed(2);
+		if (gelir_vergisi * 1 > 0) { 
+			gelir_vergisi = 0.00;
+		} else { 
+			gelir_vergisi = gelir_vergisi * -1;
+		}
+		
+		
+		
+		// damga vergisi 
+		var damga_vergisi = parseFloat((damga_vergisi_istisna * 1) - (((gosterge_ayligi_tutar *1) + (ek_gosterge_ayligi_tutar *1) + (taban_ayligi_tutar * 1) + (kidem_ayligi_tutar * 1) + (yan_odeme_tutar * 1) + (ozel_hizmet_tutar * 1) + (ek_odeme_tutar * 1) + (il_adalet_hizmetleri_tazminat_tutar * 1) + (sendika_ikramiye_tutar * 1) + (seyyanen_zam * 1)) * 7.59 / 1000)).toFixed(2);
+		if (damga_vergisi * 1 > 0) { 
+			damga_vergisi = 0.00;
+		} else { 
+			damga_vergisi = damga_vergisi * -1;
+		}
+		// Em.Kes.Karşılığı - Devlet
+		var em_kes_kisi;
+		var gss_primi = 0;
+		
+		var ozel_hizmet_orani;
+		
+		if (ek_gosterge_ayligi * 1 >= 3600) { 
+			ozel_hizmet_oran = 1.45;
+		} else if (ek_gosterge_ayligi * 1 >= 2200) { 
+			ozel_hizmet_oran = 0.85;
+		} else { 
+			ozel_hizmet_oran = 0.55;
+		}
+
+		if (unvan == 1) {  // Müdür
+			ozel_hizmet_oran = ozel_hizmet_oran + 0.2;	
+		} 
+
+		/*
+				2024 Ocak ayı itibariyle yeni formül
+		if (unvan == 1) {  // Müdür
+			ozel_hizmet_oran = ozel_hizmet_oran + 0.2;	
+		} 
+		
+		*/	
+		
+		
+		var bes_kesinti = 0;		
+		
+		if (tabikanun == 1) {  // bana göre
+			em_kes_kisi = parseFloat(((gosterge_ayligi_tutar *1) + (ek_gosterge_ayligi_tutar *1) + (taban_ayligi_tutar * 1) + (kidem_ayligi_tutar * 1) + (ozel_hizmet_tutar * 1) + (il_adalet_hizmetleri_tazminat_tutar * 1)) * 9 / 100).toFixed(2);
+			gss_primi = parseFloat(((gosterge_ayligi_tutar *1) + (ek_gosterge_ayligi_tutar *1) + (taban_ayligi_tutar * 1) + (kidem_ayligi_tutar * 1) + (ozel_hizmet_tutar * 1) + (il_adalet_hizmetleri_tazminat_tutar * 1)) * 5 / 100).toFixed(2);
+			
+			if (bes_uye_mi == 1) {  
+				bes_kesinti = parseFloat(((gosterge_ayligi_tutar *1) + (ek_gosterge_ayligi_tutar *1) + (taban_ayligi_tutar * 1) + (kidem_ayligi_tutar * 1) + (ozel_hizmet_tutar * 1) + (il_adalet_hizmetleri_tazminat_tutar * 1)) * 3 / 100).toFixed(0);
+			}	
+		} else if (tabikanun == 2) { // ihsan müdüre göre
+			em_kes_kisi = parseFloat(((gosterge_ayligi_tutar * 1) + (ek_gosterge_ayligi_tutar * 1) + (taban_ayligi_tutar * 1) + (kidem_ayligi_tutar * 1)  + (9500 * aylik_gosterge * ozel_hizmet_oran)) * 16 / 100).toFixed(2);
+			
+			if (bes_uye_mi == 1) {  
+				bes_kesinti = parseFloat(((gosterge_ayligi_tutar * 1) + (ek_gosterge_ayligi_tutar * 1) + (taban_ayligi_tutar * 1) + (kidem_ayligi_tutar * 1)  + (9500 * aylik_gosterge * ozel_hizmet_oran)) * 3 / 100).toFixed(0);
+			}
+		}
+		
+		
+		
+
+		var eksilertoplam = parseFloat((sendika_kesinti_tutar * 1) + (gelir_vergisi * 1) + (damga_vergisi * 1) + (em_kes_kisi * 1) + (gss_primi * 1) + (haciz_miktar * 1) + (bes_kesinti * 1)).toFixed(2);
+		
+		net_maas = (artilartoplam * 1) - (eksilertoplam *1);
+		var fark_maas = net_maas * (100 + (fark_artis *1)) / 100;
+		var toplu_soz_maas = fark_maas * (100 + (toplu_soz_artis * 1)) / 100;
+		var toplu_soz_maas2 = toplu_soz_maas * (100 + (toplu_soz_artis2 * 1)) / 100;
+		var toplu_soz_maas3 = toplu_soz_maas2 * (100 + (toplu_soz_artis3 * 1)) / 100;
+		var toplu_soz_maas4 = toplu_soz_maas3 * (100 + (toplu_soz_artis4 * 1)) / 100;
+		$("#hesapsonuchtml").html('<div  class="mb-12"><div class="row"><div class="mb-12 bg-success text-white">Gelirler</div><div class="table"><table class="table table-vcenter card-table"><thead><tr><th>İstihaklar</th><th>Oran</th><th>Tutar</th></tr></thead><tbody><tr><td>Gösterge Aylığı</td><td>' + gosterge_ayligi +'</td><td>' + gosterge_ayligi_tutar +'</td></tr><tr><td>Ek Gösterge Aylığı</td><td>' + ek_gosterge_ayligi +'</td><td>' + ek_gosterge_ayligi_tutar +'</td></tr><tr><td>Taban Aylığı</td><td>' + '1000' + '</td><td>' + taban_ayligi_tutar + '</td></tr><tr><td>Kıdem Aylığı</td><td>' + hizmet_yili + '</td><td>' + kidem_ayligi_tutar + '</td></tr><tr><td>Yan Ödeme Aylığı</td><td>' + yan_odeme_oran + '</td><td>' + yan_odeme_tutar + '</td></tr><tr><td>Aile Yardımı (Eş)</td><td>' + medeni_durum + '</td><td>' + es_yardimi_tutar + '</td></tr><tr><td>Aile Yardımı (Çocuk)</td><td>-</td><td>' + cocuk_yardim_tutar + '</td></tr><tr><td>Özel Hizmet Tazminatı</td><td>' + ozel_hizmet_oran + '</td><td>' + ozel_hizmet_tutar + '</td></tr><tr><td>Ek Ödeme</td><td>' + ek_odeme_oran + '</td><td>' + ek_odeme_tutar + '</td></tr><tr><td>İl Adalet Hizmetleri Tazminatı</td><td>' + gorevyeri + '</td><td>' + il_adalet_hizmetleri_tazminat_tutar + '</td></tr><tr><td>Toplu Sözleşme İkramiyesi</td><td>' + sendikaikramiye * sendikauye + '</td><td>' + sendika_ikramiye_tutar + '</td></tr><tr><td>Dil Tazminatı</td><td>' + yabancidil + '</td><td>' + dil_tazminat_tutar + '</td></tr><tr><td>375 SK EK Madde 40</td><td>' + 15965 + '</td><td>' + seyyanen_zam + '</td></tr></tbody></table></div></div><div class="mb-3 bg-danger text-white">Kesintiler</div><div class="table"><table class="table table-vcenter card-table"><thead><tr><th>Kesintiler</th><th>Oran</th><th>Tutar</th></tr></thead><tbody><tr><td>Gelir Vergisi</td><td>%15</td><td>' + gelir_vergisi + '</td></tr><tr><td>Damga Vergisi</td><td>7,59</td><td>' + damga_vergisi + '</td></tr><tr><td>Em.Kes.Karşılığı</td><td></td><td>' + em_kes_kisi + '</td></tr><tr><td>GSS Primi</td><td></td><td>' + gss_primi + '</td></tr><tr><td>Sendika Kesintisi</td><td>%0.50</td><td>' + sendika_kesinti_tutar.toFixed(2) + '</td></tr><tr><td>BES Kesintisi</td><td>%3</td><td>' + bes_kesinti + '</td></tr><tr><td>Haciz Kesintisi</td><td>%4,55</td><td>' + haciz_miktar + '</td></tr></tbody></table></div><div class="mb-3 bg-info text-white">Toplam</div><div class="table"><table class="table table-vcenter card-table"><thead><tr><th>Toplam</th><th>Tutar</th><th></th></tr></thead><tbody><tr><td>İstihaklar Toplamı</td><td></td><td>' + artilartoplam.toFixed(2) + ' ₺</td></tr><tr><td>Kesintiler Toplamı</td><td></td><td>-' + eksilertoplam + ' ₺</td></tr><tr><th id="hesaplanannetmaas" name="hesaplanannetmaas" class="text-success">Net Maaş</th><td></td><td class="font-weight-bold text-success">' + net_maas.toFixed(2) + ' ₺</td></tr><tr><td class="text-indigo">%' + fark_artis + ' Enflasyon farkı Ekli Net Maaş</td><td></td><td>' + fark_maas.toFixed(2) + ' ₺</td></tr><tr><td class="text-pink">%' + fark_artis + ' Enflasyon farkı ve Ocak 2024 teklifi: %' + toplu_soz_artis + ' sonrası</td><td></td><td>' + toplu_soz_maas.toFixed(2) + ' ₺</td></tr><tr><td class="text-pink">%' + fark_artis + ' Enflasyon farkı ve Temmuz 2024 teklifi: %' + toplu_soz_artis2 + ' sonrası </td><td></td><td>' + toplu_soz_maas2.toFixed(2) + ' ₺</td></tr><tr><td class="text-pink">%' + fark_artis + ' Enflasyon farkı ve Ocak 2025 teklifi: %' + toplu_soz_artis3 + ' sonrası </td><td></td><td>' + toplu_soz_maas3.toFixed(2) + ' ₺</td></tr><tr><td class="text-pink">%' + fark_artis + ' Enflasyon farkı ve Temmuz 2025 teklifi: %' + toplu_soz_artis4 + ' sonrası </td><td></td><td>' + toplu_soz_maas4.toFixed(2) + ' ₺</td></tr></tbody></table></div></div>');
+		
+		scrollToBottom();
+		
+		
+	})
 	
 	$("#maashesapla").mouseup(function() {
 		scrollToBottom();
@@ -1044,6 +1253,7 @@ $(document).ready(function(){
 		
 		
 	})
+	
 	
 	
 
