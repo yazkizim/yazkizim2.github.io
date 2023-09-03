@@ -722,6 +722,8 @@ $(document).ready(function(){
 		var engellicocuk72aydankucuk = $('#engellicocuk72aydankucuk').val();
 		var engellicocuk72aydanbuyuk = $('#engellicocuk72aydanbuyuk').val();
 		var sendikauye = 2119; 
+		var tasiniryetkili = $('#tasiniryetkili').val();
+
 		/*
 			2024 Ocak sonrası 
 			var sendikauye = 707; 
@@ -793,7 +795,12 @@ $(document).ready(function(){
 			ozel_hizmet_oran = ilgili_derece_bilgileri['ozel_hizmet_tazminat_mubasir'];	
 			ek_odeme_oran = ilgili_derece_bilgileri['ek_odeme_ayligi_mubasir'];
 			yan_odeme_oran = 	ilgili_derece_bilgileri['yan_odeme_mubasir'];				
-		} 		
+		} 
+		
+		if (tasiniryetkili > 0) { 
+			yan_odeme_oran = (yan_odeme_oran * 1) + tasiniryetkili;
+		}
+
 		var yan_odeme_tutar = parseFloat(yan_odeme_oran * yan_odeme_katsayisi).toFixed(2);
 		
 		// aile yardımı eş
@@ -926,6 +933,7 @@ $(document).ready(function(){
 		var engellicocuk72aydankucuk = $('#engellicocuk72aydankucuk').val();
 		var engellicocuk72aydanbuyuk = $('#engellicocuk72aydanbuyuk').val();
 		var sendikauye = 707; 
+		var tasiniryetkili = $('#tasiniryetkili').val();
 		/*
 			2024 Ocak sonrası 
 			var sendikauye = 707; 
@@ -998,8 +1006,15 @@ $(document).ready(function(){
 			ozel_hizmet_oran = ilgili_derece_bilgileri['ozel_hizmet_tazminat_mubasir'];	
 			ek_odeme_oran = ilgili_derece_bilgileri['ek_odeme_ayligi_mubasir'];
 			yan_odeme_oran = 	ilgili_derece_bilgileri['yan_odeme_mubasir'];				
-		} 		
+		} 	
+		
+		if (tasiniryetkili > 0) { 
+			yan_odeme_oran = (yan_odeme_oran * 1) + tasiniryetkili;
+		}
+
 		var yan_odeme_tutar = parseFloat(yan_odeme_oran * yan_odeme_katsayisi).toFixed(2);
+
+		
 		
 		// aile yardımı eş
 		var es_yardimi_tutar = parseFloat(medeni_durum * aylik_gosterge).toFixed(2);
