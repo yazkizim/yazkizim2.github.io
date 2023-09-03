@@ -13,4 +13,4 @@ usemathjax: true
 
 2023 Yılı Avukatlık asgari ücret tarifesi sisteme eklenmiştir. 
 
-[Link title]({{ site.baseurl }}{% link /avukatlikasgari %})
+{{ site.baseurl }}{% link avukatlikasgari/index.html %}
