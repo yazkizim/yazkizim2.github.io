@@ -3,6 +3,10 @@ title: Maaş Hesaplama
 layout: page
 ---
 
+<div class="bd-callout bd-callout-info">
+  <p>The base <code class="highlighter-rouge">.nav</code> component does not include any <code class="highlighter-rouge">.active</code> state. The following examples include the class, mainly to demonstrate that this particular class does not trigger any special styling.</p>
+  </div>
+  
   <div class="page-body">
   <div class="container-l">
     <div class="row row-deck row-cards">
@@ -359,3 +363,8 @@ layout: page
   </div>
 </div>
   
+{%- if site.hyvor_talk_website_id -%}
+<div class="comments">
+  {%- include hyvor_comments.html -%}
+ </div>
+  {%- endif -%}
