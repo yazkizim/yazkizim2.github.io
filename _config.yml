@@ -103,6 +103,8 @@ dribbble_username: johndoe
 flickr_username: johndoe
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
+#analytics : 
+google_analytics: G-W0L58E350K
 
 # disqus_shortname: sujay-kundu
 hyvor_talk_website_id: 9448
