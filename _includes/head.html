@@ -17,6 +17,9 @@
     title="RSS"
     href="/feed.xml"
   />
+  {% if site.google_analytics and jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
   <meta content="{{ site.share.fb_appid }}" property="fb:app_id" />
   <meta content="{{ site.title }}" property="og:site_name" />
   {% if page.noindex %}
@@ -156,6 +159,8 @@
   ></script>
 
   <meta name="google-site-verification" content="khA4vCWn1AoLPIiHpY5esmd0j5kWM4ih7c3iVqjDGO4" />
+
+
 
   <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
   <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
