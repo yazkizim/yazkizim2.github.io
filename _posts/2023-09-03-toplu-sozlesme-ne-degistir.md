@@ -64,9 +64,7 @@ usemathjax: true
 <p>Bunu başardıktan sonra kendi kalem arkadaşlarımın da bordrolarını benimle paylaşmaları neticesinde Zabıt Katibi ve Mübaşir maaşlarını da hesaplayabilmek mümkün olmuştur.</p>
 <p>Sisteme tüm ünvanları hızlıca eklemek mümkün ancak bu rakam diğer robotlar gibi üç aşağı beş yukarı rakamlar olacağı için, sağlamasını bordro ile yapamadığım ünvanların maaşlarını sisteme dahil etmedim. </p>
 <p>Her bir ünvanın ay sonu ödenen maaşı gelirler ve giderler olmak üzere +/- 30 kalem hesaplama sonucu bulunmaktadır. Bu da gerek tasarım gerek kodlama açısından yorucu bir iştir.</p>
-<p>Yazı İşleri Müdürü olarak görev yürütmeme ek olarak şahsi keyif olarak tasarladığım bu siteyi sizlerin meraknı bir nebze gidermek için bu siteyi genelle paylaştım. Mevcut maaş hesabında küsürat da olsa hatalara denk gelirseniz lütfen bu durumu bordronuzu da gönderebilecekseniz benimle paylaşınız. En kısa zamanda gerekli düzenlemeyi yapıp sisteme eklemesini yapabilirim.</p>
+<p>Yazı İşleri Müdürü olarak görev yürütmeme ek olarak şahsi keyif olarak tasarladığım bu siteyi sizlerin merakını bir nebze gidermek için bu siteyi genelle paylaştım. Mevcut maaş hesabında küsürat da olsa hatalara denk gelirseniz lütfen bu durumu bordronuzu da gönderebilecekseniz benimle paylaşınız. En kısa zamanda gerekli düzenlemeyi yapıp sisteme eklemesini yapabilirim.</p>
+<p>Bu site açık kaynak kodlu olarak paylaşılmaktadır. Eğer yeterli teknik bilgiye sahipseniz, kopyalamaktan, geliştirmekten, yenisini yapmaktan lütfen çekinmeyin. Farklı fikirlerinizi sisteme dahil etmem konusunda da yardımlarınıza açık olduğumu arz ederim.</p>
 <p>Toplu sözleşmenin hepimize hayırlı olması dileğiyle, <strong>selamlar ve sevgiler.</strong></p>
 
-
-</body>
-</html>
