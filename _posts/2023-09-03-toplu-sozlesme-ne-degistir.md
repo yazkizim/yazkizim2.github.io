@@ -14,7 +14,6 @@ usemathjax: true
 
 <p>Merhabalar.</p>
 <p>Memur ve memur emeklilerini etkileyen 7.Dönem Toplu Sözleşmesi 03/09/2023 tarihinde Resmi Gazete'de yayınlanmıştır. </p>
-[Toplu Sözleşme Metni]({{ site.url }}{% link blog/7-toplu-sozlesme-2023%})
 <p></p>
 <p>Bu yazımızda aşağıdaki başlıklar incelenecektir.</p>
 <ol> 
