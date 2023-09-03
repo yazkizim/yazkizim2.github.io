@@ -4,7 +4,7 @@ title:  "2023 Yılı Mahkemelerde Uygulanacak Parasal Sınırlar"
 summary: "Web Sitesine eklenmiştir"
 author: gokhantasci
 date: '2023-09-02 04:00:00 +0530'
-category: Tarifeler
+category: Hesaplamalar
 thumbnail: /assets/img/posts/mahkeme.jpg
 keywords: mahkeme parasal sınırlar
 permalink: /blog/mahkeme-parasal-sinirlar-2023/

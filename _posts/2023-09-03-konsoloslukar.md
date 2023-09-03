@@ -4,7 +4,7 @@ title:  "Yurtdışı Posta Kodlarından Bağlı Bulunduğu Konsolosluk Tablosu s
 summary: ""
 author: gokhantasci
 date: '2023-09-03 04:00:00 +0530'
-category: Tarifeler
+category: Faydalı
 thumbnail: /assets/img/posts/disisleri.jpg
 keywords: mahkeme parasal sınırlar
 permalink: /blog/konsolosluklar-2023/
