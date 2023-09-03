@@ -34,7 +34,7 @@ maas:
     - text: Memur Maaşları
       url: /maas
     - text: Memur Maaşları (* Yeni Toplu Sözleşme)
-      url: /maas
+      url: /maasyeni
     - text: Sözleşmeli Memur Maaşları
       url: /sozlesmelimaas
     - text: Emekli Maaşları
