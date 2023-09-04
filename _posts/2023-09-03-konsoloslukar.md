@@ -9,6 +9,7 @@ thumbnail: /assets/img/posts/disisleri.jpg
 keywords: mahkeme parasal sınırlar
 permalink: /blog/konsolosluklar-2023/
 usemathjax: true
+posttype: news
 ---
 
 Adalet Bakanlığınca yapılan çeşitli yazışmalarda, şahsın yurtdışı adresinin hangi konsoluk çevresinde kaldığına dair bilgi eksikliği mevcuttur.

@@ -11,34 +11,36 @@
 
   <ul>
     {% for post in site.posts limit:5 %}
-    <li class="article-card">
-      <a href="{{post.url}}" class="article-card-link">
-        <div id="article-container">
-          <div id="article-img">
-            {% if post.author %}
-              {% assign author = post.author %}
-              {% if author %}
-               {% assign author_data = site.data.authors[author] %}
-               <img
-                src="{{site.url}}{{site.baseurl}}{{post.thumbnail}}"
-                width="250px"
-                height="150px"
-             />
-              {% endif %}
-            {% endif %}
+      {% if post.posttype != 'hidden' %}
+        <li class="article-card">
+          <a href="{{post.url}}" class="article-card-link">
+            <div id="article-container">
+              <div id="article-img">
+                {% if post.author %}
+                  {% assign author = post.author %}
+                  {% if author %}
+                  {% assign author_data = site.data.authors[author] %}
+                  <img
+                    src="{{site.url}}{{site.baseurl}}{{post.thumbnail}}"
+                    width="250px"
+                    height="150px"
+                />
+                  {% endif %}
+                {% endif %}
 
-          </div>
-          <div id="article-link">
-              <p class="recent-article-link">{{post.title}} <span style="color: #ccc; font-size: 15px;"></p>
+              </div>
+              <div id="article-link">
+                  <p class="recent-article-link">{{post.title}} <span style="color: #ccc; font-size: 15px;"></p>
+                </div>
+                <div id="article-alert">
+                {% for cat in post.category limit:1 %}
+                <button class="btn btn-sm btn-dark">{{cat}}</button>
+                {% endfor %}
+                </div>
             </div>
-            <div id="article-alert">
-            {% for cat in post.category limit:1 %}
-             <button class="btn btn-sm btn-dark">{{cat}}</button>
-            {% endfor %}
-            </div>
-        </div>
-      </a>
-    </li>
+          </a>
+        </li>
+      {% endif %}  
     {% endfor %}
   </ul>
 </section>

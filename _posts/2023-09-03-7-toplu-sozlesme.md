@@ -9,6 +9,7 @@ thumbnail: /assets/img/posts/para.jpg
 keywords: 7. Dönem Toplu Sözleşme, Memur Zammı, Toplu Sözleşme, Katip Maaşı, Adliye Maaşları
 permalink: /blog/7-toplu-sozlesme-2023/
 usemathjax: true
+posttype: news
 ---
 
 Memur ve memur emeklilerini ilgilendiren 7.Dönem Toplu sözleşmesine ilişkin Hakem Kurulu kararları Resmi Gazetede yayınlanmıştır.

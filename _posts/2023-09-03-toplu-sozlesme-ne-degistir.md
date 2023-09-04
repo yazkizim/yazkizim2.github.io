@@ -9,6 +9,7 @@ thumbnail: /assets/img/posts/katip.jpg
 keywords: En düşük Katip Maaşı, En düşük Katip Mübaşir, En düşük Yazı İşleri Müdürü Maaşı, Katip Maaşı, Mübaşir Maaşı, Yazı İşleri Müdürü Maaşı
 permalink: /blog/7-toplu-sozlesme-adli-personel2023/
 usemathjax: true
+posttype: news
 ---
 
 

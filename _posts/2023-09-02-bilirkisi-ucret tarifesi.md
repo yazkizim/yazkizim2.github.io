@@ -9,6 +9,7 @@ thumbnail: /assets/img/posts/bilirkisi.jpg
 keywords: bilirkişi, bilirkişi ücret, mahkeme ücret, keşif ücret, bilirkişi ücreti, asgari ücret tarifesi, bilirkişi nedir
 permalink: /blog/bilirkisi-asgari-ucret-2023/
 usemathjax: true
+posttype: news
 ---
 
 2023 Yılı Bilirkişi ücret tarifesi sisteme eklenmiştir. 

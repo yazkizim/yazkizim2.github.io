@@ -9,6 +9,7 @@ thumbnail: /assets/img/posts/bilirkisi.jpg
 keywords: uzlaştırmacı, uzlastirmaci, uzlaştırmacı ücret, ücret tarifesi
 permalink: /blog/uzlastirmaci-asgari-ucret-2023/
 usemathjax: true
+posttype: news
 ---
 
 2023 Yılı Uzlaştırmacı asgari ücret tarifesi sisteme eklenmiştir. 

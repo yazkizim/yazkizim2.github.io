@@ -9,6 +9,7 @@ thumbnail: /assets/img/posts/mahkeme.jpg
 keywords: mahkeme parasal sınırlar
 permalink: /blog/mahkeme-parasal-sinirlar-2023/
 usemathjax: true
+posttype: news
 ---
 
 2023 Yılı mahkemelerde uygulanacak parasal sınırlar sisteme eklenmiştir. 

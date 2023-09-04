@@ -9,6 +9,7 @@ thumbnail: /assets/img/posts/harc.jpg
 keywords: ıslah harcı hesaplama, ıslah
 permalink: /blog/islah-harci-2023/
 usemathjax: true
+posttype: news
 ---
 
 Mahkemelerde yapılan harçlar  sisteme eklenmiştir.
