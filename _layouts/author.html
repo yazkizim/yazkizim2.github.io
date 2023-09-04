@@ -12,7 +12,9 @@ layout: default
                   | where: "author", page.username
                 -%}
                 {%- for post in author_posts -%}
-                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                  {% if post.posttype != 'hidden' %}
+                    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                  {% endif %}
                 {%- endfor -%}
          </div>
     </div>
