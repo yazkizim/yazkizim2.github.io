@@ -41,7 +41,8 @@ function hesaplax(x, y){
                                     var counter = 0;
                                     var numberOfPosts = 1;
                         
-                                    var divRandomPosts = $("#adliyeicerigi");
+                                    var divRandomPosts = $('#adliyeicerigi');
+									
                         
                                     divRandomPosts.append('<div class="card-header text-center">{{ post.name }}</div>  <div class="card-body center">');
                         
