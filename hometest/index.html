@@ -23,9 +23,9 @@ layout: full-width
             <div class="col-lg-4">
                 <div class="w-100">
                     <div class="card w-100">
-                        {%- assign adliyeler = site.adliye
+                        {%- assign adliyeler = site.adliye  | sample
                           -%}
-                        {% for post in adliyeler | sample%}
+                        {% for post in adliyeler%}
                                 <div class="card-header text-center">{{ post.name }}</div>
                                 <div class="card-body center">
                                     <img class="card-img-top" src="{{site.url}}{{site.baseurl}}{{ post.fotograf }}" alt="{{ post.name }}">                               
