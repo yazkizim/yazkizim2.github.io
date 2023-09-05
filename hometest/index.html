@@ -46,7 +46,17 @@ layout: full-width
             dataType: 'json',
             async: false,
             success: function(data) {
-                $("#adliyeler").html('<div class="card-header text-center">'+data[0].name+'</div>');
+                var a = Math.floor(Math.random() * data.length);
+                $("#adliyeler").html('<div class="card-header text-center">'+data[a].name+'</div>'  +
+                '<div class="card-body center">' +
+                '<img class="card-img-top" src="..' + data[a].fotograf +'" alt="{{ post.name }}">' +
+                '<br />' +
+                '<br />' +
+                '<label class="text-center">İletişim : ' + data[a].telefon +'</label>' +
+                '<br />' +
+                '</div>' +                
+                );
+                
             }
         });
 
