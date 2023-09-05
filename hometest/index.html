@@ -23,7 +23,9 @@ layout: full-width
             <div class="col-lg-4">
                 <div class="w-100">
                     <div class="card w-100">
-                        {% for post in paginator.posts limit: 1 %}
+                        {%- assign post = site.posts
+                            | where: "ozel", "adliye" | limit:1
+                          -%}
                         {% if post.posttype != 'hidden' %}
                             <div class="card-header text-center">{{ post.title }}</div>
                             <div class="card-body center">
@@ -34,8 +36,7 @@ layout: full-width
                                 <br />
                             </div>
                           
-                        {% endif %}  
-                      {% endfor %}                        
+                        {% endif %}                       
                     </div>
                     <div class="card w-100">
                         <div class="card-header text-center">Yazarlar </div>
