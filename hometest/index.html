@@ -22,7 +22,7 @@ layout: full-width
 
             <div class="col-lg-4">
                 <div class="w-100">
-                    <div class="card w-100">                       
+                    <div class="card w-100" id="adliyeler">                       
                         {%- assign adliyeler = site.adliye  | sample:1
                           -%}
                         {% for post in adliyeler%}
@@ -47,5 +47,56 @@ layout: full-width
             </div>
         </div>    
     </div>  
+
+    <script type="text/javascript">
+
+        function generateRandomPosts()
+        {
+            $.getJSON("/adliyeler.json", function(data) {
+                console.log("[adliyeler.json loaded for random posts]");
+    
+                var postsCount = data.length;
+                console.log("[boyut]: "  + data.length);
+                var posts = data;
+    
+                var randomIndexUsed = [];
+                var counter = 0;
+                var numberOfPosts = 1;
+    
+                var divRandomPosts = $("#adliyeler");
+    
+                divRandomPosts.append('<h2>other posts</h2><hr />');
+    
+                while (counter < numberOfPosts)
+                {
+                    var randomIndex = Math.floor(Math.random() * postsCount);
+    
+                    if (randomIndexUsed.indexOf(randomIndex) == "-1")
+                    {
+                        var postHREF = posts[randomIndex].name;
+                        var postTitle = posts[randomIndex].telefon;
+    
+                        if (counter == (numberOfPosts - 1))
+                        {
+                            divRandomPosts.append('<p><a href="' + postHREF + '">' + postTitle + '</a></p>');
+                        }
+                        else
+                        {
+                            divRandomPosts.append('<p><a href="' + postHREF + '">' + postTitle + '</a></p><hr />');
+                        }
+    
+                        randomIndexUsed.push(randomIndex);
+    
+                        counter++;
+                    }
+                }
+            });
+        }
+    
+        $(document).ready(function() {
+            generateRandomPosts();
+        });
+    
+    </script>    
     
    
