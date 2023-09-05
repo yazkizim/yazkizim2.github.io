@@ -9,7 +9,7 @@ thumbnail: /assets/img/posts/enflasyon.jpg
 keywords: Sakarya Adliyesi İletişim
 permalink: /blog/7-yenihaber/
 usemathjax: true
-posttype: hidden
+posttype: false
 ozel: adliye
 ---
 
