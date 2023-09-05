@@ -175,7 +175,7 @@ $.ajax({
 });
 
 $.ajax({
-	url: "../adliyer.json",
+	url: "../adliyeler.json",
 	dataType: 'json',
 	async: false,
 	success: function(data) {
