@@ -1,0 +1,11 @@
+[
+    {% for post in site.adliyeler %}
+    {
+      "name"    : "{{ post.name }}",
+      "telefon"     : "{{ post.telefon }}",  
+      "site"     : "{{ post.site }}", 
+      "fotograf"     : "{{ post.fotograf }}",     
+    }
+    {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+]

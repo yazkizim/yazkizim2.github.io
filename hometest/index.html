@@ -23,18 +23,58 @@ layout: full-width
             <div class="col-lg-4">
                 <div class="w-100">
                     <div class="card w-100">
-                        {%- assign adliyeler = site.adliye  | sample
-                          -%}
-                        {% for post in adliyeler%}
-                                <div class="card-header text-center">{{ post.name }}</div>
-                                <div class="card-body center">
-                                    <img class="card-img-top" src="{{site.url}}{{site.baseurl}}{{ post.fotograf }}" alt="{{ post.name }}">                               
-                                    <br />
-                                    <br />
-                                    <label class="text-center">İletişim : {{ post.telefon }}</label>
-                                    <br />
-                                </div>
-                        {% endfor %}
+
+                        <script type="text/javascript">
+
+                            function generateRandomPosts()
+                            {
+                                $.getJSON("/adliye.json", function(data) {
+                                    console.log("[adliye.json loaded for random posts]");
+                        
+                                    var postsCount = data.length;
+                                    var posts = data;
+                        
+                                    var randomIndexUsed = [];
+                                    var counter = 0;
+                                    var numberOfPosts = 1;
+                        
+                                    var divRandomPosts = $("#random_posts");
+                        
+                                    divRandomPosts.append('<div class="card-header text-center">{{ post.name }}</div>  <div class="card-body center">');
+                        
+                                    while (counter < numberOfPosts)
+                                    {
+                                        var randomIndex = Math.floor(Math.random() * postsCount);
+                        
+                                        if (randomIndexUsed.indexOf(randomIndex) == "-1")
+                                        {
+                                            var name = posts[randomIndex].name;
+                                            var telefon = posts[randomIndex].telefon;
+                                            var fotograf = posts[randomIndex].fotograf;
+                        
+                                            if (counter == (numberOfPosts - 1))
+                                            {
+                                                divRandomPosts.append('<img class="card-img-top" src="http://adliyeci.com.tr/"' + fotograf + '" alt="'+ name + '">   <br /> <br /><label class="text-center">İletişim : {{ post.telefon }}</label>');
+                                            }
+                                            else
+                                            {
+                                                divRandomPosts.append(' <br /> </div>');
+                                            }
+                        
+                                            randomIndexUsed.push(randomIndex);
+                        
+                                            counter++;
+                                        }
+                                    }
+                                });
+                            }
+                        
+                            $(document).ready(function() {
+                                generateRandomPosts();
+                            });
+                        
+                        </script>
+                     
                         
                     </div>
                     <div class="card w-100">
@@ -48,4 +88,4 @@ layout: full-width
         </div>    
     </div>  
     
-    
+   
