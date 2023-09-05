@@ -1452,7 +1452,7 @@ $(document).ready(function(){
 		scrollToBottom();
 	} 
 
-	if($('#"adliyeicerigi"').length>0){
+	if($('#adliyeicerigi').length>0){
 		generateRandomPosts();
 	}
 
