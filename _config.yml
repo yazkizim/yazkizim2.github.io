@@ -162,6 +162,7 @@ collections:
   adliye:
     output: true
 
+
 defaults:
   -
     scope:
