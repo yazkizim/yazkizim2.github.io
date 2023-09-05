@@ -23,13 +23,22 @@ layout: full-width
             <div class="col-lg-4">
                 <div class="w-100">
                     <div class="card w-100">
-                        <div class="card-header">Kategoriler </div>
-                        <div class="card-body text-dark">
-                            {%- include blog_categories.html -%}
-                        </div>
+                        {% for post in paginator.posts limit: 1 %}
+                        {% if post.posttype != 'hidden' %}
+                            <div class="card-header text-center">{{ post.title }}</div>
+                            <div class="card-body center">
+                                <img class="card-img-top" src="{{site.url}}{{site.baseurl}}{{ post.thumbnail }}" alt="{{ post.title }}">                               
+                                <br />
+                                <br />
+                                {{ content }}
+                                <br />
+                            </div>
+                          
+                        {% endif %}  
+                      {% endfor %}                        
                     </div>
                     <div class="card w-100">
-                        <div class="card-header">Yazarlar </div>
+                        <div class="card-header text-center">Yazarlar </div>
                             <div class="card-body text-dark">
                                 {%- include blog_authors.html -%}
                             </div>
