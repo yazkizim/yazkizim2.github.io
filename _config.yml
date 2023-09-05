@@ -159,6 +159,8 @@ collections:
     output: true
   authors:
     output: true
+  adliye:
+    output: true
 
 defaults:
   -
