@@ -26,7 +26,7 @@ layout: full-width
                         {%- assign post = site.posts
                             | where: "ozel", "adliye" | limit:1
                           -%}
-                        {% if post.posttype != 'hidden' %}
+                        {% if post.posttype == 'hidden' %}
                             <div class="card-header text-center">{{ post.title }}</div>
                             <div class="card-body center">
                                 <img class="card-img-top" src="{{site.url}}{{site.baseurl}}{{ post.thumbnail }}" alt="{{ post.title }}">                               
