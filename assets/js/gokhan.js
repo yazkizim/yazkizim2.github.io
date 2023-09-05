@@ -11,6 +11,7 @@ var toplamSayfa = 20;
 var goruntulenecekSayfa = 5;
 var sayfadakiHaber = 5;
 var sonSayfaZiyaretCount = 0;
+var adliyeler;
  
 
 function hesaplax(x, y){	
@@ -29,47 +30,7 @@ function hesaplax(x, y){
 	return sonuc;
 }
 
-	function generateRandomPosts()
-                            {
-                                $.getJSON("/adliyeler.json", function(data) {
-                                    console.log("[adliyeler.json loaded for random posts]");
-                        
-                                    var postsCount = data.length;
-                                    var posts = data;
-                        
-                                    var randomIndexUsed = [];
-                                    var counter = 0;
-                                    var numberOfPosts = 1;
-                        
-                                    var divRandomPosts = $('#adliyeicerigi');
-									$("#adliyeicerigi").html('<div class="card-header text-center">{{ post.name }}</div>  <div class="card-body center">');
-                        
-                                    while (counter < numberOfPosts)
-                                    {
-                                        var randomIndex = Math.floor(Math.random() * postsCount);
-                        
-                                        if (randomIndexUsed.indexOf(randomIndex) == "-1")
-                                        {
-                                            var name = posts[randomIndex].name;
-                                            var telefon = posts[randomIndex].telefon;
-                                            var fotograf = posts[randomIndex].fotograf;
-                        
-                                            if (counter == (numberOfPosts - 1))
-                                            {
-                                                divRandomPosts.append('<img class="card-img-top" src="http://adliyeci.com.tr/"' + fotograf + '" alt="'+ name + '">   <br /> <br /><label class="text-center">İletişim : {{ post.telefon }}</label>');
-                                            }
-                                            else
-                                            {
-                                                divRandomPosts.append(' <br /> </div>');
-                                            }
-                        
-                                            randomIndexUsed.push(randomIndex);
-                        
-                                            counter++;
-                                        }
-                                    }
-                                });
-        }
+
 
 
 function hesapla(x, y){
@@ -212,6 +173,15 @@ $.ajax({
     window.katsayilar = data;
   }
 });
+
+$.ajax({
+	url: "../adliyer.json",
+	dataType: 'json',
+	async: false,
+	success: function(data) {
+	  window.adliyeler = data;
+	}
+  });
 
 $.ajax({
   url: "../dist/datalar.json",
@@ -1451,7 +1421,40 @@ $(document).ready(function(){
 	} 
 
 	if($('#adliyeicerigi').length>0){
-		generateRandomPosts();
+		var postsCount = window.adliyeler.length;
+		var posts = data;
+
+		var randomIndexUsed = [];
+		var counter = 0;
+		var numberOfPosts = 1;
+
+		var divRandomPosts = $('#adliyeicerigi');
+		$("#adliyeicerigi").html('<div class="card-header text-center">{{ post.name }}</div>  <div class="card-body center">');
+
+		while (counter < numberOfPosts)
+		{
+			var randomIndex = Math.floor(Math.random() * postsCount);
+
+			if (randomIndexUsed.indexOf(randomIndex) == "-1")
+			{
+				var name = posts[randomIndex].name;
+				var telefon = posts[randomIndex].telefon;
+				var fotograf = posts[randomIndex].fotograf;
+
+				if (counter == (numberOfPosts - 1))
+				{
+					divRandomPosts.append('<img class="card-img-top" src="http://adliyeci.com.tr/"' + fotograf + '" alt="'+ name + '">   <br /> <br /><label class="text-center">İletişim : {{ post.telefon }}</label>');
+				}
+				else
+				{
+					divRandomPosts.append(' <br /> </div>');
+				}
+
+				randomIndexUsed.push(randomIndex);
+
+				counter++;
+			}
+		}
 	}
 
 	
