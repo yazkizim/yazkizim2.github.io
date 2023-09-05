@@ -23,20 +23,17 @@ layout: full-width
             <div class="col-lg-4">
                 <div class="w-100">
                     <div class="card w-100">
-                        {%- assign post = site.posts
-                            | where: "ozel", "adliye"
-                          -%}
-                        {% if post.posttype != 'hidden' %}
-                            <div class="card-header text-center">{{ post.title }}</div>
-                            <div class="card-body center">
-                                <img class="card-img-top" src="{{site.url}}{{site.baseurl}}{{ post.thumbnail }}" alt="{{ post.title }}">                               
-                                <br />
-                                <br />
-                                {{ content }}
-                                <br />
-                            </div>
-                          
-                        {% endif %}                       
+                        {% for post in site.adliye limit: 1 %}
+                                <div class="card-header text-center">{{ post.name }}</div>
+                                <div class="card-body center">
+                                    <img class="card-img-top" src="{{site.url}}{{site.baseurl}}{{ post.fotograf }}" alt="{{ post.name }}">                               
+                                    <br />
+                                    <br />
+                                    {{ content }}
+                                    <br />
+                                </div>
+                        {% endfor %}
+                        
                     </div>
                     <div class="card w-100">
                         <div class="card-header text-center">Yazarlar </div>
