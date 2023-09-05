@@ -1,7 +1,7 @@
 title: Adliyeci
 subtitle: Güncel Adliye Rehberi
 description: >- # this means to ignore newlines until "baseurl:"
-  www.adliyeci.com.tr Adliye personelleri ile ilgili haberleşme kanalıdır.
+  www.adliyeci.com.tr Adliye personelleri ile ilgili haberleşme kanalıdır. 
 
 url: "https://yazkizim.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
