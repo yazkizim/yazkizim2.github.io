@@ -6,7 +6,7 @@
       "name"    : "{{ post.name }}",
       "telefon"     : "{{ post.telefon }}",  
       "site"     : "{{ post.site }}", 
-      "fotograf"     : "{{ post.fotograf }}",     
+      "fotograf"     : "{{ post.fotograf }}"     
     }
     {% unless forloop.last %},{% endunless %}
     {% endfor %}
