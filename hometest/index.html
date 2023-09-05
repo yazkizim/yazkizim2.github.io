@@ -1,0 +1,35 @@
+---
+layout: full-width
+---
+
+<script>
+  $(document).ready(function() {
+    $("#typewriteText").typewrite({
+      actions: [{ type: "{{site.typewrite-text}}" }]
+    });
+  });
+</script>
+    <!-- hero section-->
+    {%- include hero.html -%}
+    <div class="col-lg-8 offset-md-2">
+      {%- include recent_articles.html -%}
+    </div>
+
+    <div class="col-lg-4">
+        <div class="col-lg-4">
+            <div class="card">
+                <div class="card-header">Kategoriler </div>
+                <div class="card-body text-dark">
+                    {%- include blog_categories.html -%}
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">Yazarlar </div>
+                    <div class="card-body text-dark">
+                        {%- include blog_authors.html -%}
+                    </div>
+              </div>
+        </div>
+      </div>
+
+    
