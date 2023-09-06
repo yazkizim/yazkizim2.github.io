@@ -33,7 +33,7 @@ layout: default
                         async: false,
                         success: function(data) {
                                 kelime = data.filter(a => a.kelime == gelen);
-                                $("#kelime").html(kelime[0].anlami);	
+                                $("#kelime").html('<h1><strong>' + kelime[0].kelime + ' anlamı nedir? </strong></h1><br>' + kelime[0].anlami);	
                         }
                 });
                 
