@@ -14,23 +14,7 @@ layout: default
                                   <!-- <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="author-profile-img"> -->
                                   <h4 class="card-title">{{ post.title }}</h4>
 
-                                  <h6 class="card-subtitle mb-2 text-muted">{% assign m = post.date | date: "%-m" %}
-                                    {{ post.date | date: "%-d" }}
-                                    {% case m %}
-                                      {% when '1' %}Ocak
-                                      {% when '2' %}Şubat
-                                      {% when '3' %}Mart
-                                      {% when '4' %}Nisan
-                                      {% when '5' %}Mayıs
-                                      {% when '6' %}Haziran
-                                      {% when '7' %}Temmuz
-                                      {% when '8' %}Ağustos
-                                      {% when '9' %}Eylül
-                                      {% when '10' %}Ekim
-                                      {% when '11' %}Kasım
-                                      {% when '12' %}Aralık
-                                    {% endcase %}
-                                    {{ post.date | date: "%Y" }}</h6>
+                                  <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%b %-d, %Y" }}</h6>
                                   <p class="card-text">{{ post.summary }} </p>
 
                                   <a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" class="btn btn-dark btn-lg">Oku</a>
