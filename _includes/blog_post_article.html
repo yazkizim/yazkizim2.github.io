@@ -6,9 +6,25 @@
       Yazar : {% if page.author %}
       <span itemprop="author" itemscope itemtype="http://schema.org/Person">
         <span itemprop="name"><a href="{{site.url}}{{site.baseurl}}/blog/authors/{{page.author}}">{{ page.author }}</a></span> </span
-      >{% endif %} on
+      >{% endif %} <br>Yayınlanma Tarihi : 
       <time datetime="{{ page.date }}" itemprop="datePublished"
-        >{{ page.date | date_to_string:  "TR"  }}</time
+        >{% assign m = page.date | date: "%-m" %}
+        {{ page.date | date: "%-d" }}
+        {% case m %}
+          {% when '1' %}Ocak
+          {% when '2' %}Şubat
+          {% when '3' %}Mart
+          {% when '4' %}Nisan
+          {% when '5' %}Mayıs
+          {% when '6' %}Haziran
+          {% when '7' %}Temmuz
+          {% when '8' %}Ağustos
+          {% when '9' %}Eylül
+          {% when '10' %}Ekim
+          {% when '11' %}Kasım
+          {% when '12' %}Aralık
+        {% endcase %}
+        {{ page.date | date: "%Y" }}</time
       >
     </p>
     <span
