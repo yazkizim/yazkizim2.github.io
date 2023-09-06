@@ -1,5 +1,5 @@
 ---
-layout: default 
+layout: full-width 
 ---
 <div class="card">
         <div class="col-md-8 offset-md-2 offset-md-right">
@@ -8,6 +8,8 @@ layout: default
     </div>
 
     <script type="text/javascript">
+
+        $("#kelime").html('Hukuk Sözlüğü');
 
         function gup( name, url ) {
                 if (!url) url = decodeURI(location.href);
@@ -18,18 +20,20 @@ layout: default
                 return results == null ? null : results[1];
         }
 
+        gelen = gup('kelime');
+
 
         $.ajax({
                 url: "../dist/sozluk.json",
                 dataType: 'json',
                 async: false,
                 success: function(data) {
-                        kelime = data.filter(a => a.kelime == gup('kelime'));
-                        $("#kelime").html(gelen);	
+                        kelime = data.filter(a => a.kelime == gelen);
+                        $("#kelime").html(kelime[0].anlami);	
                 }
         });
         
-        $("#kelime").html('bulunamadı');
+        
     
     </script>    
     
