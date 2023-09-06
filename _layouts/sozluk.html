@@ -8,9 +8,9 @@ layout: default
     </div>
 
     <script type="text/javascript">
-        
+
         function gup( name, url ) {
-                if (!url) url = location.href;
+                if (!url) url = decodeURI(location.href);
                 name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
                 var regexS = "[\\?&]"+name+"=([^&#]*)";
                 var regex = new RegExp( regexS );
@@ -18,8 +18,18 @@ layout: default
                 return results == null ? null : results[1];
         }
 
-        gelen = gup('kelime');
-        $("#kelime").html(gelen);
+
+        $.ajax({
+                url: "../dist/sozluk.json",
+                dataType: 'json',
+                async: false,
+                success: function(data) {
+                        kelime = data.filter(a => a.kelime == gup('kelime'));
+                        $("#kelime").html(gelen);	
+                }
+        });
+        
+        $("#kelime").html('bulunamadı');
     
     </script>    
     
