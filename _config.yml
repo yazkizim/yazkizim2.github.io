@@ -185,7 +185,7 @@ defaults:
     scope:
       path: "sozluk"
     values:
-      permalink: /:path/:kelime 
+      permalink: /sozluk/:kelime 
 
 # Build settings
 plugins:
