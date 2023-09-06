@@ -183,9 +183,11 @@ defaults:
       sitemap: true
   -
     scope:
-      path: "sozluk"
+      path: ""
+      type: sozluk
     values:
-      permalink: /:path/:basename
+      layout: sozluk
+      permalink: /sozluk/:basename
 
 # Build settings
 plugins:
