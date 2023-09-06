@@ -187,7 +187,7 @@ defaults:
       type: sozluk
     values:
       layout: sozluk
-      permalink: /sozluk/:basename:slug
+      permalink: /sozluk/:slug
 
 # Build settings
 plugins:
