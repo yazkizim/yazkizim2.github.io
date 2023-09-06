@@ -181,6 +181,11 @@ defaults:
       path: 'assets/**'
     values:
       sitemap: true
+  -
+    scope:
+      path: "sozluk"
+    values:
+      permalink: /:path/:kelime 
 
 # Build settings
 plugins:
