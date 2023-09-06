@@ -15,7 +15,7 @@ layout: default
                                   <h4 class="card-title">{{ post.title }}</h4>
 
                                   <h6 class="card-subtitle mb-2 text-muted">{% assign m = post.date | date: "%-m" %}
-                                    {{ page.post | date: "%-d" }}
+                                    {{ post.date | date: "%-d" }}
                                     {% case m %}
                                       {% when '1' %}Ocak
                                       {% when '2' %}Şubat
