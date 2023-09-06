@@ -22,7 +22,7 @@ layout: full-width
 
             <div class="col-lg-4">
                 <div class="w-100">
-                    <div class="card w-100" id="adliyeler">                       
+                    <div class="card w-100" id="hukuksozlugu">                       
                         
                                  
                         
@@ -42,17 +42,17 @@ layout: full-width
     <script type="text/javascript">
 
         $.ajax({
-            url: "../adliyeler.json",
+            url: "../dist/sozluk.json",
             dataType: 'json',
             async: false,
             success: function(data) {
                 var a = Math.floor(Math.random() * data.length);
-                $("#adliyeler").html('<div class="card-header text-center">'+data[a].name+'</div>'  +
+                $("#hukuksozlugu").html('<div class="card-header text-center">Hukuk Sözlüğü</div>'  +
                 '<div class="card-body center">' +
-                '<img class="card-img-top" src="..' + data[a].fotograf +'" alt="{{ post.name }}">' +
+                '<h2><p class="text-center font-weight-bold">' + data[a].kelime + ' ne demektir?</p></h2>' +
                 '<br />' +
                 '<br />' +
-                '<label class="text-center">İletişim : ' + data[a].telefon +'</label>' +
+                '<label class="text-justify">' + data[a].anlami +'</label>' +
                 '<br />' +
                 '</div>'                 
                 );
