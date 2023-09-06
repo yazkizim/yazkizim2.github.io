@@ -161,6 +161,10 @@ collections:
     output: true
   adliye:
     output: true
+  sozluk:
+    output: true
+    custom_permalink_placeholders: ["kelime"]
+    permalink: sozluk/:kelime
 
 
 defaults:
