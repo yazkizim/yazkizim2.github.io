@@ -21,19 +21,22 @@ layout: full-width
             </div>
 
             <div class="col-lg-4">
+                <div class="card w-100">
+                    <div class="card-header text-center">Bir Mülakat Sorusu ?</div>
+                        <div class="card-body text-center" id="mulakatsorusu">
+                            
+                        </div>
+                        <div class="card-footer text-center">
+                            <button type="button" class="btn btn-primary btn-outline-primary btn-block" id="btnyenile" name="btnyenile"  onclick="yenisoru()">Yenile..</button>
+                        </div>
+                </div>
                 <div class="w-100">
                     <div class="card w-100" id="hukuksozlugu">                       
                         
                                  
                         
                         
-                    </div>
-                    <div class="card w-100">
-                        <div class="card-header text-center">Yazarlar </div>
-                            <div class="card-body text-dark">
-                                {%- include blog_authors.html -%}
-                            </div>
-                    </div>
+                    </div>                    
                 </div>
             </div>
         </div>    
@@ -59,6 +62,42 @@ layout: full-width
                 
             }
         });
+
+        $.ajax({
+            url: "../dist/mulakat.json",
+            dataType: 'json',
+            async: false,
+            success: function(data) {
+                var a = Math.floor(Math.random() * data.length);
+                $("#mulakatsorusu").html('<h2><p class="text-center font-weight-bold">' + data[a].soru + ' ne demektir?</p></h2>' +
+                '<br />' +
+                '<br />' +
+                '<label class="text-justify">' + data[a].cevap +'</label>' +
+                '<br />' +
+                '</div>'                 
+                );
+                
+            }
+        });
+
+        function yenisoru() {
+                $.ajax({
+                url: "../dist/mulakat.json",
+                dataType: 'json',
+                async: false,
+                    success: function(data) {
+                        var a = Math.floor(Math.random() * data.length);
+                        $("#mulakatsorusu").html('<h2><p class="text-center font-weight-bold">' + data[a].soru + ' ne demektir?</p></h2>' +
+                        '<br />' +
+                        '<br />' +
+                        '<label class="text-justify">' + data[a].cevap +'</label>' +
+                        '<br />' +
+                        '</div>'                 
+                        );
+                        
+                    }
+                });
+        }
 
         
     
