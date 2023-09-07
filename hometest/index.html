@@ -22,7 +22,7 @@ layout: full-width
 
             <div class="col-lg-4">
                 <div class="card w-100">
-                    <div class="card-header text-center">Bir Mülakat Sorusu ?</div>
+                    <div class="card-header text-center">2020 GYS/ÜDS'de sorulmuş Mülakat Sorusu ?</div>
                         <div class="card-body text-center" id="mulakatsorusu">
                             
                         </div>
@@ -87,7 +87,7 @@ layout: full-width
                 async: false,
                     success: function(data) {
                         var a = Math.floor(Math.random() * data.length);
-                        $("#mulakatsorusu").html('<h2><p class="text-center font-weight-bold">' + data[a].soru + ' ne demektir?</p></h2>' +
+                        $("#mulakatsorusu").html('<h2><p class="text-center font-weight-bold">' + data[a].soru + '</p></h2>' +
                         '<br />' +
                         '<br />' +
                         '<label class="text-justify">' + data[a].cevap +'</label>' +
