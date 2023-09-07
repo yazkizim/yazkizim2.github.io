@@ -69,7 +69,7 @@ layout: full-width
             async: false,
             success: function(data) {
                 var a = Math.floor(Math.random() * data.length);
-                $("#mulakatsorusu").html('<h2><p class="text-center font-weight-bold">' + data[a].soru + ' ne demektir?</p></h2>' +
+                $("#mulakatsorusu").html('<h2><p class="text-center font-weight-bold">' + data[a].soru + '</p></h2>' +
                 '<br />' +
                 '<br />' +
                 '<label class="text-justify">' + data[a].cevap +'</label>' +
