@@ -104,7 +104,7 @@ flickr_username: johndoe
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 #analytics : 
-google_analytics: G-W0L58E350K
+google_analytics: G-RB44Z5TB6Q
 
 # disqus_shortname: sujay-kundu
 hyvor_talk_website_id: 9448
