@@ -31,12 +31,23 @@ function hesaplax(x, y){
 }
 
 function maashesapla(){
-	var aylik_gosterge = window.katsayilar[1].aylik_katsayi;		
-		var taban_ayligi_katsayisi = window.katsayilar[1].taban_ayligi_katsayi;
-		var yan_odeme_katsayisi = window.katsayilar[1].yan_odeme_katsayi;
-		var gelir_vergisi_istisna = window.katsayilar[1].gelir_vergisi_istisna;
-		var damga_vergisi_istisna = window.katsayilar[1].damga_vergisi_istisna;
-		var son_artis = window.katsayilar[1].enflasyon;
+		if ($('#kadroderece').val() > 0) {
+			var aylik_gosterge = window.katsayilar[8].aylik_katsayi;		
+			var taban_ayligi_katsayisi = window.katsayilar[8].taban_ayligi_katsayi;
+			var yan_odeme_katsayisi = window.katsayilar[8].yan_odeme_katsayi;
+			var gelir_vergisi_istisna = window.katsayilar[8].gelir_vergisi_istisna;
+			var damga_vergisi_istisna = window.katsayilar[8].damga_vergisi_istisna;
+			var son_artis = window.katsayilar[8].enflasyon;
+
+		} else { 
+			var aylik_gosterge = window.katsayilar[1].aylik_katsayi;		
+			var taban_ayligi_katsayisi = window.katsayilar[1].taban_ayligi_katsayi;
+			var yan_odeme_katsayisi = window.katsayilar[1].yan_odeme_katsayi;
+			var gelir_vergisi_istisna = window.katsayilar[1].gelir_vergisi_istisna;
+			var damga_vergisi_istisna = window.katsayilar[1].damga_vergisi_istisna;
+			var son_artis = window.katsayilar[1].enflasyon;
+		}
+		
 		var fark_artis = window.katsayilar[2].enflasyon;		
 		var toplu_soz_artis = window.katsayilar[3].enflasyon;
 		var toplu_soz_artis2 = window.katsayilar[4].enflasyon;
@@ -150,6 +161,11 @@ function maashesapla(){
 		} else {
 			var sendika_ikramiye_tutar = parseFloat(aylik_gosterge * sendikaikramiye * 0).toFixed(2);	
 		}
+
+		if ($('#kadroderece').val() > 0) { 
+			sendika_ikramiye_tutar = parseFloat(sendika_ikramiye_tutar * 0).toFixed(2);
+		}
+		
 		// dil tazminatı
 		var dil_tazminat_tutar = parseFloat(aylik_gosterge * yabancidil).toFixed(2);
 		// seyyanen zam
