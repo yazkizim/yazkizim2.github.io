@@ -20,30 +20,33 @@
             </ol>
             <div class="carousel-inner">
               {% for post in site.posts limit:5 %}
-                {% if post.posttype != 'hidden' %}
+                
                   {% if forloop.first == true %}
-                  <a href="{{post.url}}" class="article-card-link">
-                    <div class="carousel-item active" data-bs-interval="5000">
-                      <img class="d-block w-100" src="{{site.url}}{{site.baseurl}}{{post.thumbnail}}">
-                      <div class="carousel-caption d-none d-md-block">
-                        <h1>{{post.title}}</h1>
-                        <p>{{post.summary}}</p>
-                      </div>
-                    </div>
-                  </a>  
+                    {% if post.posttype != 'hidden' %}
+                      <a href="{{post.url}}" class="article-card-link">
+                        <div class="carousel-item active" data-bs-interval="5000">
+                          <img class="d-block w-100" src="{{site.url}}{{site.baseurl}}{{post.thumbnail}}">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h1>{{post.title}}</h1>
+                            <p>{{post.summary}}</p>
+                          </div>
+                        </div>
+                      </a>  
+                    {% endif %}  
                   {% endif %}
                   {% if forloop.first == false %}
-                  <a href="{{post.url}}" class="article-card-link">
-                    <div class="carousel-item" data-bs-interval="5000">
-                      <img class="d-block w-100" src="{{site.url}}{{site.baseurl}}{{post.thumbnail}}">
-                      <div class="carousel-caption d-none d-md-block">
-                        <h1>{{post.title}}</h1>
-                        <p>{{post.summary}}</p>
-                      </div>
-                    </div>
-                  </a>  
-                  {% endif %}                  
-                {% endif %}  
+                    {% if post.posttype != 'hidden' %}
+                      <a href="{{post.url}}" class="article-card-link">
+                        <div class="carousel-item" data-bs-interval="5000">
+                          <img class="d-block w-100" src="{{site.url}}{{site.baseurl}}{{post.thumbnail}}">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h1>{{post.title}}</h1>
+                            <p>{{post.summary}}</p>
+                          </div>
+                        </div>
+                      </a>  
+                    {% endif %}                  
+                  {% endif %}  
               {% endfor %}             
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
