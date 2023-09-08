@@ -708,7 +708,7 @@ function gup( name, url ) {
 
 function scrollToBottom()
 	{
-		var height = document.body.scrollHeight;
+		var height = document.querySelector('.col-lg-12').offsetHeight - 425;
 		window.scroll(0 , height);
 	}
 
