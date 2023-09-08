@@ -20,29 +20,30 @@
             </ol>
             <div class="carousel-inner">
               {% for post in site.posts limit:5 %}
+              {% assign colors = "bg-primary|bg-success|bg-warning|bg-danger|bg-info" | split: "|" %}
                 
                   {% if forloop.first == true %}                      
                         <div class="carousel-item active" data-bs-interval="5000">
                           <a href="{{post.url}}" class="article-card-link">
-                            <img class="d-block w-100" src="{{site.url}}{{site.baseurl}}{{post.thumbnail}}">
-                            <div class="carousel-caption d-none d-md-block bg-light bg-gradient text-white">
-                              <h1>{{post.title}}</h1>
-                              <p>{{post.summary}}</p>
+                            <img class="d-block w-100" style="width:1280px;height:720px" src="{{site.url}}{{site.baseurl}}{{post.thumbnail}}">
+                            <div class="carousel-caption d-none d-md-block {{ colors | sample }} bg-gradient text-white">
+                              <h1 class="text-white">{{post.title}}</h1>
+                              <p class="text-white">{{post.summary}}</p>
                             </div>
                           </a> 
                         </div>
                        
                   {% endif %}
                   {% if forloop.first == false %}
-                    <div class="carousel-item" data-bs-interval="5000">
-                      <a href="{{post.url}}" class="article-card-link">
-                        <img class="d-block w-100" src="{{site.url}}{{site.baseurl}}{{post.thumbnail}}">
-                        <div class="carousel-caption d-none d-md-block bg-light bg-gradient text-white">
-                          <h1>{{post.title}}</h1>
-                          <p>{{post.summary}}</p>
-                        </div>
-                      </a> 
-                    </div>              
+                  <div class="carousel-item" data-bs-interval="5000">
+                    <a href="{{post.url}}" class="article-card-link">
+                      <img class="d-block w-100" style="width:1280px;height:720px" src="{{site.url}}{{site.baseurl}}{{post.thumbnail}}">
+                      <div class="carousel-caption d-none d-md-block {{ colors | sample }} bg-gradient text-white">
+                        <h1 class="text-white">{{post.title}}</h1>
+                        <p class="text-white">{{post.summary}}</p>
+                      </div>
+                    </a> 
+                  </div>         
                   {% endif %}  
               {% endfor %}             
             </div>
