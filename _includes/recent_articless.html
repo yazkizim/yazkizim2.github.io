@@ -23,7 +23,7 @@
                 
                   {% if forloop.first == true %}                      
                         <div class="carousel-item active" data-bs-interval="5000">
-                          <a href="{{post.url}}" class="article-card-link"></a>
+                          <a href="{{post.url}}" class="article-card-link">
                             <img class="d-block w-100" src="{{site.url}}{{site.baseurl}}{{post.thumbnail}}">
                             <div class="carousel-caption d-none d-md-block bg-light bg-gradient text-white">
                               <h1>{{post.title}}</h1>
@@ -35,7 +35,7 @@
                   {% endif %}
                   {% if forloop.first == false %}
                     <div class="carousel-item" data-bs-interval="5000">
-                      <a href="{{post.url}}" class="article-card-link"></a>
+                      <a href="{{post.url}}" class="article-card-link">
                         <img class="d-block w-100" src="{{site.url}}{{site.baseurl}}{{post.thumbnail}}">
                         <div class="carousel-caption d-none d-md-block bg-light bg-gradient text-white">
                           <h1>{{post.title}}</h1>
