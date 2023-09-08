@@ -1,0 +1,25 @@
+---
+title: Hukuk Sözlüğü
+layout: page
+keywords: nedir, ne demektir, anlamı ne
+---
+<div class="card-header">
+  <h3 class="card-title">Hukuk Sözlüğü</h3>
+  </div>
+
+<div id="table-default" class="table-responsive">
+    <table class="table" id="hukuksozlugum" name="hukuksozlugum">
+      <thead>
+        <tr>
+          <th><button class="table-sort" data-sort="sort-kelime">Kelime</button></th>
+          <th><button class="table-sort" data-sort="sort-anlami">Anlamı</button></th>								
+        </tr>
+      </thead>
+      <tbody class="table-tbody">
+      {% for satir in site.data.sozluk %}
+      <tr><td class="sort-kelime">{{ satir.kelime }}<td class="sort-anlami">{{ satir.anlami }}</tr>
+      {% endfor %}         										
+      </tbody>
+    </table>
+  </div>
+  

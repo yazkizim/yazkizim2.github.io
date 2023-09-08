@@ -11,6 +11,8 @@ siteslogan: "www.Adliyeci.com.tr"
 urls:
     - text: Konsolosluklar
       url: /konsolosluk
+    - text: Hukuk Sözlüğü
+      url: /hukuksozlugu  
 
 tarifeler:
     - text: Avukatlık Asgari Ücret Tarifesi
