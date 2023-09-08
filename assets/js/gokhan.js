@@ -138,7 +138,7 @@ function maashesapla(){
 			ozel_hizmet_oran = ilgili_derece_bilgileri['ozel_hizmet_tazminat_katip'];
 			ek_odeme_oran = ilgili_derece_bilgileri['ek_odeme_ayligi_katip'];	
 			yan_odeme_oran = 	ilgili_derece_bilgileri['yan_odeme_katip'];					
-		} else if (unvan == 3) {  // Mübaşir
+		} else if (unvan == 3 || unvan ==6) {  // Mübaşir ve İcra Katibi
 			ozel_hizmet_oran = ilgili_derece_bilgileri['ozel_hizmet_tazminat_mubasir'];	
 			ek_odeme_oran = ilgili_derece_bilgileri['ek_odeme_ayligi_mubasir'];
 			yan_odeme_oran = 	ilgili_derece_bilgileri['yan_odeme_mubasir'];				
