@@ -22,7 +22,6 @@
               {% for post in site.posts limit:5 %}
                 
                   {% if forloop.first == true %}
-                    {% if post.posttype != 'hidden' %}
                       <a href="{{post.url}}" class="article-card-link">
                         <div class="carousel-item active" data-bs-interval="5000">
                           <img class="d-block w-100" src="{{site.url}}{{site.baseurl}}{{post.thumbnail}}">
@@ -32,7 +31,6 @@
                           </div>
                         </div>
                       </a>  
-                    {% endif %}  
                   {% endif %}
                   {% if forloop.first == false %}
                     {% if post.posttype != 'hidden' %}
