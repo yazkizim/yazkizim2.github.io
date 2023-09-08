@@ -32,11 +32,11 @@ function hesaplax(x, y){
 
 function maashesapla(){
 		if ($('#hesaplama').val() > 0) {
-			var aylik_gosterge = window.katsayilar[8].aylik_katsayi;		
-			var taban_ayligi_katsayisi = window.katsayilar[8].taban_ayligi_katsayi;
-			var yan_odeme_katsayisi = window.katsayilar[8].yan_odeme_katsayi;
-			var gelir_vergisi_istisna = window.katsayilar[8].gelir_vergisi_istisna;
-			var damga_vergisi_istisna = window.katsayilar[8].damga_vergisi_istisna;
+			var aylik_gosterge = window.katsayilar[8].aylik_katsayi / 30 * 14;		
+			var taban_ayligi_katsayisi = window.katsayilar[8].taban_ayligi_katsayi / 30 * 14;
+			var yan_odeme_katsayisi = window.katsayilar[8].yan_odeme_katsayi / 30 * 14;
+			var gelir_vergisi_istisna = window.katsayilar[8].gelir_vergisi_istisna / 30 * 14;
+			var damga_vergisi_istisna = window.katsayilar[8].damga_vergisi_istisna / 30 * 14;
 			var son_artis = window.katsayilar[8].enflasyon;
 
 		} else { 
