@@ -1197,7 +1197,7 @@ $(document).ready(function(){
 		$('#engellicocuk72aydankucuk').val('3'); // 72 aydan küçük 0
 		$('#engellicocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
 		$('#sendikauye').val('2119'); // sendika üyesi
-		$('#tasiniryetkili').val('1'); // taşınır kayıt yetkilisi
+		$('#tasiniryetkili').val('575'); // taşınır kayıt yetkilisi
 		$('#beskesintisi').val('0'); // bes yok
 		$('#sendikaikramiye').val('1'); // ikramiye alacak
 		$('#gorevyeri').val('15'); // istanbul
@@ -1219,7 +1219,7 @@ $(document).ready(function(){
 		$('#engellicocuk72aydankucuk').val('3'); // 72 aydan küçük 0
 		$('#engellicocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
 		$('#sendikauye').val('2119'); // sendika üyesi
-		$('#tasiniryetkili').val('1'); // taşınır kayıt yetkilisi
+		$('#tasiniryetkili').val('575'); // taşınır kayıt yetkilisi
 		$('#beskesintisi').val('0'); // bes yok
 		$('#gorevyeri').val('15'); // istanbul
 		$('#yabancidil').val('750'); // A seviye yabancı dil		
@@ -1283,7 +1283,7 @@ $(document).ready(function(){
 		$('#engellicocuk72aydankucuk').val('3'); // 72 aydan küçük 0
 		$('#engellicocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
 		$('#sendikauye').val('2119'); // sendika üyesi
-		$('#tasiniryetkili').val('1'); // taşınır kayıt yetkilisi
+		$('#tasiniryetkili').val('575'); // taşınır kayıt yetkilisi
 		$('#beskesintisi').val('0'); // bes yok
 		$('#sendikaikramiye').val('1'); // ikramiye alacak
 		$('#gorevyeri').val('15'); // istanbul
@@ -1304,7 +1304,7 @@ $(document).ready(function(){
 		$('#engellicocuk72aydankucuk').val('3'); // 72 aydan küçük 0
 		$('#engellicocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
 		$('#sendikauye').val('2119'); // sendika üyesi
-		$('#tasiniryetkili').val('1'); // taşınır kayıt yetkilisi
+		$('#tasiniryetkili').val('575'); // taşınır kayıt yetkilisi
 		$('#beskesintisi').val('0'); // bes yok
 		$('#gorevyeri').val('15'); // istanbul
 		$('#yabancidil').val('750'); // A seviye yabancı dil	
@@ -1367,7 +1367,7 @@ $(document).ready(function(){
 		$('#engellicocuk72aydankucuk').val('3'); // 72 aydan küçük 0
 		$('#engellicocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
 		$('#sendikauye').val('2119'); // sendika üyesi
-		$('#tasiniryetkili').val('1'); // taşınır kayıt yetkilisi
+		$('#tasiniryetkili').val('575'); // taşınır kayıt yetkilisi
 		$('#beskesintisi').val('0'); // bes yok
 		$('#sendikaikramiye').val('1'); // ikramiye alacak
 		$('#gorevyeri').val('15'); // istanbul
@@ -1388,7 +1388,7 @@ $(document).ready(function(){
 		$('#engellicocuk72aydankucuk').val('3'); // 72 aydan küçük 0
 		$('#engellicocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
 		$('#sendikauye').val('2119'); // sendika üyesi
-		$('#tasiniryetkili').val('1'); // taşınır kayıt yetkilisi
+		$('#tasiniryetkili').val('575'); // taşınır kayıt yetkilisi
 		$('#beskesintisi').val('0'); // bes yok
 		$('#gorevyeri').val('15'); // istanbul
 		$('#yabancidil').val('750'); // A seviye yabancı dil	
