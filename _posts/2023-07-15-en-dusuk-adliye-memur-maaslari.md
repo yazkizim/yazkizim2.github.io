@@ -13,7 +13,7 @@ posttype: news
 ---
 
 Adalet Bakanlığı'nda mahkemelerde görev yapan personellerden Zabıt Katibi, Mübaşir ve Yazı İşleri Müdürü'nün en düşük ve en yüksek maaşları zaman zaman ilgililer tarafından merak konusu olmaktadır. 
-6. Toplu sözleşme neticesinde uygulanan zamları içerir ve günümüz enflasyon farkı ekli maaşları sistemimize ekli maaş robotundan temin edilebilmektedir. 
+Altıncı Toplu sözleşme neticesinde uygulanan zamları içerir ve günümüz enflasyon farkı ekli maaşları sistemimize ekli maaş robotundan temin edilebilmektedir. 
 
 Eğer siz de 2023 yılı Temmuz ayı itibariyle en düşük katip maaşı, en düşük mübaşir maaşı, en düşük Yazı İşleri Müdürü maaşı yada bunların en yüksek maaşlarını merak ediyorsanız, aşağıdaki robottan faydalanabilirsiniz.
 
