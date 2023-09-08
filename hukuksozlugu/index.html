@@ -15,10 +15,7 @@ keywords: nedir, ne demektir, anlamı ne
           <th><button class="table-sort" data-sort="sort-anlami">Anlamı</button></th>								
         </tr>
       </thead>
-      <tbody class="table-tbody">
-      {% for satir in site.data.sozlugu %}
-      <tr><td class="sort-kelime">{{ satir.kelime }}<td class="sort-anlami">{{ satir.anlami }}</tr>
-      {% endfor %}         										
+      <tbody class="table-tbody" id="hukukbody">            										
       </tbody>
     </table>
   </div>

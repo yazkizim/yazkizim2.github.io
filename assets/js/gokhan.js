@@ -832,6 +832,23 @@ $(document).ready(function(){
             "url": "../dist/tr.json"
 			},
 		});
+
+		$.ajax({
+            url: "../dist/sozluk.json",
+            dataType: 'json',
+            async: false,
+            success: function(data) {
+				for(var i = 0; i < data.length; i++)
+				{
+					$("#hukukbody").html('<tr><td class="sort-kelime">' + data[i].kelime + '<td class="sort-anlami">' + data[i].anlami + '</tr>';      
+
+				}
+                
+            }
+        });
+
+		window.dataT.draw();
+
 	}
 
 	if($('#konsolosluklar').length>0){
