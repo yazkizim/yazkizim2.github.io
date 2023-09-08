@@ -29,7 +29,7 @@
     </p>
     <span
       class="disqus-comment-count"
-      data-disqus-identifier="{{ page.url }}"
+      data-disqus-identifier="{{site.url}}{{site.baseurl}}{{ page.url }}"
     ></span>
     <div class="post-categories">
       {% if post %} {% assign categories = post.categories %} {% else %} {%
