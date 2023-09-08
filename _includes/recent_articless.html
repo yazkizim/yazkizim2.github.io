@@ -25,7 +25,7 @@
                   {% if forloop.first == true %}                      
                         <div class="carousel-item active" data-bs-interval="5000">
                           <a href="{{post.url}}" class="article-card-link">
-                            <img class="d-block w-100" style="max-height:500px !important;" src="{{site.url}}{{site.baseurl}}{{post.thumbnail}}">
+                            <img class="d-block w-100" style="max-height:600px !important;" src="{{site.url}}{{site.baseurl}}{{post.thumbnail}}">
                             <div class="carousel-caption d-none d-md-block {{ colors | sample }} bg-gradient text-white">
                               <h1 class="text-white">{{post.title}}</h1>
                               <p class="text-white">{{post.summary}}</p>
@@ -37,7 +37,7 @@
                   {% if forloop.first == false %}
                   <div class="carousel-item" data-bs-interval="5000">
                     <a href="{{post.url}}" class="article-card-link">
-                      <img class="d-block w-100" style="max-height:500px !important;" src="{{site.url}}{{site.baseurl}}{{post.thumbnail}}">
+                      <img class="d-block w-100" style="max-height:600px !important;" src="{{site.url}}{{site.baseurl}}{{post.thumbnail}}">
                       <div class="carousel-caption d-none d-md-block {{ colors | sample }} bg-gradient text-white">
                         <h1 class="text-white">{{post.title}}</h1>
                         <p class="text-white">{{post.summary}}</p>
