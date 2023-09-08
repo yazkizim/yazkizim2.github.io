@@ -99,8 +99,9 @@ function maashesapla(){
 			haciz_miktar = 0;
 		}
 		
-		if (unvan == 1) {  // Müdür
+		if (unvan == 1 || unvan == 4 || unvan == 5) {  // Yim , İcra Müdürü, İc.Md.Y.
 			ek_gosterge_ayligi = ilgili_derece_bilgileri['ek_gosterge_mudur'];
+				
 			
 		} else {  
 			if (mezuniyet == 1) { 
@@ -121,14 +122,18 @@ function maashesapla(){
 		var ozel_hizmet_oran;
 		var ek_odeme_oran;
 		var yan_odeme_oran;
-		if (unvan == 1) {  // Müdür
+		if (unvan == 1 || unvan == 4 || unvan == 5 ) {  // YİM, İc.Md., İc.Md.Y.
 			ozel_hizmet_oran = ilgili_derece_bilgileri['ozel_hizmet_tazminat_mudur'];
-			/*
-				2024 Ocak ayı itibariyle yeni formül
-				ozel_hizmet_oran =  (ozel_hizmet_oran * 1) + 20;
-			*/			
 			ek_odeme_oran = ilgili_derece_bilgileri['ek_odeme_ayligi_mudur'];	
 			yan_odeme_oran = 	ilgili_derece_bilgileri['yan_odeme_mudur'];			
+
+				if (unvan == 5) {  // Eğer İcra Müdür Yardımcısıysa
+					ozel_hizmet_oran = (ozel_hizmet_oran * 1) - 5;
+					ek_odeme_oran = (ek_odeme_oran * 1) - 5;
+						if (ozel_hizmet_oran > 125) { // 1-2 derece 10 puan aşağısı, sonra 5 puan aşağısı olduğundan 5 puan daha düşülüyor
+							ozel_hizmet_oran = (ozel_hizmet_oran * 1) - 5;
+						}	
+				}
 		} else if (unvan == 2) { // Katip
 			ozel_hizmet_oran = ilgili_derece_bilgileri['ozel_hizmet_tazminat_katip'];
 			ek_odeme_oran = ilgili_derece_bilgileri['ek_odeme_ayligi_katip'];	
@@ -210,15 +215,7 @@ function maashesapla(){
 			ozel_hizmet_oran = 0.85;
 		} else { 
 			ozel_hizmet_oran = 0.55;
-		}
-
-		/*
-				2024 Ocak ayı itibariyle yeni formül
-		if (unvan == 1) {  // Müdür
-			ozel_hizmet_oran = ozel_hizmet_oran + 0.2;	
-		} 
-		
-		*/	
+		}		
 		
 		
 		var bes_kesinti = 0;		
@@ -328,9 +325,8 @@ function yenimaashesapla(){
 		haciz_miktar = 0;
 	}
 	
-	if (unvan == 1) {  // Müdür
-		ek_gosterge_ayligi = ilgili_derece_bilgileri['ek_gosterge_mudur'];
-		
+	if (unvan == 1 || unvan == 4 || unvan == 5) {  // Yim , İcra Müdürü, İc.Md.Y.
+		ek_gosterge_ayligi = ilgili_derece_bilgileri['ek_gosterge_mudur'];		
 	} else {  
 		if (mezuniyet == 1) { 
 			ek_gosterge_ayligi = ilgili_derece_bilgileri['ek_gosterge_uni'];
@@ -350,15 +346,33 @@ function yenimaashesapla(){
 	var ozel_hizmet_oran;
 	var ek_odeme_oran;
 	var yan_odeme_oran;
-	if (unvan == 1) {  // Müdür
+
+	
+	if (unvan == 1 || unvan == 4 || unvan == 5 ) {  // YİM, İc.Md., İc.Md.Y.
 		ozel_hizmet_oran = ilgili_derece_bilgileri['ozel_hizmet_tazminat_mudur'];
-		ozel_hizmet_oran =  (ozel_hizmet_oran * 1) + 20;
+		ek_odeme_oran = ilgili_derece_bilgileri['ek_odeme_ayligi_mudur'];	
+		yan_odeme_oran = 	ilgili_derece_bilgileri['yan_odeme_mudur'];
+
 		/*
 			2024 Ocak ayı itibariyle yeni formül
 			ozel_hizmet_oran =  (ozel_hizmet_oran * 1) + 20;
-		*/			
-		ek_odeme_oran = ilgili_derece_bilgileri['ek_odeme_ayligi_mudur'];	
-		yan_odeme_oran = 	ilgili_derece_bilgileri['yan_odeme_mudur'];			
+		*/
+
+		if (unvan == 5) {  // Eğer İcra Müdür Yardımcısıysa
+			ozel_hizmet_oran = (ozel_hizmet_oran * 1) - 5;
+			ek_odeme_oran = (ek_odeme_oran * 1) - 5;
+				if (ozel_hizmet_oran > 125) { // 1-2 derece 10 puan aşağısı, sonra 5 puan aşağısı olduğundan 5 puan daha düşülüyor
+					ozel_hizmet_oran = (ozel_hizmet_oran * 1) - 5;
+				}	
+		}
+		
+		if (unvan == 1 || unvan == 4 || unvan == 5 ) { 
+			ozel_hizmet_oran =  (ozel_hizmet_oran * 1) + 20;
+		} else { 
+			ozel_hizmet_oran =  (ozel_hizmet_oran * 1) + 15;
+		}		
+
+		
 	} else if (unvan == 2) { // Katip
 		ozel_hizmet_oran = ilgili_derece_bilgileri['ozel_hizmet_tazminat_katip'];
 		ek_odeme_oran = ilgili_derece_bilgileri['ek_odeme_ayligi_katip'];	
@@ -442,18 +456,6 @@ function yenimaashesapla(){
 	} else { 
 		ozel_hizmet_oran = 0.55;
 	}
-
-	if (unvan == 1) {  // Müdür
-		ozel_hizmet_oran = ozel_hizmet_oran + 0.2;	
-	} 
-
-	/*
-			2024 Ocak ayı itibariyle yeni formül
-	if (unvan == 1) {  // Müdür
-		ozel_hizmet_oran = ozel_hizmet_oran + 0.2;	
-	} 
-	
-	*/	
 	
 	
 	var bes_kesinti = 0;		
@@ -471,8 +473,7 @@ function yenimaashesapla(){
 		if (bes_uye_mi == 1) {  
 			bes_kesinti = parseFloat(((gosterge_ayligi_tutar * 1) + (ek_gosterge_ayligi_tutar * 1) + (taban_ayligi_tutar * 1) + (kidem_ayligi_tutar * 1)  + (9500 * aylik_gosterge * ozel_hizmet_oran)) * 3 / 100).toFixed(0);
 		}
-	}
-	
+	}	
 	
 	
 
