@@ -1,0 +1,50 @@
+<section id="recent-articles">
+  <div id="recent-articles-header">
+    <div id="recent-articles-title">
+      <h1 class="card-title">Son Haberler</h1>
+    </div>
+    <div id="recent-articles-show-all">
+      <a class="btn btn-lg btn-dark" href="/blog"> Hepsi </a>
+    </div>
+  </div>
+  <br />
+
+  <ul>
+    
+    
+        
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            </ol>
+            <div class="carousel-inner">
+              {% for post in site.posts limit:5 %}
+                {% if post.posttype != 'hidden' %}
+                  <a href="{{post.url}}" class="article-card-link">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                      <img class="d-block w-100" src="{{site.url}}{{site.baseurl}}{{post.thumbnail}}">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h1>{{post.title}}</h1>
+                        <p>{{post.summary}}</p>
+                      </div>
+                    </div>
+                  </a>  
+                {% endif %}  
+              {% endfor %}             
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>     
+  </ul>
+</section>
