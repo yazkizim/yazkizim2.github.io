@@ -21,29 +21,28 @@
             <div class="carousel-inner">
               {% for post in site.posts limit:5 %}
                 
-                  {% if forloop.first == true %}
-                      <a href="{{post.url}}" class="article-card-link">
+                  {% if forloop.first == true %}                      
                         <div class="carousel-item active" data-bs-interval="5000">
-                          <img class="d-block w-100" src="{{site.url}}{{site.baseurl}}{{post.thumbnail}}">
-                          <div class="carousel-caption d-none d-md-block">
-                            <h1>{{post.title}}</h1>
-                            <p>{{post.summary}}</p>
-                          </div>
+                          <a href="{{post.url}}" class="article-card-link"></a>
+                            <img class="d-block w-100" src="{{site.url}}{{site.baseurl}}{{post.thumbnail}}">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h1>{{post.title}}</h1>
+                              <p>{{post.summary}}</p>
+                            </div>
+                          </a> 
                         </div>
-                      </a>  
+                       
                   {% endif %}
                   {% if forloop.first == false %}
-                    {% if post.posttype != 'hidden' %}
-                      <a href="{{post.url}}" class="article-card-link">
-                        <div class="carousel-item" data-bs-interval="5000">
-                          <img class="d-block w-100" src="{{site.url}}{{site.baseurl}}{{post.thumbnail}}">
-                          <div class="carousel-caption d-none d-md-block">
-                            <h1>{{post.title}}</h1>
-                            <p>{{post.summary}}</p>
-                          </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                      <a href="{{post.url}}" class="article-card-link"></a>
+                        <img class="d-block w-100" src="{{site.url}}{{site.baseurl}}{{post.thumbnail}}">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h1>{{post.title}}</h1>
+                          <p>{{post.summary}}</p>
                         </div>
-                      </a>  
-                    {% endif %}                  
+                      </a> 
+                    </div>              
                   {% endif %}  
               {% endfor %}             
             </div>
