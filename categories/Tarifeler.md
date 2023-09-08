@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Guides
-permalink: /blog/categories/sample_category/
+title: Tarifeler
+permalink: /blog/categories/Tarifeler/
 ---
 
-<h5> Posts by Category : {{ page.title }} </h5>
+<h5> {{ page.title }} </h5>
 
 <div class="card">
-{% for post in site.categories.sample_category %}
+{% for post in site.categories.Tarifeler %}
  <li class="category-posts"><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </div>

@@ -3,8 +3,8 @@ layout: post
 title:  "Hukuk Sözlüğü"
 summary: ""
 author: gokhantasci
-date: '2023-09-08 10:11:32 +0530'
-category: Sınav
+date: '2023-09-08 18:59:32 +0530'
+category: Faydalı
 thumbnail: /assets/img/posts/hukuksozluk.png
 keywords: hukuk sözlüğü, hukuk sozlugu, nedir, anlamı nedir, ne demek, ne demektir
 permalink: /blog/hukuk-sozlugu/
