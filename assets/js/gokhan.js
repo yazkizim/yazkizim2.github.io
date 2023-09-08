@@ -840,7 +840,12 @@ $(document).ready(function(){
             success: function(data) {
 				for(var i = 0; i < data.length; i++)
 				{
-					$("#hukukbody").html('<tr><td class="sort-kelime">' + data[i].kelime + '<td class="sort-anlami">' + data[i].anlami + '</tr>';      
+					$('#hukuksozlugum').DataTable().row
+                        .add([
+                            data[i]['kelime'],
+                            data[i]['anlami']
+                        ])
+                        .draw(false);  
 
 				}
                 
