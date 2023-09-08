@@ -21,7 +21,7 @@
             <div class="carousel-inner">
               {% for post in site.posts limit:5 %}
                 {% if post.posttype != 'hidden' %}
-                  {% if forloop.index = 0 %}
+                  {% if forloop.first == true %}
                   <a href="{{post.url}}" class="article-card-link">
                     <div class="carousel-item active" data-bs-interval="5000">
                       <img class="d-block w-100" src="{{site.url}}{{site.baseurl}}{{post.thumbnail}}">
@@ -32,7 +32,7 @@
                     </div>
                   </a>  
                   {% endif %}
-                  {% if forloop.index > 0 %}
+                  {% if forloop.first == false %}
                   <a href="{{post.url}}" class="article-card-link">
                     <div class="carousel-item" data-bs-interval="5000">
                       <img class="d-block w-100" src="{{site.url}}{{site.baseurl}}{{post.thumbnail}}">
