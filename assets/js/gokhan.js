@@ -138,10 +138,14 @@ function maashesapla(){
 			ozel_hizmet_oran = ilgili_derece_bilgileri['ozel_hizmet_tazminat_katip'];
 			ek_odeme_oran = ilgili_derece_bilgileri['ek_odeme_ayligi_katip'];	
 			yan_odeme_oran = 	ilgili_derece_bilgileri['yan_odeme_katip'];					
-		} else if (unvan == 3 || unvan ==6) {  // Mübaşir ve İcra Katibi
+		} else if (unvan == 3 || unvan ==6 || unvan ==7) {  // Mübaşir, İcra Katibi, Cezaevi Katibi
 			ozel_hizmet_oran = ilgili_derece_bilgileri['ozel_hizmet_tazminat_mubasir'];	
 			ek_odeme_oran = ilgili_derece_bilgileri['ek_odeme_ayligi_mubasir'];
-			yan_odeme_oran = 	ilgili_derece_bilgileri['yan_odeme_mubasir'];				
+			yan_odeme_oran = 	ilgili_derece_bilgileri['yan_odeme_mubasir'];	
+				if (unvan == 7) {
+					yan_odeme_oran = (yan_odeme_oran * 1) + 400;
+					ozel_hizmet_oran = (ozel_hizmet_oran * 1) - 7;
+				}
 		} 
 
 		if (tasiniryetkili > 0) { 
@@ -377,11 +381,15 @@ function yenimaashesapla(){
 		ozel_hizmet_oran = ilgili_derece_bilgileri['ozel_hizmet_tazminat_katip'];
 		ek_odeme_oran = ilgili_derece_bilgileri['ek_odeme_ayligi_katip'];	
 		yan_odeme_oran = 	ilgili_derece_bilgileri['yan_odeme_katip'];					
-	} else if (unvan == 3 || unvan ==6)  {  // Mübaşir ve İcra Katibi
+	} else if (unvan == 3 || unvan ==6 || unvan ==7) {  // Mübaşir, İcra Katibi, Cezaevi Katibi
 		ozel_hizmet_oran = ilgili_derece_bilgileri['ozel_hizmet_tazminat_mubasir'];	
 		ek_odeme_oran = ilgili_derece_bilgileri['ek_odeme_ayligi_mubasir'];
-		yan_odeme_oran = 	ilgili_derece_bilgileri['yan_odeme_mubasir'];				
-	} 	
+		yan_odeme_oran = 	ilgili_derece_bilgileri['yan_odeme_mubasir'];	
+			if (unvan == 7) {
+				yan_odeme_oran = (yan_odeme_oran * 1) + 400;
+				ozel_hizmet_oran = (ozel_hizmet_oran * 1) - 7;
+			}
+	} 
 	
 	if (tasiniryetkili > 0) { 
 		yan_odeme_oran = (yan_odeme_oran * 1) + (tasiniryetkili * 1);
