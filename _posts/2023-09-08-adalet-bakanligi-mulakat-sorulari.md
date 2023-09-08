@@ -16,4 +16,4 @@ Adalet Bakanlığı'nın 18/05/2023 tarihli duyurusu ile Bakanlık ve Merkez te�
 
 2020-2021 yıllarında yine Adalet Bakanlığınca aynı ünvanlarda yapılan mülakatlarda kullanıcıların bildirdikleri mülakat soruları bir araya getirilmiştir. Bu mülakat sorularından ilk etapta yaklaşık 400 adeti ana sayfayı ziyaret eden kullanıcılarımızın belki gözüne ilişir diye her girdiğinde değişecek şekilde rastgele bir tane çıkmış mülakat sorusunu kullanıcıya göstermektedir. İlgili bölüm altındaki butonu kullanarak ilgililerin doğrudan kendisine sorulduğunu belirttiği sorulara ulaşabilirsiniz.
 
-[Adalet Bakanlığı Mülakat Soruları için Tıklayınız]({{ site.url }}{% link /%})
+[Adalet Bakanlığı Mülakat Soruları için Tıklayınız]({{ site.url }}{% link site.baseurl%})
