@@ -1018,7 +1018,7 @@ $(document).ready(function(){
 		$('#unvan').val(1);
 		$('#tabikanun').val(1); // yeni kanun
 		$('#mezuniyet').val(1); // lise mezunu
-		$('#kadroderece').val('13/3'); // 13/3
+		$('#kadroderece').val('6/1'); // 6/1
 		document.getElementById('hizmetyili').value='6';  // 1 yıllık
 		$('#medenidurum').val('0'); // bekar
 		$('#cocuk72aydankucuk').val('0'); // 72 aydan küçük 0
