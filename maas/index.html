@@ -5,6 +5,18 @@ layout: page
 
   <div class="page-body">
   <div class="container-l">
+    <div class="row justify-content-center">
+      <div class="col-12 justify-content-center">
+        <button type="button" class="btn btn-outline-primary col-3" id="endusukkatip">En Düşük Katip Maaşı</button>
+        <button type="button" class="btn btn-outline-success col-3" id="endusukmubasir">En Düşük Mübaşir Maaşı</button>
+        <button type="button" class="btn btn-outline-warning col-3" id="endusukmudur">En Düşük Yazı İşleri Müdürü Maaşı</button>
+      </div>
+      <div class="col-12 justify-content-center">
+        <button type="button" class="btn btn-outline-primary col-3" id="enyuksekkatip">En Yüksek Katip Maaşı</button>
+        <button type="button" class="btn btn-outline-success col-3" id="enyuksekmubasir">En Yüksek Mübaşir Maaşı</button>
+        <button type="button" class="btn btn-outline-warning col-3" id="enyuksekmudur">En Yüksek Yazı İşleri Müdürü Maaşı</button>
+      </div>
+    </div>    
     <div class="row row-deck row-cards">
         <div class="col-12">
             <div class="row row-deck row-cards">
@@ -187,7 +199,7 @@ layout: page
                         <div class="mb-3">
                             <label class="form-label required">Hizmet Yılı</label>
                             <div>
-                              <input type="number" class="form-control" data-type="currency" placeholder="Kabul edilen değeri giriniz" name="hizmetyili" value="13">
+                              <input type="number" class="form-control" data-type="currency" placeholder="Kabul edilen değeri giriniz" name="hizmetyili" id="hizmetyili" value="13">
                               <small class="form-hint">
                             </a></small>
                             </div>
