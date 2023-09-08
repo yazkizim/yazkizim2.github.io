@@ -31,7 +31,7 @@ function hesaplax(x, y){
 }
 
 function maashesapla(){
-		if ($('#kadroderece').val() > 0) {
+		if ($('#hesaplama').val() > 0) {
 			var aylik_gosterge = window.katsayilar[8].aylik_katsayi;		
 			var taban_ayligi_katsayisi = window.katsayilar[8].taban_ayligi_katsayi;
 			var yan_odeme_katsayisi = window.katsayilar[8].yan_odeme_katsayi;
