@@ -47,8 +47,8 @@
         "aylik_katsayi": 0.076112,
         "taban_ayligi_katsayi": 1.191293,
         "yan_odeme_katsayi": 0.024138,
-        "gelir_vergisi_istisna": 2280,
-        "damga_vergisi_istisna": 101.82
+        "gelir_vergisi_istisna": 72.83,
+        "damga_vergisi_istisna": 0
     },
     {
         "durum": "farkkatsayilarenf",
@@ -56,7 +56,7 @@
         "aylik_katsayi": 0.226495,
         "taban_ayligi_katsayi": 3.545077,
         "yan_odeme_katsayi": 0.071829,
-        "gelir_vergisi_istisna": 1014,
-        "damga_vergisi_istisna": 45.23
+        "gelir_vergisi_istisna": 102,
+        "damga_vergisi_istisna": 0
     }
 ]
