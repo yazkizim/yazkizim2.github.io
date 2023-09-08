@@ -9,10 +9,7 @@
   </div>
   <br />
 
-  <ul>
-    
-    
-        
+          
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -20,11 +17,11 @@
               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
             </ol>
             <div class="carousel-inner">
               {% for post in site.posts limit:5 %}
                 {% if post.posttype != 'hidden' %}
+                  {% if forloop.index = 0 %}
                   <a href="{{post.url}}" class="article-card-link">
                     <div class="carousel-item active" data-bs-interval="5000">
                       <img class="d-block w-100" src="{{site.url}}{{site.baseurl}}{{post.thumbnail}}">
@@ -34,6 +31,19 @@
                       </div>
                     </div>
                   </a>  
+                  {% endif %}
+                  {% if forloop.index > 0 %}
+                  <a href="{{post.url}}" class="article-card-link">
+                    <div class="carousel-item" data-bs-interval="5000">
+                      <img class="d-block w-100" src="{{site.url}}{{site.baseurl}}{{post.thumbnail}}">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h1>{{post.title}}</h1>
+                        <p>{{post.summary}}</p>
+                      </div>
+                    </div>
+                  </a>  
+                  {% endif %}
+                  
                 {% endif %}  
               {% endfor %}             
             </div>
@@ -46,5 +56,6 @@
               <span class="sr-only">Next</span>
             </a>
           </div>     
-  </ul>
+  
 </section>
+
