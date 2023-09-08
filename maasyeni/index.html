@@ -12,19 +12,7 @@ layout: page
   </div>
 
   <div class="page-body">
-  <div class="container-l">
-    <div class="row justify-content-center">
-      <div class="col-12 justify-content-center">
-        <button type="button" class="btn btn-outline-primary" id="endusukkatipy">En Düşük Katip Maaşı</button>
-        <button type="button" class="btn btn-outline-success" id="endusukmubasiry">En Düşük Mübaşir Maaşı</button>
-        <button type="button" class="btn btn-outline-warning" id="endusukmudury">En Düşük Yazı İşleri Müdürü Maaşı</button>
-      </div>
-      <div class="col-12 justify-content-center">
-        <button type="button" class="btn btn-outline-primary" id="enyuksekkatipy">En Yüksek Katip Maaşı</button>
-        <button type="button" class="btn btn-outline-success" id="enyuksekmubasiry">En Yüksek Mübaşir Maaşı</button>
-        <button type="button" class="btn btn-outline-warning" id="enyuksekmudury">En Yüksek Yazı İşleri Müdürü Maaşı</button>
-      </div>
-    </div>    
+  <div class="container-l">      
     <div class="row row-deck row-cards">
         <div class="col-12">
             <div class="row row-deck row-cards">
@@ -34,6 +22,28 @@ layout: page
                         <h3 class="card-title">Maaş Hesaplama İşlemleri</h3>
                       </div>
                       <div class="card-body">
+                        <div class="mb-3">
+                          <label class="form-label required">Maaş Şablonları</label>
+                          <div>
+                            <select type="text" class="form-select" placeholder="Seçiniz" id="maaslarsablon" value="">
+                                <option value="0" selected>Seçiniz</option>	
+                                <option value="1y">En düşük Zabıt Katibi maaşı</option>
+                                <option value="2y">En düşük İcra Katibi maaşı</option>
+                                <option value="3y">En düşük Cezaevi Katibi maaşı</option>
+                                <option value="4y">En düşük Mübaşir maaşı</option>
+                                <option value="5y">En düşük Yazı İşleri Müdürü maaşı</option>
+                                <option value="6y">En düşük İcra Müdürü maaşı</option>
+                                <option value="7y">En düşük İcra Müdür Yardımcısı maaşı</option>
+                                <option value="101y">En yüksek Zabıt Katibi maaşı</option>
+                                <option value="102y">En yüksek İcra Katibi maaşı</option>
+                                <option value="103y">En yüksek Cezaevi Katibi maaşı</option>
+                                <option value="104y">En yüksek Mübaşir maaşı</option>
+                                <option value="105y">En yüksek Yazı İşleri Müdürü maaşı</option>
+                                <option value="106y">En yüksek İcra Müdürü maaşı</option>
+                                <option value="107y">En yüksek İcra Müdür Yardımcısı maaşı</option>
+                            </select>
+                          </div>
+                          <small class="form-hint">* Ünvanlara göre en düşük ve en yüksek maaş alabileceği verileri getirmek için seçiniz</a></small>
                         <div class="mb-3">
                           <label class="form-label required">Hesaplama</label>
                           <div>

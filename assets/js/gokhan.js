@@ -1238,259 +1238,193 @@ $(document).ready(function(){
 		} 
 		
 	})
+	/*
 	
-	$( "#endusukkatip" ).click(function() {
-		$('#unvan').val(2);
-		$('#tabikanun').val(1); // yeni kanun
-		$('#mezuniyet').val(2); // lise mezunu
-		$('#kadroderece').val('13/3'); // 13/3
-		document.getElementById('hizmetyili').value='1';  // 1 yıllık
-		$('#medenidurum').val('0'); // bekar
-		$('#cocuk72aydankucuk').val('0'); // 72 aydan küçük 0
-		$('#cocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
-		$('#engellicocuk72aydankucuk').val('0'); // 72 aydan küçük 0
-		$('#engellicocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
-		$('#sendikauye').val('0'); // 72 aydan küçük 0
-		$('#tasiniryetkili').val('0'); // 72 aydan küçük 0
-		$('#beskesintisi').val('1'); // 72 aydan küçük 0
-		$('#sendikaikramiye').val('0'); // 72 aydan küçük 0
-		$('#gorevyeri').val('5'); // 72 aydan küçük 0
-		$('#yabancidil').val('0'); // 72 aydan küçük 0		
+	<option value="101y">En yüksek Zabıt Katibi maaşı</option>
+	<option value="102y">En yüksek İcra Katibi maaşı</option>
+	<option value="103y">En yüksek Cezaevi Katibi maaşı</option>
+	<option value="104y">En yüksek Mübaşir maaşı</option>
+	<option value="105y">En yüksek Yazı İşleri Müdürü maaşı</option>
+	<option value="106y">En yüksek İcra Müdürü maaşı</option>
+	<option value="107y">En yüksek İcra Müdür Yardımcısı maaşı</option>
+	*/
 
-		maashesapla();	
+	$('#maaslarsablon').change(function() {
+		var unvan = $('#maaslarsablon').val();
 
-	})
-	$( "#endusukkatipy" ).click(function() {
-		$('#unvan').val(2);
-		$('#tabikanun').val(1); // yeni kanun
-		$('#mezuniyet').val(2); // lise mezunu
-		$('#kadroderece').val('13/3'); // 13/3
-		document.getElementById('hizmetyili').value='1';  // 1 yıllık
-		$('#medenidurum').val('0'); // bekar
-		$('#cocuk72aydankucuk').val('0'); // 72 aydan küçük 0
-		$('#cocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
-		$('#engellicocuk72aydankucuk').val('0'); // 72 aydan küçük 0
-		$('#engellicocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
-		$('#sendikauye').val('0'); // 72 aydan küçük 0
-		$('#tasiniryetkili').val('0'); // 72 aydan küçük 0
-		$('#beskesintisi').val('1'); // 72 aydan küçük 0
-		$('#gorevyeri').val('5'); // 72 aydan küçük 0
-		$('#yabancidil').val('0'); // 72 aydan küçük 0		
+		function endusukmemur() {
+			$('#tabikanun').val(1); // yeni kanun
+			$('#mezuniyet').val(2); // lise mezunu
+			$('#kadroderece').val('13/3'); // 13/3
+			document.getElementById('hizmetyili').value='1';  // 1 yıllık
+			$('#medenidurum').val('0'); // bekar
+			$('#cocuk72aydankucuk').val('0'); // 72 aydan küçük 0
+			$('#cocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
+			$('#engellicocuk72aydankucuk').val('0'); // 72 aydan küçük 0
+			$('#engellicocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
+			$('#sendikauye').val('0'); // 72 aydan küçük 0
+			$('#tasiniryetkili').val('0'); // 72 aydan küçük 0
+			$('#beskesintisi').val('1'); // 72 aydan küçük 0
+			$('#sendikaikramiye').val('0'); // 72 aydan küçük 0
+			$('#gorevyeri').val('5'); // 72 aydan küçük 0
+			$('#yabancidil').val('0'); // 72 aydan küçük 0	
+		}
 
-		yenimaashesapla();	
+		function endusukmudur() {
+			$('#tabikanun').val(1); // yeni kanun
+			$('#mezuniyet').val(2); // lise mezunu
+			$('#kadroderece').val('6/1'); // 6/1
+			document.getElementById('hizmetyili').value='6';  // 6 yıllık
+			$('#medenidurum').val('0'); // bekar
+			$('#cocuk72aydankucuk').val('0'); // 72 aydan küçük 0
+			$('#cocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
+			$('#engellicocuk72aydankucuk').val('0'); // 72 aydan küçük 0
+			$('#engellicocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
+			$('#sendikauye').val('0'); // 72 aydan küçük 0
+			$('#tasiniryetkili').val('0'); // 72 aydan küçük 0
+			$('#beskesintisi').val('1'); // 72 aydan küçük 0
+			$('#sendikaikramiye').val('0'); // 72 aydan küçük 0
+			$('#gorevyeri').val('5'); // 72 aydan küçük 0
+			$('#yabancidil').val('0'); // 72 aydan küçük 0	
+		}
 
-	})
+		function enyuksekmemur() {
+			$('#tabikanun').val(2); // yeni kanun
+			$('#mezuniyet').val(1); // lise mezunu
+			$('#kadroderece').val('1/4'); // 13/3
+			document.getElementById('hizmetyili').value='30';  // 1 yıllık
+			$('#medenidurum').val('2273'); // evli eşi çalışmıyor
+			$('#cocuk72aydankucuk').val('0'); // 72 aydan küçük 0
+			$('#cocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
+			$('#engellicocuk72aydankucuk').val('3'); // 72 aydan küçük 0
+			$('#engellicocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
+			$('#sendikauye').val('2119'); // sendika üyesi
+			$('#tasiniryetkili').val('575'); // taşınır kayıt yetkilisi
+			$('#beskesintisi').val('0'); // bes yok
+			$('#sendikaikramiye').val('1'); // ikramiye alacak
+			$('#gorevyeri').val('15'); // istanbul
+			$('#yabancidil').val('750'); // A seviye yabancı dil	
+		}
 
-	$( "#enyuksekkatip" ).click(function() {
-		$('#unvan').val(2);
-		$('#tabikanun').val(2); // yeni kanun
-		$('#mezuniyet').val(1); // lise mezunu
-		$('#kadroderece').val('1/4'); // 13/3
-		document.getElementById('hizmetyili').value='30';  // 1 yıllık
-		$('#medenidurum').val('2273'); // evli eşi çalışmıyor
-		$('#cocuk72aydankucuk').val('0'); // 72 aydan küçük 0
-		$('#cocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
-		$('#engellicocuk72aydankucuk').val('3'); // 72 aydan küçük 0
-		$('#engellicocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
-		$('#sendikauye').val('2119'); // sendika üyesi
-		$('#tasiniryetkili').val('575'); // taşınır kayıt yetkilisi
-		$('#beskesintisi').val('0'); // bes yok
-		$('#sendikaikramiye').val('1'); // ikramiye alacak
-		$('#gorevyeri').val('15'); // istanbul
-		$('#yabancidil').val('750'); // A seviye yabancı dil		
+		if (unvan == "1") { // en düşük katip maaşı eski
+			$('#unvan').val(2);
+			endusukmemur();
+			maashesapla();	
+		} else if (unvan == "1y") { // en düşük katip maaşı yeni
+			$('#unvan').val(2);
+			endusukmemur();	
+			yenimaashesapla();	
 
-		maashesapla();	
+		} else if (unvan == "2") { // en düşük icra katibi eski
+			$('#unvan').val(6);
+			endusukmemur();
+			maashesapla();	
+		} else if (unvan == "2y") { // en düşük icra katibi yeni
+			$('#unvan').val(6);
+			endusukmemur();	
+			yenimaashesapla();		
+		} else if (unvan == "3") { // en düşük Cezaevi katibi eski
+			$('#unvan').val(7);
+			endusukmemur();
+			maashesapla();	
+		} else if (unvan == "3y") { // en düşük Cezaevi katibi yeni
+			$('#unvan').val(7);
+			endusukmemur();	
+			yenimaashesapla();		
+		} else if (unvan == "4") { // en düşük Cezaevi katibi eski
+			$('#unvan').val(3);
+			endusukmemur();
+			maashesapla();	
+		} else if (unvan == "4y") { // en düşük Cezaevi katibi yeni
+			$('#unvan').val(3);
+			endusukmemur();	
+			yenimaashesapla();		
+		} else if (unvan == "5") { // en düşük YİM  eski
+			$('#unvan').val(3);
+			endusukmudur();
+			maashesapla();	
+		} else if (unvan == "5y") { // en düşük YİM  yeni
+			$('#unvan').val(3);
+			endusukmudur();	
+			yenimaashesapla();		
+		} else if (unvan == "6") { // en düşük İcM  eski
+			$('#unvan').val(4);
+			endusukmudur();
+			maashesapla();	
+		} else if (unvan == "6y") { // en düşük İcM  yeni
+			$('#unvan').val(4);
+			endusukmudur();	
+			yenimaashesapla();		
+		} else if (unvan == "7") { // en düşük İcM Y  eski
+			$('#unvan').val(5);
+			endusukmudur();
+			maashesapla();	
+		} else if (unvan == "7y") { // en düşük İcM Y  yeni
+			$('#unvan').val(5);
+			endusukmudur();	
+			yenimaashesapla();		
+		} else if (unvan == "101") { // en yüksek katip maaşı eski
+			$('#unvan').val(2);
+			enyuksekmemur();
+			maashesapla();	
+		} else if (unvan == "101y") { // en yüksek katip maaşı yeni
+			$('#unvan').val(2);
+			enyuksekmemur();	
+			yenimaashesapla();	
 
-	})
+		} else if (unvan == "102") { // en yüksek icra katibi eski
+			$('#unvan').val(6);
+			enyuksekmemur();
+			maashesapla();	
+		} else if (unvan == "102y") { // en yüksek icra katibi yeni
+			$('#unvan').val(6);
+			enyuksekmemur();	
+			yenimaashesapla();		
+		} else if (unvan == "103") { // en yüksek Cezaevi katibi eski
+			$('#unvan').val(7);
+			enyuksekmemur();
+			maashesapla();	
+		} else if (unvan == "103y") { // en yüksek Cezaevi katibi yeni
+			$('#unvan').val(7);
+			enyuksekmemur();	
+			yenimaashesapla();		
+		} else if (unvan == "104") { // en yüksek Cezaevi katibi eski
+			$('#unvan').val(3);
+			enyuksekmemur();
+			maashesapla();	
+		} else if (unvan == "104y") { // en yüksek Cezaevi katibi yeni
+			$('#unvan').val(3);
+			enyuksekmemur();	
+			yenimaashesapla();		
+		} else if (unvan == "105") { // en yüksek YİM  eski
+			$('#unvan').val(3);
+			enyuksekmemur();
+			maashesapla();	
+		} else if (unvan == "105y") { // en yüksek YİM  yeni
+			$('#unvan').val(3);
+			enyuksekmemur();	
+			yenimaashesapla();		
+		} else if (unvan == "106") { // en yüksek İcM  eski
+			$('#unvan').val(4);
+			enyuksekmemur();
+			maashesapla();	
+		} else if (unvan == "106y") { // en yüksek İcM  yeni
+			$('#unvan').val(4);
+			enyuksekmemur();	
+			yenimaashesapla();		
+		} else if (unvan == "107") { // en yüksek İcM Y  eski
+			$('#unvan').val(5);
+			enyuksekmemur();
+			maashesapla();	
+		} else if (unvan == "107y") { // en yüksek İcM Y  yeni
+			$('#unvan').val(5);
+			enyuksekmemur();	
+			yenimaashesapla();		
+		} 
 
-	$( "#enyuksekkatipy" ).click(function() {
-		$('#unvan').val(2);
-		$('#tabikanun').val(2); // yeni kanun
-		$('#mezuniyet').val(1); // lise mezunu
-		$('#kadroderece').val('1/4'); // 13/3
-		document.getElementById('hizmetyili').value='30';  // 1 yıllık
-		$('#medenidurum').val('2273'); // evli eşi çalışmıyor
-		$('#cocuk72aydankucuk').val('0'); // 72 aydan küçük 0
-		$('#cocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
-		$('#engellicocuk72aydankucuk').val('3'); // 72 aydan küçük 0
-		$('#engellicocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
-		$('#sendikauye').val('2119'); // sendika üyesi
-		$('#tasiniryetkili').val('575'); // taşınır kayıt yetkilisi
-		$('#beskesintisi').val('0'); // bes yok
-		$('#gorevyeri').val('15'); // istanbul
-		$('#yabancidil').val('750'); // A seviye yabancı dil		
+	  });	
+	
 
-		yenimaashesapla();	
-
-	})
-
-	$( "#endusukmubasir" ).click(function() {
-		$('#unvan').val(3);
-		$('#tabikanun').val(1); // yeni kanun
-		$('#mezuniyet').val(2); // lise mezunu
-		$('#kadroderece').val('13/3'); // 13/3
-		document.getElementById('hizmetyili').value='1';  // 1 yıllık
-		$('#medenidurum').val('0'); // bekar
-		$('#cocuk72aydankucuk').val('0'); // 72 aydan küçük 0
-		$('#cocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
-		$('#engellicocuk72aydankucuk').val('0'); // 72 aydan küçük 0
-		$('#engellicocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
-		$('#sendikauye').val('0'); // 72 aydan küçük 0
-		$('#tasiniryetkili').val('0'); // 72 aydan küçük 0
-		$('#beskesintisi').val('1'); // 72 aydan küçük 0
-		$('#sendikaikramiye').val('0'); // 72 aydan küçük 0
-		$('#gorevyeri').val('5'); // 72 aydan küçük 0
-		$('#yabancidil').val('0'); // 72 aydan küçük 0		
-
-		maashesapla();	
-
-	})
-
-	$( "#endusukmubasiry" ).click(function() {
-		$('#unvan').val(3);
-		$('#tabikanun').val(1); // yeni kanun
-		$('#mezuniyet').val(2); // lise mezunu
-		$('#kadroderece').val('13/3'); // 13/3
-		document.getElementById('hizmetyili').value='1';  // 1 yıllık
-		$('#medenidurum').val('0'); // bekar
-		$('#cocuk72aydankucuk').val('0'); // 72 aydan küçük 0
-		$('#cocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
-		$('#engellicocuk72aydankucuk').val('0'); // 72 aydan küçük 0
-		$('#engellicocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
-		$('#sendikauye').val('0'); // 72 aydan küçük 0
-		$('#tasiniryetkili').val('0'); // 72 aydan küçük 0
-		$('#beskesintisi').val('1'); // 72 aydan küçük 0
-		$('#gorevyeri').val('5'); // 72 aydan küçük 0
-		$('#yabancidil').val('0'); // 72 aydan küçük 0		
-
-		yenimaashesapla();	
-
-	})
-
-	$( "#enyuksekmubasir" ).click(function() {
-		$('#unvan').val(3);
-		$('#tabikanun').val(2); // eski kanun
-		$('#mezuniyet').val(1); // üni mezunu
-		$('#kadroderece').val('1/4'); // 13/3
-		document.getElementById('hizmetyili').value='30';  // 1 yıllık
-		$('#medenidurum').val('2273'); // evli eşi çalışmıyor
-		$('#cocuk72aydankucuk').val('0'); // 72 aydan küçük 0
-		$('#cocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
-		$('#engellicocuk72aydankucuk').val('3'); // 72 aydan küçük 0
-		$('#engellicocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
-		$('#sendikauye').val('2119'); // sendika üyesi
-		$('#tasiniryetkili').val('575'); // taşınır kayıt yetkilisi
-		$('#beskesintisi').val('0'); // bes yok
-		$('#sendikaikramiye').val('1'); // ikramiye alacak
-		$('#gorevyeri').val('15'); // istanbul
-		$('#yabancidil').val('750'); // A seviye yabancı dil	
-		maashesapla();	
-
-	})
-
-	$( "#enyuksekmubasiry" ).click(function() {
-		$('#unvan').val(3);
-		$('#tabikanun').val(2); // eski kanun
-		$('#mezuniyet').val(1); // üni mezunu
-		$('#kadroderece').val('1/4'); // 13/3
-		document.getElementById('hizmetyili').value='30';  // 1 yıllık
-		$('#medenidurum').val('2273'); // evli eşi çalışmıyor
-		$('#cocuk72aydankucuk').val('0'); // 72 aydan küçük 0
-		$('#cocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
-		$('#engellicocuk72aydankucuk').val('3'); // 72 aydan küçük 0
-		$('#engellicocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
-		$('#sendikauye').val('2119'); // sendika üyesi
-		$('#tasiniryetkili').val('575'); // taşınır kayıt yetkilisi
-		$('#beskesintisi').val('0'); // bes yok
-		$('#gorevyeri').val('15'); // istanbul
-		$('#yabancidil').val('750'); // A seviye yabancı dil	
-		yenimaashesapla();	
-
-	})
-
-	$( "#endusukmudur" ).click(function() {
-		$('#unvan').val(1);
-		$('#tabikanun').val(1); // yeni kanun
-		$('#mezuniyet').val(1); // lise mezunu
-		$('#kadroderece').val('6/1'); // 6/1
-		document.getElementById('hizmetyili').value='6';  // 1 yıllık
-		$('#medenidurum').val('0'); // bekar
-		$('#cocuk72aydankucuk').val('0'); // 72 aydan küçük 0
-		$('#cocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
-		$('#engellicocuk72aydankucuk').val('0'); // 72 aydan küçük 0
-		$('#engellicocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
-		$('#sendikauye').val('0'); // 72 aydan küçük 0
-		$('#tasiniryetkili').val('0'); // 72 aydan küçük 0
-		$('#beskesintisi').val('1'); // 72 aydan küçük 0
-		$('#sendikaikramiye').val('0'); // 72 aydan küçük 0
-		$('#gorevyeri').val('5'); // 72 aydan küçük 0
-		$('#yabancidil').val('0'); // 72 aydan küçük 0		
-
-		maashesapla();	
-
-	})
-
-	$( "#endusukmudury" ).click(function() {
-		$('#unvan').val(1);
-		$('#tabikanun').val(1); // yeni kanun
-		$('#mezuniyet').val(1); // lise mezunu
-		$('#kadroderece').val('6/1'); // 6/1
-		document.getElementById('hizmetyili').value='6';  // 1 yıllık
-		$('#medenidurum').val('0'); // bekar
-		$('#cocuk72aydankucuk').val('0'); // 72 aydan küçük 0
-		$('#cocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
-		$('#engellicocuk72aydankucuk').val('0'); // 72 aydan küçük 0
-		$('#engellicocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
-		$('#sendikauye').val('0'); // 72 aydan küçük 0
-		$('#tasiniryetkili').val('0'); // 72 aydan küçük 0
-		$('#beskesintisi').val('1'); // 72 aydan küçük 0
-		$('#gorevyeri').val('5'); // 72 aydan küçük 0
-		$('#yabancidil').val('0'); // 72 aydan küçük 0		
-
-		yenimaashesapla();	
-
-	})
-
-	$( "#enyuksekmudur" ).click(function() {
-		$('#unvan').val(1);
-		$('#tabikanun').val(2); // eski kanun
-		$('#mezuniyet').val(1); // üni mezunu
-		$('#kadroderece').val('1/4'); // 13/3
-		document.getElementById('hizmetyili').value='30';  // 1 yıllık
-		$('#medenidurum').val('2273'); // evli eşi çalışmıyor
-		$('#cocuk72aydankucuk').val('0'); // 72 aydan küçük 0
-		$('#cocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
-		$('#engellicocuk72aydankucuk').val('3'); // 72 aydan küçük 0
-		$('#engellicocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
-		$('#sendikauye').val('2119'); // sendika üyesi
-		$('#tasiniryetkili').val('575'); // taşınır kayıt yetkilisi
-		$('#beskesintisi').val('0'); // bes yok
-		$('#sendikaikramiye').val('1'); // ikramiye alacak
-		$('#gorevyeri').val('15'); // istanbul
-		$('#yabancidil').val('750'); // A seviye yabancı dil	
-		maashesapla();	
-
-	})
-
-	$( "#enyuksekmudury" ).click(function() {
-		$('#unvan').val(1);
-		$('#tabikanun').val(2); // eski kanun
-		$('#mezuniyet').val(1); // üni mezunu
-		$('#kadroderece').val('1/4'); // 13/3
-		document.getElementById('hizmetyili').value='30';  // 1 yıllık
-		$('#medenidurum').val('2273'); // evli eşi çalışmıyor
-		$('#cocuk72aydankucuk').val('0'); // 72 aydan küçük 0
-		$('#cocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
-		$('#engellicocuk72aydankucuk').val('3'); // 72 aydan küçük 0
-		$('#engellicocuk72aydanbuyuk').val('0'); // 72 aydan küçük 0
-		$('#sendikauye').val('2119'); // sendika üyesi
-		$('#tasiniryetkili').val('575'); // taşınır kayıt yetkilisi
-		$('#beskesintisi').val('0'); // bes yok
-		$('#gorevyeri').val('15'); // istanbul
-		$('#yabancidil').val('750'); // A seviye yabancı dil	
-		yenimaashesapla();	
-
-	})
 	
 	$( "#maashesapla" ).click(function() {
 		
@@ -1506,11 +1440,7 @@ $(document).ready(function(){
 	
 	$("#maashesapla").mouseup(function() {
 		scrollToBottom();
-		console.log("test");
 	});
-
-	
-	
 
 	
 	$( "#sozmaashesapla" ).click(function() {
