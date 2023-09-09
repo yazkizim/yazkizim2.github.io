@@ -156,6 +156,7 @@ function render(quiz_opts) {
       // and add to the answer container
       var ans_btn = $("<div>")
         .attr('class', 'btn btn-primary')
+        .attr('style', 'margin-bottom: 10px')
         .html(answer)
         .appendTo($answers);
 
