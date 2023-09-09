@@ -138,29 +138,28 @@ function maashesapla(){
 			ozel_hizmet_oran = ilgili_derece_bilgileri['ozel_hizmet_tazminat_katip'];
 			ek_odeme_oran = ilgili_derece_bilgileri['ek_odeme_ayligi_katip'];	
 			yan_odeme_oran = 	ilgili_derece_bilgileri['yan_odeme_katip'];					
-		} else if (unvan == 3 || unvan ==6 || unvan ==7 || unvan == 8 || unvan == 9) {  // Mübaşir, İcra Katibi, Cezaevi Katibi
+		} else if (unvan == 3 || unvan ==6 || unvan ==7 ) {  // Mübaşir, İcra Katibi, Cezaevi Katibi
 			ozel_hizmet_oran = ilgili_derece_bilgileri['ozel_hizmet_tazminat_mubasir'];	
 			ek_odeme_oran = ilgili_derece_bilgileri['ek_odeme_ayligi_mubasir'];
 			yan_odeme_oran = 	ilgili_derece_bilgileri['yan_odeme_mubasir'];	
 				if (unvan == 7) {
 					yan_odeme_oran = (yan_odeme_oran * 1) + 400;
 					ozel_hizmet_oran = (ozel_hizmet_oran * 1) - 7;
-				}
+				}	
 
-				if (unvan == 8 || unvan == 9) {
-					yan_odeme_oran = (yan_odeme_oran * 1) - 25;
-				}
+		} else if ( unvan == 8 || unvan == 9) {  // silahlı silahsız güvenlik
+			ozel_hizmet_oran = ilgili_derece_bilgileri['ozel_hizmet_guvenlik'];	
+			ek_odeme_oran = ilgili_derece_bilgileri['ek_odeme_ayligi_mubasir'];
+			yan_odeme_oran = 	ilgili_derece_bilgileri['yan_odeme_mubasir'];	
 
-				if (unvan == 8 || unvan == 9) {
-					ek_odeme_oran = (ek_odeme_oran * 1) + 18;
-				}
+			yan_odeme_oran = (yan_odeme_oran * 1) - 25;
+			ek_odeme_oran = (ek_odeme_oran * 1) + 13;		
 
-				if ( unvan == 9) {
-					ek_odeme_oran = (ek_odeme_oran * 1) + 5;
-				}
+			if ( unvan == 9) {
+				ek_odeme_oran = (ek_odeme_oran * 1) + 5;
+			}
 
-
-		} 
+		}
 
 		if (tasiniryetkili > 0) { 
 			yan_odeme_oran = (yan_odeme_oran * 1) + (tasiniryetkili * 1);
@@ -403,19 +402,20 @@ function yenimaashesapla(){
 				yan_odeme_oran = (yan_odeme_oran * 1) + 400;
 				ozel_hizmet_oran = (ozel_hizmet_oran * 1) - 7;
 			}
+			
+	} else if ( unvan == 8 || unvan == 9) {  // silahlı silahsız güvenlik
+		ozel_hizmet_oran = ilgili_derece_bilgileri['ozel_hizmet_guvenlik'];	
+		ek_odeme_oran = ilgili_derece_bilgileri['ek_odeme_ayligi_mubasir'];
+		yan_odeme_oran = 	ilgili_derece_bilgileri['yan_odeme_mubasir'];	
 
-			if (unvan == 8 || unvan == 9) {
-				yan_odeme_oran = (yan_odeme_oran * 1) - 25;
-			}
+		yan_odeme_oran = (yan_odeme_oran * 1) - 25;
+		ek_odeme_oran = (ek_odeme_oran * 1) + 23;		
 
-			if (unvan == 8 || unvan == 9) {
-				ek_odeme_oran = (ek_odeme_oran * 1) + 28;
-			}
+		if ( unvan == 9) {
+			ek_odeme_oran = (ek_odeme_oran * 1) + 5;
+		}
 
-			if ( unvan == 9) {
-				ek_odeme_oran = (ek_odeme_oran * 1) + 5;
-			}
-	} 
+	}
 	
 	if (tasiniryetkili > 0) { 
 		yan_odeme_oran = (yan_odeme_oran * 1) + (tasiniryetkili * 1);
