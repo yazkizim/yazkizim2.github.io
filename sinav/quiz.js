@@ -20,23 +20,72 @@ $.fn.quiz = function(filename) {
   }
 };
 
+
+var questions = filename.questions;
+
+var state = {
+  correct : 0,
+  maxQ : 10,
+  total : questions.length
+};
+
 // create html structure for quiz
 // using loaded questions json
 function render(quiz_opts) {  
 
+  createTest();
+  
 
+
+  // final results slide
+  var $results_slide = $("<div>")
+    .attr("class", "item")
+    .attr("height", height + "px")
+    .appendTo($slides);
+
+  var $results_title = $('<h1>')
+    .attr('class', 'quiz-title')
+    .appendTo($results_slide);
+
+  var $results_ratio = $('<div>')
+    .attr('class', 'results-ratio')
+    .appendTo($results_slide);
+
+  var $restart_button = $("<div>")
+    .attr("class", "quiz-answers")
+    .appendTo($results_slide);
+ 
+
+  $("<button>")
+    .attr('class', 'btn btn-primary')
+    .text("Tekrar Başlat")
+    .click(function() {
+      state.correct = 0;
+      $( ".carousel-inner" ).remove();
+      createTest();
+    })
+    .appendTo($restart_button);
+
+  $quiz.carousel({
+    "interval" : false
+  });
+
+  $(window).on('resize', function() {
+    $quiz.find(".item")
+      .attr('height', $quiz.height() + "px");
+  });
+
+}
+
+function createTest(){
   // list of questions to insert into quiz
-  var questions = quiz_opts.questions;
+  
   questions = shuffle(questions);
   var siklar = [];
 
   // keep track of the state of correct
   // answers to the quiz so far
-  var state = {
-    correct : 0,
-    maxQ : 10,
-    total : questions.length
-  };
+ 
 
   var $quiz = $(this)
     .attr("class", "carousel slide")
@@ -273,45 +322,6 @@ function render(quiz_opts) {
 
 
   });
-
-
-  // final results slide
-  var $results_slide = $("<div>")
-    .attr("class", "item")
-    .attr("height", height + "px")
-    .appendTo($slides);
-
-  var $results_title = $('<h1>')
-    .attr('class', 'quiz-title')
-    .appendTo($results_slide);
-
-  var $results_ratio = $('<div>')
-    .attr('class', 'results-ratio')
-    .appendTo($results_slide);
-
-  var $restart_button = $("<div>")
-    .attr("class", "quiz-answers")
-    .appendTo($results_slide);
- 
-
-  $("<button>")
-    .attr('class', 'btn btn-primary')
-    .text("Tekrar Başlat")
-    .click(function() {
-      state.correct = 0;
-      $quiz.carousel(0);
-    })
-    .appendTo($restart_button);
-
-  $quiz.carousel({
-    "interval" : false
-  });
-
-  $(window).on('resize', function() {
-    $quiz.find(".item")
-      .attr('height', $quiz.height() + "px");
-  });
-
 }
 
 function resultsText(state) {
