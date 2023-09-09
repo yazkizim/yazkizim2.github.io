@@ -146,7 +146,6 @@ function maashesapla(){
 					yan_odeme_oran = (yan_odeme_oran * 1) + 400;
 					ozel_hizmet_oran = (ozel_hizmet_oran * 1) - 7;
 				}	
-
 		} else if ( unvan == 8 || unvan == 9) {  // silahlı silahsız güvenlik
 			ozel_hizmet_oran = ilgili_derece_bilgileri['ozel_hizmet_guvenlik'];	
 			ek_odeme_oran = ilgili_derece_bilgileri['ek_odeme_ayligi_mubasir'];
@@ -159,7 +158,23 @@ function maashesapla(){
 				ek_odeme_oran = (ek_odeme_oran * 1) + 5;
 			}
 
-		}
+		} else if ( unvan == 10 || unvan == 11) {  // cezaevi müdürü
+			ozel_hizmet_oran = ilgili_derece_bilgileri['ozel_hizmet_tazminat_mudur'];	
+			ek_odeme_oran = ilgili_derece_bilgileri['ek_odeme_ayligi_mudur'];
+			yan_odeme_oran = 	2500;	
+		
+
+			if ( unvan == 11) {
+				yan_odeme_oran = 2700;
+				ek_odeme_oran = (ek_odeme_oran * 1) + 13
+			}
+
+			if ( unvan == 11) {
+				ek_odeme_oran = (ek_odeme_oran * 1) + 10
+			}
+		}	
+
+
 
 		if (tasiniryetkili > 0) { 
 			yan_odeme_oran = (yan_odeme_oran * 1) + (tasiniryetkili * 1);
