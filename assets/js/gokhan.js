@@ -99,7 +99,7 @@ function maashesapla(){
 			haciz_miktar = 0;
 		}
 		
-		if (unvan == 1 || unvan == 4 || unvan == 5) {  // Yim , İcra Müdürü, İc.Md.Y.
+		if (unvan == 1 || unvan == 4 || unvan == 5 || unvan == 10 || unvan == 11) {  // Yim , İcra Müdürü, İc.Md.Y.
 			ek_gosterge_ayligi = ilgili_derece_bilgileri['ek_gosterge_mudur'];
 				
 			
@@ -357,7 +357,7 @@ function yenimaashesapla(){
 		haciz_miktar = 0;
 	}
 	
-	if (unvan == 1 || unvan == 4 || unvan == 5) {  // Yim , İcra Müdürü, İc.Md.Y.
+	if (unvan == 1 || unvan == 4 || unvan == 5 || unvan == 10 || unvan == 11) {  // Yim , İcra Müdürü, İc.Md.Y.
 		ek_gosterge_ayligi = ilgili_derece_bilgileri['ek_gosterge_mudur'];		
 	} else {  
 		if (mezuniyet == 1) { 
