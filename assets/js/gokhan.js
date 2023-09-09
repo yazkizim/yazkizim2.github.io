@@ -1313,17 +1313,7 @@ $(document).ready(function(){
 		} 
 		
 	})
-	/*
 	
-	<option value="101y">En yüksek Zabıt Katibi maaşı</option>
-	<option value="102y">En yüksek İcra Katibi maaşı</option>
-	<option value="103y">En yüksek Cezaevi Katibi maaşı</option>
-	<option value="104y">En yüksek Mübaşir maaşı</option>
-	<option value="105y">En yüksek Yazı İşleri Müdürü maaşı</option>
-	<option value="106y">En yüksek İcra Müdürü maaşı</option>
-	<option value="107y">En yüksek İcra Müdür Yardımcısı maaşı</option>
-	*/
-
 	$('#maaslarsablon').change(function() {
 		var unvan = $('#maaslarsablon').val();
 
@@ -1438,6 +1428,38 @@ $(document).ready(function(){
 			$('#unvan').val(5);
 			endusukmudur();	
 			yenimaashesapla();		
+		} else if (unvan == "8") { // en düşük İKM  eski
+			$('#unvan').val(13);
+			endusukmemur();
+			maashesapla();	
+		} else if (unvan == "8y") { // en düşük İKM  yeni
+			$('#unvan').val(13);
+			endusukmemur();	
+			yenimaashesapla();		
+		} else if (unvan == "9") { // en düşük Güvenlik  eski
+			$('#unvan').val(8);
+			endusukmemur();
+			maashesapla();	
+		} else if (unvan == "9y") { // en düşük Güvenlik  yeni
+			$('#unvan').val(8);
+			endusukmemur();	
+			yenimaashesapla();		
+		} else if (unvan == "11") { // en düşük Cezaevi Müdürü  eski
+			$('#unvan').val(8);
+			endusukmudur();
+			maashesapla();	
+		} else if (unvan == "11y") { // en düşük Cezaevi Müdürü  yeni
+			$('#unvan').val(8);
+			endusukmudur();	
+			yenimaashesapla();		
+		} else if (unvan == "12") { // en düşük İdari İşler Müdürü  eski
+			$('#unvan').val(12);
+			endusukmudur();
+			maashesapla();	
+		} else if (unvan == "12y") { // en düşük İdari İşler Müdürü  yeni
+			$('#unvan').val(12);
+			endusukmudur();	
+			yenimaashesapla();		
 		} else if (unvan == "101") { // en yüksek katip maaşı eski
 			$('#unvan').val(2);
 			enyuksekmemur();
@@ -1445,8 +1467,7 @@ $(document).ready(function(){
 		} else if (unvan == "101y") { // en yüksek katip maaşı yeni
 			$('#unvan').val(2);
 			enyuksekmemur();	
-			yenimaashesapla();	
-
+			yenimaashesapla();
 		} else if (unvan == "102") { // en yüksek icra katibi eski
 			$('#unvan').val(6);
 			enyuksekmemur();
@@ -1495,9 +1516,46 @@ $(document).ready(function(){
 			$('#unvan').val(5);
 			enyuksekmemur();	
 			yenimaashesapla();		
+		} else if (unvan == "108") { // en yüksek İKM  eski
+			$('#unvan').val(13);
+			enyuksekmemur();
+			maashesapla();	
+		} else if (unvan == "108y") { // en yüksek İKM  yeni
+			$('#unvan').val(13);
+			enyuksekmemur();	
+			yenimaashesapla();		
+		} else if (unvan == "109") { // en yüksek Güvenlik  eski
+			$('#unvan').val(8);
+			enyuksekmemur();
+			maashesapla();	
+		} else if (unvan == "109y") { // en yüksek Güvenlik  yeni
+			$('#unvan').val(8);
+			enyuksekmemur();	
+			yenimaashesapla();		
+		} else if (unvan == "111") { // en yüksek Cezaevi Müdürü  eski
+			$('#unvan').val(10);
+			enyuksekmemur();
+			maashesapla();	
+		} else if (unvan == "111y") { // en yüksek Cezaevi Müdürü  yeni
+			$('#unvan').val(10);
+			enyuksekmemur();	
+			yenimaashesapla();		
+		} else if (unvan == "112") { // en yüksek İdari İşler Müdürü  eski
+			$('#unvan').val(12);
+			enyuksekmemur();
+			maashesapla();	
+		} else if (unvan == "112y") { // en yüksek İdari İşler Müdürü  yeni
+			$('#unvan').val(12);
+			enyuksekmemur();	
+			yenimaashesapla();		
 		} 
 
 	  });	
+
+	  /*
+                                <option value="12y">En düşük İdari İşler Müdürü maaşı</option>                                              
+                                <option value="112y">En yüksek İdari İşler Müdürü maaşı</option>   
+		*/						
 	
 
 	
