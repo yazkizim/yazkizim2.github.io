@@ -107,7 +107,7 @@ function render(quiz_opts) {
 
 
   $.each(questions, function(question_index, question) {
-    if (question_index < maxQ) {
+    if (question_index < state.maxQ) {
       $('<li>')
       .attr('class', question_index ? "" : "dark")
       .appendTo($indicators);
