@@ -300,8 +300,7 @@ function render(quiz_opts) {
     .click(function() {
       $( ".carousel-inner" ).remove();
       $('#quiz').quiz("test.json");
-      state.correct = 0;
-      $quiz.carousel(0);
+      location.reload();
     })
     .appendTo($restart_button);
 
@@ -321,26 +320,7 @@ function resultsText(state) {
   var ratio = state.correct / state.total;
   var text = "Sınav bitti";
 
-  switch (false) {
-    case (ratio === 1):
-      text = "Wow&mdash;perfect score!";
-      break;
-    case (ratio > 0.9):
-      text = "Awesome job, you got most of them right.";
-      break;
-    case (ratio > 0.60):
-      text = "Pretty good, we'll say that's a pass.";
-      break;
-    case (ratio > 0.5):
-      text = "Well, at least you got half of them right&hellip;";
-      break;
-    case (ratio < 0.5 && ratio !== 0):
-      text = "Looks like this was a tough one, better luck next time.";
-      break;
-    case (ratio === 0):
-      text = "Yikes, none correct. Well, maybe it was rigged?";
-      break;
-  }
+  
   return text;
 
 }
