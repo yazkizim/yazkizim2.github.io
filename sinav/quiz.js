@@ -84,7 +84,7 @@ function render(quiz_opts) {
     .appendTo($title_slide);
 
   $("<button>")
-    .attr('class', 'quiz-button btn')
+    .attr('class', 'btn btn-primary')
     .text("Take the quiz!")
     .click(function() {
       $quiz.carousel('next');
@@ -155,7 +155,7 @@ function render(quiz_opts) {
       // create an answer button div
       // and add to the answer container
       var ans_btn = $("<div>")
-        .attr('class', 'quiz-button btn')
+        .attr('class', 'btn btn-primary')
         .html(answer)
         .appendTo($answers);
 
@@ -176,7 +176,7 @@ function render(quiz_opts) {
       // answer dialogue
       if (correct) {
         opts = $.extend(opts, {
-          title: "Nice!",
+          title: "Doğru",
           text: "Well done" + (
             question.correct.text ?
             ("<div class=\"correct-text\">" +
@@ -187,7 +187,7 @@ function render(quiz_opts) {
         });
       } else {
         opts = $.extend(opts, {
-          title: "Drat",
+          title: "Yanlış",
           text: (
             "Nope, not quite right!<br/><br/>" +
             "The correct answer was \"" +
@@ -289,7 +289,7 @@ function render(quiz_opts) {
     .appendTo($social);
 
   $("<button>")
-    .attr('class', 'quiz-button btn')
+    .attr('class', 'btn btn-primary')
     .text("Try again?")
     .click(function() {
       state.correct = 0;
