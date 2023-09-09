@@ -99,7 +99,7 @@ function maashesapla(){
 			haciz_miktar = 0;
 		}
 		
-		if (unvan == 1 || unvan == 4 || unvan == 5 || unvan == 10 || unvan == 11) {  // Yim , İcra Müdürü, İc.Md.Y.
+		if (unvan == 1 || unvan == 4 || unvan == 5 || unvan == 10 || unvan == 11 ||  unvan == 12) {  // Yim , İcra Müdürü, İc.Md.Y.
 			ek_gosterge_ayligi = ilgili_derece_bilgileri['ek_gosterge_mudur'];
 				
 			
@@ -122,7 +122,7 @@ function maashesapla(){
 		var ozel_hizmet_oran;
 		var ek_odeme_oran;
 		var yan_odeme_oran;
-		if (unvan == 1 || unvan == 4 || unvan == 5 ) {  // YİM, İc.Md., İc.Md.Y.
+		if (unvan == 1 || unvan == 4 || unvan == 5 || unvan == 12 ) {  // YİM, İc.Md., İc.Md.Y.
 			ozel_hizmet_oran = ilgili_derece_bilgileri['ozel_hizmet_tazminat_mudur'];
 			ek_odeme_oran = ilgili_derece_bilgileri['ek_odeme_ayligi_mudur'];	
 			yan_odeme_oran = 	ilgili_derece_bilgileri['yan_odeme_mudur'];			
@@ -357,7 +357,7 @@ function yenimaashesapla(){
 		haciz_miktar = 0;
 	}
 	
-	if (unvan == 1 || unvan == 4 || unvan == 5 || unvan == 10 || unvan == 11) {  // Yim , İcra Müdürü, İc.Md.Y.
+	if (unvan == 1 || unvan == 4 || unvan == 5 || unvan == 10 || unvan == 11 || unvan == 12) {  // Yim , İcra Müdürü, İc.Md.Y.
 		ek_gosterge_ayligi = ilgili_derece_bilgileri['ek_gosterge_mudur'];		
 	} else {  
 		if (mezuniyet == 1) { 
@@ -380,7 +380,7 @@ function yenimaashesapla(){
 	var yan_odeme_oran;
 
 	
-	if (unvan == 1 || unvan == 4 || unvan == 5 ) {  // YİM, İc.Md., İc.Md.Y.
+	if (unvan == 1 || unvan == 4 || unvan == 5 || unvan == 12 ) {  // YİM, İc.Md., İc.Md.Y.
 		ozel_hizmet_oran = ilgili_derece_bilgileri['ozel_hizmet_tazminat_mudur'];
 		ek_odeme_oran = ilgili_derece_bilgileri['ek_odeme_ayligi_mudur'];	
 		yan_odeme_oran = 	ilgili_derece_bilgileri['yan_odeme_mudur'];
@@ -398,7 +398,7 @@ function yenimaashesapla(){
 				}	
 		}
 		
-		if (unvan == 1 || unvan == 4 || unvan == 5 ) { 
+		if (unvan == 1 || unvan == 4 || unvan == 5 || unvan == 12 ) { 
 			ozel_hizmet_oran =  (ozel_hizmet_oran * 1) + 20;
 		} else { 
 			ozel_hizmet_oran =  (ozel_hizmet_oran * 1) + 15;
