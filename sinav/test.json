@@ -30,6 +30,37 @@
       "image_credit": "",
       "number": 1,
       "prompt": "Aşağıdakilerden hangisi çift sayıdır?"
+    },
+    {
+      "c_ans" : [
+        "çok uzun cevaplar ",
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "w_ans" : [
+        "1",
+        "3",
+        "5",
+        "7",
+        "9",
+        "11",
+        "13",
+        "15"
+      ],
+      "answers": [
+        "Marshmallow",
+        "Moon glow",
+        "Egg shell"
+      ],
+      "correct": {
+        "index": 1
+      },
+      "image": "",
+      "image_credit": "",
+      "number": 1,
+      "prompt": "Aşağıdakilerden hangisi çift sayıdır?"
     }
   ],
   "title": "Test Sınav",

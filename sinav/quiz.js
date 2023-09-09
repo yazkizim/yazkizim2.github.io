@@ -83,7 +83,7 @@ function render(quiz_opts) {
     .appendTo($title_slide);
 
   var $start_button = $("<div>")
-    .attr("class", "quiz-answers")
+    .attr("class", "quiz-answers w-75")
     .appendTo($title_slide);
 
   $("<button>")
@@ -142,7 +142,7 @@ function render(quiz_opts) {
         .appendTo($img_div);
     }
     $("<div>")
-      .attr("class", "quiz-question")
+      .attr("class", "quiz-question text-justify")
       .html(question.prompt)
       .appendTo($item);
 
@@ -175,8 +175,8 @@ function render(quiz_opts) {
       // create an answer button div
       // and add to the answer container
       var ans_btn = $("<div>")
-        .attr('class', 'btn btn-primary')
-        .attr('style', 'margin-bottom: 10px')
+        .attr('label', 'btn btn-light btn-block text-justify w-100')
+        .attr('style', 'white-space:normal;display:inline-flex;margin-bottom: 20px')
         .html(answer)
         .appendTo($answers);
 
