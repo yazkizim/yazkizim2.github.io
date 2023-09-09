@@ -21,7 +21,7 @@ $.fn.quiz = function(filename) {
 };
 
 
-var questions = filename.questions;
+var questions = $.getJSON('test.json');;
 
 var state = {
   correct : 0,
