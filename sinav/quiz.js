@@ -64,9 +64,12 @@ function render(quiz_opts) {
     Create title slide
   */
   var  $indicators = $('<ol>')
-  .attr('class', 'progress-circles')
+  .attr('class', 'progress-circles');
 
-  $title_slide = $("<div>")
+  $indicators
+  .appendTo($quiz);
+
+  var $title_slide = $("<div>")
     .attr("class", "item active")
     .attr("height", height + "px")
     .appendTo($slides);
@@ -99,8 +102,7 @@ function render(quiz_opts) {
     })
     .appendTo($start_button);
 
-  $indicators
-    .appendTo($quiz);
+
 
   $.each(questions, function(question_index, question) {
     $('<li>')
