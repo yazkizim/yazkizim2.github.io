@@ -178,16 +178,16 @@ function maashesapla(){
 		} else if ( unvan == 10 || unvan == 11) {  // cezaevi müdürü
 			ozel_hizmet_oran = ilgili_derece_bilgileri['ozel_hizmet_tazminat_mudur'];	
 			ek_odeme_oran = ilgili_derece_bilgileri['ek_odeme_ayligi_mudur'];
-			yan_odeme_oran = 	2500;	
+			yan_odeme_oran = 2500;	
 		
 
 			if ( unvan == 11) {
 				yan_odeme_oran = 2700;
-				ek_odeme_oran = (ek_odeme_oran * 1) + 13
+				ek_odeme_oran = (ek_odeme_oran * 1) + 13;
 			}
 
 			if ( unvan == 11) {
-				ek_odeme_oran = (ek_odeme_oran * 1) + 10
+				ek_odeme_oran = (ek_odeme_oran * 1) + 10;
 			}
 		}	
 
