@@ -88,7 +88,7 @@ function render(quiz_opts) {
 
   $("<button>")
     .attr('class', 'btn btn-primary')
-    .text("Take the quiz!")
+    .text("Sınavı Başlat")
     .click(function() {
       $quiz.carousel('next');
       $indicators.addClass('show');
@@ -181,7 +181,7 @@ function render(quiz_opts) {
 
       // This question is correct if it's
       // index is the correct index
-      var correct = (question.c_ans[0] === answer_index);
+      var correct = (question.c_ans[0] === siklar[answer_index]);
 
       // default opts for both outcomes
       var opts = {
