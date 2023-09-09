@@ -90,6 +90,7 @@ function render(quiz_opts) {
     .attr('class', 'btn btn-primary')
     .text("Sınavı Başlat")
     .click(function() {
+      
       $quiz.carousel('next');
       $indicators.addClass('show');
 
@@ -295,10 +296,12 @@ function render(quiz_opts) {
 
   $("<button>")
     .attr('class', 'btn btn-primary')
-    .text("Try again?")
+    .text("Tekrar Başlat")
     .click(function() {
-      state.correct = 0;
-      $quiz.carousel(0);
+      $( ".carousel-inner" ).remove();
+      $('#quiz').quiz("test.json");
+      $quiz.carousel('next');
+      $indicators.addClass('show');
     })
     .appendTo($restart_button);
 
