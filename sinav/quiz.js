@@ -55,29 +55,7 @@ function render(quiz_opts) {
   /*
     Slides container div
   */
-  var $slides = $("<div>")
-    .attr("class", "carousel-inner")
-    .attr("role", "listbox")
-    .appendTo($quiz);
-
-  /*
-    Create title slide
-  */
-  var $title_slide = $("<div>")
-    .attr("class", "item active")
-    .attr("height", height + "px")
-    .appendTo($slides);
-
-  $('<h1>')
-    .text(quiz_opts.title)
-    .attr('class', 'quiz-title')
-    .appendTo($title_slide);
-
-  var $start_button = $("<div>")
-    .attr("class", "quiz-answers")
-    .appendTo($title_slide);
-
-var $indicators = $('<ol>')
+    var $indicators = $('<ol>')
     .attr('class', 'progress-circles')
 
   $("<button>")
@@ -107,6 +85,31 @@ var $indicators = $('<ol>')
       .attr('class', question_index ? "" : "dark")
       .appendTo($indicators);
   });
+  
+    
+  var $slides = $("<div>")
+    .attr("class", "carousel-inner")
+    .attr("role", "listbox")
+    .appendTo($quiz);
+
+  /*
+    Create title slide
+  */
+  var $title_slide = $("<div>")
+    .attr("class", "item active")
+    .attr("height", height + "px")
+    .appendTo($slides);
+
+  $('<h1>')
+    .text(quiz_opts.title)
+    .attr('class', 'quiz-title')
+    .appendTo($title_slide);
+
+  var $start_button = $("<div>")
+    .attr("class", "quiz-answers")
+    .appendTo($title_slide);
+
+
 
   /*
     Add all question slides
