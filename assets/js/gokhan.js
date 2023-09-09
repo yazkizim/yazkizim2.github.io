@@ -138,7 +138,7 @@ function maashesapla(){
 			ozel_hizmet_oran = ilgili_derece_bilgileri['ozel_hizmet_tazminat_katip'];
 			ek_odeme_oran = ilgili_derece_bilgileri['ek_odeme_ayligi_katip'];	
 			yan_odeme_oran = 	ilgili_derece_bilgileri['yan_odeme_katip'];					
-		} else if (unvan == 3 || unvan ==6 || unvan ==7) {  // Mübaşir, İcra Katibi, Cezaevi Katibi
+		} else if (unvan == 3 || unvan ==6 || unvan ==7 || unvan == 8 || unvan == 9) {  // Mübaşir, İcra Katibi, Cezaevi Katibi
 			ozel_hizmet_oran = ilgili_derece_bilgileri['ozel_hizmet_tazminat_mubasir'];	
 			ek_odeme_oran = ilgili_derece_bilgileri['ek_odeme_ayligi_mubasir'];
 			yan_odeme_oran = 	ilgili_derece_bilgileri['yan_odeme_mubasir'];	
@@ -146,6 +146,20 @@ function maashesapla(){
 					yan_odeme_oran = (yan_odeme_oran * 1) + 400;
 					ozel_hizmet_oran = (ozel_hizmet_oran * 1) - 7;
 				}
+
+				if (unvan == 8 || unvan == 9) {
+					yan_odeme_oran = (yan_odeme_oran * 1) - 25;
+				}
+
+				if (unvan == 8 || unvan == 9) {
+					ek_odeme_oran = (ek_odeme_oran * 1) + 18;
+				}
+
+				if ( unvan == 9) {
+					ek_odeme_oran = (ek_odeme_oran * 1) + 5;
+				}
+
+
 		} 
 
 		if (tasiniryetkili > 0) { 
@@ -388,6 +402,18 @@ function yenimaashesapla(){
 			if (unvan == 7) {
 				yan_odeme_oran = (yan_odeme_oran * 1) + 400;
 				ozel_hizmet_oran = (ozel_hizmet_oran * 1) - 7;
+			}
+
+			if (unvan == 8 || unvan == 9) {
+				yan_odeme_oran = (yan_odeme_oran * 1) - 25;
+			}
+
+			if (unvan == 8 || unvan == 9) {
+				ek_odeme_oran = (ek_odeme_oran * 1) + 28;
+			}
+
+			if ( unvan == 9) {
+				ek_odeme_oran = (ek_odeme_oran * 1) + 5;
 			}
 	} 
 	
@@ -1331,20 +1357,20 @@ $(document).ready(function(){
 			$('#unvan').val(7);
 			endusukmemur();	
 			yenimaashesapla();		
-		} else if (unvan == "4") { // en düşük Cezaevi katibi eski
+		} else if (unvan == "4") { // en düşük Mübaşir katibi eski
 			$('#unvan').val(3);
 			endusukmemur();
 			maashesapla();	
-		} else if (unvan == "4y") { // en düşük Cezaevi katibi yeni
+		} else if (unvan == "4y") { // en düşük Mübaşir katibi yeni
 			$('#unvan').val(3);
 			endusukmemur();	
 			yenimaashesapla();		
 		} else if (unvan == "5") { // en düşük YİM  eski
-			$('#unvan').val(3);
+			$('#unvan').val(1);
 			endusukmudur();
 			maashesapla();	
 		} else if (unvan == "5y") { // en düşük YİM  yeni
-			$('#unvan').val(3);
+			$('#unvan').val(1);
 			endusukmudur();	
 			yenimaashesapla();		
 		} else if (unvan == "6") { // en düşük İcM  eski
@@ -1388,20 +1414,20 @@ $(document).ready(function(){
 			$('#unvan').val(7);
 			enyuksekmemur();	
 			yenimaashesapla();		
-		} else if (unvan == "104") { // en yüksek Cezaevi katibi eski
+		} else if (unvan == "104") { // en yüksek Mübaşir katibi eski
 			$('#unvan').val(3);
 			enyuksekmemur();
 			maashesapla();	
-		} else if (unvan == "104y") { // en yüksek Cezaevi katibi yeni
+		} else if (unvan == "104y") { // en yüksek Mübaşir katibi yeni
 			$('#unvan').val(3);
 			enyuksekmemur();	
 			yenimaashesapla();		
 		} else if (unvan == "105") { // en yüksek YİM  eski
-			$('#unvan').val(3);
+			$('#unvan').val(1);
 			enyuksekmemur();
 			maashesapla();	
 		} else if (unvan == "105y") { // en yüksek YİM  yeni
-			$('#unvan').val(3);
+			$('#unvan').val(1);
 			enyuksekmemur();	
 			yenimaashesapla();		
 		} else if (unvan == "106") { // en yüksek İcM  eski
