@@ -153,7 +153,7 @@ function render(quiz_opts) {
 
     //question.answers = shuffle(question.answers);
     // 4 yanlış al 
-    const siklar;
+    var siklar;
     question.w_ans = shuffle(question.w_ans);
 
     $.each(question.w_ans, function(i, ans){
