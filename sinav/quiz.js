@@ -290,7 +290,7 @@ function render(quiz_opts) {
     .appendTo($results_slide);
 
   var $restart_button = $("<div>")
-    .attr("class", "quiz-answers")
+    .attr("class", "quiz-answers w-100")
     .appendTo($results_slide);
  
 
