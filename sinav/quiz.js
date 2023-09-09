@@ -241,9 +241,9 @@ function render(quiz_opts) {
           if (last_question) {
             $results_title.html(resultsText(state));
             $results_ratio.text(
-              "You got " +
+              "Soruların " +
               Math.round(100*(state.correct/state.total)) +
-              "% of the questions correct!"
+              "% kadarını doğru cevapladın"
             );          
             $indicators.removeClass('show');
             // indicate the question number
@@ -319,9 +319,9 @@ function render(quiz_opts) {
 function resultsText(state) {
 
   var ratio = state.correct / state.total;
-  var text;
+  var text = "Sınav bitti";
 
-  switch (true) {
+  switch (false) {
     case (ratio === 1):
       text = "Wow&mdash;perfect score!";
       break;
