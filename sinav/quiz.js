@@ -22,16 +22,18 @@ $.fn.quiz = function(filename) {
 
 // create html structure for quiz
 // using loaded questions json
-function render(quiz_opts) {
+function render(quiz_opts) {  
 
 
   // list of questions to insert into quiz
   var questions = quiz_opts.questions;
+  questions = shuffle(questions);
 
   // keep track of the state of correct
   // answers to the quiz so far
   var state = {
     correct : 0,
+    maxQ : 10,
     total : questions.length
   };
 
@@ -105,9 +107,11 @@ function render(quiz_opts) {
 
 
   $.each(questions, function(question_index, question) {
-    $('<li>')
+    if (question_index < maxQ) {
+      $('<li>')
       .attr('class', question_index ? "" : "dark")
       .appendTo($indicators);
+    }
   });
 
   /*
@@ -122,7 +126,7 @@ function render(quiz_opts) {
       .attr("height", height + "px")
       .appendTo($slides);
     var $img_div;
-    if (question.image) {
+    if (question.image != "") {
       $img_div = $('<div>')
         .attr('class', 'question-image')
         .appendTo($item);
@@ -147,10 +151,25 @@ function render(quiz_opts) {
     // if the question has an image
     // append a container with the image to the item
 
+    //question.answers = shuffle(question.answers);
+    // 4 yanlış al 
+    const siklar;
+    question.w_ans = shuffle(question.w_ans);
+
+    $.each(question.w_ans, function(i, ans){
+      if (i < 4) {
+        siklar.push(ans);
+      }
+    });
+
+    question.c_ans = shuffle(question.c_ans);
+    siklar.push(question.c_ans[0]);
+    siklar = shuffle(siklar);
+
 
     // for each possible answer to the question
     // add a button with a click event
-    $.each(question.answers, function(answer_index, answer) {
+    $.each(siklar, function(answer_index, answer) {
 
       // create an answer button div
       // and add to the answer container
@@ -162,13 +181,13 @@ function render(quiz_opts) {
 
       // This question is correct if it's
       // index is the correct index
-      var correct = (question.correct.index === answer_index);
+      var correct = (question.c_ans[0] === answer_index);
 
       // default opts for both outcomes
       var opts = {
         allowOutsideClick : false,
         allowEscapeKey : false,
-        confirmButtonText: "Next Question",
+        confirmButtonText: "Sıradaki soru",
         html : true,
         confirmButtonColor: "#0096D2"
       };
@@ -178,7 +197,7 @@ function render(quiz_opts) {
       if (correct) {
         opts = $.extend(opts, {
           title: "Doğru",
-          text: "Well done" + (
+          text: "Cevap doğru" + (
             question.correct.text ?
             ("<div class=\"correct-text\">" +
               question.correct.text +
@@ -190,9 +209,8 @@ function render(quiz_opts) {
         opts = $.extend(opts, {
           title: "Yanlış",
           text: (
-            "Nope, not quite right!<br/><br/>" +
-            "The correct answer was \"" +
-            question.answers[question.correct.index] + "\"." + (
+            "Doğru cevap: \"" +
+            question.c_ans[0] + "\"." + (
             question.correct.text ?
             ("<div class=\"correct-text\">" +
               question.correct.text +
@@ -204,7 +222,7 @@ function render(quiz_opts) {
       }
 
       if (last_question) {
-        opts.confirmButtonText = "See your results";
+        opts.confirmButtonText = "Sonuçlarını gör";
       }
 
       // bind click event to answer button,
@@ -225,9 +243,7 @@ function render(quiz_opts) {
               "You got " +
               Math.round(100*(state.correct/state.total)) +
               "% of the questions correct!"
-            );
-            $twitter_link.attr('href', tweet(state, quiz_opts));
-            $facebook_link.attr('href', facebook(state, quiz_opts));
+            );          
             $indicators.removeClass('show');
             // indicate the question number
             $indicators.find('li')
@@ -275,19 +291,7 @@ function render(quiz_opts) {
   var $restart_button = $("<div>")
     .attr("class", "quiz-answers")
     .appendTo($results_slide);
-
-  var $social = $("<div>")
-    .attr('class', 'results-social')
-    .html('<div id = "social-text">Did you like the quiz? Share your results with your friends, so they can give it a shot!</div>')
-    .appendTo($results_slide);
-
-  var $twitter_link = $('<a>')
-    .html('<span class="social social-twitter follow-tw"></span>')
-    .appendTo($social);
-
-  var $facebook_link = $('<a>')
-    .html('<span class="social social-facebook follow-fb"></span>')
-    .appendTo($social);
+ 
 
   $("<button>")
     .attr('class', 'btn btn-primary')
@@ -338,25 +342,15 @@ function resultsText(state) {
 
 }
 
+function shuffle(sourceArray) {
+  for (var i = 0; i < sourceArray.length - 1; i++) {
+      var j = i + Math.floor(Math.random() * (sourceArray.length - i));
 
-function tweet(state, opts) {
-
-  var body = (
-    "I got " + state.correct +
-    " out of " + state.total +
-    " on @taxpolicycenter’s \"" + opts.title +
-    "\" quiz. Test your knowledge here: " + opts.url
-  );
-
-  return (
-    "http://twitter.com/intent/tweet?text=" +
-    encodeURIComponent(body)
-  );
-
-}
-
-function facebook(state, opts) {
-  return "https://www.facebook.com/sharer/sharer.php?u=" + opts.url;
+      var temp = sourceArray[j];
+      sourceArray[j] = sourceArray[i];
+      sourceArray[i] = temp;
+  }
+  return sourceArray;
 }
 
 
