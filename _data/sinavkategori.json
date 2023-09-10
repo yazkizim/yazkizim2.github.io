@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "adi": "Mülakat",
+        "subs" : [
+            {
+            "id": 3,
+            "adi": "Mülakat Soruları",
+            "subs" :[
+                ]            
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "adi": "Görevde Yükselme Sınavı",
+        "subs" : [
+                    {
+                    "id": 4,
+                    "adi": "Yazı İşleri Müdürlüğü",
+                    "subs" :[
+                                {
+                                "id": 5,
+                                "adi": "Alan Konuları",
+                                "subs" :[]                
+                                },
+                                {
+                                "id": 6,
+                                "adi": "Genel Konular",
+                                "subs" :{                   
+                                    
+                                    }                
+                                }
+                            ]
+                    },
+                    {
+                        "id": 7,
+                        "adi": "İdari Müdürlüğü",
+                        "subs" :[
+                                    {
+                                    "id": 8,
+                                    "adi": "Alan Konuları",
+                                    "subs" :[]                
+                                    },
+                                    {
+                                    "id": 9,
+                                    "adi": "Genel Konular",
+                                    "subs" :{                   
+                                        
+                                        }                
+                                    }
+                                ]
+                    }
+                ]
+    }
+]
