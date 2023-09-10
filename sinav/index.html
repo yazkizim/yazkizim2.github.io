@@ -60,9 +60,9 @@ layout: sinav
                     {% else %}
                     <!-- Eğer ikinci alt kategori yoksa  -->
                       {% if sub1.disabled == true %}
-                      <a href="#" class="disabled list-group-item" id="{{ sub1.id }}" onclick="return testOlustur('{{ sub1.id }}.json');">{{ sub1.adi }}</a> 
+                      <a href="#" class="disabled list-group-item" id="{{ sub1.id }}">{{ sub1.adi }}</a> 
                       {% else %} 
-                      <a href="#" class="list-group-item" id="{{ sub1.id }}">{{ sub1.adi }}</a> 
+                      <a href="#" class="list-group-item" id="{{ sub1.id }}" onclick="return testOlustur('{{ sub1.id }}.json');">{{ sub1.adi }}</a> 
                       {% endif %}                 
                     {% endif %}                  
                 {% endfor %}
