@@ -28,7 +28,7 @@ function render(quiz_opts) {
   // list of questions to insert into quiz
   var questions = quiz_opts.questions;
   questions = shuffle(questions);
-  var siklar = [];
+  
 
   // keep track of the state of correct
   // answers to the quiz so far
@@ -147,7 +147,7 @@ function render(quiz_opts) {
       .appendTo($item);
 
     var $answers = $("<div>")
-      .attr("class", "quiz-answers")
+      .attr("class", "quiz-answers w-100")
       .appendTo($item);
 
     // if the question has an image
@@ -156,7 +156,8 @@ function render(quiz_opts) {
     //question.answers = shuffle(question.answers);
     // 4 yanlış al 
     question.w_ans = shuffle(question.w_ans);
-
+    var siklar = [];
+    
     $.each(question.w_ans, function(i, ans){
       if (i < 4) {
         siklar.push(ans);
