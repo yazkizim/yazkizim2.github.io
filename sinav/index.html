@@ -40,18 +40,30 @@ layout: sinav
                           </a>
                           <div class="w-100 list-group collapse" id="{{ sub2.id }}">
                             {% for sub3 in sub2.subs %}
+                              {% if sub3.disabled == "false" %}
+                              <a href="#" class="disabled list-group-item" id="{{ sub3.id }}">{{ sub3.adi }}</a> 
+                              {% else %} 
                               <a href="#" class="list-group-item" id="{{ sub3.id }}">{{ sub3.adi }}</a> 
+                              {% endif %} 
                             {% endfor %}
                           </div>
                         {% else %}
                         <!-- Eğer üçüncü alt kategori yoksa  -->
-                          <a href="#" class="list-group-item" id="{{ sub2.id }}">{{ sub2.adi }}</a>                    
+                          {% if sub2.disabled == "false" %}
+                          <a href="#" class="disabled list-group-item" id="{{ sub2.id }}">{{ sub2.adi }}</a> 
+                          {% else %} 
+                          <a href="#" class="list-group-item" id="{{ sub2.id }}">{{ sub2.adi }}</a> 
+                          {% endif %}                    
                         {% endif %} 
                       {% endfor %}
                     </div>
                     {% else %}
                     <!-- Eğer ikinci alt kategori yoksa  -->
-                      <a href="#" class="list-group-item" id="{{ sub1.id }}">{{ sub1.adi }}</a>                    
+                      {% if sub1.disabled == "false" %}
+                      <a href="#" class="disabled list-group-item" id="{{ sub1.id }}">{{ sub1.adi }}</a> 
+                      {% else %} 
+                      <a href="#" class="list-group-item" id="{{ sub1.id }}">{{ sub1.adi }}</a> 
+                      {% endif %}                 
                     {% endif %}                  
                 {% endfor %}
                   </div>               
