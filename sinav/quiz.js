@@ -207,16 +207,21 @@ function render(quiz_opts) {
         $indicators.find('li')
         .removeClass('dark')
         .eq(question_index)
-        .attr('style', 'color: red;');
+        .attr('style', 'background-color: green;');
       } else {
         opts = $.extend(opts, {
           title: "Yanlış",
           text: (
-            "Doğru cevap: \"" +
+            "Doğru cevap: " +
             question.c_ans[0]
             ),
-          type: "error"
+          type: "error"          
         });
+        $indicators.find('li')
+        .removeClass('dark')
+        .eq(question_index)
+        .attr('style', 'background-color: red;');
+          
       }
 
       if (last_question) {
