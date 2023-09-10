@@ -204,11 +204,10 @@ function render(quiz_opts) {
       // set options for correct/incorrect
       // answer dialogue
       if (correct) {
-        opts = $.extend(opts, {
-          title: "Doğru",
-          text: "Cevap doğru",
-          type: "success"
-        });
+        $indicators.find('li')
+        .removeClass('dark')
+        .eq(question_index)
+        .attr('style', 'color: red;');
       } else {
         opts = $.extend(opts, {
           title: "Yanlış",
