@@ -30,6 +30,12 @@ function hesaplax(x, y){
 	return sonuc;
 }
 
+function listGroupcClick($this,  $alias) {
+    console.log($this.text());  // Will log Paris | France | etc...
+
+    console.log($alias);  // Will output whatever is in data-alias=""
+}
+
 function maashesapla(){
 		if ($('#hesaplama').val() > 0) {
 			var aylik_gosterge = window.katsayilar[8].aylik_katsayi / 30 * 14;		
@@ -1901,6 +1907,23 @@ $(document).ready(function(){
         }
     });
 	} 
+
+	$('.list-group-item').on('click', function() {
+		$('.glyphicon', this)
+		  .toggleClass('glyphicon-chevron-right')
+		  .toggleClass('glyphicon-chevron-down');
+
+		var $this = $(this);
+
+		var $alias = $this.data('alias');
+
+		$('.active').removeClass('active');
+		$this.toggleClass('active')
+
+		// Pass clicked link element to another function
+		listGroupcClick($this, $alias)
+		});
+	  
 	
 	
 
