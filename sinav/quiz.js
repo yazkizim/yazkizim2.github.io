@@ -143,7 +143,7 @@ function render(quiz_opts) {
     }
     $("<div>")
       .attr("class", "quiz-question text-justify")
-      .html(question.prompt)
+      .html(question.questiontext)
       .appendTo($item);
 
     var $answers = $("<div>")

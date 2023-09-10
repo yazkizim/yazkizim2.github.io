@@ -1,6 +1,8 @@
 {
   "questions": [    
     {
+      
+      "questiontext": "Aşağıdakilerden hangisi çift sayıdır?",
       "c_ans" : [
         "2",
         "4",
@@ -17,21 +19,13 @@
         "11",
         "13",
         "15"
-      ],
-      "answers": [
-        "Marshmallow",
-        "Moon glow",
-        "Egg shell"
-      ],
-      "correct": {
-        "index": 1
-      },
+      ],      
       "image": "",
-      "image_credit": "",
-      "number": 1,
-      "prompt": "Aşağıdakilerden hangisi sesli harftir?"
+      "image_credit": ""
     },
     {
+      
+      "questiontext": "Aşağıdakilerden hangisi sesli harftir?",
       "c_ans" : [
         "a",
         "e"
@@ -46,18 +40,8 @@
         "q",
         "w"
       ],
-      "answers": [
-        "Marshmallow",
-        "Moon glow",
-        "Egg shell"
-      ],
-      "correct": {
-        "index": 1
-      },
       "image": "",
-      "image_credit": "",
-      "number": 2,
-      "prompt": "Aşağıdakilerden hangisi çift sayıdır?"
+      "image_credit": ""
     }
   ],
   "title": "Test Sınav",
