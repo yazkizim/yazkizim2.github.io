@@ -80,7 +80,7 @@ function render(quiz_opts) {
     .appendTo($slides);
 
   $('<h1>')
-    .text(quiz_opts.title)
+    .text(quiz_opts.title + "<br>Toplam Soru Sayısı : " + quiz_opts.questions.length)
     .attr('class', 'quiz-title')
     .appendTo($title_slide);
 
