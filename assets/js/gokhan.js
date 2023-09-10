@@ -1917,7 +1917,7 @@ $(document).ready(function(){
 
 		var $alias = $this.data('alias');
 
-		$('.active').removeClass('active');
+		$('.list-group-item .active').removeClass('active');
 		$this.toggleClass('active')
 
 		// Pass clicked link element to another function
