@@ -204,12 +204,7 @@ function render(quiz_opts) {
       if (correct) {
         opts = $.extend(opts, {
           title: "Doğru",
-          text: "Cevap doğru" + (
-            question.correct.text ?
-            ("<div class=\"correct-text\">" +
-              question.correct.text +
-              "</div>"
-            ) : ""),
+          text: "Cevap doğru",
           type: "success"
         });
       } else {
@@ -217,12 +212,7 @@ function render(quiz_opts) {
           title: "Yanlış",
           text: (
             "Doğru cevap: \"" +
-            question.c_ans[0] + "\"." + (
-            question.correct.text ?
-            ("<div class=\"correct-text\">" +
-              question.correct.text +
-              "</div>"
-            ) : "")
+            question.c_ans[0]
             ),
           type: "error"
         });
