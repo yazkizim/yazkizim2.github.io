@@ -35,7 +35,7 @@
                                 "subs" :[
                                         {
                                             "id": 6,
-                                            "adi": "1 SAYILI CUMHURBAŞKANLIĞI TEŞKİLATI HAKKINDA CUMHURBAŞKANLIĞI KARARNAMESİ",
+                                            "adi": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
                                             "hidden": false,
                                             "disabled": true,
                                             "subs" :[]
@@ -43,7 +43,15 @@
                                         },
                                         {
                                             "id": 7,
-                                            "adi": " BAKANLIK GENELGELERİ",
+                                            "adi": "Bakanlık Genelgeleri",
+                                            "hidden": false,
+                                            "disabled": true,
+                                            "subs" :[]
+
+                                        },
+                                        {
+                                            "id": 18,
+                                            "adi": "Etik",
                                             "hidden": false,
                                             "disabled": true,
                                             "subs" :[]
@@ -89,7 +97,7 @@
                                 "subs" :[
                                         {
                                             "id": 13,
-                                            "adi": "1 SAYILI CUMHURBAŞKANLIĞI TEŞKİLATI HAKKINDA CUMHURBAŞKANLIĞI KARARNAMESİ",
+                                            "adi": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
                                             "hidden": false,
                                             "disabled": true,
                                             "subs" :[]
@@ -97,7 +105,7 @@
                                         },
                                         {
                                             "id": 14,
-                                            "adi": " BAKANLIK GENELGELERİ",
+                                            "adi": "Bakanlık Genelgeleri",
                                             "hidden": false,
                                             "disabled": true,
                                             "subs" :[]
