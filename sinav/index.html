@@ -41,17 +41,12 @@ layout: sinav
                                         {% for sub3 in sub2.subs %} <!-- 3. Alt Kategoriler  -->
                                           <a href="#" id="{{ sub3.id }}" class="list-group-item">{{ sub3.adi }}</a> <!-- 4. Alt Kategoriler son  -->
                                         </div> 
-                                        {% endfor %}
-                                    {% elsif boyut == 1 %} 
-                                      <div class="list-group collapse" id="{{ sub2.id }}">                   
-                                        <a href="#" class="list-group-item" id="{{ sub2.subs[0].id }}">{{ sub2.subs[0].adi }}</a> <!-- 3. Alt Kategori tek  -->
-                                      </div>  
+                                        {% endfor %}                                    
                                     {% endif %}
                                 {% else %}
                                     <a href="#" id="{{ sub2.id }}" class="list-group-item">{{ sub2.adi }}</a> 
                                 {% endif %}
                               {% endfor %}
-                            </div> 
                           {% elsif boyut == 1 %} 
                             <div class="list-group collapse" id="{{ sub1.id }}">                
                               <a href="#" class="list-group-item" id="{{ sub1.subs[0].id }}">{{ sub1.subs[0].adi }}</a> <!-- 2. Alt Kategori tek  -->
@@ -60,7 +55,6 @@ layout: sinav
                       {% else %}   
                           <a href="#" id="{{ sub1.id }}" class="list-group-item">{{ sub1.adi }}</a>     
                       {% endif %} 
-                     </div> 
                   {% endfor %}
                 </div>
               {% elsif boyut == 1 %} 
