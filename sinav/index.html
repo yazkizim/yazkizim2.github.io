@@ -18,7 +18,7 @@ layout: sinav
               <a href="#{{ root.id }}" class="list-group-item" data-toggle="collapse">
                 <i class="glyphicon glyphicon-chevron-right"></i>{{ root.adi }}
                 {% assign altkategorivarmi = root.subs.size %}
-                <span class="badge badge-primary badge-pill">{{ altkategorivarmi }}</span>
+                <span class="badge badge bg-info badge-pill">{{ altkategorivarmi }}</span>
               </a>              
               <div class="w-100 list-group collapse" id="{{ root.id }}">
                 {% for sub1 in root.subs %} <!-- 1. Derece Alt Kategoriler Kategoriler -->
@@ -27,7 +27,7 @@ layout: sinav
                     {% if altkategorivarmi > 0 %}
                     <a href="#{{ sub1.id }}" class="list-group-item" data-toggle="collapse">
                       <i class="glyphicon glyphicon-chevron-right"></i>{{ sub1.adi }}
-                      <span class="badge badge-primary badge-pill">{{ altkategorivarmi }}</span>
+                      <span class="badge badge bg-info badge-pill">{{ altkategorivarmi }}</span>
                     </a>
                     <div class="w-100 list-group collapse" id="{{ sub1.id }}">
                       {% for sub2 in sub1.subs %}
@@ -36,7 +36,7 @@ layout: sinav
                         {% if altkategorivarmi > 0 %}
                           <a href="#{{ sub2.id }}" class="list-group-item" data-toggle="collapse">
                             <i class="glyphicon glyphicon-chevron-right"></i>{{ sub2.adi }}
-                            <span class="badge badge-primary badge-pill">{{ altkategorivarmi }}</span>
+                            <span class="badge badge bg-info badge-pill">{{ altkategorivarmi }}</span>
                           </a>
                           <div class="w-100 list-group collapse" id="{{ sub2.id }}">
                             {% for sub3 in sub2.subs %}
