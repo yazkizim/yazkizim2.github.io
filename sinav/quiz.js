@@ -86,6 +86,7 @@ function render(quiz_opts) {
 
   var $start_button = $("<div>")
     .attr("class", "quiz-results")
+    .attr("style", "text-align: center;")
     .appendTo($title_slide);
 
   $("<button>")
@@ -160,7 +161,7 @@ function render(quiz_opts) {
     console.log("eklenebilir tüm cevaplar : " + question.w_ans);
     
     siklar = [];
-    $.each(question.w_ans, function(i, ans){
+    $.each(question.w_ans.slice(0,4), function(i, ans){
       console.log("2- yanlış ekleme deneme : " + i);
       if (i < 4) {
         siklar.push(ans);
@@ -288,6 +289,7 @@ function render(quiz_opts) {
 
   var $restart_button = $("<div>")
     .attr("class", "quiz-results")
+    .attr("style", "text-align: center;")
     .appendTo($results_slide);
  
 
