@@ -63,7 +63,7 @@ layout: sinav
                       <a href="#" class="disabled list-group-item" id="{{ sub1.id }}">{{ sub1.adi }}</a> 
                       {% else %} 
                       <a href="#" class="list-group-item" id="{{ sub1.id }}" onclick="return testOlustur('{{ sub1.id }}.json');">{{ sub1.adi }}
-                        {% assign size = "site.sinav." | append: {{ sub1.id }} | append: ".size" %}
+                        {% assign size = "site.sinav." | append: sub1.id  | append: ".size" %}
                         <span class="badge badge bg-success badge-pill">{{size}} Soru</span>
                       </a> 
                       {% endif %}                 
