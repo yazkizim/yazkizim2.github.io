@@ -39,10 +39,10 @@ layout: sinav
                                     {% if boyut > 0 %}
                                       <div class="list-group collapse" id="{{ sub2.id }}" style="height: 0px;" aria-expanded="false">
                                         {% for sub3 in sub2.subs %} <!-- 3. Alt Kategoriler  -->
-                                          <a href="#" id="{{ sub3.id }}" class="list-group-item">{{ sub3.adi }}</a> <!-- 3. Alt Kategoriler son  -->
+                                          <a href="#" id="{{ sub3.id }}" class="list-group-item">{{ sub3.adi }}</a> <!-- 4. Alt Kategoriler son  -->
                                         {% endfor %}
                                     {% elsif boyut == 1 %} 
-                                      <div class="list-group collapse" id="{{ sub2.id }}">                
+                                      <div class="list-group collapse" id="{{ sub2.id }}"></div>                   
                                         <a href="#" class="list-group-item" id="{{ sub2.subs[0].id }}">{{ sub2.subs[0].adi }}</a> <!-- 3. Alt Kategori tek  -->
                                       </div>  
                                     {% endif %}
@@ -52,18 +52,17 @@ layout: sinav
                               {% endfor %}
                             </div> 
                           {% elsif boyut == 1 %} 
-                            <div class="list-group collapse" id="{{ sub1.id }}">                
+                            <div class="list-group collapse" id="{{ sub1.id }}"></div>                   
                               <a href="#" class="list-group-item" id="{{ sub1.subs[0].id }}">{{ sub1.subs[0].adi }}</a> <!-- 2. Alt Kategori tek  -->
                             </div>  
                           {% endif %}
                       {% else %}   
-                        <div class="list-group collapse" id="{{ sub1.id }}">                   
-                          <a href="#" class="list-group-item" id="{{ subs1.subs[0].id }}">{{ subs1.subs[0].adi }}</a> <!-- 1. Alt Kategori tek  -->
-                        </div>     
+                          <a href="#" id="{{ sub1.id }}" class="list-group-item">{{ sub1.adi }}</a>     
                       {% endif %}  
                   {% endfor %}
-              {% else %} 
-                <div class="list-group collapse" id="{{ root.id }}"></div>                   
+                </div>
+              {% elsif boyut == 1 %} 
+                <div class="list-group collapse" id="{{ root.id }}">                  
                   <a href="#" class="list-group-item" id="{{ root.subs[0].id }}">{{ root.subs[0].adi }}</a> <!-- 1. Alt Kategori tek  -->
                 </div>  
               {% endif %}
