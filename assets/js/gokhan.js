@@ -1923,7 +1923,7 @@ $(document).ready(function(){
 
 				$('.list-group-item').removeClass('active');
 				$this.toggleClass('active')
-		}
+			}
 	});
 
 });

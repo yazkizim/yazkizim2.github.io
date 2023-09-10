@@ -174,6 +174,8 @@ function render(quiz_opts) {
     siklar.push(question.c_ans[0]);
     siklar = shuffle(siklar);
 
+    
+
 
     // for each possible answer to the question
     // add a button with a click event
@@ -212,11 +214,10 @@ function render(quiz_opts) {
         opts = $.extend(opts, {
           title: "Yanlış",
           text: (
-            "Doğru cevap: \"" + "<br/><br/>" +
-            (questions[question_index]['aciklama'] != "" ? + ("<div class=\"correct-text\">" +
-            questions[question_index]['aciklama']+
-            "</div>") : "") +
-            question.c_ans[0]
+            "Doğru cevap: \"" + "<br/><br/>" + question.c_ans[0] +
+            (question.aciklama != "" ? + ("<div class=\"correct-text\">" +
+            qquestion.aciklama+
+            "</div>") : "")             
             ),
           type: "error"
         });
