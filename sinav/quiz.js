@@ -83,7 +83,7 @@ function render(quiz_opts) {
     .appendTo($title_slide);
 
   var $start_button = $("<div>")
-    .attr("class", "quiz-answers w-75")
+    .attr("class", "quiz-results")
     .appendTo($title_slide);
 
   $("<button>")
@@ -291,7 +291,7 @@ function render(quiz_opts) {
     .appendTo($results_slide);
 
   var $restart_button = $("<div>")
-    .attr("class", "quiz-answers w-100")
+    .attr("class", "quiz-results")
     .appendTo($results_slide);
  
 

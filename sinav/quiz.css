@@ -25,6 +25,10 @@ html, body {
   clear: both;
 }
 
+.quiz-results .btn{
+  clear: both;
+}
+
 .sweet-alert button {
  border-radius: 0;
     text-transform: uppercase;
