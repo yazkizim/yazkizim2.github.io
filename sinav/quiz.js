@@ -28,7 +28,6 @@ function render(quiz_opts) {
   // list of questions to insert into quiz
   var questions = quiz_opts.questions;
   questions = shuffle(questions);
-  var siklar = [];
   
 
   // keep track of the state of correct
@@ -157,8 +156,7 @@ function render(quiz_opts) {
     //question.answers = shuffle(question.answers);
     // 4 yanlış al 
     question.w_ans = shuffle(question.w_ans);
-    siklar = [];
-
+    var siklar = [];
     
     $.each(question.w_ans, function(i, ans){
       if (i < 4) {
