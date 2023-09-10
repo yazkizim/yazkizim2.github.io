@@ -215,9 +215,9 @@ function render(quiz_opts) {
           title: "Yanlış",
           text: (
             "Doğru cevap: " + "<br/><br/>" + question.c_ans[0] +
-            (question.aciklama != "" ? + ("<div class=\"correct-text\">" +
+            (question.aciklama == "" ? + ("<div class=\"correct-text\">" +
             question.aciklama+
-            "</div>") : " a")             
+            "</div>") : "")             
             ),
           type: "error"
         });
