@@ -34,7 +34,7 @@
                                 "disabled": false,
                                 "subs" :[
                                         {
-                                            "id": 12,
+                                            "id": 6,
                                             "adi": "1 SAYILI CUMHURBAŞKANLIĞI TEŞKİLATI HAKKINDA CUMHURBAŞKANLIĞI KARARNAMESİ",
                                             "hidden": false,
                                             "disabled": true,
@@ -42,7 +42,7 @@
 
                                         },
                                         {
-                                            "id": 13,
+                                            "id": 7,
                                             "adi": " BAKANLIK GENELGELERİ",
                                             "hidden": false,
                                             "disabled": true,
@@ -52,20 +52,20 @@
                                 ]                
                                 },
                                 {
-                                "id": 6,
+                                "id": 8,
                                 "adi": "Genel Konular",
                                 "hidden": false,
                                 "disabled": false,
                                 "subs" :[
                                             {
-                                                "id": 10,
+                                                "id": 9,
                                                 "adi": "Tarih",
                                                 "hidden": false,
                                                 "disabled": true,
                                                 "subs" :[]
                                             },
                                             {
-                                                "id": 11,
+                                                "id": 10,
                                                 "adi": "Türkçe",
                                                 "hidden": false,
                                                 "disabled": true,
@@ -76,19 +76,19 @@
                             ]
                     },
                     {
-                    "id": 5,
+                    "id": 11,
                     "adi": "İdari İşler Müdürlüğü",
                     "hidden": false,
                     "disabled": false,
                     "subs" :[
                                 {
-                                "id": 5,
+                                "id": 12,
                                 "adi": "Alan Konuları",
                                 "hidden": false,
                                 "disabled": false,
                                 "subs" :[
                                         {
-                                            "id": 12,
+                                            "id": 13,
                                             "adi": "1 SAYILI CUMHURBAŞKANLIĞI TEŞKİLATI HAKKINDA CUMHURBAŞKANLIĞI KARARNAMESİ",
                                             "hidden": false,
                                             "disabled": true,
@@ -96,7 +96,7 @@
 
                                         },
                                         {
-                                            "id": 13,
+                                            "id": 14,
                                             "adi": " BAKANLIK GENELGELERİ",
                                             "hidden": false,
                                             "disabled": true,
@@ -106,20 +106,20 @@
                                 ]                
                                 },
                                 {
-                                "id": 6,
+                                "id": 15,
                                 "adi": "Genel Konular",
                                 "hidden": false,
                                 "disabled": false,
                                 "subs" :[
                                             {
-                                                "id": 10,
+                                                "id": 16,
                                                 "adi": "Tarih",
                                                 "hidden": false,
                                                 "disabled": true,
                                                 "subs" :[]
                                             },
                                             {
-                                                "id": 11,
+                                                "id": 17,
                                                 "adi": "Türkçe",
                                                 "hidden": false,
                                                 "disabled": true,
