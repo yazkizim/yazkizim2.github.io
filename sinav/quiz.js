@@ -98,7 +98,10 @@ function render(quiz_opts) {
     .attr('style', 'text-align: center;')
     .text("Sınavı Başlat")
     .click(function() {
-      
+      $('#treeview').hide(); 
+      $('#dogrucevap').hide();
+      $('#yanliscevap').hide();
+
       $quiz.carousel('next');
       $indicators.addClass('show');
 
@@ -205,24 +208,15 @@ function render(quiz_opts) {
       // set options for correct/incorrect
       // answer dialogue
       if (correct) {
-        opts = $.extend(opts, {
-          title: "Doğru",
-          text: "Cevap doğru",
-          type: "success"
-        });
+        $metin = question.c_ans[0];
+        $('#correcttext').html($metin);
+        $('#dogrucevap').show();
+        $('#yanliscevap').hide();
       } else {
-        console.log("Açıklama : " + question.aciklama + " diğer açıklama : " + questions[question_index].aciklama);
-
-        opts = $.extend(opts, {
-          title: "Yanlış",
-          text: (
-            "Doğru cevap: " +  question.c_ans[0] + "<br/><br/>" +
-            (question.aciklama != "empty" ? + ("<div class=\"correct-text\">" +
-            questions.aciklama +
-            "</div>") : "")             
-            ),
-          type: "error"
-        });
+        $metin = question.c_ans[0];
+        $('#wrongtext').html($metin);
+        $('#dogrucevap').hide();
+        $('#yanliscevap').show();
       }
 
       if (last_question) {
@@ -237,16 +231,15 @@ function render(quiz_opts) {
           // if correct answer is selected,
           // keep track in total
           if (correct) state.correct++;
-          $quiz.carousel('next');
+          
 
           // if we've reached the final question
           // set the results text
           if (last_question) {
             $results_title.html(resultsText(state));
             $results_ratio.text(
-              "Soruların " +
-              Math.round(100*(state.correct/state.total)) +
-              "% kadarını doğru cevapladın"
+              "Toplam " + state.total + " sorunun " + state.correct +
+              " adetine doğru cevap verdiniz."
             );          
             $indicators.removeClass('show');
             // indicate the question number
@@ -261,14 +254,7 @@ function render(quiz_opts) {
               .eq(question_index+1)
               .addClass('dark');
           }
-          // unbind event handler
-          $('.sweet-overlay').off('click', next);
         }
-
-        // advance to next question on OK click or
-        // click of overlay
-        swal(opts, next);
-        $('.sweet-overlay').on('click', next);
 
       });
 
@@ -304,6 +290,9 @@ function render(quiz_opts) {
     .click(function() {
       const myNode = document.getElementById("quiz");
       myNode.textContent = '';
+      $('#treeview').show(); 
+      $('#dogrucevap').hide();
+      $('#yanliscevap').hide();
     })
     .appendTo($restart_button);
 

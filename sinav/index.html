@@ -12,7 +12,7 @@ layout: sinav
     </div>
     <div class="containesr-fluid">
       <!-- Treeview-->
-      <div class="just-padding">
+      <div class="just-padding" id="treeview">
         <div class="w-100 list-group list-group-root well">          
           {% for root in site.data.sinavkategori %} <!-- Ana Kategoriler -->
               <a href="#{{ root.id }}" class="list-group-item" data-toggle="collapse">
@@ -72,7 +72,45 @@ layout: sinav
           {% endfor %}      
         </div>
       </div>
-      <div>
+      <div class="text-left" id="eklenti">
+        <div class="row">
+          <div class="col-4">
+            <button type="button float-left" class="btn btn-primary btn-lg">Menüyü Göster</button>
+          </div>            
+        </div>                    
+      </div>
+
+      <div class="text-center" id="dogrucevap" hidden>
+        <div class="row"> 
+          <div class="col-12 w-100">
+            <div class="card border-success mb-12">
+              <div class="card-body text-success">
+                <h3 class="card-title">Doğru cevap!</h3>
+                <p class="card-text" id="correcttext"></p>
+              </div>
+              <div class="card-footer bg-transparent">
+                <a href="#" class="btn btn-primary float-right text-white" id="nextcq">Sıradaki soru</a>
+              </div>
+            </div>
+          </div>
+        </div>              
+      </div>
+      <div class="text-center" id="yanliscevap" hidden>
+        <div class="row"> 
+          <div class="col-12 w-100">
+            <div class="card border-danger mb-12">
+              <div class="card-body text-danger">
+                <h3 class="card-title">Yanlış cevap!</h3>
+                <p class="card-text" id="wrongtext"></p>
+              </div>
+              <div class="card-footer bg-transparent">
+                <a href="#" class="btn btn-primary float-right text-white" id="nextwq">Sıradaki soru</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>              
+      </div>
         <div id="quiz" style ="height: 1200px; display: block"></div>
       </div>  
       

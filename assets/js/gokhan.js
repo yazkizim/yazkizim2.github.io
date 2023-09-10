@@ -1926,4 +1926,15 @@ $(document).ready(function(){
 			}
 	});
 
+	$( "#eklenti" ).click(function() {		
+		$('#treeview').show();
+	});
+
+	$( "#nextwq, #nextcq" ).click(function() {		
+		$('#quiz').carousel('next');
+		$('#dogrucevap').hide();
+        $('#yanliscevap').hide();
+	});
+
+
 });
