@@ -21,13 +21,13 @@ layout: sinav
               </a>
                 {% for sub1 in root.subs %} <!-- 1. Derece Alt Kategoriler Kategoriler -->
                   <div class="list-group collapse" id="{{ root.id }}">
-                    {% assign altkategorivarmi = root.subs.size %}
+                    {% assign altkategorivarmi = sub1.subs.size %}
                     <!-- Eğer ikinci alt kategori varsa -->
                     {% if altkategorivarmi > 0 %}
                     <a href="#{{ sub1.id }}" class="list-group-item" data-toggle="collapse">
                       <i class="glyphicon glyphicon-chevron-right"></i>{{ sub1.adi }}
                     </a>
-                    <div class="list-group collapse" id="{{ root.id }}">
+                    <div class="list-group collapse" id="{{ sub1.id }}">
 
                     </div>
                     {% else %}
