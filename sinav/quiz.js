@@ -217,8 +217,8 @@ function render(quiz_opts) {
           title: "Yanlış",
           text: (
             "Doğru cevap: " +  question.c_ans[0] + "<br/><br/>" +
-            (questions[question_index].aciklama != "empty" ? + ("<div class=\"correct-text\">" +
-            questions[question_index].aciklama +
+            (question.aciklama != "empty" ? + ("<div class=\"correct-text\">" +
+            questions.aciklama +
             "</div>") : "")             
             ),
           type: "error"
