@@ -35,11 +35,13 @@ layout: sinav
                             <i class="glyphicon glyphicon-chevron-right"></i>{{ sub2.adi }}
                           </a>
                           <div class="w-100 list-group collapse" id="{{ sub2.id }}">
-
+                            {% for sub3 in sub2.subs %}
+                              <a href="#" class="list-group-item" id="{{ sub3.id }}">{{ sub3.adi }}</a> 
+                            {% endfor %}
                           </div>
                         {% else %}
                         <!-- Eğer üçüncü alt kategori yoksa  -->
-                          <a href="#" class="list-group-item" id="{{ sub1.id }}">{{ sub1.adi }}</a>                    
+                          <a href="#" class="list-group-item" id="{{ sub2.id }}">{{ sub2.adi }}</a>                    
                         {% endif %} 
                       {% endfor %}
                     </div>
