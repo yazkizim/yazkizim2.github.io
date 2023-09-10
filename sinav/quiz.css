@@ -27,6 +27,7 @@ html, body {
 
 .quiz-results .btn{
   clear: both;
+  text-align: center;
 }
 
 .sweet-alert button {
