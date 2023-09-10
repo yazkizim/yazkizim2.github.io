@@ -216,7 +216,7 @@ function render(quiz_opts) {
           text: (
             "Doğru cevap: \"" + "<br/><br/>" + question.c_ans[0] +
             (question.aciklama != "" ? + ("<div class=\"correct-text\">" +
-            qquestion.aciklama+
+            question.aciklama+
             "</div>") : "")             
             ),
           type: "error"
