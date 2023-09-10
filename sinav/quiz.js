@@ -29,7 +29,7 @@ function render(quiz_opts) {
   var questions = quiz_opts.questions;
   questions = shuffle(questions);
   var siklar = [];
-  
+  var cevaplar = ["A - ", "B - ", "C - ", "D - ", "E - ", "F - ", "G - "];
 
   // keep track of the state of correct
   // answers to the quiz so far
@@ -184,7 +184,7 @@ function render(quiz_opts) {
       var ans_btn = $("<div>")
         .attr('class', 'btn btn-light btn-block text-justify w-100')
         .attr('style', 'white-space:normal;display:inline-flex;margin-bottom: 20px')
-        .html(answer)
+        .html(siklar[answer_index] . answer)
         .appendTo($answers);
 
       // This question is correct if it's
