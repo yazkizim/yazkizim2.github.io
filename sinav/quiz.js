@@ -28,6 +28,7 @@ function render(quiz_opts) {
   // list of questions to insert into quiz
   var questions = quiz_opts.questions;
   questions = shuffle(questions);
+  var siklar = [];
   
 
   // keep track of the state of correct
@@ -88,6 +89,7 @@ function render(quiz_opts) {
 
   $("<button>")
     .attr('class', 'btn btn-primary')
+    .attr('style', 'text-align: center;')
     .text("Sınavı Başlat")
     .click(function() {
       
@@ -150,13 +152,11 @@ function render(quiz_opts) {
       .attr("class", "quiz-answers w-100")
       .appendTo($item);
 
-    // if the question has an image
-    // append a container with the image to the item
 
     //question.answers = shuffle(question.answers);
     // 4 yanlış al 
     question.w_ans = shuffle(question.w_ans);
-    var siklar = [];
+    
     
     $.each(question.w_ans, function(i, ans){
       if (i < 4) {
