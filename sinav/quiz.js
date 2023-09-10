@@ -299,9 +299,8 @@ function render(quiz_opts) {
     .attr('class', 'btn btn-primary')
     .text("Tekrar Başlat")
     .click(function() {
-      $( ".carousel-inner" ).remove();
-      $('#quiz').quiz("test.json");
-      location.reload();
+      const myNode = document.getElementById("quiz");
+      myNode.textContent = '';
     })
     .appendTo($restart_button);
 
