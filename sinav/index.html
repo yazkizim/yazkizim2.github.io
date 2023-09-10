@@ -15,12 +15,11 @@ layout: sinav
       <div class="just-padding">
         <div class="list-group list-group-root well">          
           {% for root in site.data.sinavkategori %} <!-- Ana Kategoriler -->
-
               <a href="#{{ root.id }}" class="list-group-item" data-toggle="collapse">
                 <i class="glyphicon glyphicon-chevron-right"></i>{{ root.adi }}
-              </a>
+              </a>              
+              <div class="list-group collapse" id="{{ root.id }}">
                 {% for sub1 in root.subs %} <!-- 1. Derece Alt Kategoriler Kategoriler -->
-                  <div class="list-group collapse" id="{{ root.id }}">
                     {% assign altkategorivarmi = sub1.subs.size %}
                     <!-- Eğer ikinci alt kategori varsa -->
                     {% if altkategorivarmi > 0 %}
