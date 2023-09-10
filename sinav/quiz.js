@@ -29,7 +29,6 @@ function render(quiz_opts) {
   var questions = quiz_opts.questions;
   questions = shuffle(questions);
   var siklar = [];
-  console.log("1- şıklar şuan boş");
   
 
   // keep track of the state of correct
@@ -163,22 +162,17 @@ function render(quiz_opts) {
     //question.answers = shuffle(question.answers);
     // 4 yanlış al 
     question.w_ans = shuffle(question.w_ans);
-    console.log("eklenebilir tüm cevaplar : " + question.w_ans);
     
     siklar = [];
     $.each(question.w_ans.slice(0,4), function(i, ans){
-      console.log("2- yanlış ekleme deneme : " + i);
       if (i < 4) {
         siklar.push(ans);
-        console.log("3- yanlış ekleme şık : " + ans);
       }
     });
 
     question.c_ans = shuffle(question.c_ans);
     siklar.push(question.c_ans[0]);
     siklar = shuffle(siklar);
-    console.log("4- doğru cevap ekleme : " + question.c_ans[0]);
-    console.log("5- kaç şık eklendi : " + siklar.length);
 
 
     // for each possible answer to the question
