@@ -57,7 +57,9 @@ layout: sinav
                             </div>  
                           {% endif %}
                       {% else %}   
-                          <a href="#" id="{{ sub1.id }}" class="list-group-item">{{ sub1.adi }}</a>     
+                        <div class="list-group collapse" id="{{ sub1.id }}"></div>                   
+                          <a href="#" class="list-group-item" id="{{ subs1.subs[0].id }}">{{ subs1.subs[0].adi }}</a> <!-- 1. Alt Kategori tek  -->
+                        </div>     
                       {% endif %}  
                   {% endfor %}
                 </div>
