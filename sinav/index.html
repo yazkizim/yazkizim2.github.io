@@ -18,11 +18,11 @@ layout: sinav
                 <i class="glyphicon glyphicon-chevron-right"></i>{{ root.adi }}
               </a>
               {% assign boyut = root.subs.size %}
-              {% if boyut > 0 %}
+              {% if boyut > 1 %}
                 <div class="list-group collapse" id="{{ root.id }}" style="height: 0px;" aria-expanded="false">
                   {% for sub1 in root.subs %} <!-- 1. Alt Kategoriler  -->
                     <a href="#{{ sub1.id }}" class="list-group-item" data-toggle="collapse" aria-expanded="true">
-                      <i class="glyphicon glyphicon-chevron-right"></i>{{ root.adi }}
+                      <i class="glyphicon glyphicon-chevron-right"></i>{{ sub1.adi }}
                     </a>
                       {% assign boyut = sub1.subs.size %}
                       {% if boyut > 0 %} 
@@ -35,7 +35,11 @@ layout: sinav
                       {% endif %}
 
                   {% endfor %}
-                </div>                  
+                </div>
+              {% elsif boyut == 1 %} 
+                <div class="list-group collapse" id="{{ root.id }}"></div>                   
+                  <a href="#" class="list-group-item" id="{{ root.subs[0]. }}">{{ root.subs[0].adi }}</a>
+                </div>  
               {% endif %}
           {% endfor %}  
         </div>
