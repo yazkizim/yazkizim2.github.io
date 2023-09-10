@@ -184,7 +184,7 @@ function render(quiz_opts) {
       var ans_btn = $("<div>")
         .attr('class', 'btn btn-light btn-block text-justify w-100')
         .attr('style', 'white-space:normal;display:inline-flex;margin-bottom: 20px')
-        .html(siklar[answer_index] . answer)
+        .html(answer)
         .appendTo($answers);
 
       // This question is correct if it's
