@@ -182,7 +182,7 @@ function render(quiz_opts) {
       // create an answer button div
       // and add to the answer container
       var ans_btn = $("<div>")
-        .attr('class', 'btn btn-light btn-block text-justify w-100')
+        .attr('class', 'btn btn-light btn-block text-justify w-100 border-bottom')
         .attr('style', 'white-space:normal;display:inline-flex;margin-bottom: 20px')
         .html(answer)
         .appendTo($answers);
