@@ -30,11 +30,24 @@ layout: sinav
                           {% if boyut > 0 %}
                             <div class="list-group collapse" id="{{ sub1.id }}" style="height: 0px;" aria-expanded="false">
                               {% for sub2 in sub1.subs %} <!-- 2. Alt Kategoriler  -->
-                                {% assign altboyut = sub2.subs.size %}
+                                {% assign altboyut = sub2.subs.size %}                                
                                 {% if altboyut > 0 %}
-
+                                  <a href="#{{ sub2.id }}" class="list-group-item" data-toggle="collapse" aria-expanded="true">
+                                    <i class="glyphicon glyphicon-chevron-right"></i>{{ sub2.adi }}
+                                  </a>
+                                    {% assign boyut = sub2.subs.size %}
+                                    {% if boyut > 0 %}
+                                      <div class="list-group collapse" id="{{ sub2.id }}" style="height: 0px;" aria-expanded="false">
+                                        {% for sub3 in sub2.subs %} <!-- 3. Alt Kategoriler  -->
+                                          <a href="#" id="{{ sub3.id }}" class="list-group-item">{{ sub3.adi }}</a> <!-- 3. Alt Kategoriler son  -->
+                                        {% endfor %}
+                                    {% elsif boyut == 1 %} 
+                                      <div class="list-group collapse" id="{{ sub2.id }}"></div>                   
+                                        <a href="#" class="list-group-item" id="{{ sub2.subs[0].id }}">{{ sub2.subs[0].adi }}</a> <!-- 3. Alt Kategori tek  -->
+                                      </div>  
+                                    {% endif %}
                                 {% else %}
-
+                                    <a href="#" id="{{ sub2.id }}" class="list-group-item">{{ sub2.adi }}</a> 
                                 {% endif %}
                               {% endfor %}
                             </div> 
