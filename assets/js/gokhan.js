@@ -1909,25 +1909,21 @@ $(document).ready(function(){
 	} 
 
 	$('.list-group-item').on('click', function() {
-
+		var $this = $(this);
+		var $alias = $this.data('alias');
+		listGroupcClick($this, $alias)
 		
 
-		$('.glyphicon', this)
-		  .toggleClass('glyphicon-chevron-right')
-		  .toggleClass('glyphicon-chevron-down');
+		var isDisabled = $this.prop('disabled');
 
-		var $this = $(this);
+		if (!isDisabled) {
+			$('.glyphicon', this)
+				.toggleClass('glyphicon-chevron-right')
+				.toggleClass('glyphicon-chevron-down');		
 
-		var $alias = $this.data('alias');
-
-		$('.list-group-item').removeClass('active');
-		$this.toggleClass('active')
-
-		// Pass clicked link element to another function
-		listGroupcClick($this, $alias)
-		});
-	  
-	
-	
+				$('.list-group-item').removeClass('active');
+				$this.toggleClass('active')
+		}
+	});
 
 });
