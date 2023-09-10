@@ -84,6 +84,11 @@ function render(quiz_opts) {
     .attr('class', 'quiz-title')
     .appendTo($title_slide);
 
+  $('<h3>')
+    .text( "<br>Toplam Soru Sayısı : " + quiz_opts.questions.length)
+    .attr('class', 'text-center')
+    .appendTo($title_slide);
+
   var $start_button = $("<div>")
     .attr("class", "quiz-results")
     .attr("style", "text-align: center;")
