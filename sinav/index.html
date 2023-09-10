@@ -88,6 +88,8 @@ layout: sinav
   document.getElementById("progress-bar").style.display='none';
   function testOlustur(isim) {
     $(function() {
+      const myNode = document.getElementById("quiz");
+      myNode.textContent = '';
       $('#quiz').quiz(isim);
     });
   }
