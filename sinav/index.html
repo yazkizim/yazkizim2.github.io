@@ -14,14 +14,14 @@ layout: sinav
       <div class="just-padding">
         <div class="list-group list-group-root well">          
           {% for root in site.data.sinavkategori %}
-              <a href="{{ root.id }}" class="w-100 list-group-item collapsed" data-toggle="collapse" aria-expanded="false">
+              <a href="#{{ root.id }}" class="w-100 list-group-item collapsed" data-toggle="collapse" aria-expanded="false">
                 <i class="glyphicon glyphicon-chevron-right"></i>{{ root.adi }}
               </a>
               {% assign boyut = root.subs.size %}
               {% if boyut > 0 %}
                 <div class="list-group collapse" id="{{ root.id }}" style="height: 0px;" aria-expanded="false">
                   {% for sub1 in root.subs %}
-                    <a href="{{ sub1.id }}" class="list-group-item" data-toggle="collapse" aria-expanded="true">
+                    <a href="#{{ sub1.id }}" class="list-group-item" data-toggle="collapse" aria-expanded="true">
                       <i class="glyphicon glyphicon-chevron-right"></i>{{ root.adi }}
                     </a>
                       {% if sub1.subs.size > 0 %}
