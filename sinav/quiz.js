@@ -204,24 +204,20 @@ function render(quiz_opts) {
       // set options for correct/incorrect
       // answer dialogue
       if (correct) {
-        $indicators.find('li')
-        .removeClass('dark')
-        .eq(question_index)
-        .attr('style', 'background-color: green;');
+        opts = $.extend(opts, {
+          title: "Doğru",
+          text: "Cevap doğru",
+          type: "success"
+        });
       } else {
         opts = $.extend(opts, {
           title: "Yanlış",
           text: (
-            "Doğru cevap: " +
+            "Doğru cevap: \"" +
             question.c_ans[0]
             ),
-          type: "error"          
+          type: "error"
         });
-        $indicators.find('li')
-        .removeClass('dark')
-        .eq(question_index)
-        .attr('style', 'background-color: red;');
-          
       }
 
       if (last_question) {
