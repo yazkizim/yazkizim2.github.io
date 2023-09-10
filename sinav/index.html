@@ -17,8 +17,8 @@ layout: sinav
               <a href="{{ root.id }}" class="w-100 list-group-item collapsed" data-toggle="collapse" aria-expanded="false">
                 <i class="glyphicon glyphicon-chevron-right"></i>{{ root.adi }}
               </a>
-              <label>sayi : {{root.subs.size}}</label>
-              {% if root.subs.size > 0 %}
+              {% assign boyut = root.subs.size %}
+              {% if boyut > 0 %}
                 <div class="list-group collapse" id="{{ root.id }}" style="height: 0px;" aria-expanded="false">
                   {% for sub1 in root.subs %}
                     <a href="{{ sub1.id }}" class="list-group-item" data-toggle="collapse" aria-expanded="true">
