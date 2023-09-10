@@ -212,12 +212,12 @@ function render(quiz_opts) {
         });
       } else {
         console.log("Açıklama : " + question.aciklama);
-        
+
         opts = $.extend(opts, {
           title: "Yanlış",
           text: (
             "Doğru cevap: " +  question.c_ans[0] + "<br/><br/>" +
-            (question.aciklama != "" ? + ("<div class=\"correct-text\">" +
+            (question.aciklama != null ? + ("<div class=\"correct-text\">" +
             question.aciklama +
             "</div>") : "")             
             ),
