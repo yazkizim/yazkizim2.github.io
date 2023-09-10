@@ -157,7 +157,7 @@ function render(quiz_opts) {
     //question.answers = shuffle(question.answers);
     // 4 yanlış al 
     question.w_ans = shuffle(question.w_ans);
-    
+    console.log("eklenebilir tüm cevaplar : " + question.w_ans);
     
     $.each(question.w_ans, function(i, ans){
       console.log("2- yanlış ekleme deneme : " + i);
