@@ -13,18 +13,19 @@ layout: sinav
     <div class="containesr-fluid">
       <div class="just-padding">
         <div class="list-group list-group-root well">          
-          {% for root in site.data.sinavkategori %}
+          {% for root in site.data.sinavkategori %} <!-- Ana Kategoriler -->
               <a href="#{{ root.id }}" class="w-100 list-group-item collapsed" data-toggle="collapse" aria-expanded="false">
                 <i class="glyphicon glyphicon-chevron-right"></i>{{ root.adi }}
               </a>
               {% assign boyut = root.subs.size %}
               {% if boyut > 0 %}
                 <div class="list-group collapse" id="{{ root.id }}" style="height: 0px;" aria-expanded="false">
-                  {% for sub1 in root.subs %}
+                  {% for sub1 in root.subs %} <!-- 1. Alt Kategoriler  -->
                     <a href="#{{ sub1.id }}" class="list-group-item" data-toggle="collapse" aria-expanded="true">
                       <i class="glyphicon glyphicon-chevron-right"></i>{{ root.adi }}
                     </a>
-                      {% if sub1.subs.size > 0 %}
+                      {% assign boyut = sub1.subs.size %}
+                      {% if boyut > 0 %} 
                         <div class="list-group collapse" id="{{ sub1.id }}">
                           {% for sub2 in sub1.subs %}
                             <a href="#" class="list-group-item" id="{{ sub2.id }}">{{ sub2.adi }}</a>
