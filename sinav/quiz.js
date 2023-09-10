@@ -212,7 +212,10 @@ function render(quiz_opts) {
         opts = $.extend(opts, {
           title: "Yanlış",
           text: (
-            "Doğru cevap: \"" +
+            "Doğru cevap: \"" + "<br/><br/>" +
+            (questions[question_index]['aciklama'] != "" ? + ("<div class=\"correct-text\">" +
+            questions[question_index]['aciklama']+
+            "</div>") : "") +
             question.c_ans[0]
             ),
           type: "error"
