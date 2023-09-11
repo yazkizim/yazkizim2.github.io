@@ -36,7 +36,8 @@ function render(quiz_opts) {
   var state = {
     correct : 0,
     maxQ : 10,
-    total : questions.length
+    total : questions.length,
+    currentQ: 1,
   };
 
   var $quiz = $(this)
@@ -204,6 +205,8 @@ function render(quiz_opts) {
       // using specified sweet alert options
       ans_btn.on('click', function() {
 
+        state.currentQ++;
+
         if (correct) {
           $metin = question.c_ans[0];
           $('#correcttext').html($metin);
@@ -214,31 +217,27 @@ function render(quiz_opts) {
           $metin = question.c_ans[0];
           $('#wrongtext').html($metin);
           $('#dogrucevap').hide();
-          $('#yanliscevap').show();
+          $('#yanliscevap').show();          
         }
 
-        function next() {
-          // if we've reached the final question
-          // set the results text
-          if (last_question) {
-            $results_title.html(resultsText(state));
-            $results_ratio.text(
-              "Toplam " + state.total + " sorunun " + state.correct +
-              " adetine doğru cevap verdiniz."
-            );          
-            $indicators.removeClass('show');
-            // indicate the question number
-            $indicators.find('li')
-              .removeClass('dark')
-              .eq(0)
-              .addClass('dark');
-          } else {
-            // indicate the question number
-            $indicators.find('li')
-              .removeClass('dark')
-              .eq(question_index+1)
-              .addClass('dark');
-          }
+        if (last_question) {
+          $results_title.html(resultsText(state));
+          $results_ratio.text(
+            "Toplam " + state.total + " sorunun " + state.correct +
+            " adetine doğru cevap verdiniz."
+          );          
+          $indicators.removeClass('show');
+          // indicate the question number
+          $indicators.find('li')
+            .removeClass('dark')
+            .eq(0)
+            .addClass('dark');
+        } else {
+          // indicate the question number
+          $indicators.find('li')
+            .removeClass('dark')
+            .eq(question_index+1)
+            .addClass('dark');
         }
 
       });
