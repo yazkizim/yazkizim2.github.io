@@ -190,6 +190,7 @@ function render(quiz_opts) {
       var ans_btn = $("<div>")
         .attr('class', 'btn btn-light btn-block text-justify w-100 border-bottom')
         .attr('style', 'white-space:normal;display:inline-flex;margin-bottom: 20px')
+        .attr('id', answer_index)
         .html(answer)
         .appendTo($answers);
 
@@ -203,6 +204,7 @@ function render(quiz_opts) {
       ans_btn.on('click', function() {
 
         state.currentQ++;
+
 
         if (correct) {
           $metin = question.c_ans[0];
