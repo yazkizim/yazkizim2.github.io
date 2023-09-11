@@ -801,6 +801,11 @@ function scrollToBottom()
 		window.scroll(0 , height);
 	}
 
+function scrollToTop()
+{
+	window.scroll(0 , 0);
+}
+
 function paginate(array, page_size, page_number) {
 	//return array.slice((page_number - 1) * page_size, page_number * page_size);
 	var sliced = array.slice((page_number - 1) * page_size, page_number * page_size);	

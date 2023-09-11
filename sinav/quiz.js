@@ -215,12 +215,15 @@ function render(quiz_opts) {
           $('#dogrucevap').show();
           $('#yanliscevap').hide();
           state.correct++
+          
         } else {
           $metin = question.c_ans[0];
           $('#wrongtext').html($metin);
           $('#dogrucevap').hide();
           $('#yanliscevap').show();          
         }
+
+        window.scroll(0 , 0);
 
         if (last_question) {
           $results_title.html(resultsText(state));
