@@ -3,7 +3,7 @@ layout: post
 title:  "Adalet Bakanlığı Mülakat Soruları Yapay Zeka Destekli Testi"
 summary: ""
 author: gokhantasci
-date: '2023-11-09 09:11:32 +0530'
+date: '2023-09-11 09:11:32 +0530'
 category: Sınav
 thumbnail: /assets/img/posts/mulakat.jpg
 keywords: Adalet Bakanlığı, Çıkmış Komisyon Mülakat Soruları, Katiplik Mülakat Soruları, Mübaşir Mülakat Soruları, Yazı İşleri Müdürü mülakat soruları

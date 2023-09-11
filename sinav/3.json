@@ -3784,6 +3784,134 @@
         "c_ans": ["Madrid"],
         "w_ans": ["Barselona", "Valensiya", "Sevilla"],
         "aciklama": "İspanya'nın başkenti Madrid'dir."
+      },
+      {
+        "questiontext": "MOSKOVA İLE DOSTLUK ANTLAŞMASI HAKKINDA BİLGİ VERİNİZ",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["- Moskova Antlaşması, Rusya Sovyet Federatif Sosyalist Cumhuriyeti ile Türkiye Büyük Millet Meclisi Hükûmeti arasında 16 Mart 1921'de imzalanan antlaşmadır. Bu antlaşma ve devamı niteliğindeki antlaşmalarla belirlenmiş olan sınırlar günümüzde Türkiye, Gürcistan, Ermenistan ve Azerbaycan arasında hâlen geçerlidir."],
+        "w_ans": ["- Moskova Antlaşması, Türkiye ile Sovyetler Birliği arasında imzalanan bir ticaret anlaşmasıdır."],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "ÖLÜ OZANLAR DERNEĞİNİN YAZARI KİMDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["- N. H. Kleinbaum"],
+        "w_ans": ["- Ölü Ozanlar Derneği'nin yazarı J.K. Rowling'dir."],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "HATAY NE ZAMAN ANAVATANA KATILMIŞTIR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["- Hatay Millet Meclisi, 29 Haziran 1939 günü yaptığı toplantıda oy birliği ile Anavatan'a katılma kararını almış ve 23 Temmuz 1939 günü Hatay Türkiye'ye katılmıştır."],
+        "w_ans": ["- Hatay, Türkiye'ye 1950 yılında katılmıştır."],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "I. VİYANA KUŞATMASI HAKKINDA BİLGİ VERİNİZ",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["-I. Viyana Kuşatması, 27 Eylül-16 Ekim 1529 tarihlerinde Avusturya Arşidüklüğü'nün başkenti Viyana'nın I. Süleyman komutasındaki Osmanlı ordusu tarafından kuşatılmasıdır. Başarısız olan kuşatma sonucunda kale alınamamış ve Osmanlı ordusu İstanbul'a geri dönmüştür."],
+        "w_ans": ["- I. Viyana Kuşatması, Osmanlı İmparatorluğu'nun Viyana'yı ele geçirdiği bir zaferle sonuçlanmıştır."],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "II. VİYANA KUŞATMASI HAKKINDA BİLGİ VERİNİZ",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["-II. Viyana Kuşatması ya da Viyana Bozgunu, 1683 yılında IV. Mehmet devrinde Osmanlı İmparatorluğu'nun Viyana'yı kuşatması ile gerçekleşen bir duraklama dönemi savaşıdır. 17. yüzyılda Osmanlı İmparatorluğu ile Avusturya Arşidüklüğü arasında yapılan savaşların en uzun süreni bu kuşatma ile başladı."],
+        "w_ans": ["- II. Viyana Kuşatması, Osmanlı İmparatorluğu'nun Viyana'yı başarıyla ele geçirdiği bir kuşatmadır."],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "OLAĞANÜSTÜ ZİLYETLİKTE ZAMAN AŞIMI?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["- Olağanüstü zamanaşımı başlıklı bu madde, belirli şartlar ve koşullar altında bir taşınmazı 20 yıl veya daha uzun süre kesintisiz olarak malik sıfatıyla zilyetliğinde bulunduran kişinin söz konusu taşınmazın mülkiyet hakkını alabilmesini sağlamaktadır."],
+        "w_ans": ["- Olağanüstü zilyetlikte zaman aşımı, bir taşınmazı sadece 5 yıl süreyle zilyetlikte bulunduran kişinin mülkiyet hakkını alabilmesini sağlar."],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "I.DÜNYA SAVAŞINDA SAVAŞTIĞIMIZ CEPHELER HANGİLERİDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["- Kafkasya Cephesi, Kanal Cephesi, Çanakkale Cephesi, Balkan Cephesi, Irak Cephesi, Galiçya Cephesi"],
+        "w_ans": ["- I. Dünya Savaşı'nda sadece Çanakkale Cephesi'nde savaştık."],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "GREV VE LOKAVT KİMİN HAKKIDIR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Toplu iş sözleşmesinin yapılması sırasında işçilerin hakkıdır."],
+        "w_ans": ["İşverenlerin hakkıdır.", "Hükümetin hakkıdır.", "Sivil toplum kuruluşlarının hakkıdır."],
+        "aciklama": "Grev işçilerin toplu iş sözleşmesi sırasında kullanabileceği bir haktır."
+      },
+      {
+        "questiontext": "MEKKE NE ZAMAN FETHEDİLMİŞTİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["11 Ocak 630"],
+        "w_ans": ["5 Mayıs 732", "20 Temmuz 1299", "2 Eylül 1945"],
+        "aciklama": "Mekke'nin İslam ordusu tarafından fethedildiği tarih."
+      },
+      {
+        "questiontext": "AB ÜLKELERİNDEN OLUP DA AB PARA BİRİMİNİ KULLANMAYAN ÜLKELER?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Danimarka"],
+        "w_ans": ["Fransa", "Almanya", "İtalya"],
+        "aciklama": "Danimarka AB üyesi olmasına rağmen Euro'yu kullanmayan bir ülkedir."
+      },
+      {
+        "questiontext": "YABANCI VATANDAŞLARA E TEBLİGAT ADRESİ VERİLİR Mİ?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Yabancılar için yabancı kimlik numarası, Mavi Kart numarası, pasaport veya güvenli elektronik imza ile tebligat adresi alabilir."],
+        "w_ans": ["Verilmez.", "Sadece telefon numarası verilir.", "Sadece e-posta adresi verilir."],
+        "aciklama": "Yabancı vatandaşlar için tebligat adresi alma yöntemleri."
+      },
+      {
+        "questiontext": "HUKUK NE DEMEKTİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Hukuk, birey-toplum-devlet ilişkilerinde ortak iyilik ve menfaati gözetir ve bu ilişkileri düzenleyen kurallar bütünüdür."],
+        "w_ans": ["Hukuk, yalnızca devletin ilişkilerini düzenler.", "Hukuk, sadece bireylerin davranışlarını düzenler.", "Hukuk, toplumun refahını dikkate almaz."],
+        "aciklama": "Hukukun tanımı ve amacı."
+      },
+      {
+        "questiontext": "ŞAİR EVLENMESİ KİMİN ESERİDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["İbrahim Şinasi"],
+        "w_ans": ["Mehmet Akif Ersoy", "Cemal Süreya", "Can Yücel"],
+        "aciklama": "Türk şair İbrahim Şinasi'nin ünlü eseri."
+      },
+      {
+        "questiontext": "SURİYE’NİN BAŞKENTİ NERESİDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Şam"],
+        "w_ans": ["Halep", "Lazkiye", "Humus"],
+        "aciklama": "Suriye'nin başkenti."
+      },
+      {
+        "questiontext": "YEMİNSİZ OLARAK DİNLENECEK TANIKLAR KİMLERDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Onbeş yaşını bitirmemiş olanlar.", "Ayırt etme gücüne sahip olmamaları nedeniyle yeminin niteliği ve önemini kavrayamayanlar."],
+        "w_ans": ["Yemin edenler.", "Avukatlar.", "Hakimler."],
+        "aciklama": "Yargı sürecinde yeminsiz olarak dinlenebilecek tanık grupları."
+      },
+      {
+        "questiontext": "HAKKINDA ARAMA EL KOYMA YAPILAN KİŞİNİN BELGELERİNİ İNCELEMEYE YETKİLİ OLANLAR KİMLERDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Cumhuriyet savcısı ve hâkime aittir"],
+        "w_ans": ["Polis memurları", "Belediye çalışanları", "Özel dedektifler"],
+        "aciklama": "Arama ve el koyma işlemlerinde belgeleri inceleme yetkisi olan kişiler."
       }
   ]
   
