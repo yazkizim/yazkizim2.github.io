@@ -204,8 +204,8 @@ function render(quiz_opts) {
       // using specified sweet alert options
       ans_btn.on('click', function() {
 
-       
-        $("'#" + state.currentQ + "'").find("*").addClass("disabled");
+        toDisable = "'#" + state.currentQ + "'";
+        $(toDisable).find("*").addClass("disabled");
         state.currentQ++;
 
 
