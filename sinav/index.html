@@ -41,7 +41,7 @@ layout: sinav
                           <div class="w-100 list-group collapse" id="{{ sub2.id }}">
                             {% for sub3 in sub2.subs %}
                               {% if sub3.disabled == true %}
-                              <button href="#" class="list-group-item w-100 text-left disabled" id="{{ sub3.id }}">{{ sub3.adi }}</button> 
+                              <button href="#" class="list-group-item w-100 text-left disabled" id="{{ sub3.id }}" disabled>{{ sub3.adi }}</button> 
                               {% else %} 
                               <button href="#" class="list-group-item w-100 text-left text-primary" id="{{ sub3.id }}" onclick="return testOlustur('{{ sub3.id }}.json');">{{ sub3.adi }}
                                 <span class="badge badge bg-success badge-pill">*</span>
@@ -52,7 +52,7 @@ layout: sinav
                         {% else %}
                         <!-- Eğer üçüncü alt kategori yoksa  -->
                           {% if sub2.disabled == true %}
-                          <button href="#" class="list-group-item w-100 text-left disabled" id="{{ sub2.id }}">{{ sub2.adi }}</button> 
+                          <button href="#" class="list-group-item w-100 text-left disabled" id="{{ sub2.id }}" disabled>{{ sub2.adi }}</button> 
                           {% else %} 
                           <button href="#" class="list-group-item w-100 text-left text-primary" id="{{ sub2.id }}" onclick="return testOlustur('{{ sub2.id }}.json');">{{ sub2.adi }}
                             <span class="badge badge bg-success badge-pill">*</span>
@@ -64,7 +64,7 @@ layout: sinav
                     {% else %}
                     <!-- Eğer ikinci alt kategori yoksa  -->
                       {% if sub1.disabled == true %}
-                      <button href="#" class="list-group-item w-100 text-left disabled" id="{{ sub1.id }}">{{ sub1.adi }}</button> 
+                      <button href="#" class="list-group-item w-100 text-left disabled" id="{{ sub1.id }}" disabled>{{ sub1.adi }}</button> 
                       {% else %} 
                       <button href="#" class="list-group-item w-100 text-left text-primary" id="{{ sub1.id }}" onclick="return testOlustur('{{ sub1.id }}.json');">{{ sub1.adi }}
                         <span class="badge badge bg-success badge-pill">3 Soru</span>
