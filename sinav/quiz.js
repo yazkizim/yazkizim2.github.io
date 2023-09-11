@@ -90,7 +90,7 @@ function render(quiz_opts) {
     .appendTo($title_slide);
 
   $('<h3>')
-    .text( "Toplam " + quiz_opts.questions.length + " sorudan rastgele " + state.maxQ + " sorudan oluşacak test getirilecektir.")
+    .text( "Toplam " + quiz_opts.questions.length + " sorudan rastgele seçilecek " + state.maxQ + " sorudan oluşacak test getirilecektir.")
     .attr('class', 'text-center')
     .appendTo($title_slide);
 
