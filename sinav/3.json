@@ -4066,6 +4066,698 @@
           "Bir yıldızın ismi"
         ],
         "aciklama": ""
+      },
+      {
+        "questiontext": "Dünyanın en yüksek dağı nedir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Everest"],
+        "w_ans": ["K2", "Annapurna", "Denali"],
+        "aciklama": "Dünyanın en yüksek dağı hakkında bir soru."
+      },
+      {
+        "questiontext": "İnsan vücudundaki en büyük organ nedir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Cilt"],
+        "w_ans": ["Kalp", "Akciğer", "Beyin"],
+        "aciklama": "İnsan vücudundaki en büyük organı bulun."
+      },
+      {
+        "questiontext": "Hangi gezegen Güneş Sistemi'ndeki en büyük gezegendir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Jüpiter"],
+        "w_ans": ["Mars", "Satürn", "Dünya"],
+        "aciklama": "Güneş Sistemi'ndeki en büyük gezegeni belirtin."
+      },
+      {
+        "questiontext": "Hangi ülke, dünyanın en büyük ülke yüzölçümüne sahiptir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Rusya"],
+        "w_ans": ["Kanada", "Çin", "Amerika Birleşik Devletleri", "Brezilya", "Avustralya"],
+        "aciklama": "Rusya, dünyanın en büyük ülke yüzölçümüne sahip olan ülkesidir."
+      },
+      {
+        "questiontext": "Hangi tarih, Türkiye'de 'Çocuk Bayramı' olarak kutlanır?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["23 Nisan"],
+        "w_ans": ["19 Mayıs", "29 Ekim", "30 Ağustos", "1 Mayıs", "15 Temmuz"],
+        "aciklama": "23 Nisan, Türkiye'de 'Ulusal Egemenlik ve Çocuk Bayramı' olarak kutlanır."
+      },
+      {
+        "questiontext": "Türkiye'nin en kalabalık şehri hangisidir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["İstanbul"],
+        "w_ans": ["Ankara", "İzmir", "Bursa", "Antalya", "Adana"],
+        "aciklama": "Türkiye'nin en kalabalık şehri İstanbul'dur."
+      },
+      {
+        "questiontext": "Hangi gezegen Güneş'e en uzak olanıdır?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Neptün"],
+        "w_ans": ["Merkür", "Venüs", "Dünya", "Mars", "Jüpiter"],
+        "aciklama": "Neptün, Güneş'e en uzak olan gezegendir."
+      },
+      {
+        "questiontext": "Kimyasal sembolü 'Fe' olan element nedir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Demir"],
+        "w_ans": ["Bakır", "Alüminyum", "Çinko", "Karbon", "Oksijen"],
+        "aciklama": "Kimyasal sembolü 'Fe' olan element demirdir."
+      },
+      {
+        "questiontext": "Hangi renkler Türk bayrağında bulunur?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Kırmızı", "Beyaz"],
+        "w_ans": ["Mavi", "Sarı", "Yeşil", "Turuncu", "Pembe"],
+        "aciklama": "Türk bayrağında kırmızı ve beyaz renkler bulunur."
+      },
+      {
+        "questiontext": "Dünya'nın en büyük okyanusu hangisidir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Pasifik Okyanusu"],
+        "w_ans": ["Atlantik Okyanusu", "Hint Okyanusu", "Arktik Okyanusu", "Antarktik Okyanusu", "Karayip Denizi"],
+        "aciklama": "Dünya'nın en büyük okyanusu Pasifik Okyanusu'dur."
+      },
+      {
+        "questiontext": "Hangi gezegen üzerinde 'Halka' adı verilen bir özellik bulunur?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Satürn"],
+        "w_ans": ["Jüpiter", "Mars", "Venüs", "Uranüs", "Neptün"],
+        "aciklama": "Satürn, üzerinde güzel ve belirgin bir halka sistemi bulunan gezegendir."
+      },
+      {
+        "questiontext": "Hangi yıl Türkiye Cumhuriyeti resmi olarak kurulmuştur?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["1923"],
+        "w_ans": ["1919", "1920", "1921", "1922", "1924"],
+        "aciklama": "Türkiye Cumhuriyeti, 29 Ekim 1923'te resmi olarak kurulmuştur."
+      },
+      {
+        "questiontext": "Hangi yıl İstanbul Boğaz Köprüsü (15 Temmuz Şehitler Köprüsü) hizmete açılmıştır?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["1973"],
+        "w_ans": ["1983", "1963", "1993", "2003", "1953"],
+        "aciklama": "İstanbul Boğaz Köprüsü, 15 Temmuz 1973'te hizmete açılmıştır."
+      },
+      {
+        "questiontext": "Hangi gezegen üzerinde yer çekimi Dünya'nın yaklaşık olarak yarısı kadardır?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Venüs"],
+        "w_ans": ["Mars", "Jüpiter", "Satürn", "Neptün", "Plüton"],
+        "aciklama": "Venüs, yer çekimi açısından Dünya'nın yaklaşık olarak yarısı kadardır."
+      },
+      {
+        "questiontext": "Hangi ülkenin ulusal futbol takımının lakabı 'Samba Boys'tur?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Brezilya"],
+        "w_ans": ["Arjantin", "Almanya", "Fransa", "İtalya", "İspanya"],
+        "aciklama": "Brezilya ulusal futbol takımının lakabı 'Samba Boys' veya 'Seleção'dur."
+      },
+      {
+        "questiontext": "Hangi gezegen üzerinde devasa bir fırtına olan Büyük Kırmızı Leke bulunur?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Jüpiter"],
+        "w_ans": ["Mars", "Venüs", "Satürn", "Uranüs", "Neptün"],
+        "aciklama": "Büyük Kırmızı Leke, Jüpiter gezegeninin atmosferinde devasa bir fırtına alanıdır."
+      },
+      {
+        "questiontext": "Hangi yıl Türk Telekomünikasyon A.Ş. kurulmuştur?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["1995"],
+        "w_ans": ["1985", "1975", "2005", "1990", "2000"],
+        "aciklama": "Türk Telekomünikasyon A.Ş., 1995 yılında kurulmuştur."
+      },
+      {
+        "questiontext": "Hangi gezegen, 'Akşam Yıldızı' veya 'Sabah Yıldızı' olarak da bilinir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Venüs"],
+        "w_ans": ["Merkür", "Mars", "Jüpiter", "Satürn", "Uranüs"],
+        "aciklama": "Venüs, bazen 'Akşam Yıldızı' olarak batarken, bazen de 'Sabah Yıldızı' olarak doğarken görülebilir."
+      },
+      {
+        "questiontext": "Hangi yıl Albert Einstein, ünlü E=mc² denklemiyle özdeşleşen makalesini yayınlamıştır?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["1905"],
+        "w_ans": ["1915", "1925", "1895", "1935", "1945"],
+        "aciklama": "Albert Einstein, özdeşleşen E=mc² denklemiyle ünlü makalesini 1905 yılında yayınlamıştır."
+      },
+      {
+        "questiontext": "Türkiye'nin başkenti neresidir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Ankara"],
+        "w_ans": ["İstanbul", "İzmir", "Adana"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Hangi gezegen, Güneş Sistemi'ndeki en büyük gezegendir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Jüpiter"],
+        "w_ans": ["Mars", "Venüs", "Satürn"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Ay'ın diğer adı nedir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Ay"],
+        "w_ans": ["Güneş", "Yıldız", "Dünya"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Hangi yıl Türk Dil Kurumu (TDK) kurulmuştur?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["1932"],
+        "w_ans": ["1923", "1945", "1958"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Kimyasal sembolü 'H2O' olan madde nedir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Su"],
+        "w_ans": ["Hidrojen", "Oksijen", "Karbondioksit"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Dünya'nın en büyük okyanusu hangisidir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Pasifik Okyanusu"],
+        "w_ans": ["Atlas Okyanusu", "Hint Okyanusu", "Arktik Okyanusu"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Hangi yıl İstanbul'da ilk kez Boğaziçi Köprüsü'nün temeli atılmıştır?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["1970"],
+        "w_ans": ["1965", "1985", "1990"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Kim tarafından Mona Lisa tablosu resmedilmiştir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Leonardo da Vinci"],
+        "w_ans": ["Pablo Picasso", "Michelangelo", "Vincent van Gogh"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Hangi gezegen üzerinde yaşamın varlığına dair kanıt bulunmuştur?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Dünya"],
+        "w_ans": ["Mars", "Venüs", "Jüpiter"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Üzeyir Garih, hangi alanda tanınmış bir Türk şahsiyetidir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["İş Dünyası"],
+        "w_ans": ["Müzik", "Spor", "Sinema"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Bir futbol maçında kaç oyuncu sahada bulunur?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["22"],
+        "w_ans": ["11", "15", "18"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Hangi gezegen Güneş Sistemi'ndeki en hızlı dönme hızına sahiptir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Jüpiter"],
+        "w_ans": ["Mars", "Dünya", "Satürn"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Kim tarafından 'Nutuk' adlı eser yazılmıştır?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Mustafa Kemal Atatürk"],
+        "w_ans": ["Mevlana", "Nazım Hikmet", "Cemal Süreya"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Hangi element periyodik cetvelde 'H' sembolü ile gösterilir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Hidrojen"],
+        "w_ans": ["Oksijen", "Azot", "Karbon"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Kız Kulesi hangi şehirde bulunmaktadır?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["İstanbul"],
+        "w_ans": ["İzmir", "Antalya", "Bursa"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Hangi yıl Türkiye Cumhuriyeti resmen kurulmuştur?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["1923"],
+        "w_ans": ["1919", "1920", "1921"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Hangi gezegen Güneş Sistemi'ndeki en büyük dördüncü gezegendir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Mars"],
+        "w_ans": ["Venüs", "Dünya", "Jüpiter"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Üçgenin toplam iç açıları kaç derecedir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["180"],
+        "w_ans": ["90", "120", "360"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Hangi yazar 'İstanbul Hatırası' adlı eseri yazmıştır?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Ahmet Ümit"],
+        "w_ans": ["Orhan Pamuk", "Elif Şafak", "Yaşar Kemal"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Dünyanın en uzun nehrinin adı nedir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Nil Nehri"],
+        "w_ans": ["Amazon Nehri", "Mississippi Nehri", "Yangtze Nehri"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Hangi gezegen, Güneş Sistemi'ndeki en büyük beşinci gezegendir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Satürn"],
+        "w_ans": ["Mars", "Dünya", "Jüpiter"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Ünlü Mona Lisa tablosunun sergilendiği müze nerede bulunur?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Louvre Müzesi, Paris"],
+        "w_ans": ["Vatikan Müzeleri, Roma", "Metropolitan Sanat Müzesi, New York", "British Museum, Londra"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Hangi yazar 'Suç ve Ceza' adlı romanı yazmıştır?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Fyodor Dostoyevski"],
+        "w_ans": ["Leo Tolstoy", "Franz Kafka", "George Orwell"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Mona Lisa tablosunda yer alan kadının adı nedir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Lisa Gherardini"],
+        "w_ans": ["Maria Callas", "Cleopatra", "Eleanor of Aquitaine"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Hangi ülkenin başkenti Bangkok'tur?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Tayland"],
+        "w_ans": ["Vietnam", "Kamboçya", "Laos"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Ünlü fizikçi Albert Einstein hangi ülkenin vatandaşıdır?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Almanya"],
+        "w_ans": ["İsviçre", "Avusturya", "Amerika Birleşik Devletleri"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Hangi gezegen Güneş Sistemi'ndeki en büyük altıncı gezegendir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Neptün"],
+        "w_ans": ["Uranüs", "Pluto", "Satürn"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Türkiye'nin en yüksek dağı nedir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Ağrı Dağı"],
+        "w_ans": ["Toros Dağları", "Kaçkar Dağı", "Süphan Dağı"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Hangi yıl Leonardo da Vinci'nin 'Son Akşam Yemeği' tablosu tamamlanmıştır?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["1498"],
+        "w_ans": ["1510", "1525", "1505"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Bir insanın kaç adet kalbi vardır?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["1"],
+        "w_ans": ["2", "3", "4"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Dünya'nın en büyük kıtası hangisidir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Asya"],
+        "w_ans": ["Avrupa", "Afrika", "Amerika"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Hangi gezegen Güneş Sistemi'ndeki en büyük yedinci gezegendir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Uranüs"],
+        "w_ans": ["Mars", "Dünya", "Jüpiter"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Hangi yıl Amerika Birleşik Devletleri'nin bağımsızlığı ilan edilmiştir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["1776"],
+        "w_ans": ["1789", "1799", "1805"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Hangi yıl Fransız Devrimi başlamıştır?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["1789"],
+        "w_ans": ["1799", "1805", "1776"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Hangi yazar '1984' adlı romanı yazmıştır?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["George Orwell"],
+        "w_ans": ["Aldous Huxley", "Ray Bradbury", "Isaac Asimov"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Hangi element periyodik cetvelde 'Fe' sembolü ile gösterilir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Demir"],
+        "w_ans": ["Bakır", "Çinko", "Altın"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Antik Roma İmparatorluğu'nun ilk imparatoru kimdir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Augustus"],
+        "w_ans": ["Julius Caesar", "Nero", "Caligula"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Hangi şehir, ABD'nin Nevada eyaletinde bulunan kumarhaneleri ile ünlüdür?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Las Vegas"],
+        "w_ans": ["New York", "Chicago", "Los Angeles"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Hangi yazar 'Suç ve Ceza' adlı romanı yazmıştır?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Fyodor Dostoyevski"],
+        "w_ans": ["Leo Tolstoy", "Franz Kafka", "George Orwell"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Mona Lisa tablosunda yer alan kadının adı nedir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Lisa Gherardini"],
+        "w_ans": ["Maria Callas", "Cleopatra", "Eleanor of Aquitaine"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Hangi ülkenin başkenti Bangkok'tur?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Tayland"],
+        "w_ans": ["Vietnam", "Kamboçya", "Laos"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Ünlü fizikçi Albert Einstein hangi ülkenin vatandaşıdır?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Almanya"],
+        "w_ans": ["İsviçre", "Avusturya", "Amerika Birleşik Devletleri"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Hangi gezegen Güneş Sistemi'ndeki en büyük altıncı gezegendir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Neptün"],
+        "w_ans": ["Uranüs", "Pluto", "Satürn"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Türkiye'nin en yüksek dağı nedir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Ağrı Dağı"],
+        "w_ans": ["Toros Dağları", "Kaçkar Dağı", "Süphan Dağı"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Hangi yıl Leonardo da Vinci'nin 'Son Akşam Yemeği' tablosu tamamlanmıştır?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["1498"],
+        "w_ans": ["1510", "1525", "1505"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Bir insanın kaç adet kalbi vardır?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["1"],
+        "w_ans": ["2", "3", "4"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Dünya'nın en büyük kıtası hangisidir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Asya"],
+        "w_ans": ["Avrupa", "Afrika", "Amerika"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Hangi gezegen Güneş Sistemi'ndeki en büyük yedinci gezegendir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Uranüs"],
+        "w_ans": ["Mars", "Dünya", "Jüpiter"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Hangi yıl Amerika Birleşik Devletleri'nin bağımsızlığı ilan edilmiştir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["1776"],
+        "w_ans": ["1789", "1799", "1805"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Hangi yıl Fransız Devrimi başlamıştır?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["1789"],
+        "w_ans": ["1799", "1805", "1776"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Hangi yazar '1984' adlı romanı yazmıştır?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["George Orwell"],
+        "w_ans": ["Aldous Huxley", "Ray Bradbury", "Isaac Asimov"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Hangi element periyodik cetvelde 'Fe' sembolü ile gösterilir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Demir"],
+        "w_ans": ["Bakır", "Çinko", "Altın"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Antik Roma İmparatorluğu'nun ilk imparatoru kimdir?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Augustus"],
+        "w_ans": ["Julius Caesar", "Nero", "Caligula"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "Hangi şehir, ABD'nin Nevada eyaletinde bulunan kumarhaneleri ile ünlüdür?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Las Vegas"],
+        "w_ans": ["New York", "Chicago", "Los Angeles"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "ALTERNATİF UYUŞMAZLIKLARA VEKALETNAMEDE ÖZEL BİR YETKİ GEREKLİ MİDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": [
+          "Hukuk Muhakemeleri Kanunun 74. maddesinde, \"Açıkça yetki verilmemiş ise vekil; sulh olamaz, hâkimi reddedemez, davanın tamamını ıslah edemez, yemin teklif edemez, yemini kabul, iade veya reddedemez, başkasını tevkil edemez, haczi kaldıramaz, müvekkilinin iflasını isteyemez, tahkim ve hakem sözleşmesi yapamaz, konkordato veya sermaye şirketleri ve kooperatiflerin uzlaşma yoluyla yeniden yapılandırılması teklifinde bulunamaz ve bunlara muvafakat veremez, alternatif uyuşmazlık çözüm yollarına başvuramaz, davadan veya kanun yollarından feragat edemez, karşı tarafı ibra ve davasını kabul edemez, yargılamanın iadesi yoluna gidemez, hâkimlerin fiilleri sebebiyle Devlet aleyhine tazminat davası açamaz, hangileri hakkında yetki verildiği açıklanmadıkça kişiye sıkı sıkıya bağlı haklarla ilgili davaları açamaz ve takip edemez.\"",
+        ],
+        "w_ans": [
+          "Alternatif çözüm yollarına başvurabilir.",
+          "Vekil, sulh yapabilir.",
+          "Dava şartı arabuluculuk kapsamında arabuluculuk bürosuna başvuruda bulunabilir.",
+          "Vekil, yemin teklif edebilir."
+        ],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "GÖREVDEN UZAKLAŞTIRILAN MEMUR MAAŞININ NE KADARINI ALIR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": [
+          "Görevden uzaklaştırılan ve görevi ile ilgili olsun veya olmasın herhangi bir suçtan tutuklanan veya gözaltına alınan memurlara bu süre içinde aylıklarının üçte ikisi ödenir. Bu gibiler bu Kanunun öngördüğü sosyal hak ve yardımlardan faydalanmaya devam ederler.",
+          "Görevden uzaklaştırılan memur maaşının tamamını alır.",
+          "Görevden uzaklaştırılan memur maaş alamaz.",
+          "Görevden uzaklaştırılan memur aylıklarının yarısını alır."
+        ],
+        "w_ans": [
+          "Görevden uzaklaştırılan memur maaş alamaz.",
+          "Görevden uzaklaştırılan memur maaşının tamamını alır.",
+          "Görevden uzaklaştırılan memur aylıklarının yarısını alır.",
+          "Görevden uzaklaştırılan memur aylıklarının dörtte üçünü alır."
+        ],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "ROMANYANIN BAŞKENTİ NERESİDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": [
+          "Bükreş"
+        ],
+        "w_ans": [
+          "Atina",
+          "Budapeşte",
+          "Prag",
+          "Sofya"
+        ],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "SUYUN KALDIRMA KUVVETİNİ KİM BULMUŞTUR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": [
+          "Arşimet (Antik Yunanca: Ἀρχιμήδης (y. MÖ 287, Siracusa - y. MÖ 212 Siracusa), Antik Yunan matematikçi, fizikçi, astronom, filozof ve mühendis."
+        ],
+        "w_ans": [
+          "Eratosthenes",
+          "Ptolemy",
+          "Euclid",
+          "Pythagoras"
+        ],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "OSMANLI DEVLETİ HANGİ SAVAŞ SONRASI FETRET DÖNEMİNE GİRMİŞTİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": [
+          "Yıldırım Bayezid'in 1402'deki Ankara Savaşı'nda, Timur İmparatorluğu'nun kurucusu Timur'a yenilip esir düşmesi sonucu ortaya çıktı. Fetret Devri'nde birbirleriyle taht mücadelesine giren Yıldırım Bayezid'in oğulları Emir Süleyman, İsa Çelebi, Musa Çelebi ve Çelebi Mehmed'dir."
+        ],
+        "w_ans": [
+          "Gelibolu Savaşı",
+          "Preveze Deniz Muharebesi",
+          "Malta Kuşatması",
+          "Mohaç Meydan Muharebesi"
+        ],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "HABABAM SINIFININ YAZARI KİMDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": [
+          "Rıfat Ilgaz"
+        ],
+        "w_ans": [
+          "Orhan Pamuk",
+          "Yaşar Kemal",
+          "Aziz Nesin",
+          "Cemal Süreya"
+        ],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "TAPU SİCİLİNDEKİ KAYITLAR NELERDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": [
+          "Asli ve Feri Siciller"
+        ],
+        "w_ans": [
+          "İmar Sicili",
+          "Nüfus Sicili",
+          "Evlilik Sicili",
+          "Eşya Sicili"
+        ],
+        "aciklama": ""
       }
   ]
   
