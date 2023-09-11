@@ -94,6 +94,13 @@ function render(quiz_opts) {
     .attr('class', 'text-center')
     .appendTo($title_slide);
 
+    $('<div class="alert alert-info" role="alert">')
+    .text( quiz_opts.aciklama + " </div>")
+    .attr('class', 'text-center')
+    .appendTo($title_slide);
+    
+  
+
   var $start_button = $("<div>")
     .attr("class", "quiz-results")
     .attr("style", "text-align: center;")

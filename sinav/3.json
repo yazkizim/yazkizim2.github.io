@@ -5717,8 +5717,3241 @@
 			"c_ans": ["Tuz Gölü"],
 			"w_ans": ["Van Gölü", "Beyşehir Gölü"],
 			"aciklama": ""
-		}
+		},
+    {
+      "questiontext": "Türkiye'nin başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Ankara"],
+      "w_ans": ["İstanbul", "İzmir", "Bursa", "Antalya", "Adana", "Trabzon"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Dünyanın en uzun nehrinin adı nedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Nil Nehri"],
+      "w_ans": ["Amazon Nehri", "Mississippi Nehri", "Yangtze Nehri", "Ganj Nehri", "Tuna Nehri", "Ruhango Nehri"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "En çok konuşulan dil hangisidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Çince"],
+      "w_ans": ["İngilizce", "İspanyolca", "Hindice", "Fransızca", "Almanca", "Portekizce"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Güneş Sistemi'nde kaç gezegen bulunmaktadır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["8"],
+      "w_ans": ["7", "9", "10", "6", "5", "11"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Periyodik tabloda hangi element 'Fe' sembolü ile temsil edilir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Demir"],
+      "w_ans": ["Bakır", "Alüminyum", "Çinko", "Altın", "Krom", "Kurşun"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Hangi gezegen 'Akşam Yıldızı' olarak da bilinir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Venüs"],
+      "w_ans": ["Mars", "Jüpiter", "Satürn", "Merkür", "Uranüs", "Neptün"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "TÜRKİYE BİLİMLER AKADEMİSİ (TÜBA) TARAFINDAN ULUSLARARASI AKADEMİ ÖDÜLÜNE LAYIK GÖRÜLEN VE 18 MART 2021 TARİHİNDE HAYATINI KAYBEDEN TARİHÇİMİZ KİMDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Mehmet Genç"],
+      "w_ans": ["Ahmet Yılmaz", "Ayşe Kaya", "Mustafa Demir"],
+      "aciklama": "Mehmet Genç, Türkiye Bilimler Akademisi tarafından uluslararası akademik çalışmaları nedeniyle ödüllendirilen bir tarihçidir."
+    },
+    {
+      "questiontext": "ERZURUM KONGRESİNE KATILAN TRABZON MEBUSU KİMDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Servet Bey"],
+      "w_ans": ["Ahmet Can", "Mehmet Durmuş", "Elif Yıldız"],
+      "aciklama": "Servet Bey, Erzurum Kongresi'ne katılan önemli bir Trabzon mebusudur."
+    },
+    {
+      "questiontext": "SÖZLEŞMELİ PERSONELİN ÜCRETSİZ İZİN HAKKI VARMIDIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Doğum, Askerlik Ve Evlat Edinme Durumlarında Ücretsiz İzin Hakkı Vardır."],
+      "w_ans": ["Sadece Doğum Durumunda", "Sadece Askerlik Durumunda", "Ücretsiz İzin Hakkı Yoktur."],
+      "aciklama": "Sözleşmeli personel, doğum, askerlik veya evlat edinme durumlarında ücretsiz izin hakkına sahiptir."
+    },
+    {
+      "questiontext": "2006 YILINDA DANIŞTAYDA MEYDANA GELEN DANIŞTAY SALDIRISINDA ŞEHİT EDİLEN DANIŞTAY HAKİMİ KİMDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Mustafa Yücel Özbilgin"],
+      "w_ans": ["Ahmet Aydın", "Mehmet Doğan", "Elif Toprak"],
+      "aciklama": "2006 yılında Danıştay saldırısında şehit edilen Danıştay hakimi Mustafa Yücel Özbilgin'dir."
+    },
+    {
+      "questiontext": "ELEKTRONİK TEBLİGATTA KURUM NEYİ İFADE EDER?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Telekomünikasyon Kurumu"],
+      "w_ans": ["Sağlık Bakanlığı", "Milli Eğitim Bakanlığı", "Adalet Bakanlığı"],
+      "aciklama": "Elektronik tebligatta 'kurum,' tebligatı gerçekleştiren resmi kurumu ifade eder."
+    },
+    {
+      "questiontext": "AMPULÜ KİM İCAT ETTİ?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Thomas Edison"],
+      "w_ans": ["Alexander Graham Bell", "Nikola Tesla", "Marie Curie"],
+      "aciklama": "Ampulü icat eden ünlü mucit Thomas Edison'dır."
+    },
+    {
+      "questiontext": "4 YILLIK FAKÜLTE MEZUNLARININ GÖREVE BAŞLAMA DERECE VE KADEMESİ?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["9/1"],
+      "w_ans": ["8/3", "10/2", "7/4"],
+      "aciklama": "4 yıllık fakülte mezunları, göreve 9/1 derece ve kademe ile başlarlar."
+    },
+    {
+      "questiontext": "KİŞİLİK NASIL KAZANILIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kişilik, çocuğun sağ olarak ve tamamıyla doğduğu anda başlar. Bu hükme göre Türk hukukunda kişiliğin başlaması için iki koşulun bir arada bulunması gerekir. Bu şartlar; tam doğmak ve sağ doğmaktır."],
+      "w_ans": [
+        "Kişilik, sadece yaşlılıkta kazanılır.",
+        "Kişilik, bir kişiye verilir.",
+        "Kişilik, eğitimle kazanılır."
+      ],
+      "aciklama": "Kişilik, doğduğumuz anda sahip olduğumuz bir özelliktir ve bu kişiliğin başlaması için iki temel koşul vardır: tam doğmak ve sağ doğmak."
+    },
+    {
+      "questiontext": "KİMLER VASİ OLARAK ATANAMAZ?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": [
+        "Kısıtlılar",
+        "Kamu hizmetinden yasaklılar veya haysiyetsiz hayat sürenler",
+        "Menfaati kendisine vasi atanacak kişinin menfaati ile önemli ölçüde çatışanlar veya onunla aralarında düşmanlık bulunanlar",
+        "İlgili vesayet daireleri ve yargıçları vasi olarak atanamazlar."
+      ],
+      "w_ans": [
+        "Herkes vasi olabilir.",
+        "Sadece akrabalar vasi olabilir.",
+        "Sadece yargıçlar vasi olabilir."
+      ],
+      "aciklama": "Vasi olarak atanamayacak kişiler arasında kısıtlılar, kamu hizmetinden yasaklılar veya haysiyetsiz hayat sürenler, menfaati kendisine vasi atanacak kişinin menfaati ile önemli ölçüde çatışanlar veya onunla aralarında düşmanlık bulunanlar ve ilgili vesayet daireleri ve yargıçları bulunur."
+    },
+    {
+      "questiontext": "KİMLER VASİLİĞİ KABUL ETMEYEBİLİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": [
+        "Dörtten çok çocuğu olanlar",
+        "Altı yaşını doldurmuş olanlar",
+        "Bedensel engelleri veya hastalığı sebebiyle vasilik yapmakta zorlanacak kişiler",
+        "Üzerinde vasilik görevi olanlar",
+        "Cumhurbaşkanı, TBMM üyeleri, hakim ve savcı mesleği mensupları vasilik görevini kabul etmeyebilir."
+      ],
+      "w_ans": [
+        "Herkes vasilik görevini kabul etmelidir.",
+        "Sadece aile üyeleri vasilik görevini kabul edebilir.",
+        "Sadece doktorlar vasilik görevini kabul edebilir."
+      ],
+      "aciklama": "Vasi olarak atanmayı kabul etmeyebilecek kişiler arasında dörtten çok çocuğu olanlar, altmış yaşını doldurmuş olanlar, bedensel engelleri veya hastalığı sebebiyle vasilik yapmakta zorlanacak kişiler, üzerinde vasilik görevi olanlar, cumhurbaşkanı, TBMM üyeleri, hakim ve savcı mesleği mensupları bulunur."
+    },
+    {
+      "questiontext": "DİSİPLİN CEZALARININ ÖZLÜK DOSYASINDAN SİLİNME SÜRESİ NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": [
+        "Uyarma ve kınama cezalarının uygulanmasından 5 sene",
+        "Aylıktan kesme ve kademe ilerlemesinin durdurulması cezaların uygulanmasından 10 sene, sonra atamaya yetkili amire başvurarak, verilmiş olan cezalarının silinmesini isteyebilir."
+      ],
+      "w_ans": [
+        "Hiçbir disiplin cezası silinmez.",
+        "Sadece uyarma cezaları silinir.",
+        "Sadece aylıktan kesme cezaları silinir."
+      ],
+      "aciklama": "Disiplin cezalarının özlük dosyasından silinme süreleri şu şekildedir: Uyarma ve kınama cezaları uygulandıktan sonra 5 sene içinde, aylıktan kesme ve kademe ilerlemesinin durdurulması cezaları uygulandıktan sonra 10 sene içinde, atamaya yetkili amire başvurarak silinmesini talep edebilirsiniz."
+    },
+    {
+      "questiontext": "KURTULUŞ SAVAŞINDA TOPRAK KAZANDIĞIMIZ CEPHE HANGİSİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kafkas Cephesi"],
+      "w_ans": ["Çanakkale Cephesi", "Sakarya Cephesi", "Dumlupınar Cephesi"],
+      "aciklama": "Kurtuluş Savaşı sırasında toprak kazandığımız cephelerden biri Kafkas Cephesi'dir. Bu cephe, Rusya ve Ermenistan ile savaşıldığı bir cepheydi."
+    },
+    {
+      "questiontext": "ADRESİ MEÇHUL OLANA NASIL TEBLİGAT YAPILIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İlanen tebligat yapılır"],
+      "w_ans": ["SMS ile tebligat yapılır", "Telefon ile tebligat yapılır", "Email ile tebligat yapılır"],
+      "aciklama": "Adresi meçhul olan kişilere tebligat, ilanen yapılır, yani bir kamu duyurusuyla bildirilir."
+    },
+    {
+      "questiontext": "AVUSTRALYANIN EN ÜNLÜ HAYVANI HANGİSİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kanguru"],
+      "w_ans": ["Koala", "Tazmanya Canavarı", "Kangal Köpeği"],
+      "aciklama": "Avustralya'nın en ünlü hayvanlarından biri kangurudur. Kanguru, ülkenin sembol hayvanıdır."
+    },
+    {
+      "questiontext": "MERKEZDEKİ MEMUR TAŞRAYA ATANABİLİR Mİ?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bakanlık oluru ile atanabilir"],
+      "w_ans": ["Sadece istifa ederek atanabilir", "Kendi isteğiyle atanabilir", "Herhangi bir şart olmadan atanabilir"],
+      "aciklama": "Merkezde görev yapan bir memur, taşra birimlerine Bakanlık oluru ile atanabilir."
+    },
+    {
+      "questiontext": "DÜNYANIN EN AZ YAĞIŞ ALAN KITASI HANGİSİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Avusturalya"],
+      "w_ans": ["Amazon Ormanları", "Sahra Çölü", "Kuzey Kutbu"],
+      "aciklama": "Dünyanın en az yağış alan kıtası Avustralya'dır."
+    },
+    {
+      "questiontext": "AİDİYET ZİNCİRİ NE DEMEKTİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Belgenin üretiminden tasfiyesine kadar olan yaşam süreci"],
+      "w_ans": ["Kişilerin aidiyet hissi", "Belgenin yasal geçerliliği", "Dilbilgisel bir terim"],
+      "aciklama": "Aidiyet zinciri, bir belgenin üretiminden tasfiyesine kadar olan yaşam sürecini ifade eder."
+    },
+    {
+      "questiontext": "TEMİNAT MEKTUBU ELEKTRONİK İMZA İLE İMZALANABİLİR Mİ?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kanunların resmî şekle veya özel bir merasime tabi tuttuğu hukukî işlemler ile banka teminat mektupları dışındaki teminat sözleşmeleri, güvenli elektronik imza ile gerçekleştirilemez."],
+      "w_ans": ["Evet, her türlü teminat mektubu elektronik imza ile imzalanabilir.", "Sadece resmi kurumlar elektronik imza kullanabilir.", "Sadece bankalar elektronik imza ile teminat mektubu düzenleyebilir."],
+      "aciklama": "Kanunların resmî şekle veya özel bir merasime tabi tuttuğu hukukî işlemler ile banka teminat mektupları dışındaki teminat sözleşmeleri, güvenli elektronik imza ile gerçekleştirilemez."
+    },
+    {
+      "questiontext": "KANUNİ HAKİM GÜVENCESİ NE DEMEKTİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Hiç kimse kanunen tabi olduğu mahkemeden başka bir merci önüne çıkarılamaz. Bir kimseyi kanunen tabi olduğu mahkemeden başka bir merci önüne çıkarma sonucunu doğuran yargı yetkisine sahip olağanüstü merciler kurulamaz"],
+      "w_ans": ["Herhangi bir kişi mahkemeden kaçırılabilir.", "Mahkeme kararlarını herkes iptal edebilir.", "Kanunen tabi olduğu mahkeme dışında herhangi bir mahkemede dava açılabilir."],
+      "aciklama": "Kanuni hakim güvencesi, hiç kimse kanunen tabi olduğu mahkemeden başka bir merci önüne çıkarılamaz ilkesini ifade eder. Yargı yetkisine sahip olağanüstü merciler kurulamaz."
+    },
+    {
+      "questiontext": "KAÇKAR DAĞLARI NEREDEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kaçkar dağları Karadeniz Bölgesi'nde yer alan ve bölgenin en önemli dallarından biridir. Daha çok Doğu Karadeniz kesimi boyunca uzanan bir sıra dağ olduğunu söylemek mümkündür."],
+      "w_ans": ["Anadolu Bölgesi'nde", "Marmara Bölgesi'nde", "Akdeniz Bölgesi'nde"],
+      "aciklama": "Kaçkar Dağları, Karadeniz Bölgesi'nde yer almaktadır ve bölgenin en önemli dağlarından biridir. Özellikle Doğu Karadeniz kesimi boyunca uzanır."
+    },
+    {
+      "questiontext": "2021 TÜİK VERİLERİNE GÖRE EN ÇOK BUĞDAY ÜRETİLEN İLİMİZ HANGİSİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Konya"],
+      "w_ans": ["Ankara", "İstanbul", "İzmir"],
+      "aciklama": "2021 TÜİK verilerine göre Türkiye'de en çok buğday üretilen il Konya'dır."
+    },
+    {
+      "questiontext": "DÜNYANIN EN KALABALIK İKİ ÜLKESİNİ SAYINIZ",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Sıra      Ülke                % dünya nüfusuna oranı1          Çin                  %18,422          Hindistan         %17,693"],
+      "w_ans": ["ABD ve Rusya", "Türkiye ve Almanya", "Japonya ve Brezilya"],
+      "aciklama": "Dünyanın en kalabalık iki ülkesi Çin ve Hindistan'dır. Bu ülkeler dünya nüfusunun büyük bir kısmını oluştururlar."
+    },
+    {
+      "questiontext": "GENEL VERİCİ KAN GRUBU HANGİSİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["0"],
+      "w_ans": ["A", "B", "AB"],
+      "aciklama": "Genel verici kan grubu 0'dır. Bu kan grubu herkese kan verilebilen bir kan grubudur."
+    },
+    {
+      "questiontext": "GENEL ALICI KAN GRUBU HANGİSİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["AB"],
+      "w_ans": ["A", "B", "0"],
+      "aciklama": "Genel alıcı kan grubu AB'dir. Bu kan grubuna sahip kişiler herhangi bir kan grubundan kan alabilirler."
+    },
+    {
+      "questiontext": "MÜKERRER DAVA AÇILDIĞININ TESPİT EDİLMESİNDE NE YAPILIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Davanın düşmesine karar verilir"],
+      "w_ans": ["Davanın devamına karar verilir", "Yargılamanın yeniden başlamasına karar verilir", "Taraflar arasında anlaşma sağlanır"],
+      "aciklama": "Mükerrer dava açıldığının tespit edilmesi durumunda davanın düşmesine karar verilir."
+    },
+    {
+      "questiontext": "AMERİKADAN GELİRKEN ÖLEN GÜREŞÇİ KİMDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Koca Yusuf (y. 1857 – 4 Temmuz 1898), gerçek adıyla Yusuf İsmail veya ring adıyla Korkunç Türk (The Terrible Turk), Türk güreşçi, Kırkpınar başpehlivanı."],
+      "w_ans": ["Rıza Kayaalp", "Ahmet Ayık", "Adem Bereket"],
+      "aciklama": "Koca Yusuf, Amerika'da güreş yaparken bir gemi kazasında yaşamını yitiren ünlü bir Türk güreşçisidir."
+    },
+    {
+      "questiontext": "ŞEHZADELERİN YETİŞTİĞİ 3 SANCAK SAYINIZ",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Manisa, Amasya, Kütahya"],
+      "w_ans": ["İstanbul, Ankara, İzmir", "Trabzon, Bursa, Edirne", "Samsun, Diyarbakır, Antalya"],
+      "aciklama": "Osmanlı İmparatorluğu'nda şehzadelerin yetiştirildiği üç önemli sancak Manisa, Amasya ve Kütahya'dır."
+    },
+    {
+      "questiontext": "HARÇTAN MUAF İŞLEMLER NELERDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": [
+        "a) (Değişik: 20/3/1981 - 2430/1 md.) Değeri 50 Yeni Türk Lirasını geçmeyen dava ve takipler (Ticari senetlere ait takipler hariç)",
+        "b) Vasi tayini ve azli, hakimin reddi talebinin kabulü ve hakimin istinkafına ait kararlar",
+        "c) (Değişik: 30/12/1980 - 2366/1 md.) Ayda 100 Yeni Türk Lirasını geçmeyen nafakalara ait dava ve takipler",
+        "d) İcra ve iflas dairelerinin kusuru yüzünden yanlış yapılmış olan işlemlerin ıslahı ve iptaline dair tetkik mercileri kararları ile bu iptal veya ıslah dolayısıyla yeniden yapılacak işlemler",
+        "e) Ticaret sicilinde re'sen yapılan düzeltmeler",
+        "f) İcra tetkik mercilerinin cezaya müteallik kararları ile bu kararların temyizi işlemleri.",
+        "g) İcra ve İflas Kanununun 270 nci maddesine göre yapılacak defter tutma işlemleri",
+        "h) Yetkili makamların istiyecekleri ilam ve sair evrak suretleri",
+        "i) Kamu adına C. savcıları tarafından Hukuk mahkemelerine açılan davalar ve kanun yolu başvuruları ile ceza mahkemelerinden verilen kararlara karşı kanun yolu başvuruları",
+        "j) (Ek: 21/1/1982 - 2588/3 md.) Genel Bütçeye dahil idarelerin bu Kanunun 1 ve 3 sayılı tarifelerine giren bütün işlemleri."
+      ],
+      "w_ans": [
+        "Tapu işlemleri",
+        "Şirket kuruluş işlemleri",
+        "Kira sözleşmesi düzenlemek"
+      ],
+      "aciklama": "Harçtan muaf işlemler arasında düşük değerli davalar, nafaka davaları, ticaret sicili düzeltmeleri ve benzeri işlemler bulunmaktadır."
+    },
+    {
+      "questiontext": "EMEKLİYE AYRILAN MEMURA DİSİPLİN CEZASI VERİLEBİLİR Mİ?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Danıştay 10. Dairesinin  1984/2480 Esas 1985/43 karar nolu kararı \"Kamu hizmetlerinin gereği gibi yürütülmesini sağlamak amacını taşıyan disiplin cezaları, memuriyet statüsünde işlenen disiplin suçlarının karşılığıdır. Memuriyet statüsündeyken disiplin suçu işleyen kişinin, memuriyetle ilişiğinin kesilmesi, personel hukukuna göre disiplin cezası verilmesine engel bulunmamaktadır. Devlet memuru iken işlenen disiplin suçunun, ilgili, memuriyetle ilişiğini kesmiş olsa bile, her suça işlendiği andaki fiili ve hukuki duruma göre yürürlükte bulunan mevzuat hükümleri çerçevesinde ceza verilmesi gerektiğine ilişkin hukuk kuralına göre cezalandırılması gerekir. Öte yandan, memuriyetle ilişiği kesilen kişiye, memur statüsündeki bir fiili nedeniyle verilen disiplin cezasının, cezanın niteliğine göre uygulama olanağı var ise uygulanması, yok ise disiplin cezasına ilişkin kararın o kişinin sicil dosyasında korunması gerekmektedir.\""],
+      "w_ans": ["Hayır, emekliye ayrılan memura disiplin cezası verilemez.", "Sadece hapis cezası verilebilir.", "Sadece para cezası verilebilir."],
+      "aciklama": "Emekliye ayrılan bir memur, memuriyet döneminde işlediği disiplin suçlarından dolayı cezalandırılabilir. Ancak, verilen disiplin cezası emeklilik sonrasında uygulanamaz, ancak sicil dosyasında kayıtlı kalır."
+    },
+    {
+      "questiontext": "İTALYA’NIN BAŞKENTİ NERESİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Roma"],
+      "w_ans": ["Milano", "Venedik", "Napoli"],
+      "aciklama": "İtalya'nın başkenti Roma'dır."
+    },
+    {
+      "questiontext": "TBMM’NİN SEÇTİĞİ SON CUMHURBAŞKANI KİMDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Abdullah Gül"],
+      "w_ans": ["Recep Tayyip Erdoğan", "Ahmet Necdet Sezer", "Süleyman Demirel"],
+      "aciklama": "Türkiye Büyük Millet Meclisi (TBMM) tarafından seçilen son Cumhurbaşkanı Abdullah Gül'dür."
+    },
+    {
+      "questiontext": "SİYASİ PARTİYE ÜYE OLAN MEMURA HANGİ DİSİPLİN CEZASI VERİLİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Devlet Memurluğundan çıkarma"],
+      "w_ans": ["Üst kademe görevine atanma", "Özürsüz olarak izinsiz izne çıkarma", "Özürsüz olarak işe gelmeme"],
+      "aciklama": "Bir memurun siyasi partiye üye olması durumunda, devlet memurluğundan çıkarma cezası verilebilir."
+    },
+    {
+      "questiontext": "TÜRKİYE’DEN DOĞUP YURTDIŞINA DÖKÜLEN NEHİRLER HANGİLERİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Çoruh Nehri", "Fırat Nehri", "Dicle Nehri", "Aras Nehri", "Kura Nehri"],
+      "w_ans": ["Sakarya Nehri", "Bartın Nehri", "Meriç Nehri", "Yeşilırmak Nehri"],
+      "aciklama": "Türkiye'den doğup yurtdışına dökülen nehirler arasında Çoruh Nehri, Fırat Nehri, Dicle Nehri, Aras Nehri ve Kura Nehri bulunmaktadır."
+    },
+    {
+      "questiontext": "TBMM’NİN YAPTIĞI İLK VE TEK İNKILAP HANGİSİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Saltanatın Kaldırılması"],
+      "w_ans": ["Hilafetin Kaldırılması", "Tek Parti Dönemi'nin Başlaması", "Türk Dil Kurumu'nun Kurulması"],
+      "aciklama": "Türkiye Büyük Millet Meclisi'nin yaptığı ilk ve tek inkılap, Osmanlı İmparatorluğu'nda 1 Kasım 1922'de ilan edilen Saltanat'ın kaldırılmasıdır."
+    },
+    {
+      "questiontext": "TÜRKİYE CUMHURİYETİ AVRUPA İNSAN HAKLARI SÖZLEŞMESİNİ HANGİ TARİHTE ONAYLAMIŞTIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Türkiye 18 Mayıs 1954'te sözleşmeyi onaylamış, 28 Ocak 1987'de de bireysel başvuru hakkını tanımıştır. Mahkemenin zorunlu yargı yetkisini ise 28 Ocak 1990'da kabul etmiştir. AİHS, Avrupa Konseyi üyesi 47 devlet tarafından onaylanmıştır."],
+      "w_ans": ["Türkiye sözleşmeyi hiç onaylamamıştır.", "Türkiye sözleşmeyi 2000 yılında onaylamıştır."],
+      "aciklama": "Türkiye Cumhuriyeti, Avrupa İnsan Hakları Sözleşmesi'ni 18 Mayıs 1954 tarihinde onaylamıştır."
+    },
+    {
+      "questiontext": "TUTUKLU OLAN ŞÜPHELİ VEYA SANIK KEŞİFTE HANGİ ŞARTLARDA HAZIR EDİLİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Madde 84. (5) Şüpheli veya sanık tutuklu ise, hakim veya mahkeme tarafından ancak zorunlu sayılan hallerde keşifte hazır bulundurulmasına karar verilebilir.”"],
+      "w_ans": ["Tutuklu şüpheli veya sanık her durumda keşifte hazır bulundurulur.", "Tutuklu şüpheli veya sanık sadece cumhuriyet savcısının isteği üzerine keşifte hazır bulundurulur."],
+      "aciklama": "Şüpheli veya sanık tutuklu ise, keşifte ancak zorunlu sayılan hallerde hazır bulundurulmasına karar verilebilir."
+    },
+    {
+      "questiontext": "YAZIYI İLK KİM BULMUŞTUR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Yazıyı tarihte Anadolu uygarlıklarından biri olan Sümerler bulmuştur. Yazının bulunması tarihte önemli bir olaya tekabül etmektedir. Sümerler ilk olarak çivi yazısını icat etmiştir. Bu şekilde insanlığın ilk iletişim aracı olarak yazı bulunmuş oldu."],
+      "w_ans": ["Yazıyı ilk bulan uygarlık Roma İmparatorluğu'dur.", "Yazının bulunması insanlık için pek önemli değildir."],
+      "aciklama": "Yazıyı tarihte ilk bulan uygarlık, Sümerlerdir. İlk yazı sistemleri çivi yazısı olarak bilinir."
+    },
+    {
+      "questiontext": "ATATÜRK’ÜN NÜFUSA KAYITLI OLDUĞU İL HANGİSİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Atatürk'ün Gaziantep'in Bey Mahallesi nüfusuna kayıtlı olduğunu anımsatan Şirikçi, \"İnsanlar müzede Atatürk'ün Gaziantepli olduğunu öğrendiklerinde çok mutlu oluyorlar. Bizler de Gaziantep nüfusuna nasıl kaydedildiğini anlatıyoruz."],
+      "w_ans": ["Atatürk'ün nüfusa kayıtlı olduğu il İstanbul'dur.", "Atatürk'ün nüfusa kayıtlı olduğu il Ankara'dır."],
+      "aciklama": "Mustafa Kemal Atatürk'ün nüfusa kayıtlı olduğu il Gaziantep'tir."
+    },
+    {
+      "questiontext": "TIP ALANINDAKİ ÜNLÜ İSLAM BİLGİNİ KİMDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İbn Nefis tam künyesi ile Ebü'l-Hasan Alâüddîn Ali b. Ebi'l-Hazm İbn Nefîs el-Karaşî ed-Dımeşkî Arap İslam bilgini, bilim adamı. Birçok farklı dallarda çalışmaları bulunan İbn Nefis, hekim, anatomi uzmanı, fizyolog, cerrah, oftalmolog, psikolog, astronom, kozmolog, ve jeolog idi."],
+      "w_ans": ["İslam bilgini İbn Haldun'dur.", "İslam bilgini İmam Gazali'dir."],
+      "aciklama": "İslam bilgini İbn Nefis, tıp alanında önemli çalışmalar yapmış bir bilim adamıdır."
+    },
+    {
+      "questiontext": "BİR SÖZÜ HEM MECAZ HEM DE GERÇEK ANLAMDA KULLANMA SANATI?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kinaye"],
+      "w_ans": ["Bu sanat türüne Tanımlama denir.", "Kinaye sadece gerçek anlamda kullanılan bir sözcüktür."],
+      "aciklama": "Bir sözcüğün hem mecaz (figüratif) anlamda hem de gerçek anlamda kullanılması sanatına kinaye denir."
+    },
+    {
+      "questiontext": "KEMAL TAHİR’İN BAŞLICA ESERLERİNİ SAYINIZ",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Sağırdere (1955)Esir Şehrin İnsanları (1956)Körduman (1957)Rahmet Yolları Kesti (1957)Yedi Çınar Yaylası (1958)Köyün Kamburu (1959)Esir Şehrin Mahpusu (1961)Bozkırdaki Çekirdek (1962)"],
+      "w_ans": ["Kemal Tahir'in hiç eseri yoktur.", "Kemal Tahir sadece şiir yazmıştır."],
+      "aciklama": "Kemal Tahir'in başlıca eserleri şunlardır: Sağırdere, Esir Şehrin İnsanları, Körduman, Rahmet Yolları Kesti, Yedi Çınar Yaylası, Köyün Kamburu, Esir Şehrin Mahpusu, Bozkırdaki Çekirdek."
+    },
+    {
+      "questiontext": "BM’NİN ÇALIŞMA DİLLERİ NELERDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Arapça, Çince, Fransızca, İngilizce, İspanyolca ve Rusça"],
+      "w_ans": [
+        "İtalyanca",
+        "Almanca",
+        "Japonca"
+      ],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "İSTİKLAL MAHKEMELERİNİN SON GÖREV YAPTIĞI OLAY HANGİSİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İzmir Suikastı, Türkiye Cumhurbaşkanı Mustafa Kemal Paşa'ya 14 Haziran 1926 tarihinde, İzmir'de yapılması planlanan suikast girişimidir. Aralarında eski bakanlar, milletvekilleri ve valiler de bulunan bir grup kesim tarafından planlanmış ancak hayata geçirilmeden engellenmiştir"],
+      "w_ans": [
+        "Ankara'da düzenlenen bir mitingde yaşanan bombalı saldırı",
+        "Mustafa Kemal Paşa'nın doğum günü kutlamaları sırasında yaşanan silahlı saldırı",
+        "Türkiye'nin bağımsızlık savaşı sırasında Yunan işgaline son veren Büyük Taarruz"
+      ],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "NİZAMI CEDİD NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Nizam-ı Cedid, Yeni Düzen anlamını taşır, Osmanlı Devleti'nin askerin ıslah ve yenileştirilmesine karşılık gelir ve bu amaçla oluşturulan askeri birliklere aynı isim kullanılarak Nizam-ı Cedid Ordusu denir."],
+      "w_ans": [
+        "Bir Osmanlı İmparatorluğu yemek tarifi kitabı",
+        "Osmanlı padişahlarının giydiği özel kıyafetlerin adı",
+        "Osmanlı İmparatorluğu'nun resmi dilinin adı"
+      ],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "DÖRT YILLIK ÜNİVERSİTE BİTİREN DEVLET MEMURU HANGİ KIDEM VE DERECEDEN GÖREVE BAŞLAR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["9/1"],
+      "w_ans": [
+        "7/3",
+        "5/2",
+        "8/1"
+      ],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "GÖZALTINA ALMAYA KİM KARAR VERİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Gözaltı kararını vermeye yetkili merci Cumhuriyet Savcısıdır. Cumhuriyet Savcısı, gözaltına alma emrini kural olarak yazılı şekilde kolluk birimlerine verir; fakat gecikmesinde sakınca bulunan hallerde anılan emri, daha sonra yazılı olarak iletmek koşulu ile sözlü olarak da verebilir."],
+      "w_ans": [
+        "Hakim",
+        "Polis Memuru",
+        "Adalet Bakanı"
+      ],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "TUTUKLAMAYA KİM KARAR VERİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Soruşturma aşamasında Sulh Ceza Hakimi, Kovuşturma aşamasında ilgili mahkeme heyeti/hakimi"],
+      "w_ans": [
+        "İçişleri Bakanı",
+        "Emniyet Müdürü",
+        "Başbakan"
+      ],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "YARGILAMADA TALEPLE BAĞLILIK İLKESİNİ AÇIKLAYINIZ?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Taleple bağlılık ilkesi, Medenî Usul Hukuku'nda yer alan yargılamaya hâkim olan ilkelerden bir tanesidir ve hâkimin, tarafların talepleriyle bağlı olduğunu, talepten fazlasına veya talepten başka bir şeye karar veremeyeceğini; ancak duruma göre talep sonucundan daha azına karar verebileceğini ifade eder."],
+      "w_ans": [
+        "Tarafların taleplerinin dikkate alınmadığı bir ilkedir",
+        "Hâkimin kendi taleplerini dayatma hakkına sahiptir",
+        "Sadece savcının talepleri dikkate alınır"
+      ],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "SMS İLE TEBLİGAT YAPILABİLİR Mİ ?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["SMS ile yapılan bildirimler tebliğ yerine geçmez"],
+      "w_ans": [
+        "E-posta ile yapılan bildirimler tebliği tam olarak yerine getirir",
+        "Sadece SMS ile tebliğ yapılabilir",
+        "Tebliğ yöntemi konusunda net bir kural yoktur"
+      ],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ŞEBİ ARUS FESTİVALLERİ NEREDE YAPILIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Konya - Şeb-i Arus kelimesi “Düğün Gecesi” demektir. Mevlana ölüm gününü “Hakka vuslat” yani “Yaratana Kavuşma” (Düğün Günü-Gecesi) saymıştır, “Herkes ayrılıktan bahsetti, bense vuslattan” der. Ölüm Mevlana için kişinin aslına dönüşü, kaynağının ilahi bir cevher olması nedeniyle “Allah´a dönüş” olarak yorumlar. Bir başka ifadeyle ölüm “cismin ortadan kalkması değil, Allah´a doğru uçmasıdır”. Ölüm, Müslümanlık öncesi Türklerde de aynı şekilde ifade edilir."],
+      "w_ans": [
+        "Ankara",
+        "İstanbul",
+        "İzmir"
+      ],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "KOMİSYONLAR ARASI TAYİN NASIL YAPILIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Görev yaptıkları adalet komisyonları yetki alanı içerisinde, Adalet Bakanlığı Memur Sınav, Atama ve Nakil Yönetmeliğinin 22/C maddesinin beşinci fıkrası uyarınca 31/08/2020 tarihi itibarıyla; son görev yeri beşinci ve dördüncü bölge olan personel en az iki, üçüncü bölge olan personel en az üç, ikinci bölge olan personel en az dört, birinci bölge olan personel en az beş yıl süreyi tamamlamış olmak, Bulunduğu görev yerindeki eylemi ile ilgili olarak son iki yıl içerisinde uyarma ve kınama dışında herhangi bir disiplin cezası almamış olmak"],
+      "w_ans": [
+        "Komisyon başkanının kişisel tercihine göre",
+        "Sadece adalet komisyonu üyelerinin oylarıyla",
+        "Özür durumu gözetilmeden rastgele atanır"
+      ],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "BAM CUMHURİYET BAŞSAVCILIĞI YAZI İŞLERİ MÜDÜRNÜN 1 VE 2. SİCİL AMİRİ KİMDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["1.sicil amiri ilgili c.savcısı2.sicil amiri cumhuriyet başsavcısı"],
+      "w_ans": [
+        "1.sicil amiri yazı işleri müdürü",
+        "2.sicil amiri adalet bakanı",
+        "Sicil amirleri yoktur"
+      ],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "MEMURUN EŞİ NAKİL OLURSA EŞ NEREYE NAKİL OLUR? ",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Tayin olan eşlerden tayin yönetmeliğine göre eş durumu göz önüne alınarak eş de aynı bölgede boş olan kadroya tayin olur"],
+      "w_ans": [
+        "Eş başka bir ülkeye tayin edilir",
+        "Eş, memurun çalıştığı kurumda çalışmaya devam eder",
+        "Eş hiçbir şekilde tayin olamaz"
+      ],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "TAPU MÜLKİYETİNİN SINIRLARI NELERDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["dikey sınır, yatay sınır"],
+      "w_ans": [
+        "Kuzey sınırı, güney sınırı",
+        "Doğu sınırı, batı sınırı",
+        "Üst sınır, alt sınır"
+      ],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "MEMURİYETTEN KENDİ İSTEĞİ İLE ÇEKİLEN KİŞİNİN YENİDEN ATAMASI NASIL OLUR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["yasal süreler beklendiyse 6 ay-devir teslim yükümlülüklerini yerine getirmediyse 3 yılOhal de yerine birinin atanmasını beklemeden görevinden ayrıldıysa hiç bir surette tekrar atanamaz"],
+      "w_ans": [
+        "Yeni bir başvuru yaparak atanabilir",
+        "Başka bir devlette memuriyete başlayabilir",
+        "Sadece Adalet Bakanlığı'nın izniyle atanabilir"
+      ],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "KADÜK KALAN BİR YASA AYNI YASAMA YILI İÇİNDE TEKLİF EDİLEBİLİR Mİ?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kadük kalan bir kanun teklifi aynı yasama yılı içerinde görüşülmemişse teklif hükümsüz kalır ve aynı yasama yılı içerisinde tekrar teklif edilemez"],
+      "w_ans": ["Kadük kalan bir kanun teklifi her zaman aynı yasama yılı içinde tekrar teklif edilebilir.", "Kadük kalan bir kanun teklifi ancak ertesi yıl tekrar teklif edilebilir.", "Kadük kalan bir kanun teklifi yasama yılına bakılmaksızın her zaman tekrar teklif edilebilir."],
+      "aciklama": "Kadük kalan bir kanun teklifinin aynı yasama yılı içinde tekrar teklif edilemeyeceği hukuki bir ilkedir."
+    },
+    {
+      "questiontext": "ATATÜRK DÖNEMİNDE ÇIKAN GAZETELER HANGİLERİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Minber", "İrade-i Milliye", "Hakimiyet-i Milliye"],
+      "w_ans": ["Türkiye Gazetesi", "Sözcü", "Sabah"],
+      "aciklama": "Atatürk döneminde Minber, İrade-i Milliye ve Hakimiyet-i Milliye gibi gazeteler önemliydi."
+    },
+    {
+      "questiontext": "ZABIT KATİBİNE YAPILAN YASA YOLU BAŞVURULARINDA KATİP NE TÜR İŞLEM YAPAR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kanun yoluna başvurmak isteyen tarafın sözlü beyanı tutanağa geçirilerek imza altına alınır"],
+      "w_ans": ["Katip yasa yoluna başvuran kişiye yazılı bir uyarı yapar.", "Katip yasa yoluna başvuran kişinin taleplerini kabul eder.", "Katip yasa yoluna başvuran kişiye herhangi bir işlem yapmaz."],
+      "aciklama": "Zabit katibi, yasa yoluna başvuran kişinin beyanını tutanağa geçirir."
+    },
+    {
+      "questiontext": "PULITZER ÖDÜLÜ NEREDE VERİLMEKTEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Pulitzer Ödülü New York şehrinde, Columbia Üniversitesi tarafından verilmektedir."],
+      "w_ans": ["Pulitzer Ödülü Washington D.C.'de verilir.", "Pulitzer Ödülü Los Angeles'ta verilir.", "Pulitzer Ödülü Chicago'da verilir."],
+      "aciklama": "Pulitzer Ödülü, gazetecilik, edebiyat ve müzik gibi alanlarda verilen saygın bir ödüldür."
+    },
+    {
+      "questiontext": "DÜNYANIN EN KALABALIK ŞEHRİ NERESİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Tokyo"],
+      "w_ans": ["Pekin", "İstanbul", "New York"],
+      "aciklama": "Tokyo, dünyanın en kalabalık şehri olarak bilinir."
+    },
+    {
+      "questiontext": "SEVR ANLAŞMASI",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Osmanlı Mebusan meclisinin kapalı olduğu dönemde antlaşmanın yapılması onu hukuken geçersiz kılmıştır."],
+      "w_ans": ["Sevr Antlaşması Lozan Antlaşması ile iptal edildi.", "Sevr Antlaşması Türk Kurtuluş Savaşı sonunda imzalandı.", "Sevr Antlaşması 1920 yılında yürürlüğe girdi."],
+      "aciklama": "Sevr Antlaşması, Türk Kurtuluş Savaşı'nın sonucunda Lozan Antlaşması ile geçersiz kılınmıştır."
+    },
+    {
+      "questiontext": "ANAYASA MAHKEMESİ GÖREVLERİ NELERDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": [
+        "Kanunların, Cumhurbaşkanlığı kararnamelerinin, Türkiye Büyük Millet Meclisi İçtüzüğünün veya bunların belirli madde veya hükümlerinin şekil ve esas bakımından, Anayasa değişikliklerinin ise sadece şekil açısından Anayasaya aykırılığı iddiasıyla açılan iptal davalarına bakmak.",
+        "Anayasanın 152 nci maddesine göre mahkemelerce itiraz yoluyla kendisine intikal ettirilen işleri karara bağlamak.",
+        "Bireysel başvuruları karara bağlamak.",
+        "Cumhurbaşkanını, Türkiye Büyük Millet Meclisi Başkanını, Cumhurbaşkanı yardımcılarını, bakanları, Anayasa Mahkemesi, Yargıtay, Danıştay başkan ve üyelerini, başsavcıları, Cumhuriyet Başsavcıvekilini, Hâkimler ve Savcılar Kurulu ve Sayıştay başkan ve üyelerini, Genelkurmay Başkanı ile Kara, Deniz ve Hava Kuvvetleri komutanlarını görevleriyle ilgili suçlardan dolayı Yüce Divan sıfatıyla yargılamak.",
+        "Siyasi partilerin kapatılmasına ve Devlet yardımından yoksun bırakılmasına ilişkin davalar ile ihtar başvuruları ve dağılma durumunun tespiti istemlerini karara bağlamak.",
+        "Siyasi partilerin mal edinimleri ile gelir ve giderlerinin kanuna uygunluğunun denetimini yapmak.",
+        "Milletvekillerinin yasama dokunulmazlıklarının kaldırılmasına veya milletvekilliklerinin düşmesine ya da Cumhurbaşkanı yardımcıları ve bakanların dokunulmazlıklarının kaldırılmasına Türkiye Büyük Millet Meclisince karar verilmesi hâllerinde, ilgili milletvekili veya bir diğer milletvekilinin Anayasa, kanun veya Türkiye Büyük Millet Meclisi İçtüzüğü hükümlerine aykırılık iddiasına dayanan iptal istemlerini karara bağlamak.",
+        "Mahkeme üyeleri arasından Anayasa Mahkemesi Başkanı ve başkanvekilleri ile Uyuşmazlık Mahkemesi Başkanı ve Başkanvekilini seçmek."
+      ],
+      "w_ans": [
+        "Anayasa Mahkemesi sadece bireysel başvuruları karara bağlar.",
+        "Anayasa Mahkemesi yasa yapma yetkisine sahiptir.",
+        "Anayasa Mahkemesi siyasi partilerin faaliyetlerini denetlemez."
+      ],
+      "aciklama": "Anayasa Mahkemesi'nin görevleri arasında Anayasa'ya aykırılık iddialarının incelenmesi ve diğer önemli yargı görevleri bulunur."
+    },
+    {
+      "questiontext": "UNESCO NE ZAMAN KURULDU?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["1945 yılında Londra'da kuruldu."],
+      "w_ans": ["1930 yılında Paris'te kuruldu.", "1955 yılında New York'ta kuruldu.", "1960 yılında Roma'da kuruldu."],
+      "aciklama": "UNESCO, Birleşmiş Milletler Eğitim, Bilim ve Kültür Örgütü'nün kısaltmasıdır ve 1945 yılında Londra'da kuruldu."
+    },
+    {
+      "questiontext": "İSLAMİYETİ KABUL EDEN İLK TÜRK DEVLETİ",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Karahanlılar"],
+      "w_ans": ["Osmanlılar", "Selçuklular", "Gazneliler"],
+      "aciklama": "Karahanlılar, İslamiyet'i devlet dini olarak kabul eden ilk Türk devletlerinden biridir."
+    },
+    {
+      "questiontext": "EVLİLİK BİRLİĞİNİN KORUNMASINA YÖNELİK TEDBİRLERİN ALINMASI KAPSAMINDA TARAFLARIN YERLEŞİM YERİ FARKLI İSE YETKİLİ MAHKEME NERESİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": [
+        "Yetkili mahkeme eşlerden herhangi birinin yerleşim yeri mahkemesidir.",
+        "Eşlerin yerleşim yerleri farklı ve her ikisi de önlem alınması isteminde bulunmuş ise yetkili mahkeme ilk istemde bulunanın yerleşim yeri mahkemesidir."
+      ],
+      "w_ans": ["Yetkili mahkeme her zaman davacının yerleşim yeri mahkemesidir."],
+      "aciklama": "Eşlerin yerleşim yerleri farklı ise evlilik birliğinin korunması amacıyla alınan tedbirlerin uygulanması için yetkili mahkeme belirlenir."
+    },
+    {
+      "questiontext": "OTUZBEŞ YAŞ ŞİİRİ KİMİN ESERİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Cahit Sıtkı Tarancı"],
+      "w_ans": ["Nazım Hikmet", "Ahmet Haşim", "Orhan Veli Kanık"],
+      "aciklama": "Otuzbeş Yaş şair Cahit Sıtkı Tarancı'ya aittir."
+    },
+    {
+      "questiontext": "OLAĞANÜSTÜ HAL’DE MEMUR GÖREVİNE GELMEZSE NE OLUR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": [
+        "OHAL durumunda ise, istifa eden memur, yerine bir başkası atanana kadar görev yerini terk edemez.",
+        "Terk etmesi durumunda, bir daha herhangi bir devlet kadrosuna yerleşememek şartıyla, devlet memurluğundan çıkarılır."
+      ],
+      "w_ans": ["OHAL durumunda memurlar görevlerini terk edebilirler.", "İstifa eden memur başka bir devlet kadrosunda işe alınabilir."],
+      "aciklama": "Olağanüstü hal durumunda görevinden istifa eden memurun durumu düzenlenen kurallara göre değerlendirilir."
+    },
+    {
+      "questiontext": "GÜMÜŞ EN ÇOK HANGİ ÜLKEDE ÇIKARILIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Meksika"],
+      "w_ans": ["Türkiye", "Çin", "Peru"],
+      "aciklama": "Dünyada en fazla gümüş üretimi Meksika'da gerçekleşmektedir."
+    },
+    {
+      "questiontext": "BİRLEŞMİŞ MİLLETLERİN KISA YAZILIŞI NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["BM “Birleşmiş Milletler”", "UN “United Nations”"],
+      "w_ans": ["UM “Uluslararası Milletler”", "BMK “Birleşik Milletler Kurulu”"],
+      "aciklama": "Birleşmiş Milletler'in kısa yazılışı BM ve İngilizce yazılışı UN'dir."
+    },
+    {
+      "questiontext": "DÜNYA SAĞLIK ÖRGÜTÜNÜN KISA YAZILIŞI NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["DSÖ “Dünya Sağlık Örgütü”", "WHO “World Health Organization”"],
+      "w_ans": ["DÜYÖ “Dünya Ulusal Yönetimi”", "DSGÖ “Dünya Sağlık ve Güvenlik Örgütü”"],
+      "aciklama": "Dünya Sağlık Örgütü'nün kısa yazılışı DSÖ ve İngilizce yazılışı WHO'dur."
+    },
+    {
+      "questiontext": "CEZA HUKUKU BİLİRKİŞİLİĞİ NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Ceza yargılamasının konusu olan uyuşmazlığa ilişkin bir meselenin çözümü uzmanlığı, özel veya teknik bilgiyi gerektirdiği hallerde başvurulan bir usul hukuku kurumundur."],
+      "w_ans": ["Ceza hukuku bilirkişisi, suç işlenip işlenmediğini değerlendirir.", "Ceza hukuku bilirkişisi yasal düzenlemeleri yorumlar.", "Ceza hukuku bilirkişisi savunma avukatının yerine geçer."],
+      "aciklama": "Ceza hukukunda bilirkişilik, özel bilgi ve uzmanlık gerektiren konularda mahkemeye yardımcı olan bir kurumdur."
+    },
+    {
+      "questiontext": "OSMANLI BAŞKENTLERİ nelerdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Edirne, Bursa, İstanbul"],
+      "w_ans": ["Ankara, İstanbul, İzmir", "Konya, Trabzon, İstanbul", "Edirne, İzmir, Ankara"],
+      "aciklama": "Osmanlı İmparatorluğu döneminde başkentler farklı dönemlerde Edirne, Bursa ve İstanbul olmuştur."
+    },
+    {
+      "questiontext": "VİETNAM SAVAŞINA KATILMAYAN AMERİKALI BOKSÖR KİMDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Muhammed Ali"],
+      "w_ans": ["Mike Tyson", "Floyd Mayweather", "Joe Frazier"],
+      "aciklama": "Muhammed Ali, Vietnam Savaşı'na katılmamak için dini inançlarını gerekçe göstermiş ve ülkesi Amerika'da büyük tartışmalara neden olmuştur."
+    },
+    {
+      "questiontext": "ELEKTRONİK TEBLİGAT YAPILAMAZSA NASIL YAPILIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kanunda belirtilen diğer usullerle tebligat yapılır."],
+      "w_ans": ["Tebligat yapılamaz.", "Tebligat telefonla yapılır.", "Tebligat e-posta ile yapılır."],
+      "aciklama": "Elektronik tebligat yapılamadığında, kanunda belirtilen diğer yöntemlerle tebligat yapılır."
+    },
+    {
+      "questiontext": "BELGE EKLERİ NE ŞEKİLDE HAZIRLANIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Belge ekleri farklı form, format veya ebatlarda hazırlanır."],
+      "w_ans": ["Belge ekleri sadece A4 boyutunda hazırlanır.", "Belge ekleri renkli olmalıdır.", "Belge ekleri el yazısıyla hazırlanır."],
+      "aciklama": "Belge ekleri, gerektiği şekilde farklı form, format veya ebatlarda hazırlanabilir."
+    },
+    {
+      "questiontext": "KİŞİ HAK VE ÖDEVLERİ NELERDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": [
+        "Kişinin dokunulmazlığı, maddi ve manevi varlığı",
+        "Zorla çalıştırma yasağı",
+        "Kişi hürriyeti ve güvenliği",
+        "Özel hayatın gizliliği ve korunması",
+        "Yerleşme ve seyahat hürriyeti",
+        "Din ve vicdan hürriyeti",
+        "Düşünce ve kanaat hürriyeti",
+        "Düşünceyi açıklama ve yayma hürriyeti",
+        "Bilim ve sanat hürriyeti",
+        "Basın ve yayımla ilgili hükümler",
+        "Toplantı hak ve hürriyetleri",
+        "Mülkiyet hakkı",
+        "Hakların korunması ile ilgili hükümler",
+        "İspat hakkı",
+        "Temel hak ve hürriyetlerin korunması"
+      ],
+      "w_ans": ["Kişinin kimlik bilgileri", "Kişinin eğitim durumu", "Kişinin medeni hali", "Kişinin mesleği"],
+      "aciklama": "Kişinin hak ve ödevleri, negatif statü hakları olarak adlandırılan temel insan haklarını içerir."
+    },
+    {
+      "questiontext": "HAGB İÇİN İKİ ŞART SÖYLEYİN.",
+      "image": "",
+      "image_credit": "",
+      "c_ans": [
+        "Maddi zararın giderilmiş olması",
+        "Sabıka kaydının olmaması",
+        "Sonuç cezanın 2 yılın altında olması"
+      ],
+      "w_ans": ["Suçun ciddiyeti", "Cezanın ertelenmesi", "İyileşme belgesi"],
+      "aciklama": "Hükmün açıklanmasının geri bırakılması (HAGB), bazı şartların yerine getirilmesine bağlı olarak verilen bir hukuki karardır."
+    },
+    {
+      "questiontext": "ELEKTRONİK VERİ NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Elektronik, optik veya benzeri yollarla üretilen, taşınan veya saklanan kayıtlar"],
+      "w_ans": ["Kağıt üzerindeki veriler", "Analog veriler", "El yazısı notlar"],
+      "aciklama": "Elektronik veri, elektronik veya optik yöntemlerle oluşturulan, taşınan veya saklanan dijital bilgileri ifade eder."
+    },
+    {
+      "questiontext": "İLK KADIN VE ERKEK TİYATROCULAR KİMLERDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Afife Jale", "Muhsin Ertuğrul"],
+      "w_ans": ["Shakespeare", "Molière", "Stanislavski"],
+      "aciklama": "Afife Jale, Türk tiyatro tarihinde ilk kadın tiyatrocu olarak bilinirken, Muhsin Ertuğrul da önemli bir erkek tiyatrocu ve yönetmendir."
+    },
+    {
+      "questiontext": "AVUSTURYA’NIN BAŞKENTİ NERESİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Viyana"],
+      "w_ans": ["Berlin", "Prag", "Budapeşte"],
+      "aciklama": "Avusturya'nın başkenti Viyana'dır."
+    },
+    {
+      "questiontext": "VATAN YAHUT SİLİSTRE KİMİN ESERİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Namık Kemal"],
+      "w_ans": ["Cemal Süreya", "Orhan Veli Kanık", "Atilla İlhan"],
+      "aciklama": "Vatan Yahut Silistre, ünlü Türk yazarı Namık Kemal'in eserlerinden biridir."
+    },
+    {
+      "questiontext": "İLK KALORİFER SİSTEMİ NEREDE KURULMUŞTUR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İshak Paşa Sarayı"],
+      "w_ans": ["Topkapı Sarayı", "Dolmabahçe Sarayı", "Yıldız Sarayı"],
+      "aciklama": "İlk kalorifer sistemi İshak Paşa Sarayı'nda kurulmuştur."
+    },
+    {
+      "questiontext": "SINIR KAPILARIMIZ NELERDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": [
+        "İpsala",
+        "Pazarkule",
+        "Kapıkule",
+        "Hamzabeyli",
+        "Dereköy",
+        "Sarp",
+        "Türkgözü",
+        "Dilucu",
+        "Habur"
+      ],
+      "w_ans": ["Atatürk Havalimanı", "İstanbul Limanı", "Ankara Garı", "Konya Otogarı"],
+      "aciklama": "Türkiye'nin sınır kapıları arasında İpsala, Pazarkule, Kapıkule, Hamzabeyli, Dereköy, Sarp, Türkgözü, Dilucu ve Habur gibi önemli noktalar bulunmaktadır."
+    },
+    {
+      "questiontext": "PANAMA KANALI NERELERİ BİRBİRİNE BAĞLAR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Atlas Okyanusu ile Büyük Okyanus’u"],
+      "w_ans": ["Karayip Denizi ile Akdeniz'i", "Hint Okyanusu ile Kızıldeniz'i", "Hudson Körfezi ile Michigan Gölü'nü"],
+      "aciklama": "Panama Kanalı, Atlas Okyanusu'nu Büyük Okyanus ile birbirine bağlayan bir su yoludur."
+    },
+    {
+      "questiontext": "İRAN'IN BAŞKENTİ NERESİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Tahran"],
+      "w_ans": ["Bağdat", "Kahire", "Riyad"],
+      "aciklama": "İran'ın başkenti Tahran'dır."
+    },
+    {
+      "questiontext": "ERGİN KILINMA YAŞI KAÇTIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["18 (Ancak 15 yaşını dolduran kendi isteği ya da velisinin isteğiyle mahkeme kararıyla ergin kılınabilir)"],
+      "w_ans": ["16", "20", "21"],
+      "aciklama": "Erginlik yaşı genellikle 18'dir, ancak 15 yaşını dolduran kişiler mahkeme kararıyla ergin kılınabilir."
+    },
+    {
+      "questiontext": "AHMET HAMDİ TANPINAR'IN ESERLERİ SÖYLENİP, ESERLERİN KİME AİT OLDUĞU SORULMUŞ",
+      "image": "",
+      "image_credit": "",
+      "c_ans": [
+        "ROMANLARI: Huzur (1949), Saatleri Ayarlama Enstitüsü (1962), Sahnenin Dışındakiler (1973), Mahur Beste (1975), Aydaki Kadın (1987), Suat'ın Mektubu (2018, haz. Handan İnci)",
+        "DENEMELERİ: Beş Şehir (1946), Yahya Kemal (1962), Edebiyat Üzerine Makaleler (1969) (ölümünden sonra derlenmiştir), Yaşadığım Gibi (1970) (ölümünden sonra derlenmiştir)",
+        "ŞİİR: Şiirler (1961)",
+        "İNCELEME: XIX. Asır Türk Edebiyatı Tarihi (1949, 1966, 1967), Tevfik Fikret (1937)",
+        "HİKÂYE: Abdullah Efendinin Rüyaları (1943), Yaz Yağmuru (1955), Hikâyeler (yazarın ölümünden sonra derlenmiş olan bu kitap, iki kitabındaki hiikâyelerin yanı sıra daha önce kitaplaşmamış hikâyeleri de içermektedir)"
+      ],
+      "w_ans": ["Orhan Pamuk'un eserleri", "Yaşar Kemal'in eserleri", "Elif Şafak'ın eserleri"],
+      "aciklama": "Ahmet Hamdi Tanpınar'ın eserlerine dair bilgilendirme."
+    },
+    {
+      "questiontext": "DAVANIN ISLAHI NE DEMEKTİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Islah, karşı tarafın onamına ve hakimin kararına bağlı olmaksızın bir tarafın usule ilişkin yaptığı işlemleri, gerekli giderleri vermek koşuluyla yasada belirtilen süre içerisinde yöntemine uygun biçimde tamamen veya kısmen düzeltilmesini sağlayan hukuksal bir işlemdir."],
+      "w_ans": ["Davanın sona ermesi", "Hakim kararının verilmesi", "Mahkeme salonunda yapılan tartışma"],
+      "aciklama": "Davanın ıslahı, usule ilişkin hataların düzeltilmesini sağlayan bir hukuki işlemdir."
+    },
+    {
+      "questiontext": "15 TEMMUZ DARBE GİRİŞİMİ KAHRAMANIMIZ KİMDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Ömer Halisdemir"],
+      "w_ans": ["Mustafa Kemal Atatürk", "İsmet İnönü", "Recep Tayyip Erdoğan"],
+      "aciklama": "15 Temmuz darbe girişimi sırasında Ömer Halisdemir, darbeci generali engellemeye çalışırken şehit düşmüş bir kahramandır."
+    },
+    {
+      "questiontext": "ANAYASA MAHKEMESİ ÜYELERİNİN GÖREV SÜRELERİ NE KADARDIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["12 yıl"],
+      "w_ans": ["6 yıl", "8 yıl", "10 yıl"],
+      "aciklama": "Anayasa Mahkemesi üyeleri, 12 yıllık bir görev süresine sahiptirler."
+    },
+    {
+      "questiontext": "ADLİ YARGI İLK DERECE MAHKEMESİ KOMİSYON MÜDÜRLÜKLERİNİ KİM DENETLER?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Adalet Müfettişleri"],
+      "w_ans": ["Adalet Bakanlığı", "Yargıtay", "Hakimler ve Savcılar Kurulu"],
+      "aciklama": "Adli yargı ilk derece mahkemeleri komisyon müdürlüklerini denetlemek için Adalet Müfettişleri görevlendirilir."
+    },
+    {
+      "questiontext": "6100 SAYILI KANUNA GÖRE YETKİSİZLİK/GÖREVSİZLİK KARARI ÜZERİNE DOSYANIN YETKİLİ VEYA GÖREVLİ MAHKEMEYE GÖNDERİLMESİ NE KADAR SÜRE İÇERİSİNDE TALEP EDİLMELİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kararın kesinleşmesinden sonraki iki hafta içerisinde"],
+      "w_ans": ["Bir ay", "Üç gün", "Altı ay"],
+      "aciklama": "6100 sayılı Hukuk Muhakemeleri Kanunu'na göre yetkisizlik/görevsizlik kararı üzerine dosyanın yetkili veya görevli mahkemeye gönderilmesi için kararın kesinleşmesinden sonraki iki hafta içinde talepte bulunulmalıdır."
+    },
+    {
+      "questiontext": "BİRLEŞMİŞ MİLLETLERİN RESMİ DİLİ NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Arapça, Çince, Fransızca, İngilizce, İspanyolca, Rusça"],
+      "w_ans": ["Almanca, İtalyanca, Japonca, Türkçe", "Farsça, Portekizce, Lehçe, Hollandaca", "Yunanca, Korece, Arnavutça, İbranice"],
+      "aciklama": "Birleşmiş Milletler'in resmi dilleri Arapça, Çince, Fransızca, İngilizce, İspanyolca ve Rusça'dır."
+    },
+    {
+      "questiontext": "DÜNYA HARİTASINI İLK KİM ÇİZMİŞTİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İlk Dünya Haritası M.S. 150 yılında Klaudyos Ptolemaios (Klaudyos Batlamyus) tarafından çizilmiştir."],
+      "w_ans": ["Christopher Columbus", "Marco Polo", "Leonardo da Vinci"],
+      "aciklama": "İlk Dünya Haritası, M.S. 150 yılında Klaudyos Ptolemaios (Klaudyos Batlamyus) tarafından çizilmiştir ve Antik Yunan döneminde oluşturulmuştur."
+    },
+    {
+      "questiontext": "TÜRKİYENİN NÜFUSU EN AZ İLİ HANGİSİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bayburt"],
+      "w_ans": ["Isparta", "Aksaray", "Karaman"],
+      "aciklama": "Türkiye'nin nüfusu açısından en az ili Bayburt'tur."
+    },
+    {
+      "questiontext": "ÖLÜMDE TASARRUF ÇEŞİTLERİ NELERDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Vasiyetname ve miras sözleşmesi"],
+      "w_ans": ["Evlilik sözleşmesi ve satış sözleşmesi", "Bağışlama ve kira sözleşmesi", "Ortaklık sözleşmesi ve akit sözleşmesi"],
+      "aciklama": "Ölümde tasarruf çeşitleri arasında vasiyetname ve miras sözleşmesi yer alır."
+    },
+    {
+      "questiontext": "KANUNİ SULTAN SÜLEYMAN, II SELİM, III MURAT GİBİ ÜÇ PADİŞAHA SADRAZAMLİK YAPAN KİŞİ KİMDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Sokullu Mehmet Paşa"],
+      "w_ans": ["Mehmet Emin Pasha", "Kara Mustafa Pasha", "Rüstem Pasha"],
+      "aciklama": "Sokullu Mehmet Paşa, Kanuni Sultan Süleyman, II. Selim ve III. Murat gibi üç padişaha sadrazamlık yapmış önemli bir Osmanlı devlet adamıdır."
+    },
+    {
+      "questiontext": "UYAP IN AÇILIMI NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Ulusal Yargı Ağı Projesi"],
+      "w_ans": ["Uluslararası Yargı Alanı Programı", "Uzay Yargı Alanı Projesi", "Ulaşım Yargı Alanı Projesi"],
+      "aciklama": "UYAP, Ulusal Yargı Ağı Projesi'nin kısaltmasıdır ve Türkiye'deki adli işlemlerin elektronik ortamda yürütülmesini sağlayan bir sistemdir."
+    },
+    {
+      "questiontext": "DAVA ŞARTLARI SAYINIZ.",
+      "image": "",
+      "image_credit": "",
+      "c_ans": [
+        "Türk mahkemelerinin yargı hakkının bulunması.",
+        "Yargı yolunun caiz olması.",
+        "Mahkemenin görevli olması.",
+        "Yetkinin kesin olduğu hâllerde, mahkemenin yetkili bulunması.",
+        "Tarafların, taraf ve dava ehliyetine sahip olmaları; kanuni temsilin söz konusu olduğu hâllerde, temsilcinin gerekli niteliğe sahip bulunması.",
+        "Dava takip yetkisine sahip olunması.",
+        "Vekil aracılığıyla takip edilen davalarda, vekilin davaya vekâlet ehliyetine sahip olması ve usulüne uygun düzenlenmiş bir vekâletnamesinin bulunması."
+      ],
+      "w_ans": [
+        "Tarafların aynı cinsten olması.",
+        "Davanın hızlı sonuçlanması.",
+        "Vekilin olmaması.",
+        "Dava süresinin uzun olması.",
+        "Mahkemenin bulunmayışı."
+      ],
+      "aciklama": "Dava şartları, bir hukuk davasının açılabilmesi için gereken zorunlu koşulları ifade eder."
+    },
+    {
+      "questiontext": "TÜRKMENİSTAN’IN BAŞKENTİ NERESİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Aşkabat"],
+      "w_ans": ["Başkent", "Türkmenşehir", "Türkmenistan Şehri"],
+      "aciklama": "Türkmenistan'ın başkenti Aşkabat'tır."
+    },
+    {
+      "questiontext": "DİNAMİTİ KİM BULDU?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Alfred Nobel"],
+      "w_ans": ["Thomas Edison", "Nikola Tesla", "Marie Curie"],
+      "aciklama": "Dinamiti bulan kişi Alfred Nobel'dir. Nobel ödüllerinin kurucusu olarak da bilinir."
+    },
+    {
+      "questiontext": "HUKUKİ FİİL NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Hukuk düzenince kendisine hukuksal sonuç bağlanan insan eylemlerine hukuksal fiil denir"],
+      "w_ans": ["Hukuk sisteminin uygulandığı yer", "Hukuk kitaplarındaki yazılar", "Hukuk okullarının eğitim programı"],
+      "aciklama": "Hukuki fiil, hukuk düzenine göre sonuçları olan insan eylemlerini ifade eder."
+    },
+    {
+      "questiontext": "BEYAZIT’TA 1826 YILINDA YAPIMI TAMAMLANAN YANGINLARI SÖNDÜRMEK İÇİN KULLANILAN KULENİN ADI NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Beyazıt Yangın Kulesi"],
+      "w_ans": ["Beyazıt Kale Kulesi", "Beyazıt Gözlemevi Kulesi", "Beyazıt İzleme Kulesi"],
+      "aciklama": "Beyazıt'ta 1826 yılında yapımı tamamlanan yangınları söndürmek için kullanılan kule Beyazıt Yangın Kulesi olarak bilinir."
+    },
+    {
+      "questiontext": "YARGITAY CUMHURİYET BAŞSAVCISINI VE BAŞSAVCI VEKİLİNİ KİM ATAR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Cumhurbaşkanı"],
+      "w_ans": ["Adalet Bakanı", "Yargıtay Başkanı", "Hakimler ve Savcılar Kurulu"],
+      "aciklama": "Yargıtay Cumhuriyet Başsavcısı ve Başsavcı Vekili, Cumhurbaşkanı tarafından atanır."
+    },
+    {
+      "questiontext": "BİRLEŞMİŞ MİLLETLERİN ÜYE SAYISI VE NEREDE",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Üye Sayısı zaman içinde değişebilir, güncel sayıyı kontrol etmek önemlidir."],
+      "w_ans": ["Birleşmiş Milletlerin üye sayısı 193 ülkedir.", "BM Genel Merkezi Paris'te bulunur."],
+      "aciklama": "Üye sayısı zaman içinde değişebilir, bu nedenle güncel sayıyı kontrol etmek önemlidir. Birleşmiş Milletler Genel Merkezi New York'ta bulunur."
+    },
+    {
+      "questiontext": "ADLİ TATİL BAŞLANGICINDAN İTİBAREN İTİRAZ SÜRESİ NE KADAR UZAR",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Adli tatil başlangıcından itibaren itiraz süresi 1 hafta uzar."],
+      "w_ans": ["Adli tatil sırasında itiraz yapılamaz.", "Adli tatil itiraz süresini değiştirmez."],
+      "aciklama": "Adli tatil başlangıcından itibaren itiraz süresi 1 hafta uzar."
+    },
+    {
+      "questiontext": "İLK KADIN BÜYÜKELÇİMİZ KİMDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İlk kadın büyükelçimiz Filiz Dinçmen'dir."],
+      "w_ans": ["Tansu Çiller ilk kadın büyükelçimizdir.", "Filiz Dinçmen büyükelçi olmadı."],
+      "aciklama": "Türkiye'nin ilk kadın büyükelçisi Filiz Dinçmen'dir ve bu göreve 1982 yılında atanmıştır."
+    },
+    {
+      "questiontext": "BİRLEŞMİŞ MİLLETLER ANTLAŞMASI NE HÜKMÜNDEDİR",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Birleşmiş Milletler Antlaşması kanun hükmündedir."],
+      "w_ans": ["BM Antlaşması yalnızca tavsiye niteliğindedir.", "BM Antlaşması sadece belirli ülkelere bağlayıcıdır."],
+      "aciklama": "Birleşmiş Milletler Antlaşması kanun hükmündedir ve üye devletleri bağlar."
+    },
+    {
+      "questiontext": "DÜNYANIN EN DERİN YERİ",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Dünyanın en derin yeri Mariana Çukuru'dur."],
+      "w_ans": ["Dünyanın en derin yeri Büyük Okyanus'ta bulunur.", "Mariana Çukuru sadece bir göl."],
+      "aciklama": "Dünyanın en derin yeri Mariana Çukuru olarak bilinir ve Büyük Okyanus'ta yer alır."
+    },
+    {
+      "questiontext": "ADAY MEMUR GÖREVİNDEN HANGİ ŞARTLARDA ALINIR",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Adaylık süresi içinde temel ve hazırlayıcı eğitim ve staj devrelerinin her birinde başarısız olanlarla adaylık süresi içinde hal ve hareketlerinde memuriyetle bağlaşmayacak durumları, göreve devamsızlıkları tespit edilenlerin disiplin amirlerinin teklifi ve atamaya yetkili amirin onayı ile ilişkileri kesilir."],
+      "w_ans": ["Adaylar görevden alınmaz, süreleri uzatılır.", "Adaylar sadece başarısız olduklarında görevden alınır."],
+      "aciklama": "Adaylık süresi içinde belirli şartları karşılayamayan aday memurların ilişkileri kesilebilir."
+    },
+    {
+      "questiontext": "DAVANIN İHBARI NASIL YAPILIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İhbar yazılı olarak yapılır."],
+      "w_ans": ["İhbar sözlü olarak yapılır.", "İhbar posta yoluyla yapılır."],
+      "aciklama": "Davanın ihbarı yazılı olarak yapılır."
+    },
+    {
+      "questiontext": "DEVLET MEMURLUĞUNDAN ÇIKARMA ÇEZASINI KİM VERİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Devlet memurluğundan çıkarma cezasını disiplin kurulu verir."],
+      "w_ans": ["Devlet memurluğundan çıkarma cezasını devlet başkanı verir.", "Devlet memurluğundan çıkarma cezasını mahkeme verir."],
+      "aciklama": "Devlet memurluğundan çıkarma cezasını disiplin kurulu verir."
+    },
+    {
+      "questiontext": "NAKLEN TAYİNDE YENİ GÖREV YERİNDE ÇALIŞMAYA BAŞLADIKTAN NE KADAR SÜRE İÇİNDE TAYİN İSTENİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Naklen tayinde yeni görev yerinde çalışmaya başladıktan sonra 2 yıl içinde tayin istenebilir."],
+      "w_ans": ["Naklen tayinde tayin istenemez.", "Naklen tayinde 5 yıl beklenmelidir."],
+      "aciklama": "Naklen tayinde yeni görev yerinde çalışmaya başladıktan sonra 2 yıl içinde tayin istenebilir."
+    },
+    {
+      "questiontext": "DETSİS AÇILIMI NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["DETSİS, Devlet Teşkilatı Merkez Kayıt Sistemi'nin kısaltmasıdır. Bu sistem, idarelerin merkez, taşra ve yurt dışı teşkilatındaki birimlerin Türkiye Cumhuriyeti Devlet Teşkilatı Numarası ile tanımlandığı bir sistemdir."],
+      "w_ans": ["DETSİS, Devlet Teşkilatı Elektronik Ticaret Sistemi'nin kısaltmasıdır.", "DETSİS, Devlet Teşkilatı Memur İşleri Sistemi'nin kısaltmasıdır."],
+      "aciklama": "DETSİS, Devlet Teşkilatı Merkez Kayıt Sistemi'nin kısaltmasıdır ve kamu idarelerinin birimlerini tanımlayan bir sistemdir."
+    },
+    {
+      "questiontext": "AŞÇILIKTA DEVLET MEMURU OLMAK İÇİN NE MEZUNU OLMAK GEREKİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Aşçılıkta devlet memuru olmak için en az lise ve dengi okul mezunu olmak gerekmektedir."],
+      "w_ans": ["Aşçılıkta devlet memuru olmak için üniversite mezunu olmak gerekmektedir.", "Aşçılıkta devlet memuru olmak için herhangi bir mezuniyet şartı yoktur."],
+      "aciklama": "Aşçılıkta devlet memuru olmak için en az lise ve dengi okul mezunu olmak gerekmektedir."
+    },
+    {
+      "questiontext": "YÜZÖLÇÜMÜ EN BÜYÜK ÜLKE",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Dünya yüzölçümü bakımından en büyük ülke Rusya'dır."],
+      "w_ans": ["Dünya yüzölçümü bakımından en büyük ülke Çin'dir.", "Dünya yüzölçümü bakımından en büyük ülke ABD'dir."],
+      "aciklama": "Dünya yüzölçümü bakımından en büyük ülke Rusya'dır."
+    },
+    {
+      "questiontext": "HALİFELİK OSMANLIYA HANGİ PADİŞAH ZAMANINDA GEÇTİ",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Halifelik Osmanlı İmparatorluğu'nda Yavuz Sultan Selim Han döneminde geçti."],
+      "w_ans": ["Halifelik Osmanlı İmparatorluğu'nda Yıldırım Bayezid döneminde geçti.", "Halifelik Osmanlı İmparatorluğu'nda Kanuni Sultan Süleyman döneminde geçti."],
+      "aciklama": "Halifelik Osmanlı İmparatorluğu'nda Yavuz Sultan Selim Han döneminde geçti."
+    },
+    {
+      "questiontext": "İSPANYA’DA KURULAN İSLAM DEVLETİ HANGİSİDİR",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İspanya'da kurulan İslam devleti Endülüs Emevi Devleti'dir."],
+      "w_ans": ["İspanya'da kurulan İslam devleti Abbâsîler Devleti'dir.", "İspanya'da kurulan İslam devleti Selçuklu Devleti'dir."],
+      "aciklama": "İspanya'da kurulan İslam devleti Endülüs Emevi Devleti'dir."
+    },
+    {
+      "questiontext": "ZİNCİRLEME SUÇTA DAVA NEREDE AÇILIR",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Zincirleme suçta dava, son suçun işlendiği yer mahkemesinde açılır."],
+      "w_ans": ["Zincirleme suçta dava, ilk suçun işlendiği yer mahkemesinde açılır.", "Zincirleme suçta dava, isteğe bağlı olarak herhangi bir yerde açılabilir."],
+      "aciklama": "Zincirleme suçta dava, son suçun işlendiği yer mahkemesinde açılır."
+    },
+    {
+      "questiontext": "TBMM’Yİ TANIYAN İLK İSLAM DEVLETİ HANGİSİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["TBMM'yi tanıyan ilk İslam devleti Afganistan'dır."],
+      "w_ans": ["TBMM'yi tanıyan ilk İslam devleti Mısır'dır.", "TBMM'yi tanıyan ilk İslam devleti Suudi Arabistan'dır."],
+      "aciklama": "TBMM'yi tanıyan ilk İslam devleti Afganistan'dır."
+    },
+    {
+      "questiontext": "CUMHURBAŞKANI ADAYINI KİMLER SEÇEBİLİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Cumhurbaşkanı adayını siyasi parti grupları, en son yapılan genel seçimlerde toplam geçerli oyları tek başına veya birlikte en az yüzde beşini almış olan siyasi partiler ile en az yüz bin seçmen aday gösterebilir."],
+      "w_ans": ["Cumhurbaşkanı adayını yalnızca Meclis seçebilir.", "Cumhurbaşkanı adayını yalnızca hükümet seçebilir."],
+      "aciklama": "Cumhurbaşkanı adayını siyasi parti grupları, en son yapılan genel seçimlerde toplam geçerli oyları tek başına veya birlikte en az yüzde beşini almış olan siyasi partiler ile en az yüz bin seçmen aday gösterebilir."
+    },
+    {
+      "questiontext": "MİMAR SİNAN'IN ÇIRAKLIK ESERİ",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Mimar Sinan'ın çıraklık eseri Şehzade Camii'dir."],
+      "w_ans": ["Mimar Sinan'ın çıraklık eseri Süleymaniye Camii'dir.", "Mimar Sinan'ın çıraklık eseri Selimiye Camii'dir."],
+      "aciklama": "Mimar Sinan'ın çıraklık eseri Şehzade Camii'dir, kalfalık dönemi eseri Süleymaniye Camii, ustalık dönemi eseri ise Selimiye Camii'dir."
+    },
+    {
+      "questiontext": "MEMURİYETTEKİ SINIFLAR",
+      "image": "",
+      "image_credit": "",
+      "c_ans": [
+        "Genel idare hizmetler sınıfı",
+        "Teknik hizmetler sınıf",
+        "Sağlık hizmetleri ve yardımcı sağlık hizmetleri sınıfı",
+        "Eğitim ve öğretim hizmetleri sınıfı",
+        "Avukatlık hizmetleri sınıfı",
+        "Din hizmetleri sınıfı",
+        "Emniyet hizmetleri sınıfı",
+        "Jandarma hizmetleri sınıfı",
+        "Sahil Güvenlik hizmetleri sınıfı",
+        "Yardımcı hizmetler sınıfı",
+        "Mülki İdare Amirliği hizmetleri sınıfı",
+        "İl İstihbarat hizmetleri sınıfı"
+      ],
+      "w_ans": ["Bilgisayar Programcılığı sınıfı", "Şoförlük sınıfı", "Tıbbi Sekreterlik sınıfı"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ULUSLARARASI ADALET DİVANI NEREDEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Lahey (Hollanda)", "15 Yargıçtan oluşur."],
+      "w_ans": ["Paris (Fransa)", "Londra (İngiltere)"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "MÜBAŞİRİN GÖREVLERİ NELERDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": [
+        "a) Zabıt kâtibi tarafından hazırlanan duruşma dosyalarını, duruşma gününden önce incelenmek üzere daire başkanı, üye veya Cumhuriyet savcısına götürmek.",
+        "b) Bölge adliye mahkemesi bilgilendirme sistemi olmayan yerlerde günlük duruşma listesini gö-rülebilecek bir yere asmak.",
+        "c) Duruşma sırası gelenleri duruşma salonuna davet ederek, salondaki yerlerini göstermek ve buna uyulmasını sağlamak.",
+        "ç) Yemin verilmesi ve kararın açıklanması baş-ta olmak üzere, duruşma ve keşif esnasında uyulma-sı gereken davranış kurallarını taraflara ve ilgililere açıklamak.",
+        "d) Duruşmanın kapalı yapılmasına dair karar alındığında salonu boşaltmak.",
+        "e) Ertelenen duruşma tarihini yazarak taraflara vermek.",
+        "f) Müzekkere ve tebligatların ilgili kurum ya da kişilere ulaşmasını sağlamak üzere posta ve zim-met işlemlerini yerine getirmek.",
+        "g) Daire başkanı veya üyenin talimatı doğrul-tusunda dosyadan evrak örneği verilmesini sağla-mak.",
+        "ğ) Arşive götürülmesi veya arşivden çıkarıl-ması gereken dosyalara ilişkin işlemleri yapmak ve arşivi düzenli tutmak.",
+        "h) Fizikî olarak sunulan evrakı tarama işlemi tamamlandıktan sonra en kısa sürede dosyasına dü-zenli bir şekilde takmak.",
+        "ı) İlgili mevzuatta belirlenen resmî kıyafeti giymek.",
+        "i) Mevzuattan kaynaklanan veya daire başka-nı, üye ya da yazı işleri müdürünün vereceği diğer görevleri yerine getirmek."
+      ],
+      "w_ans": ["Duruşma salonunda kahve servisi yapmak.", "Güvenlik görevlisi olarak görev yapmak."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "TBMM 2021 YILINI NE YILI İLAN ETMİŞTİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İstiklal Marşı"],
+      "w_ans": ["Türkçe Yılı", "Kurtuluş Yılı"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "DÜNYA TEK BİR ÜLKE OLSAYDI BAŞKENTİ İSTANBUL OLURDU SÖZÜ KİME AİTTİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Napolyon Bonapart"],
+      "w_ans": ["George Washington", "Abraham Lincoln"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "UYUŞMAZLIK MAHKEMESİNİN GÖREVLERİ NELERDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Adli ve idari yargı arasındaki görev hüküm uyuşmazlıklarını kesin olarak çözer"],
+      "w_ans": ["Trafik cezalarını belirler", "Boşanma davalarını sonuçlandırır"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ATATÜRK DÖNEMİNDE KURULAN İLK BANKA?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Türkiye İş Bankası"],
+      "w_ans": ["Ziraat Bankası", "Halk Bankası"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "OSMANLIDA KURULAN İLK BANKA?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bank-ı Dersaadet"],
+      "w_ans": ["Osmanlı Bankası", "Türk Ticaret Bankası"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "BULANTI VE DUVAR KİTABININ YAZARI?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Jean Paul Sartre"],
+      "w_ans": ["Fyodor Dostoyevski", "Leo Tolstoy"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "DİVAN-I LÜGATİT TÜRK YAZARI?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kaşgarlı Mahmut (1072)"],
+      "w_ans": ["Yunus Emre", "Ahmet Yesevi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "İSTİKLAL MARŞI NE ZAMAN KABUL EDİLDİ?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["12 Mart 1921"],
+      "w_ans": ["29 Ekim 1923", "19 Mayıs 1919"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "AYDER YAYLASI HANGİ İLİMİZDEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Rize"],
+      "w_ans": ["Trabzon", "İstanbul", "Ankara", "İzmir", "Adana"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "İLK PSİKOLOJİK ROMAN?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Eylül (Mehmet Rauf)"],
+      "w_ans": ["Suç ve Ceza (Dostoyevski)", "Uyluklar (Yaşar Kemal)", "Karamazov Kardeşler (Dostoyevski)", "Beyaz Geceler (Dostoyevski)", "Sefiller (Victor Hugo)"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "MASUMİYET MÜZESİ, BENİM ADIM KIRMIZI KAR YAZARI?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Orhan Pamuk"],
+      "w_ans": ["Elif Şafak", "Yaşar Kemal", "Necip Fazıl Kısakürek", "Ahmet Hamdi Tanpınar", "Sabahattin Ali"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "GÜNEŞE EN YAKIN GEZEGEN?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Merkür"],
+      "w_ans": ["Venüs", "Mars", "Jüpiter", "Satürn", "Uranüs"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "AFRİKANIN EN YÜKSEK TEPESİ?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kilimanjaro"],
+      "w_ans": ["Atlas Dağları", "Drakensberg Dağları", "Ruvenzori Dağları", "Sahara Tepeleri", "Table Dağı"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "İDAM HANGİ TARİHTE KALDIRILDI?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["07/05/2004 (Anayasa)", "11/07/2004 (TCK)"],
+      "w_ans": ["25/10/1984 – Burdur", "01/01/1990", "15/11/2003", "30/04/2005", "20/02/1995"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "GÖREVSİZLİK KARARI HANGİ AŞAMADA VERİLİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["CMK'ya göre; İddianamenin kabulünden sonra", "HMK'ya göre: Her zaman verilebilir"],
+      "w_ans": ["Mahkeme kararı sonrası", "Savcılık soruşturması aşamasında", "Temyiz aşamasında", "Duruşma öncesi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ABD NİN BAŞKENTİ NERESİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Washington"],
+      "w_ans": ["New York", "Los Angeles", "Chicago", "San Francisco", "Miami"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "2020 YILI ŞAMPİYONLAR LİGİ ŞAMPİYONU HANGİ TAKIMDIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bayern Munih"],
+      "w_ans": ["Paris Saint-Germain", "Liverpool", "Real Madrid", "Barcelona", "Chelsea"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "GAİPLİK KARARI NE ZAMAN İSTENİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Ölüm tehlikesinin üzerinden en az 1 yıl, veya", "Son haber tarihinin üzerinden en az 5 yıl geçmiş olması koşuluyla istenebilir"],
+      "w_ans": ["Doğum tarihinden itibaren 1 yıl", "Son haber tarihinin üzerinden en az 2 yıl geçmiş olması koşuluyla istenebilir", "Her zaman istenebilir", "İlk haber alındığında istenebilir", "Son haber alındığında istenebilir"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "İSTANBUL'UN EN BÜYÜK CAMİSİ HANGİSİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Çamlıca Camii"],
+      "w_ans": ["Sultanahmet Camii", "Süleymaniye Camii", "Mihrimah Sultan Camii", "Fatih Camii", "Ortaköy Camii"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "SUSUZ YAZ KİMİN ESERİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Necati Cumalı"],
+      "w_ans": ["Yaşar Kemal", "Orhan Pamuk", "Elif Şafak", "Ahmet Hamdi Tanpınar", "Cemal Süreya"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ARSİV İMZA NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kriptografik metodların zaman içerisinde koruyucu özelliğini yitirmesine karşı periyodik olarak alınan zaman damgası ile korunan elektronik imza"],
+      "w_ans": ["Belgelerin arşivlenmesi için kullanılan özel bir imza", "Tarih belgelerinin üzerine atılan imza", "Kriptografik metodların bilgisayarlar aracılığıyla imzalanması", "Elektronik postaların güvenliğini sağlamak için kullanılan imza", "Kriptografik metodların zaman damgasıyla işlemesi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ALMANYA'NIN BAŞKENTİ NERESİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Berlin"],
+      "w_ans": ["Münih", "Frankfurt", "Hamburg", "Köln", "Düsseldorf"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ÖLÜME BAĞLI TASARRUFLARDA MAL REJİMİNE İLİŞKİN YETKİLİ MAHKEME HANGİSİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Ölen kimsenin son yerleşim yeri mahkemesi"],
+      "w_ans": ["Tutuklunun mahkemesi", "Vasiyetnamenin verildiği mahkeme", "Mirascının yerleşim yeri mahkemesi", "Aile mahkemesi", "Ticaret mahkemesi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "GÖREVDEN UZAKLAŞTIRMA DİSİPLİN SORUŞTURMASI NASIL İŞLER?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Görevden uzaklaştırılan devlet memurları hakkında görevden uzaklaştırma izleyen 10 gün içerisinde soruşturmaya başlanması şarttır"],
+      "w_ans": ["Görevden uzaklaştırılan memur hakkında soruşturma yapılmaz", "Sadece yazılı şikayet üzerine soruşturma yapılır", "Sadece disiplin amiri kararı ile soruşturma yapılır", "Soruşturma, görevden uzaklaştırmanın ardından en az 3 ay sonra başlar", "Sadece mahkeme kararı ile soruşturma yapılır"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ANAYASA MAHKEMESİ BASKANININ GÖREV SÜRESİ NE KADARDIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["4 Yıldır"],
+      "w_ans": ["6 Yıl", "8 Yıl", "10 Yıl", "2 Yıl", "5 Yıl"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "İSTANBULA YAPILAN ÜÇÜNCÜ KÖPRÜNÜN ADI NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Yavuz Sultan Selim Köprüsü"],
+      "w_ans": ["Fatih Sultan Mehmet Köprüsü", "Boğaziçi Köprüsü", "Marmaray Köprüsü", "Atatürk Köprüsü", "15 Temmuz Şehitler Köprüsü"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "MUHAKKİK SORUŞTURMASINI YÜRÜTÜRKEN YENİ BİR SUÇ TESPİT EDERSE NE YAPAR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Muhakkik, görevlendirildiği fiil veya hâl dışında yeni bir disipline aykırı fiil veya hâl tespit ederse kendiliğinden soruşturma yapamaz. Durumu disiplin âmirine yazılı olarak bildirir. Kendisine yazılı olarak ek soruşturma izni verildiği takdirde, bu konularda da soruşturma yapabilir."],
+      "w_ans": ["Yeni suç tespiti yapması soruşturmanın sona ermesine neden olur", "Yeni suç tespiti yapması durumunda başka bir muhakkik atanır", "Yeni suç tespiti yapması durumunda disiplin soruşturması sonuçlanmış sayılır", "Yeni suç tespiti yapması durumunda soruşturmanın süresi uzar", "Muhakkik, yeni suç tespiti yapabilir ve bu suçları da soruşturabilir"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "SAHNELENEN İLK TİYATRO ESERİ NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Vatan yahut Silistre"],
+      "w_ans": ["Şehir Tiyatrosu", "Hamlet", "Medea", "Oidipus Rex", "Romeo ve Juliet"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "HUKUKİ İŞLEM NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bir veya birden fazla kişinin, hukuk düzeninin çizdiği sınırlar içinde hukuki sonuç doğurmaya yönelik irade açıklamalarıdır."],
+      "w_ans": ["Mahkeme kararı", "Yasama faaliyeti", "İdari işlem", "Sözleşme", "Yargı kararı"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "SENDİKA KURMA HAKKI NASIL KISITLANIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Millî güvenlik, kamu düzeni, suç işlenmesinin önlenmesi, genel sağlık ve genel ahlâk ile başkalarının hak ve özgürlüklerinin korunması sebepleriyle ve kanunla sınırlanabilir."],
+      "w_ans": ["Hiçbir şekilde kısıtlanamaz", "Yargı kararı olmadan kısıtlanamaz", "Sadece grev dönemlerinde kısıtlanabilir", "Sadece siyasi nedenlerle kısıtlanabilir", "Sadece sendikanın isteği doğrultusunda kısıtlanabilir"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ERZURUM VE SİVAS KONGRELERİNDEKİ KURULUN ADI NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Temsil Heyeti"],
+      "w_ans": ["İstiklal Heyeti", "Milli Kongre", "Anadolu Heyeti", "Bağımsızlık Komitesi", "Halk Meclisi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "2. MEŞRUTİYETTE ETKİLİ OLAN AKIM VE GRUBUN ADI NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Türkçülük", "İttihat ve Terakki"],
+      "w_ans": ["Milliyetçilik", "Demokratlar", "Hürriyet ve İtilaf", "Osmanlıcılık", "İslamcılar"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "MİRAS İSTİHKAKİNDA ZAMANAŞIMI NE KADARDIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Miras sebebiyle istihkak davası, davacının kendisinin mirasçı olduğunu ve iyiniyetli davalının terekeyi veya tereke malını elinde bulundurduğunu öğrendiği tarihten başlayarak bir yıl ve her hâlde mirasbırakanın ölümünün veya vasiyetnamenin açılmasının üzerinden on yıl geçmekle zamanaşımına uğrar"],
+      "w_ans": ["5 yıl", "15 yıl", "2 yıl", "7 yıl", "20 yıl"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "PARAYI İLK KİM BULMUŞTUR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Lidyalılar"],
+      "w_ans": ["Romalılar", "Mısırlılar", "Persler", "Babil", "Hititler"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "YAZI İŞLERİ MÜDÜRLÜĞÜ SINAVI HANGİ YÖNETMELİKLE YAPILIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Adalet Bakanlığı Personeli Görevde Yükselme Ve Unvan Değişikliği Yönetmeliği"],
+      "w_ans": ["Milli Eğitim Bakanlığı Yönetmeliği", "İçişleri Bakanlığı Yönetmeliği", "Sağlık Bakanlığı Yönetmeliği", "Kültür ve Turizm Bakanlığı Yönetmeliği", "Dışişleri Bakanlığı Yönetmeliği"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "DEBİ NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bir akarsuyun herhangi bir kesiminden saniyede geçen suyun hacmi"],
+      "w_ans": ["Deniz seviyesinin yüksekliği", "Elektrik akım şiddeti", "Rüzgar hızı", "Sesin hızı", "Havada bulunan nem oranı"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ORTAOKUL MUEZUNLARİNİN MEMURİYETE GİRİŞ DERECESİ NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["14/2"],
+      "w_ans": ["8/1", "12/3", "16/4", "18/5", "20/6"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "KADINLARA İLK MİLLET VEKİLİ SEÇİLME HAKKI NE ZAMAN VERİLMİŞTİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["5 Aralık 1934"],
+      "w_ans": ["1 Ocak 1923", "10 Kasım 1938", "29 Ekim 1920", "23 Nisan 1923", "3 Mayıs 1937"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "DEVLET DENETLEME KURULU KİMİN TALİMATI İLE ÇALIŞIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Cumhurbaşkanının emri ile"],
+      "w_ans": ["Başbakanın emri ile", "TBMM Başkanının emri ile", "Adalet Bakanının emri ile", "Maliye Bakanının emri ile", "İçişleri Bakanının emri ile"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "AKKUYU TERMİK SANTRALİ HANGİ ÜLKE İLE ORTAK YAPILACAKTİR",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Rusya"],
+      "w_ans": ["Çin", "ABD", "Türkiye", "Almanya", "Japonya"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ŞIPSEVDİ VE EFSUNCU BABA ESERLERİ KİME AİTTİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Hüseyin Rahmi Gürpınar"],
+      "w_ans": ["Halit Ziya Uşaklıgil", "Reşat Nuri Güntekin", "Ahmet Hamdi Tanpınar", "Peyami Safa", "Yaşar Kemal"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ATATÜRK'E GAZİLİK VE MAREŞAL ÜNVANINI HANGİ SAVAŞTAN SONRA VERİLMİŞTİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Sakarya Meydan Muharebesi"],
+      "w_ans": ["Dumlupınar Meydan Muharebesi", "Çanakkale Savaşı", "Büyük Taarruz", "Kütahya-Eskişehir Muharebeleri", "İnönü Muharebeleri"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "DEVLET MEMURUNUN ÇOCUĞUNUN OLMASI HALİNDE EN ÇOK NE KADAR ÜCRETSİZ İZİN VERİLİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İstekleri üzerine 24 aya kadar aylıksız izin verilebilir"],
+      "w_ans": ["6 ay", "12 ay", "18 ay", "36 ay", "48 ay"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "DÜNYAYA EN YAKIN GEZEGEN NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Venüs"],
+      "w_ans": ["Mars", "Jüpiter", "Satürn", "Merkür", "Neptün"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ANAYASA MAHKEMESİ BAŞKANINI KİM SEÇER?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Anayasa Mahkemesi üyeleri arasından üyeler tarafından seçilir"],
+      "w_ans": ["Cumhurbaşkanı", "Başbakan", "TBMM Başkanı", "Yargıtay Başkanı", "Adalet Bakanı"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "AVRUPA BİRLİĞİNE 2013 YİLİNDA SON GİREN ÜLKE HANGİSİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Hırvatistan"],
+      "w_ans": ["Yunanistan", "İspanya", "Portekiz", "Romanya", "Polonya"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "TAŞINMAZ MÜLKİYETİNİN KONUSUNU NE OLUŞTURUR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Arazi, Tapu kütüğünde ayrı sayfaya kaydedilen bağımsız ve sürekli haklar, Kat mülkiyeti kütüğüne kayıtlı bağımsız bölümler"],
+      "w_ans": ["Sanat eserleri", "Taşıt araçları", "Madenler", "Emlak vergisi", "Bina inşaatları"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ERTUĞRUL GAZİ TÜRBESİ NEREDEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bilecik"],
+      "w_ans": ["Ankara", "Sivas", "Konya", "Eskişehir", "Bursa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "UKRAYNA BAŞKENTİ NERESİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kiev"],
+      "w_ans": ["Moskova", "Minsk", "Vilnius", "Tallinn", "Riga"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ELEKTRONİK İMZAYLA İMZALANAN BELGENİN FİZİKİ OLARAK SAKLANMASINA GEREK VAR MIDIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bu belgeler, zorunlu olmadıkça ayrıca çıktısı alınarak el yazısıyla atılan imza ile imzalanmaz ve fiziksel ortamda saklanmaz."],
+      "w_ans": ["Evet, her durumda fiziksel olarak saklanmalıdır.", "Sadece kâğıt üzerinde saklanmalıdır.", "Yalnızca dijital olarak saklanmalıdır.", "Sadece tarayıcıda saklanmalıdır.", "Yalnızca e-posta ile gönderilmelidir."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "I.TBMM NİN YAPTIĞI İLK VE SON İNKILAP NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Saltanatın Kaldırılması"],
+      "w_ans": ["Hilafetin Kaldırılması", "Türk Harf Devrimi", "Tekke ve Zaviyelerin Kapatılması", "Kıyafet Devrimi", "İskan Kanunu"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "BİRLEŞMİŞ MİLLETLER ÜYE SAYISI KAÇTIR? ÖNEMLİLERİ SAYINIZ",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["193 üye"],
+      "w_ans": ["150 üye", "170 üye", "210 üye", "220 üye", "250 üye"],
+      "aciklama": "Birleşmiş Milletler (BM), 193 üye ülkeyi temsil eden uluslararası bir örgüttür. Önemli üyeler arasında ABD, Çin, Rusya, Fransa, İngiltere, Almanya, Japonya, Türkiye ve diğer birçok ülke bulunmaktadır."
+    },
+    {
+      "questiontext": "ARAMA KARARI NE ZAMAN VERİLİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Soruşturma ve kovuşturma aşamasında"],
+      "w_ans": ["Mahkeme kararının ardından", "Tutuklama yapılması gerektiğinde", "Soruşturma başlamadan önce"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "OSMANLININ YAPTIĞI SON ANTLAŞMA NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Sevr Antlaşması"],
+      "w_ans": ["Lozan Antlaşması", "Brest-Litovsk Antlaşması", "Berlin Antlaşması"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "TEBLİGATTA DAVANIN KONUSUNUN YER ALMASINA GEREK VAR MI?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Tebligat kanununa göre anlaşılacak şekilde kısa tebliğin mevzusunu ihtiva eder."],
+      "w_ans": ["Konu her zaman belirtilmelidir.", "Tebligatta konu yer almazsa geçersizdir.", "Tebligat tamamen metinsiz olmalıdır."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "SAFAHAT KİMİN ESERİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Mehmet Akif Ersoy"],
+      "w_ans": ["Nazım Hikmet Ran", "Ahmet Haşim", "Cemal Süreya"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "DENEMELER KİMİN ESERİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Montaigne"],
+      "w_ans": ["Franz Kafka", "George Orwell", "Leo Tolstoy"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "GÜNEŞE EN YAKIN GEZEGEN HANGİSİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Merkür"],
+      "w_ans": ["Venüs", "Dünya", "Mars"],
+      "aciklama": "(En uzak: Neptün) (Gezegen olmaktan çıkartılan: Plüton) (Ters yörüngede dönen: Venüs)"
+    },
+    {
+      "questiontext": "EN DOĞUDAKİ İLİMİZ HANGİSİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Iğdır, Aras Irmağı"],
+      "w_ans": ["Kars, Sarıkamış", "Ağrı, Doğubayazıt", "Van, Edremit"],
+      "aciklama": "(En batı ucu: Çanakkale, Gökçeada, Avlaka Burnu) (En kuzey ucu: Sinop, Arıburnu) (En güney ucu: Hatay, Beysun Koyu)"
+    },
+    {
+      "questiontext": "AVRUPA İNSAN HAKLARI MAHKEMESİ NEREDEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Strazburg, Fransa"],
+      "w_ans": ["Lahey, Hollanda", "Viyana, Avusturya", "Brüksel, Belçika"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "BATMANIN MUHTEŞEM İLÇESİNİN NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Hasankeyf"],
+      "w_ans": ["Kozluk", "Sason", "Beşiri"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "TÜRKİYEDEKİ İLK RASATHANE HANGİSİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Takiyüddin'in Rasathanesi"],
+      "w_ans": ["Ankara Rasathanesi", "İstanbul Rasathanesi", "Bursa Rasathanesi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "1924 TE DOĞUP 2018 DE ÖLEM İSLAM BİLGİNİ KİMDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Prof. Dr. Fuat Zengin"],
+      "w_ans": ["Prof. Dr. Ahmet Davutoğlu", "Prof. Dr. İskender Pala", "Prof. Dr. Mustafa İslamoğlu"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "AZİZ İSTANBUL ŞİİRİNİN YAZARI KİMDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Yahya Kemal Beyatlı"],
+      "w_ans": ["Necip Fazıl Kısakürek", "Cahit Sıtkı Tarancı", "Tevfik Fikret"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "BAŞÖĞRETMEN KİMDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Atatürk"],
+      "w_ans": ["Mustafa Kemal", "İsmet İnönü", "Mustafa İsmet Atatürk"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "KURGUSAL OLMAYAN ESERLER NELERDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Deneme", "gazete yazıları", "belgesel film", "tarihi metinler", "bilimsel sunumlar", "fotoğraf", "biyografiler"],
+      "w_ans": ["Roman", "Şiir", "Tiyatro oyunları"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "GİDER AVANSI, HARÇ İADESİ NE ZAMAN YAPILIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Hükmün kesinleşmesinden sonra"],
+      "w_ans": ["Dava açıldığında", "Davanın sonuçlanmasından önce", "Kararın verildiği anda"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "SEFİLLER KİMİN ESERİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Victor Hugo"],
+      "w_ans": ["Fyodor Dostoyevsky", "Leo Tolstoy", "Charles Dickens"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "TMK DA KISITLAMA NEDENLERİNDEN İKİ TANESİNİ SAYIN",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Akıl hastalığı", "Akıl zayıflığı"],
+      "w_ans": ["Cezai ehliyetinin olmaması", "Hakaret suçu işlemek", "Serserilik yapmak"],
+      "aciklama": "Diğer nedenler arasında alkol veya uyuşturucu madde bağımlılığı ve ağır ve tehlike arzeden bulaşıcı hastalık da bulunur."
+    },
+    {
+      "questiontext": "ARAMA KARARINDA NELER GEREKİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["a) Aramanın nedenini oluşturan fiil", "b) Aranılacak kişi, aramanın yapılacağı konut veya diğer yerin adresi ya da eşya", "c) Karar veya emrin geçerli olacağı zaman süresi"],
+      "w_ans": ["Sadece aramanın nedenini oluşturan fiil", "Sadece aranılacak kişinin kimliği", "Sadece kararın geçerli olduğu zaman süresi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "CUMHURBAŞKANI MGKYA KATILMAZSA YERİNE KİM BAŞKANLIK YAPAR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Cumhurbaşkanı Yardımcısı"],
+      "w_ans": ["TBMM Başkanı", "Başbakan", "Adalet Bakanı"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ZABIT KATİPLİĞİ SINAVINDA BAŞARILI OLANLARIN YÜKSEKTEN AŞAĞIDA KAÇ KATI SÖZLÜ SINAVA ÇAĞRILIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["3 katı kadar aday"],
+      "w_ans": ["2 katı kadar aday", "4 katı kadar aday", "5 katı kadar aday"],
+      "aciklama": "PGM tarafından yayımlanan 2021 yılı personel ilanından alınmıştır."
+    },
+    {
+      "questiontext": "TOPLU İŞ SÖZLEŞMELERİNDE UYUŞMAZLIĞI KİM ÇÖZER?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Yüksek Hakem Kurulu"],
+      "w_ans": ["Sendika Temsilcileri", "İşverenler", "Mahkeme"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "CUMHURBAŞKANI İADE ETTİĞİ ANAYASA DEĞİŞİKLİĞİNİ MECLİS 2/3 İLE KABUL EDERSE CUMHURBAŞKANI RESMİ GAZETEDE KANUNU YAYINLAMAK ZORUNDA MIDIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Evet. Ancak; Cumhurbaşkanının Meclisin üçte ikisinden az bir oyla kabul ettiği bir Anayasa değişikliği kanununu onaylama yetkisi yoktur."],
+      "w_ans": ["Hayır, Cumhurbaşkanı bu yetkiye sahiptir.", "Sadece Meclis Başkanı yayınlayabilir.", "Cumhurbaşkanının inisiyatifindedir."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "YUNANİSTAN İLE TÜRKİYEYİ BAĞLAYAN SINIR KAPISI NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İpsala"],
+      "w_ans": ["Kapıkule", "Meriç", "Karaağaç"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ADALET BAKANLIĞI PERSONELİNDE KOMİSYONLAR ARASI NAKLEN ATAMA NASIL GERÇEKLEŞİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["a) Görev yaptıkları adalet komisyonları yetki alanı içerisinde en az iki yıl hizmet etmiş olmaları,", "b) Atanmak istedikleri veya atanacakları yerlerde durumlarına uygun bir kadro ve ihtiyaç bulunması, gerekir."],
+      "w_ans": ["Özür grubu atamaları ile gerçekleşir.", "Başvuru sırasında sınav notu belirleyici faktördür.", "Adalet Bakanının inisiyatifindedir."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "MİLLETVEKİLİ SEÇİLME YAŞI KAÇTIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["18"],
+      "w_ans": ["20", "21", "25"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "KAŞAĞI KİMİN ESERİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Ömer Seyfettin"],
+      "w_ans": ["Halide Edib Adıvar", "Cemal Süreya", "Yaşar Kemal"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "KİRALIK KONAK KİMİN ESERİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Yakup Kadri Karaosmanoğlu"],
+      "w_ans": ["Halit Ziya Uşaklıgil", "Reşat Nuri Güntekin", "Peyami Safa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "BOR REZERVİ EN ÇOK HANGİ ÜLKEDEDİR ?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Türkiye"],
+      "w_ans": ["Çin", "Rusya", "ABD"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "TÜRKİYENİN EN UZUN IRMAĞI HANGİSİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kızılırmak"],
+      "w_ans": ["Fırat", "Dicle", "Sakarya"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "KARAKAYA BARAJI NEREDEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Çüngüş, Diyarbakır"],
+      "w_ans": ["Adıyaman, Samsat", "Bingöl, Kiğı", "Şanlıurfa, Halfeti"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "AĞIR CEZA MAHKEMESİNİN GÖREVİNE GİREN İŞLERDE TUTUKLULUK SÜRESİ NE KADARDIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["2 yıl"],
+      "w_ans": ["6 ay", "1 yıl", "3 yıl"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "DÜNYADA AYAKTA KALAN TEK CELLAT MEZARLIĞI NEREDEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Eyüpteki Pierre Loti Kahvesi yanında"],
+      "w_ans": ["İstanbul, Sultanahmet Meydanı", "Kayseri, Erciyes Dağı", "Ankara, Atatürk Orman Çiftliği"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "MALAZGİRT SAVAŞI HANGİ TARİHTE YAPILMIŞTIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["26 Ağustos 1071"],
+      "w_ans": ["18 Temmuz 1402", "20 Temmuz 1453", "5 Temmuz 1299"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ZİLYETLİKLE ELDE EDİLEN TAŞINMAZA KARŞI DAVA AÇMA SÜRESİ NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["10 yıl"],
+      "w_ans": ["5 yıl", "15 yıl", "20 yıl"],
+      "aciklama": "Yanlışım varsa düzeltin lütfen."
+    },
+    {
+      "questiontext": "SON OSMANLI PADİŞAHI KİMDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Sultan Vahdettin"],
+      "w_ans": ["II. Mahmud", "Sultan Abdülmecid", "Sultan Abdülaziz"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "2802 SK GÖRE, AÇIKTAN ATAMALARI TEKLİF EDEN BİRİM NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Adalet Komisyonları"],
+      "w_ans": ["Adalet Bakanlığı", "Türkiye Adalet Akademisi", "Yüksek Seçim Kurulu"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "MONA LİSA KİMİN ESERİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Leonardo da Vinci"],
+      "w_ans": ["Raphael", "Michelangelo", "Titian"],
+      "aciklama": "Mona Lisa (La Gioconda veya La Joconde olarak da bilinir), İtalya'nın Floransa şehrindeki Rönesans sırasında Leonardo da Vinci tarafından kavak bir pano üzerine Sfumato tekniği ile resmedilmiş 16. yüzyıl yağlı boya portresidir."
+    },
+    {
+      "questiontext": "IYİ NİYET İLKESİ NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kişinin gerekli tüm dikkat ve özeni göstermesine rağmen bir hukukî sonucun doğmasına engel olan durumları öngörememesi halidir."],
+      "w_ans": ["Kişinin kötü niyetli davrandığı durumlar", "Kötü niyetli davranışın yasak olduğu durumlar", "Kişinin her durumda sorumlu olduğu durumlar"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "RESMİ GAZETEYİ KİM YAYINLAR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Cumhurbaşkanlığı İdari İşler Başkanlığı Hukuk ve Mevzuat Genel Müdürlüğü"],
+      "w_ans": ["TBMM", "Adalet Bakanlığı", "Basın Yayın ve Enformasyon Genel Müdürlüğü"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "KAZA-İ RÜŞT NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Reşit (ergin) olmayan birinin mahkeme kararıyla reşit (ergin) hale getirilmesidir."],
+      "w_ans": ["Suçlu bir kişinin serbest bırakılması", "Kaza sonucu ölüm", "Suçlu bir kişinin ceza alması"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "HZ. PEYGAMBERİN VEYSEL KARANİYE VERDİĞİ HIRKA NEREDE MUHAFAZA EDİLİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Hırka-i Şerif Camiinde"],
+      "w_ans": ["Medine'de", "Mekke'de", "İstanbul'da"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "KARADENİZDE MADEN ÇIKARAN GEMİNİN ADI NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Fatih Sondaj Gemisi"],
+      "w_ans": ["Deniz Yıldızı", "Mavi Karadeniz", "Kara Deniz"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "TAŞINMAZ MÜLKİYETİNİN ÇEŞİTLERİ NELERDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["1) Arazi,", "2) Tapu kütüğünde ayrı sayfaya kaydedilen bağımsız ve sürekli haklar,", "3) Kat mülkiyeti kütüğüne kayıtlı bağımsız bölümler, oluşturur."],
+      "w_ans": ["1) Konut,", "2) Daire", "3) Tarla"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "SÜRGÜN ROMANININ YAZARI KİMDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Halit Rıfkı Karay"],
+      "w_ans": ["Ahmet Hamdi Tanpınar", "Orhan Pamuk", "Yaşar Kemal"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "TURİST ÖMERİ CANLANDIRAN OYUNCU KİMDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Sadri Alışık"],
+      "w_ans": ["Cem Yılmazer", "Şener Şen", "Kemal Sunal"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "OSCARDA İNGİLİZCE OLMAYAN TEK FİLM HANGİSİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Parazit"],
+      "w_ans": ["Crouching Tiger, Hidden Dragon", "Life Is Beautiful", "Amour"],
+      "aciklama": "Hangi yılım Oscar adayı ya da kazananı bir fikrim yok. Arkadaşlar bu şekilde paylaşmıilar soruyu."
+    },
+    {
+      "questiontext": "MÜSLÜMAN OLMAYANLARDAN ALINAN VERGİ NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Haraç ve cizye"],
+      "w_ans": ["Zekât", "Sadaka", "Fitre"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "TOPLU SÖZLEŞME KİMLER İÇİN YAPILIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kamu görevlileri (memurlar+işçi) için yapılır"],
+      "w_ans": ["Özel sektör çalışanları için yapılır", "Emekliler için yapılır", "Tüm vatandaşlar için yapılır"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "MUHTELİF İŞARETLİ TELGRAFLARDA TEBLİGAT YAPTIRILIR MI?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Tebligat, uçakla veya postada kullanılan diğer seri ve özel vasıtalarla veya muhtelif işaretli telgraflarla da yaptırılabilir."],
+      "w_ans": ["Sadece mektupla yapılır", "Sadece telefonla yapılır", "Yapılamaz"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "BAM NASIL KURULUR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bölgelerin coğrafi durumları ve iş yoğunluğu göz önünde tutularak belirlenen yerlerde, Hâkimler ve Savcılar Yüksek Kurulunun olumlu görüşü alınarak Adalet Bakanlığınca kurulur."],
+      "w_ans": ["Bakanlar Kurulu tarafından kurulur", "TBMM tarafından kurulur", "Başbakan tarafından kurulur"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "İNSAN HAKLARI EVRENSEL BİLDİRGESİ NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Birleşmiş Milletler İnsan Hakları Komisyonu'nun Haziran 1948'de hazırladığı ve birkaç değişiklik yapıldıktan sonra 10 Aralık 1948'de, BM Genel Kurulu'nun Paris'te yapılan 183. oturumunda kabul edilen 30 maddelik bildiridir."],
+      "w_ans": ["Türkiye'nin hazırladığı bir insan hakları bildirgesidir", "Sadece Türkiye'de geçerlidir", "Sadece kadın haklarını içerir"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "BAMLAR KAÇ DAİREDEN OLUŞUR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["En az 3 hukuk, 2 ceza dairesi"],
+      "w_ans": ["5 hukuk dairesi", "3 ceza dairesi", "6 hukuk, 3 ceza dairesi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "DÜNYANIN EN UZUN NEHRİ NEREYE DÖKÜLÜR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Nil Nehri, Dimyat'tan Akdeniz'e dökülür"],
+      "w_ans": ["Amazon Nehri, Atlantik Okyanusu'na dökülür", "Niger Nehri, Atlas Okyanusu'na dökülür", "Yangtze Nehri, Hint Okyanusu'na dökülür"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "TÜRKİYENİN EN DOĞUSU İLE EN BATISI ARASINDAKİ ZAMAN FARKI NE KADARDIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["76 dakika"],
+      "w_ans": ["30 dakika", "45 dakika", "60 dakika"],
+      "aciklama": "[Not: Türkiye'nin matematik konumu: 26-45 doğu meridyenleri, 36-42 kuzey paralelleri :)]"
+    },
+    {
+      "questiontext": "AYA ÇIKAN İNSAN KİMDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Neil Armstrong"],
+      "w_ans": ["Buzz Aldrin", "Yuri Gagarin", "John Glenn"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "UZAYA İLK GİDEN İNSAN KİMDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Yuri Gagarin"],
+      "w_ans": ["Alan Shepard", "John Glenn", "Buzz Aldrin"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "8. VE 9. CUMHURBAŞKANLARI KİMDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["8-Turgut Özal", "9-Süleyman Demirel"],
+      "w_ans": ["8-Abdullah Gül", "9-Ahmet Necdet Sezer", "8-Recep Tayyip Erdoğan", "9-İsmail Kahraman"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ANAYASANIN İLK ÜÇ MADDESİ NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["1. Türkiye Devleti bir cumhuriyettir.", "2.Türkiye Cumhuriyeti toplumun huzuru, milli dayanışma ve adalet anlayışı içinde, insan haklarına saygılı, Atatürk milliyetçiliğine bağlı, başlangıçta belirtilen temel ilkelere dayanan demokratik, laik ve sosyal bir hukuk devletidir.", "3. Türkiye devleti ülkesi ve milletiyle bölünmez bir bütündür. Dili Türkçedir. Bayrağı şekli kanunda belirtilen beyaz ay yıldızlı al bayraktır. Milli marşı İstiklal Marşıdır.  Başkenti Ankara’dır."],
+      "w_ans": ["1. Türkiye'de demokrasi vardır.", "2. Herkes eşittir.", "3. Devlet yönetimi askerler tarafından yapılır."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ADALETİ İLE ÜNLÜ HALİFE KİMDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Hz. Ömer"],
+      "w_ans": ["Hz. Ali", "Hz. Osman", "Hz. Ebubekir"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "TÜRKİYEDE KAÇ BAM VARDIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["15"],
+      "w_ans": ["10", "20", "25"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "DANIŞTAYDA KAÇ DAİRE VARDIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["En az 1 vergi, 1 idare mahkemesi"],
+      "w_ans": ["5 döner sermaye işleri dairesi", "10 hukuk daireleri", "2 ceza daireleri"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "GÖKSU NEHRİ NEREYE DÖKÜLÜR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Akdeniz"],
+      "w_ans": ["Karadeniz", "Ege Denizi", "Marmara Denizi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ASYA VE AVRUPAYI AYIRAN DAĞIN ADI NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Ural Dağları"],
+      "w_ans": ["Himalaya Dağları", "And Dağları", "Karakoram Dağları"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "OLİMPİYAT BAYRAĞINDAKİ RENKLİ HALKALAR NEYİ SİMGELER?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Beş kıtayı simgeler\nMavi: Avrupa\nSarı: Asya\nSiyah: Afrika\nYeşil: Avustralya\nKırmızı: Amerika"],
+      "w_ans": ["Dünya'nın beş okyanusunu simgeler", "Olimpiyatların beş disiplinini simgeler", "Olimpiyatların beş yılını simgeler"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "NEGATİF AYRIMCILIK NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["'Bir kişi veya gruba yaş, ırk, renk, milliyet ya da etnik köken; cinsiyet, medeni durum; özürlülük; dinî inanç, toplumsal konum veya diğer kişisel özellikler nedeniyle başka kişi veya gruplara göre farklı davranılması'"],
+      "w_ans": ["Bir kişinin diğerlerinden daha özel olduğu ayrımcılık türüdür", "Bir kişinin kendi seçimlerine göre ayrımcılık yapılmasıdır", "Bir kişinin cinsiyetinden kaynaklı ayrımcılığa uğramasıdır"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "KİŞİLİK NE ZAMAN BAŞLAR? HAK EHLİYETİ NE ZAMAN ELDE EDİLİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kişilik, çocuğun sağ olarak tamamıyla doğduğu anda başlar ve ölümle sona erer.", "Çocuk hak ehliyetini, sağ doğmak koşuluyla, ana rahmine düştüğü andan başlayarak elde eder."],
+      "w_ans": ["Kişilik, 18 yaşında başlar.", "Hak ehliyeti, 16 yaşında elde edilir.", "Kişilik, doğum tarihinde başlar.", "Hak ehliyeti, 21 yaşında elde edilir."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "MALABADİ KÖPRÜSÜ NEREDEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Silvan, Diyarbakır"],
+      "w_ans": ["Bursa", "Ankara", "İstanbul"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "DEVLETİN DOKUNAMADIĞI HAKLAR NELERDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Eşitlik (md.12)", "Kişi dokunulmazlığı (md. 14)", "Özel hayatın gizliliği (md. 15)", "konut dokunulmazlığı (md. 16)", "haberleşme (md.17)", "seyahat ve yerleşme (md.18)", "din ve vicdan (md.19)", "düşünce ve açıklama (md.20)", "bilim ve sanat (md.21)", "basın ve yayın (md.22-27)", "toplantı ve gösteri (md.28)", "dernek kurma (md.29)", "kişi güvenliği (md.30)", "hak arama (md.31)", "tabii yargı yolu (md.32)", "cezaların yasallığı ve kişiselliği (md.33)"],
+      "w_ans": ["Devletin dokunabileceği hiçbir hak yoktur", "Devlet sınırsız haklara sahiptir", "Devlet sadece temel haklara dokunabilir"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "GÜRBULAK SINIR KAPISI NEREDEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Ağrı, Doğubeyazıt"],
+      "w_ans": ["İstanbul", "Ankara", "Diyarbakır"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "İLK YERLİ TANKIN ADI NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Altay"],
+      "w_ans": ["Leopard", "Abrams", "Challenger"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "KANUNLARIYLA ÜNLÜ BABİL KREALİ KİMDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Hammurabi"],
+      "w_ans": ["Nebuchadnezzar", "Cyrus", "Xerxes"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "AKTİF STATÜ HAKLARI NELERDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["-Vatandaşlık Hakkı", "-Seçme Hakkı", "-Seçilme Hakkı", "-Dilekçe Hakkı", "-Siyasi Parti Kurma Hakkı", "-Siyasi Partiye Katılma Hakkı", "-Halk oylamasına Katılma Hakkı", "-Kamu Başdenetçiliğine Başvurma Hakkı"],
+      "w_ans": ["-Savunma Hakkı", "-Eğitim Hakkı", "-Çalışma Hakkı", "-Sağlık Hakkı", "-Konut Hakkı", "-Çevre Hakkı", "-Spor Hakkı", "-Sosyal Güvenlik Hakkı"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "AŞAR VERGİSİ NEDEN BAŞLATILDI?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Osmanlı döneminde köylülerden, ürettikleri tarım ürünleri için %10 oranında alınan vergi."],
+      "w_ans": ["Savaş nedeniyle ekstra gelir elde etmek için başlatıldı.", "Köylülerin daha fazla vergi ödemesi gerektiği düşünüldü.", "Yerel hükümetlerin finansmanını artırmak için başlatıldı."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "POZİTİF STATÜ HAKLARI NELERDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["-Ailenin korunması,", "-Eğitim ve öğrenim hakkı,", "-Çalışma hakları,", "-Toplu iş sözleşmesi,grev hakkı ve lokavt,", "-Ücrette adalet sağlanması,", "-Sağlık,çevre ve konut hakkı,", "-Gençliğin korunması ve spor hakkı,", "-Sosyal güvenlik hakları,"],
+      "w_ans": ["-Siyasi Parti Kurma Hakkı", "-Siyasi Partiye Katılma Hakkı", "-Halk oylamasına Katılma Hakkı", "-Kamu Başdenetçiliğine Başvurma Hakkı", "-Dilekçe Hakkı", "-Haberleşme Hakkı", "-Tabii Yargı Yolu Hakkı", "-Ceza Hukuku Yolu Hakkı"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "TÜRK LİRASINDAN ALTI SIFIR NE ZAMAN ATILDI?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["1 Ocak 2005"],
+      "w_ans": ["1 Ocak 1990", "1 Ocak 2000", "1 Ocak 2010"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ANAYASANIN 10. MADDESİNİ AÇIKLAYIN?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Herkes, dil, ırk, renk, cinsiyet, siyasî düşünce, felsefî inanç, din, mezhep ve benzeri sebeplerle ayırım gözetilmeksizin kanun önünde eşittir."],
+      "w_ans": ["Herkes, kanun önünde eşittir.", "Herkes, eşit haklara sahiptir.", "Kanunlar, herkese eşit uygulanır."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "PARİS BARIŞ KONFERANSI NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Paris Barış Konferansı, I. Dünya Savaşı'nı sona erdiren antlaşmaların hazırlandığı uluslararası bir konferanstır."],
+      "w_ans": ["Paris'te yapılan bir eğlence etkinliğidir.", "Paris'te düzenlenen bir moda fuarıdır.", "Paris'e barışın simgesi olarak dikilen bir anıttır."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "UZAYA GÖNDERİLEN İLK UYDU NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Sputnik (Rusya)"],
+      "w_ans": ["Apollo 11 (ABD)", "Gagarin (Rusya)"],
+      "aciklama": "Uzaya gönderilen ilk uydu, Sovyetler Birliği tarafından 1957 yılında fırlatılan Sputnik'tir."
+    },
+    {
+      "questiontext": "NOBEL ÖDÜLÜ NEREDE VERİLİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İsveç"],
+      "w_ans": ["Norveç", "Danimarka"],
+      "aciklama": "Nobel Ödülleri, İsveç'te verilmektedir."
+    },
+    {
+      "questiontext": "KAMU KURUMLARI KİMİN ARACILIĞI İLE TEBLİGAT YAPAR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Posta ve Telgraf Teşkilatı Genel Müdürlüğü"],
+      "w_ans": ["Adalet Bakanlığı", "Milli Eğitim Bakanlığı"],
+      "aciklama": "Kamu kurumları, genellikle Posta ve Telgraf Teşkilatı Genel Müdürlüğü aracılığıyla tebligat yaparlar."
+    },
+    {
+      "questiontext": "İSVİÇRENİN BAŞKENTİ NERESİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bern"],
+      "w_ans": ["Zürih", "Cenevre"],
+      "aciklama": "İsviçre'nin başkenti Bern'dir."
+    },
+    {
+      "questiontext": "HİNDİSTANIN BAĞIMSIZLIĞINI İLAN EDEN LİDER KİMDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Mahatma Gandi"],
+      "w_ans": ["Jawaharlal Nehru", "Subhas Chandra Bose"],
+      "aciklama": "Hindistan'ın bağımsızlık hareketinin önde gelen liderlerinden biri Mahatma Gandi'dir."
+    },
+    {
+      "questiontext": "İDARE ALEYHİNE AÇILAN DAVADA DAVA AÇMA SÜRESİ NE KADARDIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Yazılı bildirim (tebligat) yapılmasını takiben vergi mahkemelerinde 30, idare mahkemelerinde veya Danıştayda 60 gün"],
+      "w_ans": ["15 gün", "45 gün"],
+      "aciklama": "İdare aleyhine açılan davada dava açma süresi vergi mahkemelerinde 30 gün, idare mahkemelerinde veya Danıştayda 60 gündür."
+    },
+    {
+      "questiontext": "İKİNCİ MEŞRUTİYETTEN SONRA KAYBEDİLEN TOPRAKLAR NELERDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bulgaristan", "Bosna Hersek", "Girit adası"],
+      "w_ans": ["Suriye", "Yunanistan", "Mısır"],
+      "aciklama": "İkinci Meşrutiyet dönemi sonrası Osmanlı İmparatorluğu tarafından kaybedilen topraklar arasında Bulgaristan, Bosna Hersek ve Girit adası bulunmaktadır."
+    },
+    {
+      "questiontext": "MİMAR SİNANIN USTALIK ESERİNİN ADI NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Selimiye Cami"],
+      "w_ans": ["Hagia Sophia", "Topkapı Sarayı"],
+      "aciklama": "Mimar Sinan'ın ustalık eseri olarak kabul edilen yapı Selimiye Camii'dir."
+    },
+    {
+      "questiontext": "İLK YERLİ ROMANIN ADI NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Şemsettin Sami / Taaşşuk-ı Talat ve Fitnat"],
+      "w_ans": ["Halit Ziya Uşaklıgil / Mai ve Siyah", "Namık Kemal / İntibah"],
+      "aciklama": "Türk edebiyatının ilk yerli romanı olarak kabul edilen eser Şemsettin Sami'nin 'Taaşşuk-ı Talat ve Fitnat' adlı romanıdır."
+    },
+    {
+      "questiontext": "HAKSIZ TEDBİRDE DAVA AÇMA SÜRESİ HER HALDE NE KADARDIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["1 YIL"],
+      "w_ans": ["6 AY", "2 YIL"],
+      "aciklama": "Haksız tedbirde dava açma süresi her halde 1 yıldır."
+    },
+    {
+      "questiontext": "KONUTTA, İŞ YERİNDE, KAMUYA AÇIK KAPALI ALANLARDA ARAMA KARARINI KİM VERİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Arama kararı hakim tarafından verilir"],
+      "w_ans": ["Polis müdürü", "Savcı", "Vali"],
+      "aciklama": "Konutta, iş yerinde ve kamuya açık kapalı alanlarda arama kararı genellikle bir hakim tarafından verilir. Ancak, gecikmesinde sakınca bulunan hâllerde Cumhuriyet savcısının veya Cumhuriyet savcısına ulaşılamadığı hallerde kolluk amirinin yazılı emri ile kolluk görevlileri arama yapabilirler."
+    },
+    {
+      "questiontext": "MİRASIN REDDİ DAVASI NE ZAMANA KADAR  AÇILIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Üç ay olup bu süre hak düşürücü niteliktedir"],
+      "w_ans": ["Bir yıl", "Altı ay", "Beş yıl"],
+      "aciklama": "Mirasın reddi davası üç ay içinde açılmalıdır ve bu süre hak düşürücü niteliktedir."
+    },
+    {
+      "questiontext": "1854 YILINDA OSMANLI DEVLETİNİN DIŞ BORÇLARINI ÖDEMEK İÇİN KURULAN KURULUŞUN ADI NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Düyun-u Umumiye"],
+      "w_ans": ["Osmanlı Bankası", "Türkiye İş Bankası"],
+      "aciklama": "1854 yılında Osmanlı Devleti'nin dış borçlarını ödemek amacıyla kurulan kuruluş Düyun-u Umumiye'dir."
+    },
+    {
+      "questiontext": "2022 UEFA NEREDE OYNANACAK?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İspanya'nın Sevilla şehrindeki Ramón Sánchez Pizjuán Stadyumunda"],
+      "w_ans": ["İtalya'nın Milano şehrindeki San Siro Stadyumu'nda", "Almanya'nın Münih şehrindeki Allianz Arena'da"],
+      "aciklama": "2022 UEFA Süper Kupa maçı, İspanya'nın Sevilla şehrindeki Ramón Sánchez Pizjuán Stadyumu'nda oynanacaktır."
+    },
+    {
+      "questiontext": "EVLİLİK BİRLİĞİNDE VELAYET KİMDE OLUR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kural olarak ana ve baba tarafından birlikte kullanılır"],
+      "w_ans": ["Ananın yanında", "Babanın yanında", "Sadece anne tarafında"],
+      "aciklama": "Evlilik birliği içinde velayet, kural olarak ana ve baba tarafından birlikte kullanılır."
+    },
+    {
+      "questiontext": "İSTİKLAL MARŞININ İLK YAYINLANDIĞI GAZETENİN İSMİ NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["17 Şubat 1921 tarihinde Hâkimiyet-i Milliye ve Sebilürreşad gazetelerinde"],
+      "w_ans": ["Türkiye", "Cumhuriyet", "Vakit"],
+      "aciklama": "İstiklal Marşı'nın ilk kez yayınlandığı gazeteler Hâkimiyet-i Milliye ve Sebilürreşad'dır."
+    },
+    {
+      "questiontext": "AVRUPADAKİ AKTİF YANARDAĞLAR NELERDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Etna ve Vezüv Yanardağları"],
+      "w_ans": ["Alp Dağları", "Pireneler", "Karpatlar"],
+      "aciklama": "Avrupa'daki aktif yanardağlar arasında Etna ve Vezüv Yanardağları bulunmaktadır."
+    },
+    {
+      "questiontext": "ATATÜRKÜN GÖREV YAPTIĞI İLK ŞEHİR NERESİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Şam, (V. Ordu)"],
+      "w_ans": ["Ankara", "Selanik"],
+      "aciklama": "Mustafa Kemal Atatürk, askeri kariyerine Şam'da, V. Ordu'da başlamıştır."
+    },
+    {
+      "questiontext": "ARJANTİNİN BAŞKENTİ NERESİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Buenos Aires"],
+      "w_ans": ["Rio de Janeiro", "Santiago", "Lima"],
+      "aciklama": "Arjantin'in başkenti Buenos Aires'tir."
+    },
+    {
+      "questiontext": "BÜTÇE TEKLİFLERİ TBMMYE NE ZAMAN SUNULUR",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Mali yılbaşından en az 75 gün önce"],
+      "w_ans": ["Mali yılbaşından en az 15 gün önce", "Mali yılbaşından en az 30 gün önce"],
+      "aciklama": "Bütçe teklifleri, mali yılbaşından en az 75 gün önce Türkiye Büyük Millet Meclisi'ne sunulur."
+    },
+    {
+      "questiontext": "OSMANLI DEVLETİNDE KURULAN İLK İSTİHBARATIN İSMİ NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Yıldız İstihbarat Teşkilatı (1880 yılında dönemin Osmanlı padişahı II. Abdülhamid tarafından kurulmuş, Türk tarihinin ilk organize istihbarat teşkilatıdır)"],
+      "w_ans": ["MİT", "Emniyet İstihbaratı", "Askeri İstihbarat"],
+      "aciklama": "Osmanlı Devleti'nde kurulan ilk istihbarat teşkilatı, 1880 yılında dönemin Osmanlı padişahı II. Abdülhamid tarafından kurulan Yıldız İstihbarat Teşkilatı'dır."
+    },
+    {
+      "questiontext": "BARAT TEŞKİLATININ ADI NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Teşkilati Mahsusa"],
+      "w_ans": ["Gizli Teşkilat", "Osmanlı İstihbarat Teşkilatı"],
+      "aciklama": "Barat Teşkilatı'nın asıl adı Teşkilati Mahsusa'dır."
+    },
+    {
+      "questiontext": "ANA KİTABININ YAZARI KİMDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Maksim Gorki"],
+      "w_ans": ["Lev Tolstoy", "Fyodor Dostoyevsky", "Anton Çehov"],
+      "aciklama": "Ana Kitap, Rus yazar Maksim Gorki tarafından yazılmış bir romandır."
+    },
+    {
+      "questiontext": "GÜNEYDE BİR ERMENİ DEVLETİNİN KURULMASININ ÖNLENMESİ AMACIYLA KURULAN CEMİYET HANGİSİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kilikyalılar Cemiyeti (Adana)"],
+      "w_ans": ["Taşnak Cemiyeti", "Hınçak Cemiyeti", "Armenakan Cemiyeti"],
+      "aciklama": "Güneyde bir Ermeni devletinin kurulmasının önlenmesi amacıyla kurulan cemiyetlerden biri Kilikyalılar Cemiyeti'dir ve merkezi Adana'da bulunmaktadır."
+    },
+    {
+      "questiontext": "ANNA KARANİNA KİMİN ESERİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Lev Tolstoy"],
+      "w_ans": ["Fyodor Dostoyevsky", "Anton Çehov", "Ivan Turgenyev"],
+      "aciklama": "Anna Karenina, ünlü Rus yazar Lev Tolstoy'un eseridir."
+    },
+    {
+      "questiontext": "NEMRUT HARABELERİ NEREDEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kahta, Adıyaman"],
+      "w_ans": ["Efes, İzmir", "Perge, Antalya", "Hattuşaş, Çorum"],
+      "aciklama": "Nemrut Dağı'ndaki tarihi harabeler, Adıyaman ilinin Kahta ilçesinde yer almaktadır."
+    },
+    {
+      "questiontext": "BAM İŞ BÖLÜMÜNÜ KİM BELİRLER?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["HSK"],
+      "w_ans": ["TBMM", "Başbakanlık", "Adalet Bakanlığı"],
+      "aciklama": "Bam iş bölümünü Hâkimler ve Savcılar Kurulu (HSK) belirler."
+    },
+    {
+      "questiontext": "657 SAYILI DMK UYARINCA ÖLÜM İZNİ NE KADARDIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["7 gün"],
+      "w_ans": ["3 gün", "15 gün", "30 gün"],
+      "aciklama": "657 Sayılı Devlet Memurları Kanunu'na göre ölüm izni süresi 7 gündür."
+    },
+    {
+      "questiontext": "KANUN YAPMA YETKİSİ KİME AİTTİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["TBMM"],
+      "w_ans": ["Cumhurbaşkanı", "Yargıtay"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "HSK KAÇ ÜYEDEN OLUŞUR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["13"],
+      "w_ans": ["7", "15"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ILK TÜRKÇE SÖZLÜĞÜN ADI NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Divan-ı Lügati't Türk (Kaşgarlı Mahmut)"],
+      "w_ans": ["Türkçe Sözlük", "Osmanlıca Sözlük"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "İLK GENELKURMAY BAŞKANI KİMDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İsmet İnönü"],
+      "w_ans": ["Mustafa Kemal Atatürk", "Rauf Orbay"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "MONA LİSA TABLOSU KİME AİTTİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Leonardo Vinci"],
+      "w_ans": ["Vincent van Gogh", "Pablo Picasso"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ADALET BAKANLIĞI BAĞLI KURULUŞLARI NELERDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Ceza İnfaz Kurumları ile Tutukevleri", "İşyurtları Kurumu", "Adli Tıp Kurumu"],
+      "w_ans": ["Milli Savunma Bakanlığı", "Sağlık Bakanlığı"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ERZURUM VE SİVAS KONGRELERİNDE OLUŞTURULAN VE BAŞKANLIĞINI MUSTAFA KEMAL ATATÜRK'ÜN YAPTIĞI KURULUN İSMİ NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Temsil Heyeti"],
+      "w_ans": ["Sivas Meclisi", "Erzurum Kongresi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "DÜNYADA YAŞADIĞI BİLİNEN EN BÜYÜK HAYVAN NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Mavi Balina"],
+      "w_ans": ["Fil", "Gergedan"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "SIRBİSTAN'IN BAŞKENTİ NERESİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Belgrad"],
+      "w_ans": ["Zagreb", "Priştine"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "KÜRK MANTOLU MADONNA KİMİN ESERİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Sebahattin Ali"],
+      "w_ans": ["Leonardo da Vinci", "Vincent van Gogh"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "İLK TÜRKÇE SÖZLÜK HANGİSİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Divan-ı Lügat'it Türk (Kaşgarlı Mahmut)"],
+      "w_ans": ["Türkçe Sözlük", "Osmanlıca Sözlük"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "TBMM'YE KARŞI AYAKLANMALARDA NE YAPILDI?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İstiklal Mahkemeleri kuruldu.", "Hiyaneti-i Vataniye kanunu çıkarıldı.", "Firariler kanunu çıkarıldı.", "Ankara Müftüsü Rıfat Börekçi'den fetvalar alındı"],
+      "w_ans": ["Anayasa değişikliği yapıldı.", "Yabancı ülkelerden yardım alındı."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "DÜNYA EDEBİYATINDAKİ İLK ROMAN NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Genji'nin Hikayesi (Murasaki Shikibu - Japonya - 1010 yılında)", "İlk Modern Roman : Don Kişot - Cervantes  - 17 yy"],
+      "w_ans": ["Moby Dick", "Savaş ve Barış"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "50 TL ÜZERİNDE KİMİN RESMİ VARDIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Fatma Aliye Hanım (Topuz) - İlk Türk Kadın Romancı"],
+      "w_ans": ["Mustafa Kemal Atatürk", "Turgut Özal"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ANALIK İZNİ SÜRESİ NE KADARDIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Doğumdan önce 8, doğumdan sonra 8 olmak üzere toplam 16 hafta"],
+      "w_ans": ["Doğumdan önce 4, doğumdan sonra 12 hafta", "Doğumdan önce 6, doğumdan sonra 10 hafta"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "KİŞİLİĞİ SONA ERDİREN NEDENLER NELERDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Ölüm, mutlak ölüm karinesi, gaiplik"],
+      "w_ans": ["Hapis cezası", "Sürgün"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "1 NOLU CB KARARNAMESİNE GÖRE BAKANLIK SOSYAL TESİSLERİ DENETİMİNİ KİM YAPAR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Destek Hizmetleri Dairesi Başkanlığı"],
+      "w_ans": ["TBMM Denetim Komitesi", "Adalet Bakanlığı"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "CEZA TANIMI NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kanunda suç olarak öngörülmüş olan bir davranış karşılığında öngörülen yaptırımdır."],
+      "w_ans": ["Hapis cezası", "Para cezası"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "CMKDA ÖN ÖDEME, UZLAŞTIRMA VE KAMU DAVASININ AÇILMASININ ERTLENEMESİ GİBİ ALTERNATİF UYUŞMAZLIK ÇÖZÜM USULLERİNİN GELİŞTİRİLMESİ VE ETKİN ŞEKİLDE UYGULANMASINI SAĞLAMAK HANGİ BİRİMİN GÖREVİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Alternatif Çözümler Daire Başkanlığı (Ceza İşleri Genel Müdürlüğü)"],
+      "w_ans": ["Yargıtay Ceza Genel Kurulu", "Hukuk İşleri Genel Müdürlüğü"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "İCRA İFLAS İŞLERİ HANGİ BİRİM TARAFINDAN YAPILIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İcra ve İflas Daireleri"],
+      "w_ans": ["Asliye Hukuk Mahkemeleri", "Anayasa Mahkemesi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ELEKTRONİK İMZAYI İZİNSİZ KULLANANLARA VERİLECEK CEZA NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["1 yıldan 3 yıla kadar hapis ve 50 günden az olmamak üzere adli para cezası"],
+      "w_ans": ["Uyarı", "Para cezası"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ANAYASADA AÇIK SAYIM VE DÖKÜM İLKESİ NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Oyların sayımının ve dökümünün alenî yapılmasıdır"],
+      "w_ans": ["Oyların gizli yapılması", "Oyların internet üzerinden verilmesi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "İŞ YERİNDEKİ MALZEMELERİ NASIL KULLANMALIYIZ?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Tasarruf tedbirlerine riayet ederek, dikkat ve özenle"],
+      "w_ans": ["Rastgele", "Hızlıca"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "KINAMA CEZASI ALDIKTAN SONRA KAÇ YIL YÖNETİCİ OLUNAMAZ?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["10 yıl boyunca"],
+      "w_ans": ["1 yıl boyunca", "Ömür boyu"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ELDE EDİLEN TÜM BULGULAR DELİL OLARAK KULLANILIR MI?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Hukuka uygun olarak elde edilmeyen bulgular delil olarak kullanılamaz"],
+      "w_ans": ["Her zaman kullanılabilir", "Sadece pazartesi günleri kullanılabilir"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "SUÇA İLİŞKİN İHBAR VE ŞİKAYETLER NE ŞEKİLDE VE NEREYE YAPILIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Cumhuriyet Savcılığı yada Kolluk makamlarına yazılı ya da sözlü olarak yapılır."],
+      "w_ans": ["Posta ile yapılır.", "Noter aracılığıyla yapılır."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "SÖZLEŞMELİ PERSONELİN SÖZLEŞMESİNİN TEK TARAFLI FESHİ İÇİN GEÇERLİ ÜÇ NEDEN SAYINIZ",
+      "image": "",
+      "image_credit": "",
+      "c_ans": [
+        "İşe alınma açısından gerekli olan niteliklerden herhangi birini taşımadığının sonradan anlaşılması.",
+        "İşe alınma açısından gerekli olan niteliklerden herhangi birini sonradan kaybetmesi.",
+        "Sözleşme dönemi içerisinde mazeretsiz ve kesintisiz üç gün veya toplam on gün süreyle görevine gelmeme."
+      ],
+      "w_ans": ["İş yerinde pasta yemesi.", "Trafikte kırmızı ışıkta geçmesi."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "DAVA TAKİP YETKİSİ NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": [
+        "Talep sonucu hakkında hüküm alabilme yetkisidir. Bu yetki, kanunda belirtilen istisnai durumlar dışında, maddi hukuktaki tasarruf yetkisine göre tayin edilir."
+      ],
+      "w_ans": ["Trafik cezası kesme yetkisi.", "Gümrük işlemleri yapma yetkisi."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ATATÜRK BAŞKOMUTAN SIFATIYLA İLK HANGİ SAVAŞTA SAVAŞMIŞTIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Sakarya Meydan Muharebesi"],
+      "w_ans": ["Dünya Kupası", "Troia Savaşı"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "AMERİKANIN BATISINDAN ÇIKAN BİR GEMİ İSTANBULA GELENE KADAR HANGİ BOĞAZLARDAN GEÇER?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Cebelitarık Boğazı, Çanakkale, İstanbul"],
+      "w_ans": ["Panama Kanalı", "Suez Kanalı"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "1984 VE HAYVAN ÇİFTLİĞİ ESERİNİN YAZARI?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["George Orwell"],
+      "w_ans": ["William Shakespeare", "Agatha Christie"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "İNTİFA HAKKI NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Başkasına ait bir mal üzerinde, belli bir kişiye bu malı kullanma ve bu maldan elden edilenlerden yararlanma imkanı sağlayan haktır."],
+      "w_ans": ["Ücretsiz ekmek alma hakkı.", "Bir arkadaşın bisikletini ödünç alma hakkı."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "YURT DIŞINDA İŞLENEN SUÇLARDAN DOLAYI İHBAR BE ŞİKAYETLER NEREYE YAPILIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Türkiye’nin elçilik ve konsolosluklarına da ihbar veya şikâyette bulunulabilir."],
+      "w_ans": ["Ev sahibi ülkenin hükümetine yapılır.", "Sesli bir şekilde bağırarak yapılır."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "GENEL GÖRÜŞME AÇIKLIĞININ SORUMLULUĞU?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": [
+        "Türkiye Büyük Millet Meclisi Genel Kurulundaki görüşmeler açıktır ve tutanak dergisinde tam olarak yayımlanır.",
+        "Türkiye Büyük Millet Meclisi İçtüzük hükümlerine göre kapalı oturumlar yapabilir, bu oturumlardaki görüşmelerin yayımı Türkiye Büyük Millet Meclisi kararına bağlıdır.",
+        "Meclisteki açık görüşmelerin, o oturumdaki Başkanlık Divanının teklifi üzerine Meclisce başkaca bir karar alınmadıkça, her türlü vasıta ile yayımı serbesttir. (m. 97)"
+      ],
+      "w_ans": ["Sadece Başkanlık Divanının sorumluluğundadır.", "Hiç kimse sorumlu değildir."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "DÜNYADA BOR MADENLERİNİN %70 NEREDEN ÇIKARILIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Türkiye"],
+      "w_ans": ["Arktik Okyanusu", "Güney Kutbu"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "BEN SİZE TAARRUZU DEĞİL  ÖLMEYİ EMREDİYORUM SÖZÜ NEREDE SÖYLENMİŞTİR ?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Çanakkale Cephesi\n(Ben size taarruz emretmiyorum. Ölmeyi emrediyorum. Biz ölünceye kadar geçecek zaman içinde yerimize başka kuvvetler ve başka komutanlar alabilir.)"],
+      "w_ans": ["Sakarya Meydan Muharebesi", "Troia Savaşı"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "BAROLARA TEBLİGAT ELEKTRONİK OLARAK YAPILMASI  ZORUNLU MUDUR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Zorunludur"],
+      "w_ans": ["Sadece yazılı olarak yapılmalıdır.", "Herhangi bir şekilde yapılabilir."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "RUMELİ HİSARINİ KİM YAPTIRMIŞTIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Fatih Sultan Mehmet Han"],
+      "w_ans": ["Kanuni Sultan Süleyman", "Yavuz Sultan Selim"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ADALET BAKANLIĞI ONAYINA TABİ OLMAYAN KOMİSYON KARARLARI NELERDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Geçici görevlendirme"],
+      "w_ans": ["Düzenli yemek servisi", "Personel maaş artışı"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "TEBLİGAT KANUNA GÖRE İDARİ TEBLİGATIN AÇIKLAMASI NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kazai ve mali tebligat dışında kalan tebligatşatra denir."],
+      "w_ans": ["Bilinmiyor", "Kimsenin bilmediği bir şey"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "YUGOSLAVYA'DA 37 YIL BOYUNCA DEVLET BAŞKANLIĞI YAPMIŞ PARTİZAN LİDER KİMDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Josip Broz Tito"],
+      "w_ans": ["Mikhail Gorbachev", "Nikita Khrushchev"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "CB 1 NOLU KARARNAMESİ UYARINCA ADALET BAKANLIĞI CEZAİ SORUŞTURMALARI YAPAN BİRİM HANGİSİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Ceza İşleri Genel Müdürlüğü (m. 41/1-e-f)"],
+      "w_ans": ["Eğitim Dairesi Başkanlığı", "Spor İşleri Genel Müdürlüğü"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "12. CUMHURBAŞKANI KİMDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Recep Tayyip Erdoğan"],
+      "w_ans": ["Mustafa Kemal Atatürk", "Abdullah Gül"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "KADEME İLERLEMESİNİN DURDURULMASI CEZASI ALANLAR 10 YIL BOYUNCA HANGİ GÖREVE ATANAMAZLAR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Daire başkanı ve daha üst kadrolara, en üst yönetici kadrolarına, düzenleyici ve denetleyici kurumlara üyelik, vali ve büyükelçi kadrolarına"],
+      "w_ans": ["Başkanlık Divanı Üyeliği", "Belediye Başkanlığı"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "BOSNA-HERSEK'İN BAŞKENTİ?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Saray Bosna"],
+      "w_ans": ["Belgrad", "Zagreb"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "HÜKÜMLÜLERİN İAŞE VE BARINMA İŞLERİNİ KİM YÜRÜTÜR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Ceza ve Tevkifevleri Genel Müdürlüğü"],
+      "w_ans": ["Aile ve Sosyal Politikalar Bakanlığı", "Sağlık Bakanlığı"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "BULGARİSTAN, YUNANİSTAN, SIRBİSTAN VE KARADAĞ'IN, OSMANLI'YA SAVAŞ AÇMA NEDENİ NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Balkan atlantı ile Osmanlı Devletinden toprak almak", "Fransız İhtilali ile artan milliyetçilik fikirleri"],
+      "w_ans": ["Bol miktarda yağmur yağdığı için", "Çünkü çok sıcaktılar"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "492 SAYILI HARÇLAR KANUNA GÖRE DANIŞTAY VE İDARE MAHKEMESİ KAÇINCI BÖLÜME TABİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["1 sayılı tarifeye göre harca tabidir."],
+      "w_ans": ["Hiçbir bölüme tabi değildir", "3. bölüme tabidir"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "UZAYA ÇIKAN İLK İNSAN KİMDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Yuri Gagarin"],
+      "w_ans": ["Neil Armstrong", "Buzz Aldrin"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "TEBLİGATIN USULSÜZ YAPILMASI  VE KİŞİNİN HABERDAR OLDUĞUNU BEYAN ETMESİ HALİNDE TEBLİGAT GEÇERLİ OLUR MU?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Beyan tarihi tebliğ tarihi olarak sayılır ve tebligat geçerlidir."],
+      "w_ans": ["Hayır, tebligat geçersizdir.", "Sadece yazılı beyan kabul edilir."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "E-DEVLETİN KURULUŞ TARİHİ ?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["2006'da kurulmuş (2006/22 nolu genelge)", "18 Aralık 2008 'de hizmete açılmış.", "T.C. Cumhurbaşkanlığı Dijital Dönüşüm Ofisi Başkanlığı'na bağlıdır."],
+      "w_ans": ["1990'da kurulmuş", "2000'de hizmete açılmış."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "BİR ÜST KADROYA ATANMAK İÇİN GEREKEN ŞARTLAR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Memurun kademe ilerlemesinin yapılabilmesi için bulunduğu kademede en az bir yıl çalışmış olması ve bulunduğu derecede ilerleyebileceği bir kademenin bulunması, kadro için öngörülen niteliklere şartları aranır."],
+      "w_ans": ["Herhangi bir şart aranmaz.", "Sadece sınavda başarılı olmak yeterlidir."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "BAKANLIKLARIN KURULUŞU, KALDIRILMASI, YETKİ VE GÖREV ALANLARININ BELİRLENMESİ NE İLE DÜZENLENİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Cumhurbaşkanlığı kararnamesi ile"],
+      "w_ans": ["Meclis kararı ile", "Halk oylaması ile"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "OSMANLI DEVLETİNİN KENDİ TOPRAKLARI DIŞINDA SAVUŞTUĞU CEPHELER?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Makedonya", "Romanya", "Galiçya Cepheleridir"],
+      "w_ans": ["Kıbrıs Cephesi", "Suriye Cephesi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "RESMİ YAZIŞMALARDA KISALTMA NASIL YAPILIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Metin içinde kısaltma kullanılacak ise ifadenin ilk kullanıldığı yerde açık biçimi, sonra parantez içinde kısaltılmış biçimi yazılır (Örnek: Türkiye Büyük Millet Meclisi (TBMM), Kayıtlı Elektronik Posta (KEP))."],
+      "w_ans": ["Kelimeleri kesmeliyiz", "Kısaltma kullanmak yasaktır."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "GECE VE GÜNDÜZ SAATLERİNİN EŞİT OLUŞUNA NE DENİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Ekinoks (gün-tün eşitliği, gece-gündüz eşitliği veya ılım olarak da bilinir)"],
+      "w_ans": ["Gündüz ve gece saatleri değişti.", "Ay ve güneş aynı hizada."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "RESMİ YAZIŞMA YÖNETMELİĞİNE GÖRE AY ADI NASIL YAZILIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Tarih; sayı ile aynı satırda olmak üzere yazı alanının en sağında gün, ay, yıl olarak rakamla ve aralarına nokta işareti “.” konularak yazılır (Örnek: 01.09.2019). Ay adları, harfle de yazılabilir. Bu durumda gün, ay ve yıl arasına herhangi bir işaret konulmaz (Örnek: 10 Ekim 2019)."],
+      "w_ans": ["Ay adları yazılmaz.", "Ay adları Roma rakamlarıyla yazılır."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "1918'DE VAHDETTİN'İN FESİH ETTİĞİ MECLİS HANGİSİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Meclis-i Mebûsan"],
+      "w_ans": ["TBMM", "Cumhuriyet Halk Meclisi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "MECLİS ARAŞTIRMASINI KİM İSTER?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Meclis araştırması açılması; siyasi parti grupları veya en az 20 milletvekili tarafından yazılı bir önergeyle istenebilir.", "Önergenin metni 500 kelimeyi geçmemelidir. Fazla ise önergeye 500 kelimeyi aşmayacak bir özet metin eklenmelidir."],
+      "w_ans": ["Sadece hükümet talep edebilir.", "Herhangi bir vatandaş talep edebilir."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "KANUNLARIYLA ÜNLÜ KRAL KİMDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Hammurabi"],
+      "w_ans": ["Kral Arthur", "Kral Leonidas"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "UYGUR TÜRKLERİ DESTANI?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Göç ve Türeyiş"],
+      "w_ans": ["Alp Er Tunga Destanı", "Dede Korkut Hikayeleri"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "BAKANLIKLARIN KURUUŞU KALDIRILMASI, YETKİ ALANININ DÜZENLENMESİ NE İLE YAPILIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bakanlıkların kurulması, kaldırılması, görevleri ve yetkileri, teşkilat yapısı ile merkez ve taşra teşkilatlarının kurulması Cumhurbaşkanlığı kararnamesiyle düzenlenir."],
+      "w_ans": ["Meclis kararı ile", "Halk oylaması ile"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "OSMANLI DEVLETİNİN SÜREKLİ BÜYÜKELÇİLİĞİ HANGİSİDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Osmanlı Devletinde ilk daimi elçilik III. Selim döneminde olmuştur. Daimi elçilik bulunmaması sebebiyle Osmanlı Avrupa hakkında doğru bilgi alamıyordu. Bu sorunu ortadan kaldırmak için Avrupa’nın önemli merkezlerinde daimi elçilik veya ikametgah elçilikleri açıldı. İlk ikametgah elçiliği 1793 yılında Londra’ya açıldı"],
+      "w_ans": ["Washington D.C. Büyükelçiliği", "Berlin Büyükelçiliği"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "TUTUKLU VE HÜKÜMLÜLERİN SEVK VE İDARESİNİ HANGİ BİRİM YAPAR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Ceza ve Tevkifevleri Genel Müdürlüğü"],
+      "w_ans": ["Milli İstihbarat Teşkilatı", "Adalet Bakanlığı"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "1854'DE OSMANLININ DIŞ BORÇLARINI ÖDEMEK ÜZERE KURULAN KURULUŞ?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Duyun-u Umumiye İdaresi"],
+      "w_ans": ["Osmanlı Bankası", "Ziraat Bankası"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "BEŞGENİN İÇ AÇI ÖLÇÜSÜ KAÇTIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bir beşgen, beş kenarı olan çokgendir. İç açıları toplamı 540°, dış açıların toplamı ise 360°'dir."],
+      "w_ans": ["360°", "180°"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "SİYASAL HAK NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Siyasi haklar, bir ülkenin vatandaşlarına siyasi alanda verilen haklardır. Siyasi Partiye Katılma Hakkı; Halk oylamasına Katılma Hakkı; Kamu Başdenetçiliğine Başvurma Hakkı; Vergi Ödevi; Vatan Hizmeti; Kamu hizmetlerine girme hakk"],
+      "w_ans": ["Sadece askeri personel için geçerlidir.", "Siyasi haklar yalnızca seçkin vatandaşlara tanınır."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ERMENİ VE FRANSIZLARA KARŞI KURULAN CEMİYETLER NELERDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kilikyalılar", "Milli Kongre", "Şark Vilayetleri Müdafa-i Hukuk Cemiyeti"],
+      "w_ans": ["Osmanlı İmparatorluğu Cemiyeti", "Türk Milliyetçi Cemiyeti"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "TOPLU SÖZLEŞMELER KİMLER İÇİN YAPILIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Devlet Memurları için"],
+      "w_ans": ["Sadece işçiler için", "Siyasi partiler için"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "SİZE SAVAŞMAYI DEĞİL ÖLMEYİ EMREDİYORUM SÖZÜ NEREDE SÖYLENMİŞTİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Ben size taarruz emretmiyorum. Ölmeyi emrediyorum. Biz ölünceye kadar geçecek zaman içinde yerimize başka kuvvetler ve başka komutanlar alabilir. I. Dünya Savaşı - Çanakkale Cephesi - 25 Nisan 1915"],
+      "w_ans": ["II. Dünya Savaşı - Normandiya Çıkarması - 6 Haziran 1944", "Kore Savaşı - İnçeon Çıkarması - 15 Eylül 1950"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "IKTA SİSTEMİNİ KULLANAN İLK TÜRK DEVLETİ?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Karahanlılar"],
+      "w_ans": ["Gazneliler", "Selçuklular"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "EVLAT EDİNMEDE YETKİLİ MAHKEME?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Eşlerden birinin yerleşim yeri mahkemesi veya evlat edinecek kişinin ikametgah yeri Aile Mahkemeleridir"],
+      "w_ans": ["Anayasa Mahkemesi", "Ceza Mahkemesi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "HİCRİ TAKVİM NE İLE BAŞLAR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Son Peygamber Hazreti Muhammed'in Mekke'den Medine'ye hicreti"],
+      "w_ans": ["Kabe'nin yapımı", "Hz. Adem'in yaratılması"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ŞAİR EVLENMESİNİN YAZARI KİMDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İbrahim Şinâsî"],
+      "w_ans": ["Mehmet Akif Ersoy", "Nâzım Hikmet Ran"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "657 SAYILI DMK'DAN 4 ADET SINIF SAYINIZ",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Genel İdare Hizmetleri", "Teknik Hizmetler", "Sağlık Hizmetleri", "Eğitim ve Öğretim Hizmetleri"],
+      "w_ans": ["Hukuk Hizmetleri", "Sosyal Hizmetler", "Bilgi İşlem Hizmetleri", "Çevre Hizmetleri"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "MOSKOVA ANTLAŞMASI HANGİ DEVLETLER ARASINDA KAÇ YILINDA İMZALANDI?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Moskova Antlaşması, Rusya Sovyet Federatif Sosyalist Cumhuriyeti ile Türkiye Büyük Millet Meclisi Hükûmeti arasında 16 Mart 1921'de imzalanan antlaşmadır"],
+      "w_ans": ["Fransa ve İngiltere arasında 19. yüzyılın sonlarında imzalandı.", "Türkiye ve Yunanistan arasında 1923 yılında imzalandı."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ÜST KADROYA ATANMAK İÇİN ŞARTLAR NELERDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["O kadroya ait niteliklere haiz olmak. O kadronun boş olmasi."],
+      "w_ans": ["En az 10 yıl deneyim", "En az lisans derecesi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "BULGARİSTAN, YUNANİSTAN, SIRBİSTAN VE KARADAĞ'IN OSMANLI DEVLETİNE SAVAŞ AÇMA NEDENİ?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["1. Balkan savasi Osmanlı'nı Balkanlardaki topraklarını paylaşması ve Osmanlı'yı Balkanlardan atmak istemeleri, milliyetçilik akımının etkisi,"],
+      "w_ans": ["Ekonomik sebepler", "Siyasi rekabet"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "SAVAŞTAKİ ORDU KOMUTANINI KİM TEMSİL EDER?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Genelkurmay Başkanı savaşta başkomutanlık görevlerini Cumhurbaşkanı namına yerine getirir"],
+      "w_ans": ["Başbakan", "Milletvekilleri"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "SAHİL GÜVENLİK HİZMETLERİ SINIFINA KİMLER DAHİLDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bu sınıf Sahil Güvenlik Komutanlığı kadrolarında bulunan subay ve astsubayları kapsar."],
+      "w_ans": ["Emniyet personeli", "Askeri personel"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ATATÜRK'ÜN ÇIKARDIĞI GAZETE?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["“Minber”, “İrade-i Milliye” ve “Hakimiyet-i Milliye”"],
+      "w_ans": ["Vatan", "Sözcü"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "MECLİS BİR YASAMA YILI İÇERİSİNDE EN ÇOK NE KADAR TATİL YAPAR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["2 ay"],
+      "w_ans": ["1 hafta", "3 gün"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "TÜRKİYENİN İLK KADIN DİPLOAMATI KİMDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Adile Ayda Türkiye'nin ilk kadın diplomatıdır. 1976-1980 arasında kontenjan senatörü olarak Cumhuriyet Senatosu’nda görev yapmıştır. Ünlü hukukçu Sadri Maksudi’nin kızıdır."],
+      "w_ans": ["Zeynep Ahunbay", "Fatma Nevra Seggie"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ÖĞRETİCİ ŞİİR NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Öğretici (Didaktik) şiir, belli bir düşünceyi aşılamak veya belli bir konuda öğüt, bilgi vermek, bir ahlak dersi çıkarmak amacıyla öğretici nitelikte yazılan, duygu yönü az olan şiir türüdür."],
+      "w_ans": ["Lirik şiir", "Epik şiir"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "EVLİLİK BİRLİĞİNDE ESAS OLAN MAL REJİMİ NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["01.01.2002 tarihinden önce gerçekleşen evlilikler için 31.12.2001 tarihine kadar “Mal Ayrılığı Rejimi” geçerli olacaktır. Bu tarihten sonra “Edinilmiş Mallara Katılma Rejimi” geçerli olacaktır. 31.12.2002 tarihe kadar eşlerin üzerlerinde olan mallar, aksine sözleşme yapılmamışsa o eşin kişisel malı sayılmaktadır. Bu mallar kişisel mal olarak kabul edildiğinden mal rejimin tasfiyesi aşamasında, artık değer hesaplanmasında dikkate alınmayacaktır."],
+      "w_ans": ["Mal Ortaklığı Rejimi", "Paylaşmalı Mal Rejimi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ATATÜRK’ÜN İLK ASKERİ GÖREV YAPTIĞI YER?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Atatürk'ün İlk Görev Yeri Kurmay Yüzbaşı rütbesi ile 1905 yılında atanmış olduğu Şam'daki V. ordu olmuştur."],
+      "w_ans": ["Ankara", "Trablusgarp"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "GALATASARAY UEFA KUPASINI HANGİ YIL KAZANMIŞTIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["2000"],
+      "w_ans": ["1998", "2003"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "DEVLET DENETLEME KURUMU HANGİ ANAYASA İLE YÜRÜRLÜĞE GİRMİŞTİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["12 Eylül Anayasası"],
+      "w_ans": ["1982 Anayasası", "2001 Anayasası"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "KURTULUŞ SAVASINDA KAZANDIGIMIZ CEPHE ve HANGİ TOPRAKLARI KAZANDIK?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Büyük Taarruz", "Sakarya Meydan Muharebesi"],
+      "w_ans": ["Cebelitarık Cephesi", "Çanakkale Cephesi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "VELAKETNAMEDE PARA PULU BULUNMAZSA NE GİBİ İŞLEM YAPILIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Eksikliğin tamamlatılması istenir."],
+      "w_ans": ["Velakatname iptal edilir.", "Yeni bir velakatname düzenlenir."],
+      "aciklama": ""
+    }
 
-	]
+	],
+  "title": "Mülakat Soruları Testi",
+  "url": "https://www.adliyeci.com.tr/sinav/#/",
+  "aciklama": "Bu testteki sorular 2020 GYS/ÜDS Mülakatlarına katılmış kullanıcıların kendilerine sorulduğunu bildirdikleri soru ve cevaplara, Yapay Zeka (ChatGPT) tarafından oluşturulmuş şıklar ile hazırlanmıştır.<br>Şüphe duymanız halinde cevapları <strong>kontrol ediniz.<\/strong>"
 
 }
