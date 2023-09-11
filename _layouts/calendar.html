@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% assign PATH_TO_COMPONENTS =  "/components" | prepend: site.baseurl %}
+{% assign PATH_TO_COMPONENTS =  "/components" | prepend: site.url %}
 
 <div>
   {{ content }}
@@ -101,7 +101,7 @@ layout: default
       display_week_numbers: false,
 
       day: 
-      {% if page.calendar_focus_date %} 
+      {% if page.calendar_focus_date %}
         "{{ page.calendar_focus_date }}"
       {% else %} 
         moment().format('YYYY-MM-DD') // today as default view
