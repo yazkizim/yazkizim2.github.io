@@ -3976,6 +3976,96 @@
         "c_ans": ["Deoksiribonükleik Asit"],
         "w_ans": ["Ribonükleik Asit", "Protein", "Karbonhidrat"],
         "aciklama": "DNA molekülünün açılımı."
+      },
+      {
+        "questiontext": "ALTERNATİF ÇÖZÜMLER DAİRE BAŞKANLIĞI GÖREVLERİ NELERDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": [
+          "Önödeme, kamu davasının açılmasının ertelenmesi ve uzlaştırma gibi cezada alternatif usullerin etkin bir şekilde uygulanmasını sağlamak, görev alanıyla ilgili olarak uygulamayı takip etmek ve ortaya çıkan sorunların nedenlerini araştırarak çözüm önerilerini Bakanlığa sunmak, cezada alternatif usuller konusunda kamuoyunu bilgilendirici çalışmalar yapmak, ulusal veya uluslararası nitelikte bilimsel toplantılar düzenlemek, bu nitelikteki çalışmaları teşvik etmek ve desteklemek, ilgili kurum ve kuruluşlarla iş birliği yapmak, görev alanına giren istatistiklerin derlenmesi ve yayımı konusunda Bakanlığın ilgili birimleriyle iş birliği halinde çalışmak, ceza mevzuatı ile Bakanlığa verilen alternatif usullere ilişkin görevleri yerine getirmek üzere Genel Müdürlüğümüz bünyesinde 10/10/2016 tarihli Bakan Olur’uyla “Cezada Alternatif Çözümler Daire Başkanlığı” kurulmuştur. 1 nolu Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesinin 41 inci maddesinin birinci fıkrasının (g) bendinde de; ceza muhakemesinde önödeme, uzlaştırma ve kamu davasının açılmasının ertelenmesi gibi alternatif uyuşmazlık çözüm usullerinin geliştirilmesi ve etkin şekilde uygulanmasını sağlamak Genel Müdürlüğümüzün görev ve yetkileri arasında belirtilmiştir."
+        ],
+        "w_ans": [
+          "Daire başkanlığının görevleri sadece istatistiklerin derlenmesiyle sınırlıdır.",
+          "Alternatif çözüm yöntemlerini engellemek",
+          "Cezada alternatif çözümleri yasaklamak",
+          "Kamu davalarını hızlandırmak"
+        ],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "TÜRKİYE’NİN EN UZUN IRMAĞI HANGİSİDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": [
+          "Türkiye’nin en uzun nehri Fırat Nehri’dir. Ağrı Diyadin’de doğan nehir, Murat nehri ve Erzurum Dumlubağ’da kaynayarak İran’a kadar uzanır. Oradan da Basra Körfezi’ne dökülerek yolculuğunu tamamlar."
+        ],
+        "w_ans": [
+          "Türkiye'nin en uzun nehri Nil Nehri'dir.",
+          "Fırat Nehri, Türkiye'de hiçbir yere ulaşmaz.",
+          "Türkiye'nin en uzun nehri Yeşil Nehri'dir.",
+          "Fırat Nehri, Türkiye'de doğar ve Karadeniz'e dökülür."
+        ],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "MİLLET VEKİLLERİNİN YAPTIĞI KANUN ÖNERİSİNE NE AD VERİLİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": [
+          "Milletvekillerince Türkiye Büyük Millet Meclisine verilen kanun taslaklarına \"kanun teklifi\" denmektedir. Bir kanun teklifinin hangi partiye mensup vekil tarafından verildiği, iktidar partisi olsa dahi teklifi veren iktidar partisi milletvekilinin partideki ve meclisteki konumu, kanun teklifinin yasalaşıp yasalaşmayacağı konusunda fikir verir. Buna göre örneğin bir muhalefette yer alan bir milletvekili tarafından verilen bir kanun teklifinin yasalaşma ihtimali iktidar partisi destek vermediği sürece çok zordur. Yine iktidar partisi miletvekili olmasına rağmen parti organlarının onayını içermeyen kanun teklifleri de genel olarak yasalaşmamaktadır. Ancak, iktidar partisine mensup meclisteki ihtisas komisyonları başkanlarının verdiği kanun teklifleri, iktidar partisinin onayını da içerdiği, yasalaşma ihtimali yüksektir."
+        ],
+        "w_ans": [
+          "Kanun taslağı",
+          "Kanun önerisi",
+          "Yasa teklifi",
+          "Milletvekili önerisi"
+        ],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "UYUŞMAZLIK MAHKEMESİNİN GÖREVLERİ NELERDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": [
+          "Mahkemenin temel görevi; adli ve idari yargı organları arasındaki görev ve hüküm uyuşmazlıklarını kesin olarak çözmektir. Kararlarına karşı başvuru yolu açık değildir."
+        ],
+        "w_ans": [
+          "Küçük anlaşmazlıkları çözmek",
+          "Ceza davalarını incelemek",
+          "Kararlarına karşı temyiz yolunu açmak",
+          "Sadece adli uyuşmazlıkları çözmek"
+        ],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "ASRIN GÜREŞÇİSİ KİMDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": [
+          "Hamza Yerlikaya (3 Haziran 1976; Kadıköy, İstanbul) FILA tarafından \"Asrın Güreşçisi\" unvanı verilmiş Türk grekoromen güreşçi."
+        ],
+        "w_ans": [
+          "Muhammed Ali",
+          "Mike Tyson",
+          "Serena Williams",
+          "Lionel Messi"
+        ],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "GALAKSİ NEDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": [
+          "Galaksi veya gökada, kütle çekimi kuvvetiyle birbirine bağlı yıldızlar, yıldızlararası gaz, toz ve plazmanın meydana getirdiği yıldızlararası madde ve şimdilik pek anlaşılamamış karanlık maddeden oluşan sistemdir."
+        ],
+        "w_ans": [
+          "Bir çikolata markası",
+          "Bir ülkenin başkenti",
+          "Bir spor kulübü",
+          "Bir yıldızın ismi"
+        ],
+        "aciklama": ""
       }
   ]
   
