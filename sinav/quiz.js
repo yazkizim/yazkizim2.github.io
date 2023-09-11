@@ -160,7 +160,7 @@ function render(quiz_opts) {
 
     var $answers = $("<div>")
       .attr("class", "quiz-answers w-100")
-      .attr("ansid", question_index)
+      .attr("id", question_index)
       .appendTo($item);
 
 
