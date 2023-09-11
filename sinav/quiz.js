@@ -160,7 +160,7 @@ function render(quiz_opts) {
 
     var $answers = $("<div>")
       .attr("class", "quiz-answers w-100")
-      .attr("id", question_index)
+      .attr("id", question_index+1)
       .appendTo($item);
 
 
@@ -204,6 +204,8 @@ function render(quiz_opts) {
       // using specified sweet alert options
       ans_btn.on('click', function() {
 
+       
+        $("'#" + state.currentQ + "'").find("*").addClass("disabled");
         state.currentQ++;
 
 
