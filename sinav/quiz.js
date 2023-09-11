@@ -194,30 +194,7 @@ function render(quiz_opts) {
 
       // This question is correct if it's
       // index is the correct index
-      var correct = (question.c_ans[0] === siklar[answer_index]);
-
-      // default opts for both outcomes
-      var opts = {
-        allowOutsideClick : false,
-        allowEscapeKey : false,
-        confirmButtonText: "Sıradaki soru",
-        html : true,
-        confirmButtonColor: "#0096D2"
-      };
-
-      // set options for correct/incorrect
-      // answer dialogue
-      if (correct) {
-        $metin = question.c_ans[0];
-        $('#correcttext').html($metin);
-        $('#dogrucevap').show();
-        $('#yanliscevap').hide();
-      } else {
-        $metin = question.c_ans[0];
-        $('#wrongtext').html($metin);
-        $('#dogrucevap').hide();
-        $('#yanliscevap').show();
-      }
+      var correct = (question.c_ans[0] === siklar[answer_index]);      
 
       if (last_question) {
         opts.confirmButtonText = "Sonuçlarını gör";
@@ -227,12 +204,20 @@ function render(quiz_opts) {
       // using specified sweet alert options
       ans_btn.on('click', function() {
 
-        function next() {
-          // if correct answer is selected,
-          // keep track in total
-          if (correct) state.correct++;
-          
+        if (correct) {
+          $metin = question.c_ans[0];
+          $('#correcttext').html($metin);
+          $('#dogrucevap').show();
+          $('#yanliscevap').hide();
+          state.correct++
+        } else {
+          $metin = question.c_ans[0];
+          $('#wrongtext').html($metin);
+          $('#dogrucevap').hide();
+          $('#yanliscevap').show();
+        }
 
+        function next() {
           // if we've reached the final question
           // set the results text
           if (last_question) {
