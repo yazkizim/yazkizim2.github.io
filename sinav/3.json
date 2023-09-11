@@ -3640,6 +3640,150 @@
         "c_ans": ["- Soruşturma veya kovuşturmanın her aşamasında şüpheli veya sanık bir veya birden fazla müdafinin hukuki yardımından yararlanabilir (CMK 149/1). Ancak, müdafi sayısı soruşturma evresindeki ifade alma sırasında en çok 3 avukat ile sınırlandırılmıştır. Kovuşturma evresi bakımından genel olarak bir kısıtlama yoktur."],
         "w_ans": ["- Soruşturma aşamasında müdafi bulundurulamaz.", "- Her aşamada sadece bir müdafi bulunabilir.", "- Müdafi sayısı her aşamada en fazla 5 avukatla sınırlıdır."],
         "aciklama": ""
+      },
+      {
+        "questiontext": "ASPENDOS ANTİK TİYATROSU NEREDEDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Aspendos Antalya'nın Serik ilçesine bağlı Belkıs köyünde bulunan bir Antik Kenttir."],
+        "w_ans": ["Aspendos İstanbul'da yer almaktadır.", "Aspendos İzmir'de bulunur.", "Aspendos Ankara'da yer alır."],
+        "aciklama": "Aspendos Antik Tiyatrosu, Antalya'nın Serik ilçesinde bulunan tarihi bir yapıdır."
+      },
+      {
+        "questiontext": "TBMM AÇILDIĞINDA YARI RESMİ OLAN SONRA RESMİ OLAN GAZETE HANGİSİDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Hakimiyet-i Milliye gazetesi"],
+        "w_ans": ["Sabah gazetesi", "Hürriyet gazetesi", "Milliyet gazetesi"],
+        "aciklama": "TBMM'nin açılmasından sonra yarı resmi ve daha sonra resmi olan gazete Hakimiyet-i Milliye'dir."
+      },
+      {
+        "questiontext": "CMK’DA YETKİ KURALININ İSTİSNALARI NELERDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Dava yerinin mahkemece değiştirilmesi hâli."],
+        "w_ans": ["Dava yerinin değiştirilmemesi hâli.", "Davanın düşme hâli.", "İstinaf başvurusu hâli."],
+        "aciklama": "CMK'da yetki kuralının istisnalarından biri, dava yerinin mahkemece değiştirilmesi hâlidir."
+      },
+      {
+        "questiontext": "DÜŞME KARARI NEDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Davanın mahkeme tarafından sonlandırılması kararı."],
+        "w_ans": ["Davanın sürdürülmesi kararı.", "Davanın temyiz edilmesi kararı.", "Davanın reddedilmesi kararı."],
+        "aciklama": "Düşme kararı, davayı sona erdiren bir mahkeme kararıdır."
+      },
+      {
+        "questiontext": "SOYBAĞININ REDDİ DAVASINDA KOCANIN ÖLÜMÜ HALİNDE DAVAYI KİM AÇAR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Kocanın altsoyu, anası, babası veya baba olduğunu iddia eden kişi."],
+        "w_ans": ["Kocanın kardeşi.", "Kocanın akrabaları.", "Kocanın arkadaşları."],
+        "aciklama": "Soybağının reddi davasında kocanın ölümü halinde dava, kocanın altsoyu, anası, babası veya baba olduğunu iddia eden kişi tarafından açılabilir."
+      },
+      {
+        "questiontext": "ŞEFTALİSİ İLE ÜNLÜ İLİMİZ HANGİSİDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Bursa"],
+        "w_ans": ["İstanbul", "Ankara", "İzmir"],
+        "aciklama": "Şeftali ile ünlü ilimiz Bursa'dır."
+      },
+      {
+        "questiontext": "TOPLANTI VE YÜRÜYÜŞ HAKKI NASIL KISITLANIR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Anayasa'ya aykırı şekilde kısıtlanamaz."],
+        "w_ans": ["Sadece önceden izin alınarak kullanılabilir.", "Yalnızca resmi izinle kullanılabilir.", "Sadece siyasi partilerin üyeleri kullanabilir."],
+        "aciklama": "Toplantı ve yürüyüş hakkı, Anayasa'ya aykırı bir şekilde kısıtlanamaz."
+      },
+      {
+        "questiontext": "YSK KARARINA İTİRAZ EDİLİR Mİ ?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Hayır, YSK kararları kesindir."],
+        "w_ans": ["Evet, YSK kararlarına itiraz edilebilir.", "YSK kararları mahkemeye taşınabilir.", "YSK kararlarına sadece siyasi partiler itiraz edebilir."],
+        "aciklama": "YSK kararları kesindir ve kararlara itiraz edilemez."
+      },
+      {
+        "questiontext": "KIBRIS BARIŞ HAREKATI HANGİ PAROLA İLE BAŞLADI?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Kıbrıs Harekâtı (TSK kod adı: \"Atilla Harekâtı\")"],
+        "w_ans": ["Kıbrıs Barışı", "Kıbrıs Özgürlük Harekâtı", "Kıbrıs Kurtuluş Operasyonu"],
+        "aciklama": "Kıbrıs Barış Harekâtı, TSK tarafından \"Atilla Harekâtı\" adıyla başlatıldı."
+      },
+      {
+        "questiontext": "KARAR VE İLAM HARCININ NE KADARI PEŞİN ALINIR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Karar ve ilam harcının dörtte biri peşin, geri kalanı kararın tebliğinden itibaren bir ay içinde ödenir."],
+        "w_ans": ["Karar ve ilam harcının tamamı peşin alınır.", "Karar ve ilam harcının yarısı peşin alınır.", "Karar ve ilam harcı hiç alınmaz."],
+        "aciklama": "Karar ve ilam harcının dörtte biri peşin alınır, geri kalanı ise bir ay içinde ödenir."
+      },
+      {
+        "questiontext": "SÖZLEŞMELİ PERSONELİN EŞ VE ÇOCUKLARININ KAZA GEÇİRMESİ HALİNDE NE KADAR ÜCRETLİ İZİN VERİLİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Üç aya kadar izin verilir."],
+        "w_ans": ["Bir hafta izin verilir.", "Bir ay izin verilir.", "Altı ay izin verilir."],
+        "aciklama": "Sözleşmeli personelin eş ve çocuklarının kaza geçirmesi halinde üç aya kadar ücretli izin verilir."
+      },
+      {
+        "questiontext": "VEREM AŞISINI BULAN BİLİM ADAMI KİMDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Albert Calmette ve Camille Guérin"],
+        "w_ans": ["Louis Pasteur", "Edward Jenner", "Robert Koch"],
+        "aciklama": "Verem aşısını bulan bilim adamları Albert Calmette ve Camille Guérin'dir."
+      },
+      {
+        "questiontext": "DESTEK HİZMETLERİ DAİRE BAŞKANLIĞININ GÖREVLERİ NELERDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Bakanlık için gerekli araç, gereç ve malzemenin temini, bina ve arazi işlemleri, temizlik, aydınlatma, ısıtma, bakım, onarım hizmetleri, sosyal tesislerin kurulması ve yönetimi gibi görevleri yürütmek."],
+        "w_ans": ["Diplomatik ilişkileri yürütmek.", "Orman işleriyle ilgilenmek.", "Sağlık hizmetleri sunmak."],
+        "aciklama": "Destek Hizmetleri Daire Başkanlığı, Bakanlık için gerekli araç, gereç ve malzemenin temini, bina ve arazi işlemleri, temizlik, aydınlatma, ısıtma, bakım, onarım hizmetleri, sosyal tesislerin kurulması ve yönetimi gibi görevleri yürütür."
+      },
+      {
+        "questiontext": "D8 ÜLKELERİ NELERDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Türkiye, İran, Pakistan, Bangladeş, Malezya, Endonezya, Mısır ve Nijerya"],
+        "w_ans": ["Türkiye, Yunanistan, Bulgaristan, Romanya, Moldova, Ukrayna, Belarus, Rusya", "Almanya, Fransa, İngiltere, İtalya, İspanya, Portekiz, Hollanda, Belçika", "ABD, Kanada, Meksika, Kolombiya, Venezuela, Brezilya, Arjantin, Şili"],
+        "aciklama": "D8, Gelişen Sekiz Ülke anlamına gelir ve Türkiye, İran, Pakistan, Bangladeş, Malezya, Endonezya, Mısır ve Nijerya'dan oluşur."
+      },
+      {
+        "questiontext": "G8 ÜLKELERİ NELERDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Kanada, Fransa, Almanya, İtalya, Japonya, Rusya, Birleşik Krallık ve ABD ülkeler"],
+        "w_ans": ["Çin, Hindistan, Brezilya, Güney Afrika, Meksika, Arjantin, Türkiye, Endonezya", "Kanada, Fransa, Almanya, İtalya, Japonya, Güney Kore, İspanya, Hollanda", "ABD, Kanada, Meksika, Kolombiya, Venezuela, Brezilya, Arjantin, Şili"],
+        "aciklama": "G8, önde gelen sanayileşmiş ülkeleri temsil eden bir grup ülkeden oluşur ve Kanada, Fransa, Almanya, İtalya, Japonya, Rusya, Birleşik Krallık ve ABD ülkelerini içerir."
+      },
+      {
+        "questiontext": "VAKIFLARIN ORGANLARINDAN 1 TANE SAYINIZ",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Mütevelli Heyeti"],
+        "w_ans": ["Genel Kurul", "Yönetim Kurulu", "Denetim Kurulu"],
+        "aciklama": "Vakıfların organlarından biri Mütevelli Heyeti'dir."
+      },
+      {
+        "questiontext": "TEHDİT EDİLEN PADİŞAH KİMDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Padişah Reşad, V. Mehmed veya Mehmed Reşad"],
+        "w_ans": ["Padişah Selim", "Padişah Murad", "Padişah Bayezid"],
+        "aciklama": "Tehdit edilen padişah Padişah Reşad, V. Mehmed veya Mehmed Reşad'dır."
+      },
+      {
+        "questiontext": "İSPANYANIN BAŞKENTİ NERESİDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Madrid"],
+        "w_ans": ["Barselona", "Valensiya", "Sevilla"],
+        "aciklama": "İspanya'nın başkenti Madrid'dir."
       }
   ]
   
