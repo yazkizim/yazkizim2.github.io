@@ -141,6 +141,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <script src="{{site.url}}{{site.baseurl}}/assets/js/gokhan.js"></script>
+  {{ page.calendar_css | replace: "!PATH_TO_COMPONENTS!", "/components" | prepend: site.baseurl }}
 
  <!-- for Mathjax support -->
   {% if page.usemathjax %}
