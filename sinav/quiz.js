@@ -204,6 +204,7 @@ function render(quiz_opts) {
       ans_btn.on('click', function() {
 
         state.currentQ++;
+        $(".text-justify.w-100.border-bottom").addClass('disabled');
 
 
         if (correct) {

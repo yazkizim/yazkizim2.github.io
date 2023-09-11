@@ -1939,6 +1939,7 @@ $(document).ready(function(){
 		$('#quiz').carousel('next');
 		$('#dogrucevap').hide();
         $('#yanliscevap').hide();
+		$(".text-justify.w-100.border-bottom").removeClass('disabled');
 	});
 
 
