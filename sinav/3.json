@@ -4656,7 +4656,7 @@
         "image": "",
         "image_credit": "",
         "c_ans": [
-          "Hukuk Muhakemeleri Kanunun 74. maddesinde, \"Açıkça yetki verilmemiş ise vekil; sulh olamaz, hâkimi reddedemez, davanın tamamını ıslah edemez, yemin teklif edemez, yemini kabul, iade veya reddedemez, başkasını tevkil edemez, haczi kaldıramaz, müvekkilinin iflasını isteyemez, tahkim ve hakem sözleşmesi yapamaz, konkordato veya sermaye şirketleri ve kooperatiflerin uzlaşma yoluyla yeniden yapılandırılması teklifinde bulunamaz ve bunlara muvafakat veremez, alternatif uyuşmazlık çözüm yollarına başvuramaz, davadan veya kanun yollarından feragat edemez, karşı tarafı ibra ve davasını kabul edemez, yargılamanın iadesi yoluna gidemez, hâkimlerin fiilleri sebebiyle Devlet aleyhine tazminat davası açamaz, hangileri hakkında yetki verildiği açıklanmadıkça kişiye sıkı sıkıya bağlı haklarla ilgili davaları açamaz ve takip edemez.\"",
+          "Hukuk Muhakemeleri Kanunun 74. maddesinde, \"Açıkça yetki verilmemiş ise vekil; sulh olamaz, hâkimi reddedemez, davanın tamamını ıslah edemez, yemin teklif edemez, yemini kabul, iade veya reddedemez, başkasını tevkil edemez, haczi kaldıramaz, müvekkilinin iflasını isteyemez, tahkim ve hakem sözleşmesi yapamaz, konkordato veya sermaye şirketleri ve kooperatiflerin uzlaşma yoluyla yeniden yapılandırılması teklifinde bulunamaz ve bunlara muvafakat veremez, alternatif uyuşmazlık çözüm yollarına başvuramaz, davadan veya kanun yollarından feragat edemez, karşı tarafı ibra ve davasını kabul edemez, yargılamanın iadesi yoluna gidemez, hâkimlerin fiilleri sebebiyle Devlet aleyhine tazminat davası açamaz, hangileri hakkında yetki verildiği açıklanmadıkça kişiye sıkı sıkıya bağlı haklarla ilgili davaları açamaz ve takip edemez.\""
         ],
         "w_ans": [
           "Alternatif çözüm yollarına başvurabilir.",
@@ -4825,14 +4825,7 @@
         "image_credit": "",
         "c_ans": ["KURULUŞ M.Ö 11400 TERK EDİLİŞ M.Ö 800"],
         "w_ans": ["M.Ö 5000", "M.Ö 3000", "M.Ö 2000", "M.Ö 1000"]
-      },
-      {
-        "questiontext": "GÜNEŞE EN YAKIN GEZEGEN HANGİSİDİR?",
-        "image": "",
-        "image_credit": "",
-        "c_ans": ["Güneşe yakınlık sırasına göre gezegenler Merkür – Venüs – Dünya – Mars – Jüpiter – Satürn – Uranüs – Neptün."],
-        "w_ans": ["Venüs", "Dünya", "Mars", "Uranüs"]
-      },
+      },    
       {
         "questiontext": "CEZAEVİ KATİPLİĞİNDE ÖNCELİK HANGİ EĞİTİM DURUMUNDAKİLERDEDİR?",
         "image": "",
