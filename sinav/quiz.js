@@ -23,6 +23,10 @@ $.fn.quiz = function(filename) {
 // create html structure for quiz
 // using loaded questions json
 function render(quiz_opts) {
+
+  var questions = quiz_opts.questions; 
+  var siklar = [];
+  var cevaplar = ["A - ", "B - ", "C - ", "D - ", "E - ", "F - ", "G - "];
   
   var state = {
     correct : 0,
@@ -35,9 +39,7 @@ function render(quiz_opts) {
 
   questions = questions.arr.slice(0, state.maxQ);
   // list of questions to insert into quiz
-  var questions = quiz_opts.questions; 
-  var siklar = [];
-  var cevaplar = ["A - ", "B - ", "C - ", "D - ", "E - ", "F - ", "G - "];
+  
 
   // keep track of the state of correct
   // answers to the quiz so far
