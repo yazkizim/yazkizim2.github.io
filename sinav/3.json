@@ -2913,229 +2913,735 @@
       "aciklama": ""
     },
     {
-      "questiontext": "TÜZEL KİŞİLİK KAZANMAK İÇİN NELER GEREKLİDİR?",
+      "questiontext": "Tüzel kişilik kazanmak için neler gereklidir?",
+      "image": "",
+      "image_credit": "",
       "c_ans": ["Tüzel kişinin kendisini oluşturan kişilerden veya tüzel kişi oluşturmak amacıyla malvarlığını tahsis eden kişiden ayrı ve bağımsız bir kişiliğe sahip olması gerekir."],
-      "w_ans": [
-        "Tüzel kişi oluşturan kişilerle aynı kişilikte olması gerekmektedir.",
-        "Tüzel kişilik kazanmak için belirli bir süre beklemek gerekmektedir.",
-        "Tüzel kişi olmak için sadece malvarlığını tahsis etmek yeterlidir."
-      ]
+      "w_ans": ["Tüzel kişi oluşturan kişilerle aynı kişilikte olmalıdır.", "Tüzel kişi oluşturan kişilerin iradesine bağlı olmalıdır.", "Tüzel kişi sadece bir varlık türüdür ve ayrı bir kişiliğe sahip olması gerekmez."],
+      "aciklama": ""
     },
     {
-      "questiontext": "HİCRİ TAKVİM NEDİR İLK KİM KULLANMIŞTIR?",
+      "questiontext": "Hicri Takvim nedir ve ilk kim kullanmıştır?",
+      "image": "",
+      "image_credit": "",
       "c_ans": ["1 yılı 354 ya da 355 gün olan ve 12 kameri aydan oluşan, İslam peygamberi Muhammed'in Mekke'den Medine'ye hicretini başlangıç yılı (1. yıl) kabul eden ve Ay'ın Dünya çevresinde dolanımını esas alan bir takvim sistemidir. Hz Ömer zamanında 16 Temmuz 622 hicri takvimin başlangıcı kabul edilmiştir."],
-      "w_ans": [
-        "Hicri takvim sadece İslam dünyasında kullanılır.",
-        "Hicri takvim, güneş yılına dayalıdır.",
-        "Hicri takvim, Romalılar tarafından oluşturulmuştur."
-      ]
+      "w_ans": ["Miladi Takvim, İslam dünyasında kullanılan bir takvimdir.", "Hicri Takvim, ilk olarak Roma İmparatorluğu tarafından kullanılmıştır.", "Hicri Takvim, günümüzde tüm dünyada yaygın olarak kullanılmaktadır."],
+      "aciklama": ""
     },
     {
-      "questiontext": "KONUSU KAHRAMANLIK OLAN ŞİİR TÜRÜ NEDİR?",
+      "questiontext": "Konusu kahramanlık olan şiir türü nedir?",
+      "image": "",
+      "image_credit": "",
       "c_ans": ["Epik Şiir: Vatan sevgisi, yiğitlik, kahramanlık ve savaş ile alakalı konuları ifade eden şiir çeşidine epik şiir denmektedir. Dünya edebiyatında epik şiir türünün ilk örneklerini destanların oluşturduğu bilinmektedir."],
-      "w_ans": [
-        "Lirik Şiir: Kişisel duyguları ve düşünceleri ifade eden şiir türüdür.",
-        "Dramatik Şiir: Tiyatro eserlerinde kullanılan şiir türüdür.",
-        "Komik Şiir: Gülmece ve mizahı konu alan şiir türüdür."
-      ]
+      "w_ans": ["Lirik Şiir, duygusal içerikli şiirlerin türüdür.", "Epigram, kısa ve keskin bir dille yazılan şakacı şiirlerdir.", "Haiku, Japon kökenli bir şiir türüdür ve genellikle doğayı konu alır."],
+      "aciklama": ""
     },
     {
-      "questiontext": "DİPLOMATİK SIĞINMA NEDİR?",
+      "questiontext": "Diplomatik sığınma nedir?",
+      "image": "",
+      "image_credit": "",
       "c_ans": ["Sığınmacının suç işlediği ülke üzerinde bulunan bir yabancı diplomasi temsilciliğine sığınmasıdır."],
-      "w_ans": [
-        "Diplomatların sığınma hakkı yoktur.",
-        "Diplomatik sığınma sadece askeri personel için geçerlidir.",
-        "Sığınmacılar yabancı diplomasi temsilciliğine başvuramaz."
-      ]
+      "w_ans": ["Diplomatlar suç işlediklerinde sığınabilirler.", "Diplomatik sığınma, sığınmacının kendi ülkesine geri dönmesine izin veren bir süreçtir.", "Diplomatik sığınma sadece siyasi suçlular için geçerlidir."],
+      "aciklama": ""
     },
     {
-      "questiontext": "FİLİSTİNİN İSRAİLE KARŞI BAŞLATTIĞI İLK DİRENİŞİN ADI NEDİR?",
+      "questiontext": "Filistin'in İsrail'e karşı başlattığı ilk direnişin adı nedir?",
+      "image": "",
+      "image_credit": "",
       "c_ans": ["İntifada"],
-      "w_ans": [
-        "Savaş",
-        "Barış Anlaşması",
-        "Bağımsızlık Bildirisi"
-      ]
+      "w_ans": ["Gazze Savaşı", "Barış Anlaşması", "İsrail İşgali"],
+      "aciklama": ""
     },
     {
-      "questiontext": "SORUŞTURMA VE KOVUŞTURMA AŞAMASINDA TARAFLARIN UĞRADIKLARI HAKSIZLIKLARA KARŞI AÇTIKLARI TAZMİNAT DAVASINA İLİŞKİN 3 SEBEP SAYINIZ?",
+      "questiontext": "Soruşturma ve kovuşturma aşamasında tarafların uğradıkları haksızlıklara karşı açtıkları tazminat davasına ilişkin 3 sebep sayınız.",
+      "image": "",
+      "image_credit": "",
       "c_ans": ["Haksız el koyma", "Gözaltı ve tutuklama"],
-      "w_ans": [
-        "Soruşturma ve kovuşturma aşamasında taraflar tazminat davası açamazlar.",
-        "Tazminat davası sadece mahkeme sonucunda açılabilir.",
-        "Tazminat davası açma hakkı sadece savcılara tanınmıştır."
-      ]
+      "w_ans": ["İş anlaşmazlıkları", "Arazi anlaşmazlıkları", "Spor müsabakaları"],
+      "aciklama": ""
     },
     {
-      "questiontext": "KURTULUŞ SAVAŞINI BİTİREN ANTLAŞMA?",
-      "c_ans": ["TBMM ile İtilaf Devletleri arasında 11 Ekim 1922'de imzalanan Mudanya Ateşkes Antlaşması ile Türk Kurtuluş Savaşı fiilen bitmiştir. Bu antlaşma ile TBMM büyük kazançlar ve büyük bir başarı elde etmiştir. Bu antlaşma ile Osmanlı Devleti hukuken sona ermiştir."],
-      "w_ans": [
-        "Lozan Antlaşması",
-        "Sèvres Antlaşması",
-        "Versailles Antlaşması"
-      ]
+      "questiontext": "Kurtuluş Savaşı'nı bitiren antlaşma nedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Mudanya Ateşkes Antlaşması"],
+      "w_ans": ["Lozan Antlaşması", "Sevr Antlaşması", "Berlin Antlaşması"],
+      "aciklama": "TBMM ile İtilaf Devletleri arasında 11 Ekim 1922'de imzalanan Mudanya Ateşkes Antlaşması ile Türk Kurtuluş Savaşı fiilen bitmiştir."
     },
     {
-      "questiontext": "BABALIK KARİNESİ AÇIKLAYINIZ?",
-      "c_ans": ["Babalık karinesi. Madde 285 - Evlilik devam ederken veya evliliğin sona ermesinden başlayarak üçyüz gün içinde doğan çocuğun babası kocadır. Bu süre geçtikten sonra doğan çocuğun kocaya bağlanması, ananın evlilik sırasında gebe kaldığının ispatıyla mümkündür."],
-      "w_ans": [
-        "Babalık karinesi, çocuğun doğum anındaki rastgele bir erkek tarafından otomatik olarak kabul edilmesidir.",
-        "Babalık karinesi yalnızca evlilik içinde doğan çocukları kapsar.",
-        "Babalık karinesi yasal olarak tanınmış bir ilkedir."
-      ]
+      "questiontext": "Babalık karinesi nedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Madde 285 - Evlilik devam ederken veya evliliğin sona ermesinden başlayarak üçyüz gün içinde doğan çocuğun babası kocadır. Bu süre geçtikten sonra doğan çocuğun kocaya bağlanması, ananın evlilik sırasında gebe kaldığının ispatıyla mümkündür."],
+      "w_ans": ["Evliliğin sona ermesi", "Çocuğun annesi", "Soy bağı"],
+      "aciklama": ""
     },
     {
-      "questiontext": "BELEDİYE BAŞKANI VE MEMUR KARI KOCADAN TAYİN DURUMUNDA KİM KİME BAĞLI OLUR?",
+      "questiontext": "Belediye başkanı ve memur karı kocadan tayin durumunda kim kime bağlı olur?",
+      "image": "",
+      "image_credit": "",
       "c_ans": ["Memur olan eş belediye başkanı olan eşe bağlı olur."],
-      "w_ans": [
-        "Belediye başkanı olan eş memur olan eşe bağlı olur.",
-        "Kimse kimseye bağlı değildir.",
-        "Bu durumda bir bağlılık söz konusu değildir."
-      ]
+      "w_ans": ["Belediye başkanı memur olan eşe bağlı olur.", "Bağlılık yoktur.", "Tayin işlemi iptal edilir."],
+      "aciklama": ""
     },
     {
-      "questiontext": "YARGITAY BAŞKANI VE BAŞSAVCININ İSMİ?",
+      "questiontext": "Yargıtay Başkanı ve Başsavcısının ismi nedir?",
+      "image": "",
+      "image_credit": "",
       "c_ans": ["Mehmet Akarca / Bekir Şahin"],
-      "w_ans": [
-        "Mustafa Kemal Atatürk / İsmet İnönü",
-        "Recep Tayyip Erdoğan / Binali Yıldırım",
-        "Kemal Kılıçdaroğlu / Meral Akşener"
-      ]
+      "w_ans": ["Ali Yılmaz / Ayşe Demir", "Ahmet Öz / Fatma Kaya", "Hasan Gül / Nazlı Ay"],
+      "aciklama": ""
     },
     {
-      "questiontext": "TBMMDE 2/3 OYLAMA İLE GEÇEN ANAYASA DEĞİŞİKLİĞİ HAKKINDA CUMHURBAŞKANLIĞI NE GİBİ İŞLEMLER YAPAR?",
+      "questiontext": "TBMM'de 2/3 oylama ile geçen anayasa değişikliği hakkında Cumhurbaşkanlığı ne gibi işlemler yapar?",
+      "image": "",
+      "image_credit": "",
       "c_ans": ["Resmi gazetede yayımlar ya da halk oylamasına sunar."],
-      "w_ans": [
-        "Cumhurbaşkanı anayasa değişikliğini veto eder.",
-        "Cumhurbaşkanı anayasa değişikliğini yürürlüğe koymak için imzalar.",
-        "Cumhurbaşkanı anayasa değişikliğini yargıya gönderir."
-      ]
+      "w_ans": ["Halka danışır", "Vetoyu kullanır", "Yargıya başvurur."],
+      "aciklama": ""
     },
     {
-      "questiontext": "37 YIL BOYUNCA RUSYA YA DEVLET BAŞKANLIĞI YAPAN DEVRİK LİDER KİMDİR?",
+      "questiontext": "37 yıl boyunca Rusya'ya devlet başkanlığı yapan devrik lider kimdir?",
+      "image": "",
+      "image_credit": "",
       "c_ans": ["Vladimir İlyiç Ulyanov, bilinen adıyla Lenin (22 Nisan 1870, Simbirsk – 21 Ocak 1924, Moskova), Rus sosyalist devrimci ve politikacı."],
-      "w_ans": [
-        "Joseph Stalin",
-        "Mikhail Gorbachev",
-        "Boris Yeltsin"
-      ]
+      "w_ans": ["Joseph Stalin", "Mikhail Gorbachev", "Boris Yeltsin"],
+      "aciklama": ""
     },
     {
-      "questiontext": "KENDİLERİNE VASİ TAYİN EDİLEN KİŞELERE NE DENİR?",
+      "questiontext": "Kendilerine vasi tayin edilen kişilere ne denir?",
+      "image": "",
+      "image_credit": "",
       "c_ans": ["Kısıtlı"],
-      "w_ans": [
-        "Bağımlı",
-        "Özgür",
-        "Sorumlu"
-      ]
+      "w_ans": ["Kâfir", "Yetim", "Emanetçi"],
+      "aciklama": ""
     },
     {
-      "questiontext": "BAYRAK ŞİİRİ KİME AİTTİR?",
+      "questiontext": "Bayrak Şiiri kime aittir?",
+      "image": "",
+      "image_credit": "",
       "c_ans": ["Arif Nihat Asya’ya aittir."],
-      "w_ans": [
-        "Mehmet Akif Ersoy’a aittir.",
-        "Cahit Sıtkı Tarancı’ya aittir.",
-        "Orhan Veli Kanık’a aittir."
-      ]
+      "w_ans": ["Mehmet Akif Ersoy", "Nazım Hikmet", "Cahit Sıtkı Tarancı"],
+      "aciklama": ""
     },
     {
-      "questiontext": "FİİL EHLİYETİ NEDİR?",
+      "questiontext": "Fiil Ehliyeti nedir?",
+      "image": "",
+      "image_credit": "",
       "c_ans": ["Fiil Ehliyeti, kişinin kendi fiilleriyle hak edinebilme ve borç altına girebilme ehliyetidir. MK 9 gerçek kişilerin, ergin olmak, ayırt etme gücüne sahip olmak ve kısıtlı olmamak şartlarını sağlamaları halinde fiil ehliyetlerinin olduğunu kabul etmiştir."],
-      "w_ans": [
-        "Fiil ehliyeti sadece yetişkinlere tanınır.",
-        "Fiil ehliyeti yalnızca maddi işlemler için geçerlidir.",
-        "Fiil ehliyeti sadece belirli bir yaşın altındaki kişilere verilir."
-      ]
+      "w_ans": ["Sürücü ehliyeti", "Pasaport", "Özel izin"],
+      "aciklama": ""
     },
     {
-      "questiontext": "EN ESKİ DESTAN?",
-      "c_ans": ["Gılgamış destanı"],
-      "w_ans": [
-        "İlyada",
-        "Odysseia",
-        "Kral Oidipus"
-      ]
+      "questiontext": "En eski destan nedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Gılgamış Destanı"],
+      "w_ans": ["İliada", "Odysseia", "Şehname"],
+      "aciklama": ""
     },
     {
-      "questiontext": "KURTULUŞ SAVAŞININ YARI MİLLİ GAZETESİ?",
+      "questiontext": "Kurtuluş Savaşı'nın yarı milli gazetesi nedir?",
+      "image": "",
+      "image_credit": "",
       "c_ans": ["Hakimiyet-i Milliye"],
-      "w_ans": [
-        "Cumhuriyet",
-        "Vakit",
-        "Türk Yurdu"
-      ]
+      "w_ans": ["Vakit", "Cumhuriyet", "Türkiye"],
+      "aciklama": ""
     },
     {
-      "questiontext": "ADLİ TATİLİN SON GÜNÜNE DENK GELEN İŞLEMDE SÜRE NE KADAR UZAR?",
-      "c_ans": ["Adli tatil süresince, çalışmaya ara veren mahkemeler için 2577 sayılı İdari Yargılama Usulü Kanunu'ndaki süreler işlememekte ve sürenin son gününün adli tatilin sona erdiği günü izleyen günden itibaren yedi gün uzamaktadır."],
-      "w_ans": [
-        "Adli tatil, süreyi kısaltır.",
-        "Adli tatil süresince süreler işlemeye devam eder.",
-        "Adli tatil süresince mahkemeler kapalıdır."
-      ]
+      "questiontext": "Adli tatilin son gününe denk gelen işlemde süre ne kadar uzar?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Adli tatil süresince, çalışmaya ara veren mahkemeler için 2577 sayılı İdari Yargılama Usulü Kanunu'ndaki süreler işlememekte ve sürenin son gününün adli tatile rastlaması halinde süre, adli tatilin sona erdiği günü izleyen günden itibaren yedi gün uzamaktadır."],
+      "w_ans": ["Süre değişmez.", "Süre bir gün uzar.", "Süre yarıya iner."],
+      "aciklama": ""
     },
     {
-      "questiontext": "DÜNYANIN KAÇTA KAÇI KARA KAÇTA KAÇI DENİZDİR?",
+      "questiontext": "Dünyanın kaçta kaçı kara, kaçta kaçı denizdir?",
+      "image": "",
+      "image_credit": "",
       "c_ans": ["Dünyamızın yaklaşık yüzde 70'ini su birikintileri oluştururken karaların oranı ise yaklaşık yüzde 30'dur."],
-      "w_ans": [
-        "Dünyanın yüzde 100'ü kara ile kaplıdır.",
-        "Dünyanın yüzde 90'ı denizlerden oluşur.",
-        "Dünyanın yüzde 50'si karadır, yüzde 50'si denizdir."
-      ]
+      "w_ans": ["Yüzde 50 su, yüzde 50 kara.", "Yüzde 80 su, yüzde 20 kara.", "Yüzde 40 su, yüzde 60 kara."],
+      "aciklama": ""
     },
     {
-      "questiontext": "AĞRI DAĞININ YAKININDA Kİ SARAY?",
+      "questiontext": "Ağrı Dağı'nın yakınında ki saray?",
+      "image": "",
+      "image_credit": "",
       "c_ans": ["İshak Paşa Sarayı"],
-      "w_ans": [
-        "Topkapı Sarayı",
-        "Dolmabahçe Sarayı",
-        "Yıldız Sarayı"
-      ]
+      "w_ans": ["Topkapı Sarayı", "Dolmabahçe Sarayı", "Anıtkabir"],
+      "aciklama": ""
     },
     {
-      "questiontext": "657YE GÖRE OLAĞAN ÜSTÜ HAL ZAMANI YERİNE YENİ ATANAN MEMUR GLEMEDEN GÖREVİNİ TERK EDEN MEMUR NE KADAR SÜRE İLE DEVLET MEMURLUĞUNA ALINMAZ?",
+      "questiontext": "657'ye göre olağanüstü hal zamanı yerine yeni atanılan memur görevden ayrıldıktan ne kadar süre ile devlet memurluğuna alınmaz?",
+      "image": "",
+      "image_credit": "",
       "c_ans": ["Bir daha devlet memurluğuna alınmaz"],
-      "w_ans": [
-        "Bir yıl boyunca devlet memurluğuna alınmaz.",
-        "Üç yıl boyunca devlet memurluğuna alınmaz.",
-        "Altı ay boyunca devlet memurluğuna alınmaz."
-      ]
+      "w_ans": ["Bir yıl", "İki yıl", "Üç yıl"],
+      "aciklama": ""
     },
     {
-      "questiontext": "OSMANLININ İLK MİZAH DERGİSİNİN ADI NEDİR?",
+      "questiontext": "Osmanlı'nın ilk mizah dergisinin adı nedir?",
+      "image": "",
+      "image_credit": "",
       "c_ans": ["Diyojen"],
-      "w_ans": [
-        "Güleryüz",
-        "Kara Mizah",
-        "Esprili Zamanlar"
-      ]
+      "w_ans": ["Karagöz", "Leman", "Gırgır"],
+      "aciklama": ""
     },
     {
-      "questiontext": "NAİP HAKİM KARARLARINA İTİRAZ?",
+      "questiontext": "Naip hakim kararlarına itiraz?",
+      "image": "",
+      "image_credit": "",
       "c_ans": ["Naip hâkim kararlarına yapılacak itirazların incelenmesi, mensup oldukları ağır ceza mahkemesi başkanına, istinabe olunan mahkeme kararlarına karşı bulundukları yerdeki mahkeme başkanı veya mahkemeye aittir."],
-      "w_ans": [
-        "Naip hâkim kararlarına itiraz hakkı yoktur.",
-        "Naip hâkim kararlarına sadece avukatlar itiraz edebilir.",
-        "Naip hâkim kararlarına itiraz, diğer mahkemelere yapılır."
-      ]
+      "w_ans": ["Yapılamaz.", "Yargıtay'a yapılır.", "Valiye yapılır."],
+      "aciklama": ""
     },
     {
-      "questiontext": "MALAZGİRT SAVAŞI?",
-      "c_ans": ["Malazgirt Meydan Muharebesi, 26 Ağustos 1071 tarihinde, Büyük Selçuklu Hükümdarı Alparslan ile Bizans İmparatoru Romen Diyojen arasında gerçekleşen muharebedir. Alp Arslan'ın zaferi ile sonuçlanan Malazgirt Muharebesi, \"Türklere Anadolu'nun kapılarında kesin zafer sağlayan son muharebe\" olarak bilinir."],
-      "w_ans": [
-        "Çaldıran Meydan Muharebesi",
-        "Manzikert Muharebesi",
-        "Sakarya Meydan Muharebesi"
-      ]
+      "questiontext": "Malazgirt Savaşı?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Malazgirt Meydan Muharebesi, 26 Ağustos 1071 tarihinde, Büyük Selçuklu Hükümdarı Alparslan ile Bizans İmparatoru Romen Diyojen arasında gerçekleşen muharebedir. Alp Arslan'ın zaferi ile sonuçlanan Malazgirt Muharebesi, 'Türklere Anadolu'nun kapılarında kesin zafer sağlayan son muharebe' olarak bilinir."],
+      "w_ans": ["Manzikert Muharebesi", "Çaldıran Meydan Muharebesi", "Sakarya Meydan Muharebesi"],
+      "aciklama": ""
     },
     {
-      "questiontext": "VERİLEN GÖREVİ KASTEN YAPMAMANIN CEZASI NEDİR?",
+      "questiontext": "Verilen görevi kasten yapmamanın cezası nedir?",
+      "image": "",
+      "image_credit": "",
       "c_ans": ["Kademe ilerlemesinin durdurulması"],
-      "w_ans": [
-        "Para cezası",
-        "Hapis cezası",
-        "Üst mahkemeye sevk edilme"
-      ]
-    }
+      "w_ans": ["Para cezası", "Hapis cezası", "Görevden alınma"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Misak-ı Milli'yi tanıyan ilk devlet kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Misak-ı milli kararlarını tanıyan ilk üç ülke sırasıyla Ermenistan, SSCB ve Fransa'dır. Tanıyan ilk devlet Ermenistan, ilk Avrupa devleti Sovyet Rusya ve ilk İtilaf devleti Fransa'dır."],
+      "w_ans": ["İngiltere", "Almanya", "İtalya"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Ceza İşleri Genel Müdürlüğü'nün görevleri nelerdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Ceza İşleri Genel Müdürlüğünün görevleri arasında kamu güvenliği yönünden dava nakli ile ilgili iş ve işlemleri yapmak, kamu davasının açılması ile ilgili işlemleri yapmak, kanun yararına bozmaya ilişkin işlemleri yürütmek, soruşturma veya kovuşturma yapılması Adalet Bakanının veya Adalet Bakanlığının iznine veya talebine bağlı suçlarla ilgili işlemleri yapmak ve sonuçlarını takip etmek, cezai işlemlerle ilgili ihbar ve şikayetleri incelemek ve gereğini yapmak, mevzuatın Adalet Bakanlığına verdiği soruşturma, kovuşturma ve disiplin işlemlerini yürütmek, alternatif uyuşmazlık çözüm usullerini geliştirmek ve etkin şekilde uygulanmasını sağlamak bulunmaktadır."],
+      "w_ans": ["Muhasebe işlemleri", "Eğitim faaliyetleri", "Araştırma yapmak"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Abdülmecid döneminde basılan para nedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Sultan Abdülmecid döneminde basılan Bakır 40 Para; ortalama 21-22 gram ağırlığa ve 37mm genişliğe sahip olup, paranın ön yüzünde Tuğra cülus sene, arka yüzünde ise 40 azze nasara darebe fi Konstantiniye 1255 yazıları bulunmaktadır. Para; 37MM çapında ve 20.34GR ağırlığındadır."],
+      "w_ans": ["Altın Lira", "Gümüş Akçe", "Kağıt Para"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "İlk Türk destanı nedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Yaratılış destanı"],
+      "w_ans": ["Manas Destanı", "Şu Destanı", "Göç Destanı"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kılık kıyafet yönetmeliğine uymayana ne ceza verilir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Uyarma"],
+      "w_ans": ["Para cezası", "Hapis cezası", "İşten atılma"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Divan-ı Hikmet kimin eseridir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Ahmed Yesevi"],
+      "w_ans": ["Meşrutiyet Dönemi Hikmetleri", "Biruni", "Fuzuli"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kademe ilerlemesi nedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Memurun görevinin önem ve sorumluluğunda herhangi bir artış olmaksızın, bulunduğu derece içerisinde aylık göstergesinin ilerlemesine kademe ilerlemesi denilmektedir."],
+      "w_ans": ["Unvan değişikliği", "Hizmet süresine bağlı zam", "Özürsüz izin"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Katar'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Doha"],
+      "w_ans": ["Riyadh", "Abu Dhabi", "Manama"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "CMK'ya göre yeniden yargılama halleri nelerdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Olağan kanun yollarından olan itiraz, istinaf ve temyiz yoluna kesinleşmemiş hükümler aleyhine başvurulabilirken, olağanüstü kanun yollarından olan yargılamanın yenilenmesine kesinleşmiş hükümlere karşı başvurulabilmektedir"],
+      "w_ans": ["Ceza davasının uzaması", "Ceza davasının hızlanması", "Yargılamanın kesintiye uğraması"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Memur kimler hakkında mal beyanında bulunur?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kendisi, eşi ve bakmakla yükümlü olduğu çocukları"],
+      "w_ans": ["Akrabaları", "Komşuları", "Arkadaşları"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Milletler Cemiyeti hangi ad altında birleşti?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Birleşmiş Milletler"],
+      "w_ans": ["Uluslararası Topluluk", "Dünya Cemiyeti", "Uluslararası Birlik"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Uzlaştırmanın aşamaları nelerdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Cumhuriyet savıcısı (veya mahkeme), uzlaştırma süreci başlamadan önce, suçla ile ilgili olaylar hakkında soruşturma dosyasında yer alan bilgi ve belgeleri uzlaştırmacıya verir. Uzlaştırmacı, dosyayı inceleyerek, suç teşkil eden fiili ve suçun işlenme şeklini değerlendirir ve somut olay hakkında bilgi edinir. Uzlaştırmacı, dosyayı okuduktan sonra uzlaştırma müzakerelerine hazırlık yapar. Uzlaştırmacı, taraflarla ayrı ayrı ön görüşme yaparak, uzlaştırma müzakerelerinin yapılacağı yeri ve zamanı belirler ve tarafları uzlaştırma müzakeresine katılımları için davet eder. Uzlaştırma müzakereleri olumlu veya olumsuz olarak sonuçlandığında, uzlaştırmacı bir rapor hazırlayarak, onaylanmak üzere Cumhuriyet savcısına (veya mahkemeye) sunmalıdır. Uzlaştırma müzakereleri sonunda uzlaştırmacı, Yönetmeliğin ekinde yer alan Ek-2 sayılı Uzlaştırma Raporu Örneğine uygun, taraf sayısından bir fazla olarak hazırladığı raporunu, kendisine verilen belge örnekleri ve varsa yapmış olduğu zorunlu yol giderlerini gösteren belge, gider pusulası veya rayice uygun yazılı beyan ile serbest meslek makbuzuyla birlikte gecikmeksizin Cumhuriyet savcısına verir."],
+      "w_ans": ["Savcının talimatıyla hemen karar verilir.", "Tarafların mahkemede dövüşmesi gerekir.", "Uzlaşma müzakereleri gizli tutulur ve rapor verilmez."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kuvvetler ayrılığı nedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kuvvetler ayrılığı, devleti oluşturan üç mekanizma; yasama, yürütme ve yargının birbirlerinden ayrılmasıdır. Devlet niteliği kazanmış toplumlarda birbirinden farklı üç görev söz konusudur. Bu görevler şunlardır: yasama, yürütme ve yargı."],
+      "w_ans": ["Yasama ve yargı birleşir.", "Devlet tek bir kişi tarafından yönetilir.", "Sadece yürütme mekanizması bulunur."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Yargılamada süreler ne ile başlar?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Tefhim veya tebliğ tarihi ile başlar"],
+      "w_ans": ["Dava açılma tarihi", "İlk duruşma tarihi", "Karar tarihi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Divan Edebiyatı'nda şairlerin kendinden bahsettiği şiir türü nedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Fahriye"],
+      "w_ans": ["Gazel", "Rubai", "Kaside"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Dava devam ederken gider avansında eksiklik olduğu anlaşılırsa tamamlanması için ne kadar süre verilir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İki hafta"],
+      "w_ans": ["Bir ay", "Üç gün", "Üç ay"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "2. Dünya Savaşı'nda faşist Almanya lideri Hitler'in yanında yer alan ve İtalya'yı savaşa sürükleyen daha sonra idam edilen faşist lider kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Benito Amilcare Andrea Mussolini (29 Temmuz 1883, Predappio - 28 Nisan 1945, Giulino di Mezzegra), Ulusal Faşist Partinin lideri olan İtalyan politikacı ve gazeteci. Kendini faşist olarak tanımlayan Mussolini, iktidara geldikten sonra Duce (Lider) olarak tanındı."],
+      "w_ans": ["Francisco Franco", "Hideki Tojo", "Winston Churchill"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Tapuda aleniyet ilkesini açıklayınız.",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Tapu sicili herkese açıktır. İlgisini inanılır kılan herkes, tapu kütüğündeki ilgili sayfanın ve belgelerin tapu memuru önünde kendisine gösterilmesini veya bunların örneklerinin verilmesini isteyebilir."],
+      "w_ans": ["Tapu sicili sadece yetkililere açıktır.", "Tapu sicili gizli tutulur.", "Tapu sicili sadece mülkiyet sahiplerine açıktır."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Memur eliyle tebligat yapılabilir mi?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Evet yapılabilir"],
+      "w_ans": ["Hayır yapamaz", "Sadece avukat yapabilir", "Sadece noter yapabilir"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Ani Harabeleri nerededir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kars şehrinin güneydoğusunda, şehir merkezinden 42 kilometre uzaklıktaki Ocaklı Köyü sınırları içinde bulunan Ani Ören Yeri, yerleşim ve savunmaya çok elverişli topografyası nedeniyle tarih öncesi dönemlerden itibaren çeşitli kültürlere ev sahipliği yapmıştır."],
+      "w_ans": ["İstanbul", "Ankara", "İzmir"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "İlk Türk atletizm sporcumuz kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Cumhuriyetin ilanından önce yarışmalara katılan ilk Türk atleti, Çanakkale savaşlarında şehit düşen ve aynı zamanda futbolcu olan Galatasaraylı Celal İbrahim"],
+      "w_ans": ["Naim Süleymanoğlu", "Aslı Çakır Alptekin", "Müslüm Kaya"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "İcra ve İflas Daireleri'nin atama nakil işlemlerini kim yapar?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İcra İşleri Daire Başkanlığı"],
+      "w_ans": ["Adalet Bakanlığı", "İcra Memurları", "Yargıtay"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Ali Çetinkaya'nın Ayvalık'ta kazandığı zaferin adı nedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["I. Dünya Savaşı'nda çeşitli cephelerde savaşmış bir subay; İzmir'in işgalinden sonra Türk Kurtuluş Savaşı'nın askeri anlamda 'ilk kurşununu atan' kişi olarak kabul edilmiştir."],
+      "w_ans": ["Çanakkale Zaferi", "Sakarya Meydan Muharebesi", "Dumlupınar Meydan Muharebesi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "İlk gizli oy açık sayım hangi seçimde uygulanmıştır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["'Gizli oy, açık tasnif' yönteminin ilk kez uygulandığı 1950 seçimleri, Türkiye tarihinin ilk demokratik seçimi olarak kabul edilir. 1946 genel seçimlerinden sonra, Cumhuriyet tarihinde tek dereceli olarak düzenlenen ve birden fazla partinin katıldığı ikinci milletvekilliği genel seçimidir."],
+      "w_ans": ["1960 Referandumu", "1980 Genel Seçimleri", "2002 Genel Seçimleri"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "TBMM'nin ilk siyasi başarısı nedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Gümrü Antlaşması"],
+      "w_ans": ["Lozan Antlaşması", "Mudanya Ateşkesi", "Sevr Antlaşması"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Pandemi dünyaya hangi ülkeden yayılmıştır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Yeni koronavirüs ilk defa 31 Aralık 2019’da, Çin’in Vuhan şehrindeki deniz ürünleri ve canlı hayvan satan bir markette çalışan 4 kişide ve aynı günlerde bu marketi ziyaret eden çok sayıda kişide akciğer infeksiyonu (pnömoni) bulgularının tespit edildiğinin açıklanmasıyla gündeme gelmiştir."],
+      "w_ans": ["Amerika Birleşik Devletleri", "İngiltere", "Almanya"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Ceza muhakemesinde görevsizlik hangi hallerde verilmez?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Üst mahkemeye her zaman verilebilir, alt mahkemeye işin esasına girildikten sonra verilemez."],
+      "w_ans": ["Her durumda verilir.", "Sadece ciddi suçlarda verilir.", "Sadece dosyanın eksik olduğu durumlarda verilir."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "TBMM Başkanı nasıl seçilir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Türkiye Büyük Millet Meclisi Başkan adayları, Meclis üyeleri içinden, Meclis'in toplandığı günden itibaren beş gün içinde, Başkanlık Divanına bildirilir, Başkan seçimi gizli oyla yapılır. İlk iki oylamada üye tam sayısının üçte iki ve üçüncü oylamada üye tam sayısının salt çoğunluğu aranır."],
+      "w_ans": ["Cumhurbaşkanı tarafından atanır.", "Halk tarafından seçilir.", "Başbakan tarafından atanır."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "HEVSEL BAHÇELERİ NEREDEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Hevsel Bahçeleri, Dicle Nehri kıyısında, Diyarbakır Kalesi ile nehir vadisi arasında yer alan yaklaşık yedi yüz hektarlık verimli arazidir."],
+      "w_ans": ["Hevsel Bahçeleri, Antalya'da bulunur.", "Hevsel Bahçeleri, İstanbul'da yer almaktadır.", "Hevsel Bahçeleri, Marmaris sahilinde bulunur."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "1.DÜNYA SAVAŞINDA ASKERLERİ İLE BİRLİKTE TESLİM OLAN KOMUTAN KİMDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["General Townshend - 29 Nisan 1916 tarihinde Türk kuvvetlerine şehri teslim ederek, askerleriyle birlikte teslim oldu."],
+      "w_ans": ["General Townshend, savaşın sonunda zafer kazandı.", "General Townshend, savaşın başından sonuna kadar direniş gösterdi.", "General Townshend, savaşın sonunda esir alınmadı."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "TBMMNİN İLK YILLARINDA ÇIKAN YARI RESMİ GAZETE?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Hâkimiyet-i Milliye: Ulusal Kurtuluş Savaşı'nın kurucusu olan Hâkimiyet-i Milliye Gazetesi, 10 Ocak 1920'de Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti Temsiliyesi tarafından çıkarılmıştır. TBMM Hükümeti'nin de yarı resmi organı olan bu gazete Cumhuriyet'ten sonra Ulus Gazetesi adını almıştır."],
+      "w_ans": ["TBMM'nin ilk yıllarında resmi bir gazete çıkarılmadı.", "TBMM'nin ilk yıllarında yayın yapan gazeteler yabancı basındandı.", "TBMM'nin ilk yıllarında çıkan gazeteler sadece İstanbul'da basıldı."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "İLK REALİST ROMAN NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Edebiyatımızdaki ilk realist romancı Recaizade Mahmut Ekrem'dir. – Edebiyatımızdaki ilk realist roman Araba Sevdası'dır yazarı Recaizade Mahmut Ekrem'dir. – Edebiyatımızda ilk edebi roman, Namık Kemal'in “İntibah” adlı eseridir. – Edebiyatımızda ilk tarihi roman, Namık Kemal'in “Cezmi” adlı eseridir."],
+      "w_ans": ["İlk realist roman, Shakespeare tarafından yazılmıştır.", "Edebiyatımızdaki ilk realist romancı Orhan Pamuk'tur.", "İlk realist roman, 19. yüzyılda yazılmıştır."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "HSK ÜYELERİNİ KİM SEÇER?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kurulun, üç üyesi birinci sınıf olup, birinci sınıfa ayrılmayı gerektiren nitelikleri yitirmemiş adlî yargı hâkim ve savcıları arasından, bir üyesi birinci sınıf olup, birinci sınıfa ayrılmayı gerektiren nitelikleri yitirmemiş idarî yargı hâkim ve savcıları arasından Cumhurbaşkanınca; üç üyesi Yargıtay üyeleri, bir üyesi Danıştay üyeleri, üç üyesi nitelikleri kanunda belirtilen yükseköğretim kurumlarının hukuk dallarında görev yapan öğretim üyeleri ile avukatlar arasından Türkiye Büyük Millet Meclisi tarafından seçilir."],
+      "w_ans": ["HSK üyeleri, kura ile belirlenir.", "HSK üyeleri, uluslararası toplum tarafından atanır.", "HSK üyeleri, herhangi bir seçimle belirlenmez."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "MANİSA İZMİR ARASINI BAĞLAYAN TÜNEL?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Sabuncubeli Tüneli, Türkiye'nin İzmir ve Manisa illeri arasında D 565 karayolu üzerinde bulunan tüneldir. Sabuncubeli Geçidi'nin 21. kilometresinde yer almaktadır. Tünel, İzmir ve Manisa arasındaki ulaşım süresini 45 dakikadan 15 dakikaya indirmiştir."],
+      "w_ans": ["Manisa İzmir arasını bağlayan tünel yoktur.", "Manisa İzmir arasını bağlayan tünel, deniz altından geçer.", "Manisa İzmir arasını bağlayan tünel, 100 yıl önce inşa edilmiştir."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "ASLİYE CEZA MAHKEMELERİNİN VERDİĞİ KARARLARDA AĞIR CEZA MAHKEMESİ YOKSA NEREYE YAPILIR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["En yakın Ağır Ceza Mahkemesi’ne"],
+      "w_ans": ["Asliye Ceza Mahkemeleri kendi kararlarını uygular.", "Asliye Ceza Mahkemeleri kararları yurtdışında uygulanır.", "Asliye Ceza Mahkemeleri kararları yok sayılır."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "LOZANDAN SONRA KAZANILAN İLK SİYASİ YURTDIŞI BAŞARISI?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Yabancı Okullar"],
+      "w_ans": ["Lozan'dan sonra hiçbir siyasi yurtdışı başarı kazanılmamıştır.", "Lozan'dan sonra savaş başlamıştır.", "Lozan'dan sonra toprak kaybı yaşanmıştır."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "EBYS AÇILIMI NEDİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Elektronik Belge Yönetim Sistemi"],
+      "w_ans": ["EBYS, El Yazısı Belge Yönetim Sistemi'ni ifade eder.", "EBYS, Eski Belge Yönetim Sistemi'ni ifade eder.", "EBYS, Evrak Belge Yönetim Sistemi'ni ifade eder."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "EL YAZISI VASİYETNAMEDE NERELERE BIRAKILABİLİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["“El yazılı vasiyetnamenin yapıldığı yıl, ay ve gün gösterilerek başından sonuna kadar mirasbırakanın el yazısıyla yazılmış ve imzalanmış olması zorunludur. El yazılı vasiyetname, saklanmak üzere açık veya kapalı olarak notere, sulh hâkimine veya yetkili resmi memura bırakılabilir.”"],
+      "w_ans": ["El yazısı vasiyetname herhangi bir yere bırakılamaz.", "El yazısı vasiyetname sadece aile üyelerine bırakılabilir.", "El yazısı vasiyetname, avukatlara bırakılabilir."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "SÖZLEŞMELİ PERSONELİN BABASI ÖLMESİ HALİNDE KAÇ GÜN İZİN VERİLİR?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["7 Gündür."],
+      "w_ans": ["Sözleşmeli personel izin alamaz.", "Sözleşmeli personel sadece 1 gün izin alabilir.", "Sözleşmeli personel için özel izin günü verilmez."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "TBMM BAŞKANLIK DİVANİ ÜYELERİ?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Meclis Başkanı, Başkanvekilleri, Katip Üyeler ve İdare Amirleri"],
+      "w_ans": ["TBMM Başkanlık Divanı üyeleri, seçimle belirlenir.", "TBMM Başkanlık Divanı üyeleri, yalnızca milletvekilleri arasından seçilir.", "TBMM Başkanlık Divanı üyeleri, her yıl değişir."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "İÇ ANADOLUNUN EN YÜKSEK DAĞI?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["3,916 metrelik zirvesiyle İç Anadolu Bölgesi'nin en yüksek dağı olan Erciyes, Toros Dağlarının kuzeydoğusundaki Aladağları'ın en yüksek bölümünü oluşturuyor"],
+      "w_ans": ["İç Anadolu'nun en yüksek dağı Denizli Dağı'dır.", "İç Anadolu'nun en yüksek dağı Hasan Dağı'dır.", "İç Anadolu'nun en yüksek dağı 2,000 metre yüksekliğiyle bilinir."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "İLK EDEBİ ÇEVİRİ?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["- Münif Paşa - Muhaverat-ı Hikemiyye"],
+      "w_ans": ["İlk edebi çeviri, birkaç yıl önce yapıldı.", "İlk edebi çeviri, yabancı bir yazar tarafından yapıldı.", "İlk edebi çeviri, özel bir kuruluş tarafından yapıldı."],
+      "aciklama": ""
+    },
+    "questions": [
+      {
+        "questiontext": "KÜÇÜK KAN DOLAŞIMINI BULAN İSLAM ALİMİ?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Ali bin Ebü'l-Hazm el-Kureşî", "Ali bin Ebü'l-Hazm", "Ali Kureşî", "Ali Mısrî"],
+        "w_ans": ["Mehmet", "Ahmet", "Hasan", "Osman"],
+        "aciklama": "Küçük kan dolaşımı konusunda bilgi."
+      },
+      {
+        "questiontext": "TÜRKİYENİN EN TUZLU DENİZİ HANGİSİDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Akdeniz", "akdeniz", "Ak Deniz", "ak Deniz"],
+        "w_ans": ["Karadeniz", "Ege Denizi", "Marmara Denizi", "Siyah Deniz"],
+        "aciklama": "Türkiye'deki en tuzlu deniz."
+      },
+      {
+        "questiontext": "PEYGAMBERİMİZİN (SAV) AMCASI HZ.HAMZA HANGİ SAVAŞTA ŞEHİD EDİLMİŞTİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Uhud Gazvesi", "Uhud Savaşı"],
+        "w_ans": ["Badr Savaşı", "Uhut Gazvesi", "Hendek Savaşı", "Tebe Gazvesi"],
+        "aciklama": "Hz. Hamza'nın şehit olduğu savaş."
+      },
+      {
+        "questiontext": "BİRLEŞTİRME KARARI NE ZAMAN VERİLİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": [
+          "Kovuşturma evresinin her aşamasında, bağlantılı ceza davalarının birleştirilmesine veya ayrılmasına yüksek görevli mahkemece karar verilebilir.",
+          "Mahkeme, bakmakta olduğu birden çok dava arasında bağlantı görürse, bu bağlantı 8 inci Maddede gösterilen türden olmasa bile, birlikte bakmak ve hükme bağlamak üzere bu davaların birleştirilmesine karar verebilir."
+        ],
+        "w_ans": [
+          "Birleştirme kararı her durumda verilir.",
+          "Birleştirme kararı, davaların sonunda verilir.",
+          "Birleştirme kararı sadece İstinaf incelemesi için geçerlidir."
+        ],
+        "aciklama": "Birleştirme kararı, CMK ve HMK'ye göre kovuşturma evresinin her aşamasında veya davanın her aşamasında verilebilir. Bağlantılı ceza davalarının birleştirilmesine veya ayrılmasına yargıç karar verebilir."
+      },
+      {
+        "questiontext": "İLK TÜRK DEVLETİ HANGİSİDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": [
+          "Asya Hun Devleti"
+        ],
+        "w_ans": [
+          "Göktürk Kağanlığı",
+          "Selçuklu Devleti",
+          "Osmanlı İmparatorluğu"
+        ],
+        "aciklama": "Tarihte bilinen ilk Türk devleti Asya Hun Devleti'dir. Orta Asya'da yaşayan Türk boylarını bir araya getirerek, siyasi birliği sağlamışlardır."
+      },
+      {
+        "questiontext": "TOPLU İŞ SÖZLEŞMESİ NEDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": [
+          "Toplu İş Sözleşmesi (TİS), işyeri veya işletme düzeyinde, işkolu esasına göre işyeri veya işletmede TİS yapma yetkisini haiz işçi sendikası ile işveren sendikası veya sendika üyesi olmayan işveren arasında yapılan iş sözleşmesidir. Buradan anlaşıldığı gibi, TİS'in işçi tarafında mutlaka işçi sendikası olmalıdır."
+        ],
+        "w_ans": [
+          "Bireysel iş sözleşmesi",
+          "İşten çıkarma prosedürü",
+          "Sendika seçimi"
+        ],
+        "aciklama": "Toplu İş Sözleşmesi (TİS), işyeri veya işletme düzeyinde, işkolu esasına göre işyeri veya işletmede TİS yapma yetkisini haiz işçi sendikası ile işveren sendikası veya sendika üyesi olmayan işveren arasında yapılan iş sözleşmesidir. Buradan anlaşıldığı gibi, TİS'in işçi tarafında mutlaka işçi sendikası olmalıdır."
+      },
+      {
+        "questiontext": "ÖZÜRSÜZ OLARAK 1-2 GÜN SÜRE İLE İŞE GELMEMENİN CEZASI NEDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": [
+          "- 657 sayılı Devlet Memurları Kanununa göre; Mazeretsiz olarak 1 veya 2 gün göreve gelmeyen memura aylıktan kesme cezası verilir"
+        ],
+        "w_ans": [
+          "- Herhangi bir ceza verilmez.",
+          "- Memurun maaşı artırılır.",
+          "- Memur izinli sayılır ve herhangi bir ceza uygulanmaz."
+        ],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "MECLİS ARAŞTIRMASINI KİM İSTER?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": [
+          "Meclis Araştırması, belli bir konuda Türkiye Büyük Millet Meclisi'nde bilgi edinmek için yapılan incelemedir. TBMM, bu faaliyetini, Türkiye Cumhuriyeti Anayasası'nın 98'inci ve Türkiye Büyük Millet Meclisi İçtüzüğü'nün 104 ve 105'inci maddelerine göre yürütür."
+        ],
+        "w_ans": [
+          "Sadece hükümet yetkilileri ister.",
+          "Sadece muhalefet partileri ister.",
+          "Sadece yasama organı ister."
+        ],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "VEKALET AYLIĞI NE ZAMANDAN İTİBAREN BAĞLANIR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": [
+          "Aynı kurumdan ayrılmalar dolayısiyle atanan vekil memurlara vekalet görevinin 3 aydan fazla devam eden süresi için, kurum dışından veya açıktan atananlarla kurum içinden ilkokul öğretmenliğine atanan öğretmenler ile veznedarlık görevine atananlara göreve başladıkları tarihten itibaren vekalet aylığı ödenir."
+        ],
+        "w_ans": [
+          "Vekalet görevine başladıktan bir yıl sonra.",
+          "Vekalet görevi sona erdikten sonra.",
+          "Vekalet aylığı hiç bağlanmaz."
+        ],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "MUHAKKİK SÖZLÜ OLARAK GÖREVLENDİRİLEBİLİR Mİ?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": [
+          "Muhakkik olarak tâyin edilecek kişinin, hakkında soruşturma yapılan memurdan daha üst veya memura eşit bir görevde bulunması zorunludur. Muhakkik, görevlendirildiği fiil veya hâl dışında yeni bir disipline aykırı fiil veya hâl tespit ederse kendiliğinden soruşturma yapamaz."
+        ],
+        "w_ans": [
+          "Muhakkik olarak görevlendirilemez.",
+          "Herhangi bir kriter gerekli değildir.",
+          "Sadece savcılar muhakkik olarak görevlendirilebilir."
+        ],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "HÜSEYİN RAHMİ GÜRPINAR’IN ESERLERİNİ SAYINIZ?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": [
+          "Şık (1889), Mürebbiye (1889), İffet (1896), Mutallaka (boşanmış kadın) (1898), Bir Muadele-i Sevda (1899), Metres (1899), Tesadüf (1900), Şıpsevdi (1911)"
+        ],
+        "w_ans": [
+          "Sadece bir eseri vardır.",
+          "Sadece şiir yazmıştır.",
+          "Roman yazmamıştır."
+        ],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "UYARMA CEZASI NEDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["-Uyarma cezası 657 sayılı kanunun 125. Maddesinin “A” bendi uyarınca Memura, görevinde ve davranışlarında daha dikkatli olması gerektiğinin yazı ile bildirilmesidir. Burada dikkat edilmesi gereken husus Memura kusurlu veya kasıtlı olduğu değil, hareket ve davranışlarında daha dikkatli olması gerektiğinin bildirilmesidir. Uyarma cezası 657 sayılı devlet memuru kanununa göre en hafif olan cezadır."],
+        "w_ans": ["- Uyarıcı bir cezadır.", "- Para cezası verme yetkisi içerir.", "- Disiplin cezasının en ağırıdır."],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "ASLİYE CEZA MAHKEMESİ KARARINA KARŞI YAPILAN İTİRAZ YERİNDE AĞIR CEZA MAHKEMESİ YOKSA İTİRAZ NEREYE YAPILIR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["- En yakın Ağır Ceza Mahkemesine"],
+        "w_ans": ["- Yerel idare mahkemesine", "- İdare Mahkemesine", "- Yargıtay'a"],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "TERDİTLİ DAVA NEDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["- Terditli dava, davacının aynı davalıya karşı aralarında hukukî ya da ekonomik bağlantı bulunan birden fazla talebini, bu talepler arasında aslilik-ferilik ilişkisi kurarak aynı dava dilekçesinde ileri sürmesi sonucunda ortaya çıkar(6100 sayılı Hukuk Muhakemeleri Kanunu md. 111/1)."],
+        "w_ans": ["- Mahkeme dışında çözülen davadır.", "- Birden fazla davalıya karşı açılan davadır.", "- Terditli dava, sadece ticaret davalarında görülür."],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "İSTİKLAL SAVAŞI HAKKINDA BİLGİ VERİNİZ",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["- Türk Kurtuluş Savaşı, 19 Mayıs 1919 - 29 Ekim 1923 tarihleri arasında gerçekleştirilen Türk bağımsızlık savaşıdır. I. Dünya Savaşı'nın ardından Osmanlı İmparatorluğu'nun işgal edilmesi sonucunda başlamış ve Türkiye Cumhuriyeti'nin kuruluşu ile sona ermiştir."],
+        "w_ans": ["- Türk Kurtuluş Savaşı, 20. yüzyılın sonlarında gerçekleşmiştir.", "- Türk Kurtuluş Savaşı'nın başlangıç tarihi 1923'tür.", "- Savaşın sonunda Osmanlı İmparatorluğu yeniden kurulmuştur."],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "KAZASKERİN GÖREVİ NEDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["- Kazasker ya da kadıasker, Osmanlı Devleti'nde şeri davalara bakan askeri hakim. Yetkileri arasında kadı, müderris ve din görevlisi atamaları, kadı kararlarını bozma, değiştirme ve yeni kararlar oluşturma gibi maddeler vardır. Yani kadı kararlarına itiraz kazaskerliğe yapılırdı."],
+        "w_ans": ["- Kazasker, sadece askeri işlerle ilgilenir.", "- Kazaskerler, sadece şehirlerde görev yapar.", "- Kazasker, sivil davalarla ilgilenir."],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "DAVANIN ISLAHI NE ZAMANA KADAR YAPILIR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["- Islah, tahkikatın sona ermesine kadar yapılabilir"],
+        "w_ans": ["- Islah, dava açıldıktan sonra yapılamaz.", "- Islah, davacının talepleri gerçekleştiğinde sona erer.", "- Islah, duruşma gününden önce yapılmalıdır."],
+        "aciklama": ""
+      },
+      {
+        "questiontext": "SORUŞTURMA AŞAMASINDA EN ÇOK KAÇ MÜDAFİ BULUNABİLİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["- Soruşturma veya kovuşturmanın her aşamasında şüpheli veya sanık bir veya birden fazla müdafinin hukuki yardımından yararlanabilir (CMK 149/1). Ancak, müdafi sayısı soruşturma evresindeki ifade alma sırasında en çok 3 avukat ile sınırlandırılmıştır. Kovuşturma evresi bakımından genel olarak bir kısıtlama yoktur."],
+        "w_ans": ["- Soruşturma aşamasında müdafi bulundurulamaz.", "- Her aşamada sadece bir müdafi bulunabilir.", "- Müdafi sayısı her aşamada en fazla 5 avukatla sınırlıdır."],
+        "aciklama": ""
+      }
   ]
+  
 }

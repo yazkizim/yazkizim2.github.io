@@ -233,7 +233,7 @@ function render(quiz_opts) {
         if (last_question) {
           $results_title.html(resultsText(state));
           $results_ratio.text(
-            "Toplam " + state.total + " sorunun " + state.correct +
+            "Toplam " + state.maxQ + " sorunun " + state.correct +
             " adetine doğru cevap verdiniz."
           );          
           $indicators.removeClass('show');
