@@ -3,7 +3,7 @@ layout: calendar  # required
 title: My Calendar
 
 calendar_timezone_offset: -0800   # required
-calendar_csv: example/events.csv  # required. Path from base url
+calendar_csv: takvim/events.csv  # required. Path from base url
 event_date_format: M/D/YYYY H:mm A Z
 
 calendar_focus_date: 2016-01-06   # optional. YYYY-MM-DD. Without it, the default is today
