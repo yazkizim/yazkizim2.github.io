@@ -95,7 +95,7 @@ function render(quiz_opts) {
     .appendTo($title_slide);
 
     $('<div>')
-    .text( quiz_opts.aciklama + " </div>")
+    .text( quiz_opts.aciklama)
     .attr('class', 'alert alert-info')
     .appendTo($title_slide);
     

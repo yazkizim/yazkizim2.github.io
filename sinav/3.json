@@ -8947,11 +8947,1187 @@
       "c_ans": ["Eksikliğin tamamlatılması istenir."],
       "w_ans": ["Velakatname iptal edilir.", "Yeni bir velakatname düzenlenir."],
       "aciklama": ""
+    },
+    {
+      "questiontext": "Fransa'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Paris"],
+      "w_ans": ["Londra", "Berlin", "Roma"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Rusya'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Moskova"],
+      "w_ans": ["Sankt-Peterburg", "Kiev", "Minsk"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Çin'in başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Pekin"],
+      "w_ans": ["Şanghay", "Guangzhou", "Hong Kong"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Almanya'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Berlin"],
+      "w_ans": ["Münih", "Hamburg", "Köln"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "İngiltere'nin başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Londra"],
+      "w_ans": ["Manchester", "Birmingham", "Edinburgh"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Japonya'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Tokyo"],
+      "w_ans": ["Osaka", "Kyoto", "Hiroşima"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Brezilya'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Brasilia"],
+      "w_ans": ["Rio de Janeiro", "Sao Paulo", "Belo Horizonte"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "İtalya'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Roma"],
+      "w_ans": ["Milano", "Napoli", "Venedik"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Meksika'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Mexico City"],
+      "w_ans": ["Guadalajara", "Monterrey", "Cancun"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kanada'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Ottawa"],
+      "w_ans": ["Toronto", "Montreal", "Vancouver"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Rusya'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Moskova"],
+      "w_ans": ["Sankt-Peterburg", "Kiev", "Minsk"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Hindistan'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Yeni Delhi"],
+      "w_ans": ["Bombay", "Kalküta", "Chennai"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Güney Kore'nin başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Seul"],
+      "w_ans": ["Busan", "Incheon", "Daegu"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "İspanya'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Madrid"],
+      "w_ans": ["Barselona", "Valencia", "Sevilla"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Arjantin'in başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Buenos Aires"],
+      "w_ans": ["Kordoba", "Rosario", "Mendoza"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Avustralya'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Canberra"],
+      "w_ans": ["Sydney", "Melbourne", "Brisbane"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Mısır'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kahire"],
+      "w_ans": ["İskenderiye", "Gize", "Şarm El Şeyh"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kolombiya'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bogota"],
+      "w_ans": ["Medellin", "Cali", "Barranquilla"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Küba'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Havana"],
+      "w_ans": ["Santiago de Cuba", "Camaguey", "Santa Clara"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Tayland'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bangkok"],
+      "w_ans": ["Phuket", "Chiang Mai", "Pattaya"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Güney Afrika'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Pretoria"],
+      "w_ans": ["Cape Town", "Johannesburg", "Durban"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Suudi Arabistan'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Riyad"],
+      "w_ans": ["Cidde", "Mekke", "Medine"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Yunanistan'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Atina"],
+      "w_ans": ["Selanik", "Larisa", "Patras"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Portekiz'in başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Lizbon"],
+      "w_ans": ["Porto", "Faro", "Coimbra"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "İsveç'in başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Stokholm"],
+      "w_ans": ["Göteborg", "Malmö", "Uppsala"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Norveç'in başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Oslo"],
+      "w_ans": ["Bergen", "Trondheim", "Stavanger"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Türkmenistan'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Aşkabat"],
+      "w_ans": ["Mary", "Daşoğuz", "Türkmenabat"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Çek Cumhuriyeti'nin başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Prag"],
+      "w_ans": ["Brno", "Ostrava", "Plzeň"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Polonya'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Varşova"],
+      "w_ans": ["Krakow", "Łódź", "Wrocław"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kazakistan'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Nur-Sultan"],
+      "w_ans": ["Almaty", "Karaganda", "Shymkent"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Romanya'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bükreş"],
+      "w_ans": ["Cluj-Napoca", "Timişoara", "Iaşi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Hollanda'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Amsterdam"],
+      "w_ans": ["Rotterdam", "Hague", "Utrecht"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "İsviçre'nin başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bern"],
+      "w_ans": ["Zürih", "Cenevre", "Lozan"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Mongolistan'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Ulan Batur"],
+      "w_ans": ["Darkhan", "Erdenet", "Choir"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Yeni Zelanda'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Wellington"],
+      "w_ans": ["Auckland", "Christchurch", "Hamilton"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Avusturya'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Viyana"],
+      "w_ans": ["Graz", "Linz", "Salzburg"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Bulgaristan'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Sofya"],
+      "w_ans": ["Plovdiv", "Varna", "Burgas"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "İrlanda'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Dublin"],
+      "w_ans": ["Belfast", "Cork", "Limerick"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Sırbistan'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Belgrad"],
+      "w_ans": ["Novi Sad", "Niş", "Kragujevac"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Katar'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Doha"],
+      "w_ans": ["Al Wakra", "Al Rayyan", "Al Khor"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Nijerya'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Abuja"],
+      "w_ans": ["Lagos", "Kano", "Ibadan"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Şili'nin başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Santiago"],
+      "w_ans": ["Valparaíso", "Concepción", "La Serena"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Danimarka'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kopenhag"],
+      "w_ans": ["Aarhus", "Odense", "Aalborg"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Slovakya'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bratislava"],
+      "w_ans": ["Košice", "Prešov", "Žilina"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Singapur'un başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Singapur"],
+      "w_ans": ["Kuala Lumpur", "Bangkok", "Manila"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Malezya'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kuala Lumpur"],
+      "w_ans": ["Penang", "Johor Bahru", "Ipoh"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Şili'nin başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Santiago"],
+      "w_ans": ["Valparaíso", "Concepción", "La Serena"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Honduras'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Tegucigalpa"],
+      "w_ans": ["San Pedro Sula", "La Ceiba", "Choloma"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Yemen'in başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Sana'a"],
+      "w_ans": ["Aden", "Taiz", "Al Hudaydah"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Lübnan'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Beyrut"],
+      "w_ans": ["Tripoli", "Sidon", "Tyre"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Sri Lanka'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Colombo"],
+      "w_ans": ["Kandy", "Galle", "Negombo"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Somali'nin başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Mogadişu"],
+      "w_ans": ["Hargeisa", "Kismaayo", "Borama"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kenya'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Nairobi"],
+      "w_ans": ["Mombasa", "Kisumu", "Nakuru"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Mozambik'in başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Maputo"],
+      "w_ans": ["Matola", "Beira", "Nampula"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Çin Tayvan'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Taypeh"],
+      "w_ans": ["Kaohsiung", "Taichung", "Tainan"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kırgızistan'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bişkek"],
+      "w_ans": ["Oş", "Cüalabek", "Tokmok"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Gürcistan'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Tiflis"],
+      "w_ans": ["Kutaisi", "Batumi", "Rustavi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "İzlanda'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Reykjavik"],
+      "w_ans": ["Akureyri", "Kópavogur", "Hafnarfjörður"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Letonya'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Riga"],
+      "w_ans": ["Daugavpils", "Liepaja", "Jelgava"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Estonya'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Tallinn"],
+      "w_ans": ["Tartu", "Narva", "Kohtla-Järve"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Fas'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Rabat"],
+      "w_ans": ["Casablanca", "Fes", "Marrakeş"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Bangladeş'in başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Dakka"],
+      "w_ans": ["Chittagong", "Khulna", "Rajshahi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Vietnam'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Hanoi"],
+      "w_ans": ["Ho Chi Minh Şehir", "Da Nang", "Haiphong"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Uganda'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kampala"],
+      "w_ans": ["Gulu", "Lira", "Mbarara"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Nepal'in başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Katmandu"],
+      "w_ans": ["Pokhara", "Lalitpur", "Biratnagar"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kamerun'un başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Yaoundé"],
+      "w_ans": ["Douala", "Bamenda", "Bafoussam"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Küveyt'in başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kuveyt Şehri"],
+      "w_ans": ["El Ahmadi", "Hawalli", "Al Farwaniyah"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Lüksemburg'un başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Lüksemburg"],
+      "w_ans": ["Esch-sur-Alzette", "Differdange", "Dudelange"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Lihtenştayn'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Vaduz"],
+      "w_ans": ["Schellenberg", "Triesen", "Balzers"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kıbrıs'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Lefkoşa"],
+      "w_ans": ["Lemesos", "Larnaka", "Pafos"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Moldova'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kişinev"],
+      "w_ans": ["Tiraspol", "Bender", "Comrat"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kosova'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Priştine"],
+      "w_ans": ["Prizren", "Mitrovica", "Gjakova"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Makedonya'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Üsküp"],
+      "w_ans": ["Bitola", "Kumanovo", "Prilep"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Karadağ'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Podgorica"],
+      "w_ans": ["Niksik", "Cetinje", "Bar"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Malta'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Valletta"],
+      "w_ans": ["Birkirkara", "Mosta", "Qormi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Andorra'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Andorra la Vella"],
+      "w_ans": ["Escaldes-Engordany", "La Massana", "Ordino"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Vatikan'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Vatikan Şehri"],
+      "w_ans": ["Roma", "Milano", "Napoli"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Monako'nun başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Monako"],
+      "w_ans": ["Monte Carlo", "La Condamine", "Fontvieille"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "San Marino'nun başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["San Marino"],
+      "w_ans": ["Serravalle", "Borgo Maggiore", "Domagnano"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Bahamalar'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Nassau"],
+      "w_ans": ["Freeport", "Lucaya", "West End"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Küba'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Havana"],
+      "w_ans": ["Santiago de Cuba", "Camaguey", "Santa Clara"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Jamaika'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kingston"],
+      "w_ans": ["Montego Bay", "Spanish Town", "Portmore"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Trinidad ve Tobago'nun başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Port of Spain"],
+      "w_ans": ["San Fernando", "Chaguanas", "Arima"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Grenada'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["St. George's"],
+      "w_ans": ["Gouyave", "Grenville", "Victoria"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Saint Lucia'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Castries"],
+      "w_ans": ["Vieux Fort", "Micoud", "Soufrière"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Saint Vincent ve Grenadinler'in başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kingstown"],
+      "w_ans": ["Georgetown", "Bridgetown", "Port of Spain"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Antigua ve Barbuda'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["St. John's"],
+      "w_ans": ["All Saints", "Liberta", "Bolands"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Saint Kitts ve Nevis'in başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Basseterre"],
+      "w_ans": ["Charlestown", "Sandy Point", "Dieppe Bay Town"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Trinidad ve Tobago'nun başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Port of Spain"],
+      "w_ans": ["San Fernando", "Chaguanas", "Arima"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Barbados'un başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bridgetown"],
+      "w_ans": ["Speightstown", "Oistins", "Holetown"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Bahamalar'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Nassau"],
+      "w_ans": ["Freeport", "Lucaya", "West End"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Guyana'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Georgetown"],
+      "w_ans": ["Linden", "New Amsterdam", "Bartica"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Surinam'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Paramaribo"],
+      "w_ans": ["Lelydorp", "Nieuw Nickerie", "Moengo"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Venezuela'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Caracas"],
+      "w_ans": ["Maracaibo", "Valencia", "Barquisimeto"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kolombiya'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bogota"],
+      "w_ans": ["Medellin", "Cali", "Barranquilla"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Ekvador'un başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Quito"],
+      "w_ans": ["Guayaquil", "Cuenca", "Ambato"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Peru'nun başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Lima"],
+      "w_ans": ["Arequipa", "Trujillo", "Chiclayo"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Bolivya'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["La Paz"],
+      "w_ans": ["Santa Cruz", "Cochabamba", "Sucre"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Paraguay'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Asuncion"],
+      "w_ans": ["Ciudad del Este", "San Lorenzo", "Luque"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Uruguay'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Montevideo"],
+      "w_ans": ["Salto", "Paysandú", "Las Piedras"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Şili'nin başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Santiago"],
+      "w_ans": ["Valparaíso", "Concepción", "La Serena"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Arjantin'in başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Buenos Aires"],
+      "w_ans": ["Kordoba", "Rosario", "Mendoza"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Brasil'in başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Brasilia"],
+      "w_ans": ["Rio de Janeiro", "Sao Paulo", "Belo Horizonte"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Paraguay'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Asuncion"],
+      "w_ans": ["Ciudad del Este", "San Lorenzo", "Luque"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Uruguay'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Montevideo"],
+      "w_ans": ["Salto", "Paysandú", "Las Piedras"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Arjantin'in başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Buenos Aires"],
+      "w_ans": ["Kordoba", "Rosario", "Mendoza"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Brasil'in başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Brasilia"],
+      "w_ans": ["Rio de Janeiro", "Sao Paulo", "Belo Horizonte"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kolombiya'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bogota"],
+      "w_ans": ["Medellin", "Cali", "Barranquilla"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Ekvador'un başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Quito"],
+      "w_ans": ["Guayaquil", "Cuenca", "Ambato"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Peru'nun başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Lima"],
+      "w_ans": ["Arequipa", "Trujillo", "Chiclayo"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Bolivya'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["La Paz"],
+      "w_ans": ["Santa Cruz", "Cochabamba", "Sucre"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Paraguay'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Asuncion"],
+      "w_ans": ["Ciudad del Este", "San Lorenzo", "Luque"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Uruguay'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Montevideo"],
+      "w_ans": ["Salto", "Paysandú", "Las Piedras"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Arjantin'in başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Buenos Aires"],
+      "w_ans": ["Kordoba", "Rosario", "Mendoza"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Brasil'in başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Brasilia"],
+      "w_ans": ["Rio de Janeiro", "Sao Paulo", "Belo Horizonte"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Uruguay'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Montevideo"],
+      "w_ans": ["Salto", "Paysandú", "Las Piedras"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Arjantin'in başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Buenos Aires"],
+      "w_ans": ["Kordoba", "Rosario", "Mendoza"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Brasil'in başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Brasilia"],
+      "w_ans": ["Rio de Janeiro", "Sao Paulo", "Belo Horizonte"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kolombiya'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bogota"],
+      "w_ans": ["Medellin", "Cali", "Barranquilla"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Ekvador'un başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Quito"],
+      "w_ans": ["Guayaquil", "Cuenca", "Ambato"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Peru'nun başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Lima"],
+      "w_ans": ["Arequipa", "Trujillo", "Chiclayo"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Bolivya'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["La Paz"],
+      "w_ans": ["Santa Cruz", "Cochabamba", "Sucre"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Paraguay'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Asuncion"],
+      "w_ans": ["Ciudad del Este", "San Lorenzo", "Luque"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Uruguay'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Montevideo"],
+      "w_ans": ["Salto", "Paysandú", "Las Piedras"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Arjantin'in başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Buenos Aires"],
+      "w_ans": ["Kordoba", "Rosario", "Mendoza"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Brasil'in başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Brasilia"],
+      "w_ans": ["Rio de Janeiro", "Sao Paulo", "Belo Horizonte"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kolombiya'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bogota"],
+      "w_ans": ["Medellin", "Cali", "Barranquilla"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Ekvador'un başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Quito"],
+      "w_ans": ["Guayaquil", "Cuenca", "Ambato"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Peru'nun başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Lima"],
+      "w_ans": ["Arequipa", "Trujillo", "Chiclayo"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Bolivya'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["La Paz"],
+      "w_ans": ["Santa Cruz", "Cochabamba", "Sucre"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Paraguay'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Asuncion"],
+      "w_ans": ["Ciudad del Este", "San Lorenzo", "Luque"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Uruguay'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Montevideo"],
+      "w_ans": ["Salto", "Paysandú", "Las Piedras"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Arjantin'in başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Buenos Aires"],
+      "w_ans": ["Kordoba", "Rosario", "Mendoza"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Brasil'in başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Brasilia"],
+      "w_ans": ["Rio de Janeiro", "Sao Paulo", "Belo Horizonte"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kolombiya'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bogota"],
+      "w_ans": ["Medellin", "Cali", "Barranquilla"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Ekvador'un başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Quito"],
+      "w_ans": ["Guayaquil", "Cuenca", "Ambato"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Peru'nun başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Lima"],
+      "w_ans": ["Arequipa", "Trujillo", "Chiclayo"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Bolivya'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["La Paz"],
+      "w_ans": ["Santa Cruz", "Cochabamba", "Sucre"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Paraguay'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Asuncion"],
+      "w_ans": ["Ciudad del Este", "San Lorenzo", "Luque"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Uruguay'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Montevideo"],
+      "w_ans": ["Salto", "Paysandú", "Las Piedras"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Arjantin'in başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Buenos Aires"],
+      "w_ans": ["Kordoba", "Rosario", "Mendoza"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Brasil'in başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Brasilia"],
+      "w_ans": ["Rio de Janeiro", "Sao Paulo", "Belo Horizonte"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kolombiya'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bogota"],
+      "w_ans": ["Medellin", "Cali", "Barranquilla"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Ekvador'un başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Quito"],
+      "w_ans": ["Guayaquil", "Cuenca", "Ambato"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Peru'nun başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Lima"],
+      "w_ans": ["Arequipa", "Trujillo", "Chiclayo"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Bolivya'nın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["La Paz"],
+      "w_ans": ["Santa Cruz", "Cochabamba", "Sucre"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Paraguay'ın başkenti neresidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Asuncion"],
+      "w_ans": ["Ciudad del Este", "San Lorenzo", "Luque"],
+      "aciklama": ""
     }
 
 	],
   "title": "Mülakat Soruları Testi",
   "url": "https://www.adliyeci.com.tr/sinav/#/",
-  "aciklama": "Bu testteki sorular 2020 GYS/ÜDS Mülakatlarına katılmış kullanıcıların kendilerine sorulduğunu bildirdikleri soru ve cevaplara, Yapay Zeka (ChatGPT) tarafından oluşturulmuş şıklar ile bu sorulara benzer sorular hazırlanmıştır.<br>Şüphe duymanız halinde cevapları <strong>kontrol ediniz.<\/strong>"
+  "aciklama": "Bu testteki sorular 2020 GYS/ÜDS Mülakatlarına katılmış kullanıcıların kendilerine sorulduğunu bildirdikleri soru ve cevaplara, Yapay Zeka (ChatGPT) tarafından oluşturulmuş şıklar ile bu sorulara benzer sorular hazırlanmıştır.<br>Şüphe duymanız halinde cevapları kontrol ediniz"
 
 }
