@@ -2911,6 +2911,231 @@
       "c_ans": ["Hikaye"],
       "w_ans": ["Roman", "Şiir", "Tiyatro"],
       "aciklama": ""
+    },
+    {
+      "questiontext": "TÜZEL KİŞİLİK KAZANMAK İÇİN NELER GEREKLİDİR?",
+      "c_ans": ["Tüzel kişinin kendisini oluşturan kişilerden veya tüzel kişi oluşturmak amacıyla malvarlığını tahsis eden kişiden ayrı ve bağımsız bir kişiliğe sahip olması gerekir."],
+      "w_ans": [
+        "Tüzel kişi oluşturan kişilerle aynı kişilikte olması gerekmektedir.",
+        "Tüzel kişilik kazanmak için belirli bir süre beklemek gerekmektedir.",
+        "Tüzel kişi olmak için sadece malvarlığını tahsis etmek yeterlidir."
+      ]
+    },
+    {
+      "questiontext": "HİCRİ TAKVİM NEDİR İLK KİM KULLANMIŞTIR?",
+      "c_ans": ["1 yılı 354 ya da 355 gün olan ve 12 kameri aydan oluşan, İslam peygamberi Muhammed'in Mekke'den Medine'ye hicretini başlangıç yılı (1. yıl) kabul eden ve Ay'ın Dünya çevresinde dolanımını esas alan bir takvim sistemidir. Hz Ömer zamanında 16 Temmuz 622 hicri takvimin başlangıcı kabul edilmiştir."],
+      "w_ans": [
+        "Hicri takvim sadece İslam dünyasında kullanılır.",
+        "Hicri takvim, güneş yılına dayalıdır.",
+        "Hicri takvim, Romalılar tarafından oluşturulmuştur."
+      ]
+    },
+    {
+      "questiontext": "KONUSU KAHRAMANLIK OLAN ŞİİR TÜRÜ NEDİR?",
+      "c_ans": ["Epik Şiir: Vatan sevgisi, yiğitlik, kahramanlık ve savaş ile alakalı konuları ifade eden şiir çeşidine epik şiir denmektedir. Dünya edebiyatında epik şiir türünün ilk örneklerini destanların oluşturduğu bilinmektedir."],
+      "w_ans": [
+        "Lirik Şiir: Kişisel duyguları ve düşünceleri ifade eden şiir türüdür.",
+        "Dramatik Şiir: Tiyatro eserlerinde kullanılan şiir türüdür.",
+        "Komik Şiir: Gülmece ve mizahı konu alan şiir türüdür."
+      ]
+    },
+    {
+      "questiontext": "DİPLOMATİK SIĞINMA NEDİR?",
+      "c_ans": ["Sığınmacının suç işlediği ülke üzerinde bulunan bir yabancı diplomasi temsilciliğine sığınmasıdır."],
+      "w_ans": [
+        "Diplomatların sığınma hakkı yoktur.",
+        "Diplomatik sığınma sadece askeri personel için geçerlidir.",
+        "Sığınmacılar yabancı diplomasi temsilciliğine başvuramaz."
+      ]
+    },
+    {
+      "questiontext": "FİLİSTİNİN İSRAİLE KARŞI BAŞLATTIĞI İLK DİRENİŞİN ADI NEDİR?",
+      "c_ans": ["İntifada"],
+      "w_ans": [
+        "Savaş",
+        "Barış Anlaşması",
+        "Bağımsızlık Bildirisi"
+      ]
+    },
+    {
+      "questiontext": "SORUŞTURMA VE KOVUŞTURMA AŞAMASINDA TARAFLARIN UĞRADIKLARI HAKSIZLIKLARA KARŞI AÇTIKLARI TAZMİNAT DAVASINA İLİŞKİN 3 SEBEP SAYINIZ?",
+      "c_ans": ["Haksız el koyma", "Gözaltı ve tutuklama"],
+      "w_ans": [
+        "Soruşturma ve kovuşturma aşamasında taraflar tazminat davası açamazlar.",
+        "Tazminat davası sadece mahkeme sonucunda açılabilir.",
+        "Tazminat davası açma hakkı sadece savcılara tanınmıştır."
+      ]
+    },
+    {
+      "questiontext": "KURTULUŞ SAVAŞINI BİTİREN ANTLAŞMA?",
+      "c_ans": ["TBMM ile İtilaf Devletleri arasında 11 Ekim 1922'de imzalanan Mudanya Ateşkes Antlaşması ile Türk Kurtuluş Savaşı fiilen bitmiştir. Bu antlaşma ile TBMM büyük kazançlar ve büyük bir başarı elde etmiştir. Bu antlaşma ile Osmanlı Devleti hukuken sona ermiştir."],
+      "w_ans": [
+        "Lozan Antlaşması",
+        "Sèvres Antlaşması",
+        "Versailles Antlaşması"
+      ]
+    },
+    {
+      "questiontext": "BABALIK KARİNESİ AÇIKLAYINIZ?",
+      "c_ans": ["Babalık karinesi. Madde 285 - Evlilik devam ederken veya evliliğin sona ermesinden başlayarak üçyüz gün içinde doğan çocuğun babası kocadır. Bu süre geçtikten sonra doğan çocuğun kocaya bağlanması, ananın evlilik sırasında gebe kaldığının ispatıyla mümkündür."],
+      "w_ans": [
+        "Babalık karinesi, çocuğun doğum anındaki rastgele bir erkek tarafından otomatik olarak kabul edilmesidir.",
+        "Babalık karinesi yalnızca evlilik içinde doğan çocukları kapsar.",
+        "Babalık karinesi yasal olarak tanınmış bir ilkedir."
+      ]
+    },
+    {
+      "questiontext": "BELEDİYE BAŞKANI VE MEMUR KARI KOCADAN TAYİN DURUMUNDA KİM KİME BAĞLI OLUR?",
+      "c_ans": ["Memur olan eş belediye başkanı olan eşe bağlı olur."],
+      "w_ans": [
+        "Belediye başkanı olan eş memur olan eşe bağlı olur.",
+        "Kimse kimseye bağlı değildir.",
+        "Bu durumda bir bağlılık söz konusu değildir."
+      ]
+    },
+    {
+      "questiontext": "YARGITAY BAŞKANI VE BAŞSAVCININ İSMİ?",
+      "c_ans": ["Mehmet Akarca / Bekir Şahin"],
+      "w_ans": [
+        "Mustafa Kemal Atatürk / İsmet İnönü",
+        "Recep Tayyip Erdoğan / Binali Yıldırım",
+        "Kemal Kılıçdaroğlu / Meral Akşener"
+      ]
+    },
+    {
+      "questiontext": "TBMMDE 2/3 OYLAMA İLE GEÇEN ANAYASA DEĞİŞİKLİĞİ HAKKINDA CUMHURBAŞKANLIĞI NE GİBİ İŞLEMLER YAPAR?",
+      "c_ans": ["Resmi gazetede yayımlar ya da halk oylamasına sunar."],
+      "w_ans": [
+        "Cumhurbaşkanı anayasa değişikliğini veto eder.",
+        "Cumhurbaşkanı anayasa değişikliğini yürürlüğe koymak için imzalar.",
+        "Cumhurbaşkanı anayasa değişikliğini yargıya gönderir."
+      ]
+    },
+    {
+      "questiontext": "37 YIL BOYUNCA RUSYA YA DEVLET BAŞKANLIĞI YAPAN DEVRİK LİDER KİMDİR?",
+      "c_ans": ["Vladimir İlyiç Ulyanov, bilinen adıyla Lenin (22 Nisan 1870, Simbirsk – 21 Ocak 1924, Moskova), Rus sosyalist devrimci ve politikacı."],
+      "w_ans": [
+        "Joseph Stalin",
+        "Mikhail Gorbachev",
+        "Boris Yeltsin"
+      ]
+    },
+    {
+      "questiontext": "KENDİLERİNE VASİ TAYİN EDİLEN KİŞELERE NE DENİR?",
+      "c_ans": ["Kısıtlı"],
+      "w_ans": [
+        "Bağımlı",
+        "Özgür",
+        "Sorumlu"
+      ]
+    },
+    {
+      "questiontext": "BAYRAK ŞİİRİ KİME AİTTİR?",
+      "c_ans": ["Arif Nihat Asya’ya aittir."],
+      "w_ans": [
+        "Mehmet Akif Ersoy’a aittir.",
+        "Cahit Sıtkı Tarancı’ya aittir.",
+        "Orhan Veli Kanık’a aittir."
+      ]
+    },
+    {
+      "questiontext": "FİİL EHLİYETİ NEDİR?",
+      "c_ans": ["Fiil Ehliyeti, kişinin kendi fiilleriyle hak edinebilme ve borç altına girebilme ehliyetidir. MK 9 gerçek kişilerin, ergin olmak, ayırt etme gücüne sahip olmak ve kısıtlı olmamak şartlarını sağlamaları halinde fiil ehliyetlerinin olduğunu kabul etmiştir."],
+      "w_ans": [
+        "Fiil ehliyeti sadece yetişkinlere tanınır.",
+        "Fiil ehliyeti yalnızca maddi işlemler için geçerlidir.",
+        "Fiil ehliyeti sadece belirli bir yaşın altındaki kişilere verilir."
+      ]
+    },
+    {
+      "questiontext": "EN ESKİ DESTAN?",
+      "c_ans": ["Gılgamış destanı"],
+      "w_ans": [
+        "İlyada",
+        "Odysseia",
+        "Kral Oidipus"
+      ]
+    },
+    {
+      "questiontext": "KURTULUŞ SAVAŞININ YARI MİLLİ GAZETESİ?",
+      "c_ans": ["Hakimiyet-i Milliye"],
+      "w_ans": [
+        "Cumhuriyet",
+        "Vakit",
+        "Türk Yurdu"
+      ]
+    },
+    {
+      "questiontext": "ADLİ TATİLİN SON GÜNÜNE DENK GELEN İŞLEMDE SÜRE NE KADAR UZAR?",
+      "c_ans": ["Adli tatil süresince, çalışmaya ara veren mahkemeler için 2577 sayılı İdari Yargılama Usulü Kanunu'ndaki süreler işlememekte ve sürenin son gününün adli tatilin sona erdiği günü izleyen günden itibaren yedi gün uzamaktadır."],
+      "w_ans": [
+        "Adli tatil, süreyi kısaltır.",
+        "Adli tatil süresince süreler işlemeye devam eder.",
+        "Adli tatil süresince mahkemeler kapalıdır."
+      ]
+    },
+    {
+      "questiontext": "DÜNYANIN KAÇTA KAÇI KARA KAÇTA KAÇI DENİZDİR?",
+      "c_ans": ["Dünyamızın yaklaşık yüzde 70'ini su birikintileri oluştururken karaların oranı ise yaklaşık yüzde 30'dur."],
+      "w_ans": [
+        "Dünyanın yüzde 100'ü kara ile kaplıdır.",
+        "Dünyanın yüzde 90'ı denizlerden oluşur.",
+        "Dünyanın yüzde 50'si karadır, yüzde 50'si denizdir."
+      ]
+    },
+    {
+      "questiontext": "AĞRI DAĞININ YAKININDA Kİ SARAY?",
+      "c_ans": ["İshak Paşa Sarayı"],
+      "w_ans": [
+        "Topkapı Sarayı",
+        "Dolmabahçe Sarayı",
+        "Yıldız Sarayı"
+      ]
+    },
+    {
+      "questiontext": "657YE GÖRE OLAĞAN ÜSTÜ HAL ZAMANI YERİNE YENİ ATANAN MEMUR GLEMEDEN GÖREVİNİ TERK EDEN MEMUR NE KADAR SÜRE İLE DEVLET MEMURLUĞUNA ALINMAZ?",
+      "c_ans": ["Bir daha devlet memurluğuna alınmaz"],
+      "w_ans": [
+        "Bir yıl boyunca devlet memurluğuna alınmaz.",
+        "Üç yıl boyunca devlet memurluğuna alınmaz.",
+        "Altı ay boyunca devlet memurluğuna alınmaz."
+      ]
+    },
+    {
+      "questiontext": "OSMANLININ İLK MİZAH DERGİSİNİN ADI NEDİR?",
+      "c_ans": ["Diyojen"],
+      "w_ans": [
+        "Güleryüz",
+        "Kara Mizah",
+        "Esprili Zamanlar"
+      ]
+    },
+    {
+      "questiontext": "NAİP HAKİM KARARLARINA İTİRAZ?",
+      "c_ans": ["Naip hâkim kararlarına yapılacak itirazların incelenmesi, mensup oldukları ağır ceza mahkemesi başkanına, istinabe olunan mahkeme kararlarına karşı bulundukları yerdeki mahkeme başkanı veya mahkemeye aittir."],
+      "w_ans": [
+        "Naip hâkim kararlarına itiraz hakkı yoktur.",
+        "Naip hâkim kararlarına sadece avukatlar itiraz edebilir.",
+        "Naip hâkim kararlarına itiraz, diğer mahkemelere yapılır."
+      ]
+    },
+    {
+      "questiontext": "MALAZGİRT SAVAŞI?",
+      "c_ans": ["Malazgirt Meydan Muharebesi, 26 Ağustos 1071 tarihinde, Büyük Selçuklu Hükümdarı Alparslan ile Bizans İmparatoru Romen Diyojen arasında gerçekleşen muharebedir. Alp Arslan'ın zaferi ile sonuçlanan Malazgirt Muharebesi, \"Türklere Anadolu'nun kapılarında kesin zafer sağlayan son muharebe\" olarak bilinir."],
+      "w_ans": [
+        "Çaldıran Meydan Muharebesi",
+        "Manzikert Muharebesi",
+        "Sakarya Meydan Muharebesi"
+      ]
+    },
+    {
+      "questiontext": "VERİLEN GÖREVİ KASTEN YAPMAMANIN CEZASI NEDİR?",
+      "c_ans": ["Kademe ilerlemesinin durdurulması"],
+      "w_ans": [
+        "Para cezası",
+        "Hapis cezası",
+        "Üst mahkemeye sevk edilme"
+      ]
     }
   ]
 }
