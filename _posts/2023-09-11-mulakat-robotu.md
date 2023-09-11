@@ -5,7 +5,7 @@ summary: ""
 author: gokhantasci
 date: '2023-09-11 09:11:32 +0530'
 category: Sınav
-thumbnail: /assets/img/posts/mulakat.jpg
+thumbnail: /assets/img/posts/chatgpt.png
 keywords: Adalet Bakanlığı, Çıkmış Komisyon Mülakat Soruları, Katiplik Mülakat Soruları, Mübaşir Mülakat Soruları, Yazı İşleri Müdürü mülakat soruları
 permalink: /blog/adalet-bakanligi-mulakat-robotu-2023/
 usemathjax: true

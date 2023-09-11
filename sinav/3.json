@@ -3912,6 +3912,70 @@
         "c_ans": ["Cumhuriyet savcısı ve hâkime aittir"],
         "w_ans": ["Polis memurları", "Belediye çalışanları", "Özel dedektifler"],
         "aciklama": "Arama ve el koyma işlemlerinde belgeleri inceleme yetkisi olan kişiler."
+      },
+      {
+        "questiontext": "ATOMUN TEMEL BİRİMİ NEDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Atom"],
+        "w_ans": ["Molekül", "Proton", "Elektron"],
+        "aciklama": "Maddenin temel birimi."
+      },
+      {
+        "questiontext": "İNSAN HÜCRELERİNDE KAÇ ÇEKİRDEK BULUNUR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["1"],
+        "w_ans": ["2", "0", "3"],
+        "aciklama": "İnsan vücudu hücrelerinin çekirdek sayısı."
+      },
+      {
+        "questiontext": "FRANSIZ İHTİLALİ NE ZAMAN BAŞLADI?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["14 Temmuz 1789"],
+        "w_ans": ["15 Nisan 1792", "21 Mayıs 1793", "3 Eylül 1801"],
+        "aciklama": "Fransız İhtilali'nin başlangıç tarihi."
+      },
+      {
+        "questiontext": "DÜNYANIN EN BÜYÜK OKYANUSU HANGİSİDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Pasifik Okyanusu"],
+        "w_ans": ["Atlas Okyanusu", "Hint Okyanusu", "Karayip Denizi"],
+        "aciklama": "Dünyanın en büyük okyanusu."
+      },
+      {
+        "questiontext": "ÇOCUKLAR İÇİN HIKAYE KİTABI YAZAN ÜNLÜ YAZAR KİMDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Roald Dahl"],
+        "w_ans": ["J.K. Rowling", "Charles Dickens", "Mark Twain"],
+        "aciklama": "Ünlü çocuklar için hikaye kitabı yazarı."
+      },
+      {
+        "questiontext": "KARPUZUN İÇİNDEKİ BİR PARÇA NE İLE TEMSİL EDİLİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Çekirdek"],
+        "w_ans": ["Kabuk", "Su", "Meyve"],
+        "aciklama": "Karpuzun içinde bulunan küçük parça."
+      },
+      {
+        "questiontext": "TÜRKİYE'NİN BAĞIMSIZLIK SAVAŞI NE ZAMAN BAŞLADI?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["19 Mayıs 1919"],
+        "w_ans": ["29 Ekim 1923", "18 Mart 1915", "23 Nisan 1920"],
+        "aciklama": "Türkiye'nin bağımsızlık savaşının başlangıç tarihi."
+      },
+      {
+        "questiontext": "DNA MOLEKÜLÜNÜN TAM ANLAMI NEDİR?",
+        "image": "",
+        "image_credit": "",
+        "c_ans": ["Deoksiribonükleik Asit"],
+        "w_ans": ["Ribonükleik Asit", "Protein", "Karbonhidrat"],
+        "aciklama": "DNA molekülünün açılımı."
       }
   ]
   
