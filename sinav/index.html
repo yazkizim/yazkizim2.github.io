@@ -44,7 +44,7 @@ layout: sinav
                               <button href="#" class="list-group-item w-100 text-left text-primary" id="{{ sub3.id }}" disabled>{{ sub3.adi }}</button> 
                               {% else %} 
                               <button href="#" class="list-group-item w-100 text-left text-primary" id="{{ sub3.id }}" onclick="return testOlustur('{{ sub3.id }}.json');">{{ sub3.adi }}
-                                <span class="badge badge bg-success badge-pill">3 Soru</span>
+                                <span class="badge badge bg-success badge-pill">*</span>
                               </button> 
                               {% endif %} 
                             {% endfor %}
@@ -55,7 +55,7 @@ layout: sinav
                           <button href="#" class="list-group-item w-100 text-left text-primary" id="{{ sub2.id }}" disabled>{{ sub2.adi }}</button> 
                           {% else %} 
                           <button href="#" class="list-group-item w-100 text-left text-primary" id="{{ sub2.id }}" onclick="return testOlustur('{{ sub2.id }}.json');">{{ sub2.adi }}
-                            <span class="badge badge bg-success badge-pill">3 Soru</span>
+                            <span class="badge badge bg-success badge-pill">*</span>
                           </button> 
                           {% endif %}                    
                         {% endif %} 
