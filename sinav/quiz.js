@@ -94,9 +94,9 @@ function render(quiz_opts) {
     .attr('class', 'text-center')
     .appendTo($title_slide);
 
-    $('<div class="alert alert-info" role="alert">')
+    $('<div>')
     .text( quiz_opts.aciklama + " </div>")
-    .attr('class', 'text-center')
+    .attr('class', 'alert alert-info')
     .appendTo($title_slide);
     
   
