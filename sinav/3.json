@@ -1,76 +1,2916 @@
 {
-  "questions": [    
-    {      
-      "questiontext": "Aşağıdakilerden hangisi çift sayıdır?",
+  "questions": [
+    {
+      "questiontext": "Leo Tolstoy'un ünlü romanı 'Savaş ve Barış' hangi savaş dönemini konu alır?",
       "image": "",
       "image_credit": "",
-      "c_ans" : [
-        "2",
-        "4",
-        "6",
-        "8",
-        "10",
-        "12",
-        "14",
-        "16"
-      ],
-      "w_ans" : [
-        "1",
-        "3",
-        "5",
-        "7",
-        "9",
-        "11",
-        "13",
-        "15",
-        "17",
-        "19",
-        "21",
-        "23"
-      ],
-      "aciklama": "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now. When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz of the little world among the stalks, and grow familiar with the countless indescribable forms of the insects and flies, then I feel the presence of the Almighty, who formed us in his own image, and the breath"
+      "c_ans": ["Napolyon'un Rusya Seferi"],
+      "w_ans": ["Amerikan İç Savaşı", "Fransız Devrimi", "I. Dünya Savaşı"],
+      "aciklama": ""
     },
-    {      
-      "questiontext": "Aşağıdakilerden hangisi sesli harftir?",
+    {
+      "questiontext": "Fyodor Dostoyevski'nin 'Suç ve Ceza' adlı romanının ana karakteri kimdir?",
       "image": "",
       "image_credit": "",
-      "c_ans" : [
-        "a",
-        "e",
-        "ı",
-        "i",
-        "o",
-        "ö",
-        "u",
-        "ü"
-      ],
-      "w_ans" : [
-        "b",
-        "c",
-        "d",
-        "f",
-        "g",
-        "h",
-        "q",
-        "w"
-      ],
-      "aciklama": "empty"
+      "c_ans": ["Raskolnikov"],
+      "w_ans": ["Svidrigailov", "Razumikhin", "Petrovich"],
+      "aciklama": ""
     },
-    {      
-      "questiontext": "Lorem ile başlayan doğru cevap?  istersek 2 şıklı soru da sorarız, yada 3, 4",
-      "image": "../assets/img/posts/maas.jpg",
-      "image_credit": "Bu resmin bir açıklaması da olabilir",
-      "c_ans" : [
-        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,"
-      ],
-      "w_ans" : [
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere",
-        "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure? On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee"
-      ],
-      "aciklama": "empty"
-      
+    {
+      "questiontext": "George Orwell'ün '1984' adlı romanında, Anahtar Kelime nedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Özgürlük"],
+      "w_ans": ["Sevgi", "Savaş", "Bağımsızlık"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "William Golding'in romanı 'Sineklerin Tanrısı' hangi temayı işler?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İnsanın Vahşiliği ve Toplumun Çöküşü"],
+      "w_ans": ["Hayatta Kalma", "Ahlaki Değerlerin Eleştirisi", "Büyü ve Fantastik"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Jane Austen'ın ünlü romanı 'Pride and Prejudice' hangi karakterin aşk hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Elizabeth Bennet"],
+      "w_ans": ["Catherine Morland", "Emma Woodhouse", "Elinor Dashwood"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Charlotte Brontë'nin ünlü romanı 'Jane Eyre' hangi karakterin yaşamını anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Jane Eyre"],
+      "w_ans": ["Emma Woodhouse", "Catherine Earnshaw", "Elinor Dashwood"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Emily Brontë'nin ünlü romanı 'Wuthering Heights' hangi karakterlerin hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Heathcliff ve Catherine Earnshaw"],
+      "w_ans": ["Jane Eyre ve Mr. Rochester", "Elizabeth Bennet ve Mr. Darcy", "Emma Woodhouse ve Mr. Knightley"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Edgar Allan Poe'nun ünlü hikayesi 'The Tell-Tale Heart' hangi temayı işler?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Delilik ve Suçluluk"],
+      "w_ans": ["Aşk ve İntikam", "Doğaüstü Olaylar", "Hayatta Kalma"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kazuo Ishiguro'nun 'Remains of the Day' adlı romanı hangi tarihsel dönemde geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["II. Dünya Savaşı Dönemi"],
+      "w_ans": ["I. Dünya Savaşı Dönemi", "Soğuk Savaş Dönemi", "Gelecekte"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "John Steinbeck'in ünlü romanı 'Fareler ve İnsanlar' nerede geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kaliforniya, Amerika"],
+      "w_ans": ["Teksas, Amerika", "Arizona, Amerika", "Florida, Amerika"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Victor Hugo'nun 'Sefiller' romanı hangi karakterin hikayesini odaklanır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Jean Valjean"],
+      "w_ans": ["Javert", "Cosette", "Fantine"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Ayn Rand'in romanı 'Atlas Shrugged' hangi felsefi akımı savunur?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Objektivizm"],
+      "w_ans": ["Rasyonalizm", "Empirizm", "Existentializm"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Henry James'in ünlü romanı 'Yürek Burgusu' hangi ülkede geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Amerika"],
+      "w_ans": ["İngiltere", "Fransa", "İtalya"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Franz Kafka'nın ünlü öyküsü 'Dönüşüm'de Gregor Samsa neye dönüşür?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Böceğe"],
+      "w_ans": ["Köpeğe", "Kediye", "Kurbağaya"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "'Kara Kule' serisi ile tanınan yazar kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Stephen King"],
+      "w_ans": ["J.R.R. Tolkien", "George R.R. Martin", "Philip K. Dick"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Aristoteles'in ünlü eseri 'Nikomakhos'a Etik' hangi konuyu ele alır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Etik"],
+      "w_ans": ["Mantık", "Metafizik", "Fizik"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Oscar Wilde'ün oyunu 'The Importance of Being Earnest' hangi türde bir eserdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Komedi"],
+      "w_ans": ["Drama", "Tragedya", "Fars"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "George Orwell'ün 'Hayvan Çiftliği' adlı romanında, domuzlar hangi hayvanlardan daha eşittir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Diğer Çiftlik Hayvanları"],
+      "w_ans": ["Köpekler ve Kediler", "Atlar ve Eşekler", "Kuşlar ve Balıklar"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Dante Alighieri'nin 'İlahi Komedya' adlı eseri hangi şairin cennet yolculuğunu anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Virgil"],
+      "w_ans": ["Ovid", "Homer", "Horace"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Isabel Allende'nin 'Eva Luna' adlı romanı hangi ülkede geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Şili"],
+      "w_ans": ["Arjantin", "Kolombiya", "Peru"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kafka'nın 'Dava' adlı romanının başkarakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Joseph K."],
+      "w_ans": ["K.", "Amerika", "Gregor Samsa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Emily Brontë'nin ünlü romanı 'Wuthering Heights' hangi karakterlerin hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Heathcliff ve Catherine Earnshaw"],
+      "w_ans": ["Jane Eyre ve Mr. Rochester", "Elizabeth Bennet ve Mr. Darcy", "Emma Woodhouse ve Mr. Knightley"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Albert Camus'nün 'Yabancı' adlı romanının ana karakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Meursault"],
+      "w_ans": ["Rieux", "Tarrou", "Grand"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "J.R.R. Tolkien'ın 'Hobbit' adlı romanının başkarakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bilbo Baggins"],
+      "w_ans": ["Frodo Baggins", "Samwise Gamgee", "Aragorn"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Leo Tolstoy'un ünlü romanı 'Anna Karenina' hangi karakterin hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Anna Karenina"],
+      "w_ans": ["War and Peace", "Crime and Punishment", "The Brothers Karamazov"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Jules Verne'in romanı 'Denizler Altında Yirmi Bin Fersah' hangi karakterin maceralarını anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Captain Nemo"],
+      "w_ans": ["Phileas Fogg", "Robinson Crusoe", "Tom Sawyer"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Nathaniel Hawthorne'un romanı 'The Scarlet Letter' hangi temayı işler?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Ahlaki İntikam ve Suçluluk"],
+      "w_ans": ["Aşk ve İntikam", "Cadılık ve Büyü", "Zaman Yolculuğu"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Gabriel García Márquez'in 'Yüzyıllık Yalnızlık' adlı romanı hangi aile üyelerinin yaşamını anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Buendea Ailesi"],
+      "w_ans": ["García Ailesi", "Fernández Ailesi", "Rodríguez Ailesi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Herman Melville'in meşhur romanı 'Moby Dick' hangi deniz canlısını avlamak isteyen kaptanın hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Beyaz Balina (Moby Dick)"],
+      "w_ans": ["Dev Ahtapot", "Köpekbalığı", "Deniz Ejderhası"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Thomas Hardy'nin romanı 'Tess of the d'Urbervilles' hangi temayı işler?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kadının Toplumsal Statüsü ve Ahlaki Değerler"],
+      "w_ans": ["Aşk ve İntikam", "Doğaüstü Olaylar", "Hayatta Kalma"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Jane Austen'ın ünlü romanı 'Pride and Prejudice' hangi karakterin aşk hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Elizabeth Bennet"],
+      "w_ans": ["Catherine Morland", "Emma Woodhouse", "Elinor Dashwood"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Charlotte Brontë'nin ünlü romanı 'Jane Eyre' hangi karakterin yaşamını anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Jane Eyre"],
+      "w_ans": ["Emma Woodhouse", "Catherine Earnshaw", "Elinor Dashwood"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Emily Brontë'nin ünlü romanı 'Wuthering Heights' hangi karakterlerin hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Heathcliff ve Catherine Earnshaw"],
+      "w_ans": ["Jane Eyre ve Mr. Rochester", "Elizabeth Bennet ve Mr. Darcy", "Emma Woodhouse ve Mr. Knightley"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Edgar Allan Poe'nun ünlü hikayesi 'The Tell-Tale Heart' hangi temayı işler?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Delilik ve Suçluluk"],
+      "w_ans": ["Aşk ve İntikam", "Doğaüstü Olaylar", "Hayatta Kalma"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kazuo Ishiguro'nun 'Remains of the Day' adlı romanı hangi tarihsel dönemde geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["II. Dünya Savaşı Dönemi"],
+      "w_ans": ["I. Dünya Savaşı Dönemi", "Soğuk Savaş Dönemi", "Gelecekte"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "John Steinbeck'in ünlü romanı 'Fareler ve İnsanlar' nerede geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kaliforniya, Amerika"],
+      "w_ans": ["Teksas, Amerika", "Arizona, Amerika", "Florida, Amerika"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Victor Hugo'nun 'Sefiller' romanı hangi karakterin hikayesini odaklanır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Jean Valjean"],
+      "w_ans": ["Javert", "Cosette", "Fantine"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Ayn Rand'in romanı 'Atlas Shrugged' hangi felsefi akımı savunur?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Objektivizm"],
+      "w_ans": ["Rasyonalizm", "Empirizm", "Existentializm"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Henry James'in ünlü romanı 'Yürek Burgusu' hangi ülkede geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Amerika"],
+      "w_ans": ["İngiltere", "Fransa", "İtalya"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Franz Kafka'nın ünlü öyküsü 'Dönüşüm'de Gregor Samsa neye dönüşür?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Böceğe"],
+      "w_ans": ["Köpeğe", "Kediye", "Kurbağaya"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "'Kara Kule' serisi ile tanınan yazar kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Stephen King"],
+      "w_ans": ["J.R.R. Tolkien", "George R.R. Martin", "Philip K. Dick"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Aristoteles'in ünlü eseri 'Nikomakhos'a Etik' hangi konuyu ele alır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Etik"],
+      "w_ans": ["Mantık", "Metafizik", "Fizik"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Oscar Wilde'ün oyunu 'The Importance of Being Earnest' hangi türde bir eserdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Komedi"],
+      "w_ans": ["Drama", "Tragedya", "Fars"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "George Orwell'ün 'Hayvan Çiftliği' adlı romanında, domuzlar hangi hayvanlardan daha eşittir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Diğer Çiftlik Hayvanları"],
+      "w_ans": ["Köpekler ve Kediler", "Atlar ve Eşekler", "Kuşlar ve Balıklar"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Dante Alighieri'nin 'İlahi Komedya' adlı eseri hangi şairin cennet yolculuğunu anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Virgil"],
+      "w_ans": ["Ovid", "Homer", "Horace"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Isabel Allende'nin 'Eva Luna' adlı romanı hangi ülkede geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Şili"],
+      "w_ans": ["Arjantin", "Kolombiya", "Peru"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kafka'nın 'Dava' adlı romanının başkarakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Joseph K."],
+      "w_ans": ["K.", "Amerika", "Gregor Samsa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Emily Brontë'nin ünlü romanı 'Wuthering Heights' hangi karakterlerin hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Heathcliff ve Catherine Earnshaw"],
+      "w_ans": ["Jane Eyre ve Mr. Rochester", "Elizabeth Bennet ve Mr. Darcy", "Emma Woodhouse ve Mr. Knightley"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Albert Camus'nün 'Yabancı' adlı romanının ana karakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Meursault"],
+      "w_ans": ["Rieux", "Tarrou", "Grand"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "J.R.R. Tolkien'ün 'Hobbit' adlı romanının başkarakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bilbo Baggins"],
+      "w_ans": ["Frodo Baggins", "Samwise Gamgee", "Aragorn"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Leo Tolstoy'un ünlü romanı 'Anna Karenina' hangi karakterin hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Anna Karenina"],
+      "w_ans": ["War and Peace", "Crime and Punishment", "The Brothers Karamazov"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Jules Verne'in romanı 'Denizler Altında Yirmi Bin Fersah' hangi karakterin maceralarını anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Captain Nemo"],
+      "w_ans": ["Phileas Fogg", "Robinson Crusoe", "Tom Sawyer"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Nathaniel Hawthorne'un romanı 'The Scarlet Letter' hangi temayı işler?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Ahlaki İntikam ve Suçluluk"],
+      "w_ans": ["Aşk ve İntikam", "Cadılık ve Büyü", "Zaman Yolculuğu"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Gabriel García Márquez'in 'Yüzyıllık Yalnızlık' adlı romanı hangi aile üyelerinin yaşamını anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Buendea Ailesi"],
+      "w_ans": ["García Ailesi", "Fernández Ailesi", "Rodríguez Ailesi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Herman Melville'in meşhur romanı 'Moby Dick' hangi deniz canlısını avlamak isteyen kaptanın hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Beyaz Balina (Moby Dick)"],
+      "w_ans": ["Dev Ahtapot", "Köpekbalığı", "Deniz Ejderhası"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Thomas Hardy'nin romanı 'Tess of the d'Urbervilles' hangi temayı işler?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kadının Toplumsal Statüsü ve Ahlaki Değerler"],
+      "w_ans": ["Aşk ve İntikam", "Doğaüstü Olaylar", "Hayatta Kalma"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Jane Austen'ın ünlü romanı 'Pride and Prejudice' hangi karakterin aşk hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Elizabeth Bennet"],
+      "w_ans": ["Catherine Morland", "Emma Woodhouse", "Elinor Dashwood"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Charlotte Brontë'nin ünlü romanı 'Jane Eyre' hangi karakterin yaşamını anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Jane Eyre"],
+      "w_ans": ["Emma Woodhouse", "Catherine Earnshaw", "Elinor Dashwood"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Emily Brontë'nin ünlü romanı 'Wuthering Heights' hangi karakterlerin hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Heathcliff ve Catherine Earnshaw"],
+      "w_ans": ["Jane Eyre ve Mr. Rochester", "Elizabeth Bennet ve Mr. Darcy", "Emma Woodhouse ve Mr. Knightley"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Edgar Allan Poe'nun ünlü hikayesi 'The Tell-Tale Heart' hangi temayı işler?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Delilik ve Suçluluk"],
+      "w_ans": ["Aşk ve İntikam", "Doğaüstü Olaylar", "Hayatta Kalma"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kazuo Ishiguro'nun 'Remains of the Day' adlı romanı hangi tarihsel dönemde geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["II. Dünya Savaşı Dönemi"],
+      "w_ans": ["I. Dünya Savaşı Dönemi", "Soğuk Savaş Dönemi", "Gelecekte"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "John Steinbeck'in ünlü romanı 'Fareler ve İnsanlar' nerede geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kaliforniya, Amerika"],
+      "w_ans": ["Teksas, Amerika", "Arizona, Amerika", "Florida, Amerika"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Victor Hugo'nun 'Sefiller' romanı hangi karakterin hikayesini odaklanır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Jean Valjean"],
+      "w_ans": ["Javert", "Cosette", "Fantine"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Ayn Rand'in romanı 'Atlas Shrugged' hangi felsefi akımı savunur?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Objektivizm"],
+      "w_ans": ["Rasyonalizm", "Empirizm", "Existentializm"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Henry James'in ünlü romanı 'Yürek Burgusu' hangi ülkede geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Amerika"],
+      "w_ans": ["İngiltere", "Fransa", "İtalya"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Franz Kafka'nın ünlü öyküsü 'Dönüşüm'de Gregor Samsa neye dönüşür?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Böceğe"],
+      "w_ans": ["Köpeğe", "Kediye", "Kurbağaya"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "'Kara Kule' serisi ile tanınan yazar kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Stephen King"],
+      "w_ans": ["J.R.R. Tolkien", "George R.R. Martin", "Philip K. Dick"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Aristoteles'in ünlü eseri 'Nikomakhos'a Etik' hangi konuyu ele alır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Etik"],
+      "w_ans": ["Mantık", "Metafizik", "Fizik"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Oscar Wilde'ün oyunu 'The Importance of Being Earnest' hangi türde bir eserdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Komedi"],
+      "w_ans": ["Drama", "Tragedya", "Fars"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "George Orwell'ün 'Hayvan Çiftliği' adlı romanında, domuzlar hangi hayvanlardan daha eşittir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Diğer Çiftlik Hayvanları"],
+      "w_ans": ["Köpekler ve Kediler", "Atlar ve Eşekler", "Kuşlar ve Balıklar"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Dante Alighieri'nin 'İlahi Komedya' adlı eseri hangi şairin cennet yolculuğunu anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Virgil"],
+      "w_ans": ["Ovid", "Homer", "Horace"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Isabel Allende'nin 'Eva Luna' adlı romanı hangi ülkede geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Şili"],
+      "w_ans": ["Arjantin", "Kolombiya", "Peru"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kafka'nın 'Dava' adlı romanının başkarakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Joseph K."],
+      "w_ans": ["K.", "Amerika", "Gregor Samsa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Emily Brontë'nin ünlü romanı 'Wuthering Heights' hangi karakterlerin hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Heathcliff ve Catherine Earnshaw"],
+      "w_ans": ["Jane Eyre ve Mr. Rochester", "Elizabeth Bennet ve Mr. Darcy", "Emma Woodhouse ve Mr. Knightley"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Albert Camus'nün 'Yabancı' adlı romanının ana karakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Meursault"],
+      "w_ans": ["Rieux", "Tarrou", "Grand"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "J.R.R. Tolkien'ün 'Hobbit' adlı romanının başkarakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bilbo Baggins"],
+      "w_ans": ["Frodo Baggins", "Samwise Gamgee", "Aragorn"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Leo Tolstoy'un ünlü romanı 'Anna Karenina' hangi karakterin hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Anna Karenina"],
+      "w_ans": ["War and Peace", "Crime and Punishment", "The Brothers Karamazov"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Jules Verne'in romanı 'Denizler Altında Yirmi Bin Fersah' hangi karakterin maceralarını anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Captain Nemo"],
+      "w_ans": ["Phileas Fogg", "Robinson Crusoe", "Tom Sawyer"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Nathaniel Hawthorne'un romanı 'The Scarlet Letter' hangi temayı işler?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Ahlaki İntikam ve Suçluluk"],
+      "w_ans": ["Aşk ve İntikam", "Cadılık ve Büyü", "Zaman Yolculuğu"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Gabriel García Márquez'in 'Yüzyıllık Yalnızlık' adlı romanı hangi aile üyelerinin yaşamını anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Buendea Ailesi"],
+      "w_ans": ["García Ailesi", "Fernández Ailesi", "Rodríguez Ailesi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Herman Melville'in meşhur romanı 'Moby Dick' hangi deniz canlısını avlamak isteyen kaptanın hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Beyaz Balina (Moby Dick)"],
+      "w_ans": ["Dev Ahtapot", "Köpekbalığı", "Deniz Ejderhası"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Thomas Hardy'nin romanı 'Tess of the d'Urbervilles' hangi temayı işler?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kadının Toplumsal Statüsü ve Ahlaki Değerler"],
+      "w_ans": ["Aşk ve İntikam", "Doğaüstü Olaylar", "Hayatta Kalma"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Jane Austen'ın ünlü romanı 'Pride and Prejudice' hangi karakterin aşk hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Elizabeth Bennet"],
+      "w_ans": ["Catherine Morland", "Emma Woodhouse", "Elinor Dashwood"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Charlotte Brontë'nin ünlü romanı 'Jane Eyre' hangi karakterin yaşamını anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Jane Eyre"],
+      "w_ans": ["Emma Woodhouse", "Catherine Earnshaw", "Elinor Dashwood"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Emily Brontë'nin ünlü romanı 'Wuthering Heights' hangi karakterlerin hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Heathcliff ve Catherine Earnshaw"],
+      "w_ans": ["Jane Eyre ve Mr. Rochester", "Elizabeth Bennet ve Mr. Darcy", "Emma Woodhouse ve Mr. Knightley"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Edgar Allan Poe'nun ünlü hikayesi 'The Tell-Tale Heart' hangi temayı işler?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Delilik ve Suçluluk"],
+      "w_ans": ["Aşk ve İntikam", "Doğaüstü Olaylar", "Hayatta Kalma"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kazuo Ishiguro'nun 'Remains of the Day' adlı romanı hangi tarihsel dönemde geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["II. Dünya Savaşı Dönemi"],
+      "w_ans": ["I. Dünya Savaşı Dönemi", "Soğuk Savaş Dönemi", "Gelecekte"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "John Steinbeck'in ünlü romanı 'Fareler ve İnsanlar' nerede geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kaliforniya, Amerika"],
+      "w_ans": ["Teksas, Amerika", "Arizona, Amerika", "Florida, Amerika"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Victor Hugo'nun 'Sefiller' romanı hangi karakterin hikayesini odaklanır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Jean Valjean"],
+      "w_ans": ["Javert", "Cosette", "Fantine"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Ayn Rand'in romanı 'Atlas Shrugged' hangi felsefi akımı savunur?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Objektivizm"],
+      "w_ans": ["Rasyonalizm", "Empirizm", "Existentializm"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Henry James'in ünlü romanı 'Yürek Burgusu' hangi ülkede geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Amerika"],
+      "w_ans": ["İngiltere", "Fransa", "İtalya"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Franz Kafka'nın ünlü öyküsü 'Dönüşüm'de Gregor Samsa neye dönüşür?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Böceğe"],
+      "w_ans": ["Köpeğe", "Kediye", "Kurbağaya"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "'Kara Kule' serisi ile tanınan yazar kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Stephen King"],
+      "w_ans": ["J.R.R. Tolkien", "George R.R. Martin", "Philip K. Dick"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Aristoteles'in ünlü eseri 'Nikomakhos'a Etik' hangi konuyu ele alır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Etik"],
+      "w_ans": ["Mantık", "Metafizik", "Fizik"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Oscar Wilde'ün oyunu 'The Importance of Being Earnest' hangi türde bir eserdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Komedi"],
+      "w_ans": ["Drama", "Tragedya", "Fars"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "George Orwell'ün 'Hayvan Çiftliği' adlı romanında, domuzlar hangi hayvanlardan daha eşittir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Diğer Çiftlik Hayvanları"],
+      "w_ans": ["Köpekler ve Kediler", "Atlar ve Eşekler", "Kuşlar ve Balıklar"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Dante Alighieri'nin 'İlahi Komedya' adlı eseri hangi şairin cennet yolculuğunu anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Virgil"],
+      "w_ans": ["Ovid", "Homer", "Horace"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Isabel Allende'nin 'Eva Luna' adlı romanı hangi ülkede geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Şili"],
+      "w_ans": ["Arjantin", "Kolombiya", "Peru"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kafka'nın 'Dava' adlı romanının başkarakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Joseph K."],
+      "w_ans": ["K.", "Amerika", "Gregor Samsa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Emily Brontë'nin ünlü romanı 'Wuthering Heights' hangi karakterlerin hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Heathcliff ve Catherine Earnshaw"],
+      "w_ans": ["Jane Eyre ve Mr. Rochester", "Elizabeth Bennet ve Mr. Darcy", "Emma Woodhouse ve Mr. Knightley"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Albert Camus'nün 'Yabancı' adlı romanının ana karakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Meursault"],
+      "w_ans": ["Rieux", "Tarrou", "Grand"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "J.R.R. Tolkien'ün 'Hobbit' adlı romanının başkarakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bilbo Baggins"],
+      "w_ans": ["Frodo Baggins", "Samwise Gamgee", "Aragorn"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Leo Tolstoy'un ünlü romanı 'Anna Karenina' hangi karakterin hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Anna Karenina"],
+      "w_ans": ["War and Peace", "Crime and Punishment", "The Brothers Karamazov"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Jules Verne'in romanı 'Denizler Altında Yirmi Bin Fersah' hangi karakterin maceralarını anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Captain Nemo"],
+      "w_ans": ["Phileas Fogg", "Robinson Crusoe", "Tom Sawyer"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Nathaniel Hawthorne'un romanı 'The Scarlet Letter' hangi temayı işler?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Ahlaki İntikam ve Suçluluk"],
+      "w_ans": ["Aşk ve İntikam", "Cadılık ve Büyü", "Zaman Yolculuğu"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Gabriel García Márquez'in 'Yüzyıllık Yalnızlık' adlı romanı hangi aile üyelerinin yaşamını anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Buendea Ailesi"],
+      "w_ans": ["García Ailesi", "Fernández Ailesi", "Rodríguez Ailesi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Herman Melville'in meşhur romanı 'Moby Dick' hangi deniz canlısını avlamak isteyen kaptanın hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Beyaz Balina (Moby Dick)"],
+      "w_ans": ["Dev Ahtapot", "Köpekbalığı", "Deniz Ejderhası"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Thomas Hardy'nin romanı 'Tess of the d'Urbervilles' hangi temayı işler?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kadının Toplumsal Statüsü ve Ahlaki Değerler"],
+      "w_ans": ["Aşk ve İntikam", "Doğaüstü Olaylar", "Hayatta Kalma"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Jane Austen'ın ünlü romanı 'Pride and Prejudice' hangi karakterin aşk hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Elizabeth Bennet"],
+      "w_ans": ["Catherine Morland", "Emma Woodhouse", "Elinor Dashwood"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Charlotte Brontë'nin ünlü romanı 'Jane Eyre' hangi karakterin yaşamını anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Jane Eyre"],
+      "w_ans": ["Emma Woodhouse", "Catherine Earnshaw", "Elinor Dashwood"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Emily Brontë'nin ünlü romanı 'Wuthering Heights' hangi karakterlerin hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Heathcliff ve Catherine Earnshaw"],
+      "w_ans": ["Jane Eyre ve Mr. Rochester", "Elizabeth Bennet ve Mr. Darcy", "Emma Woodhouse ve Mr. Knightley"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Edgar Allan Poe'nun ünlü hikayesi 'The Tell-Tale Heart' hangi temayı işler?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Delilik ve Suçluluk"],
+      "w_ans": ["Aşk ve İntikam", "Doğaüstü Olaylar", "Hayatta Kalma"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kazuo Ishiguro'nun 'Remains of the Day' adlı romanı hangi tarihsel dönemde geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["II. Dünya Savaşı Dönemi"],
+      "w_ans": ["I. Dünya Savaşı Dönemi", "Soğuk Savaş Dönemi", "Gelecekte"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "John Steinbeck'in ünlü romanı 'Fareler ve İnsanlar' nerede geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kaliforniya, Amerika"],
+      "w_ans": ["Teksas, Amerika", "Arizona, Amerika", "Florida, Amerika"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Victor Hugo'nun 'Sefiller' romanı hangi karakterin hikayesini odaklanır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Jean Valjean"],
+      "w_ans": ["Javert", "Cosette", "Fantine"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Ayn Rand'in romanı 'Atlas Shrugged' hangi felsefi akımı savunur?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Objektivizm"],
+      "w_ans": ["Rasyonalizm", "Empirizm", "Existentializm"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Henry James'in ünlü romanı 'Yürek Burgusu' hangi ülkede geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Amerika"],
+      "w_ans": ["İngiltere", "Fransa", "İtalya"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Franz Kafka'nın ünlü öyküsü 'Dönüşüm'de Gregor Samsa neye dönüşür?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Böceğe"],
+      "w_ans": ["Köpeğe", "Kediye", "Kurbağaya"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "'Kara Kule' serisi ile tanınan yazar kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Stephen King"],
+      "w_ans": ["J.R.R. Tolkien", "George R.R. Martin", "Philip K. Dick"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Aristoteles'in ünlü eseri 'Nikomakhos'a Etik' hangi konuyu ele alır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Etik"],
+      "w_ans": ["Mantık", "Metafizik", "Fizik"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Oscar Wilde'ün oyunu 'The Importance of Being Earnest' hangi türde bir eserdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Komedi"],
+      "w_ans": ["Drama", "Tragedya", "Fars"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "George Orwell'ün 'Hayvan Çiftliği' adlı romanında, domuzlar hangi hayvanlardan daha eşittir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Diğer Çiftlik Hayvanları"],
+      "w_ans": ["Köpekler ve Kediler", "Atlar ve Eşekler", "Kuşlar ve Balıklar"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Dante Alighieri'nin 'İlahi Komedya' adlı eseri hangi şairin cennet yolculuğunu anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Virgil"],
+      "w_ans": ["Ovid", "Homer", "Horace"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Isabel Allende'nin 'Eva Luna' adlı romanı hangi ülkede geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Şili"],
+      "w_ans": ["Arjantin", "Kolombiya", "Peru"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kafka'nın 'Dava' adlı romanının başkarakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Joseph K."],
+      "w_ans": ["K.", "Amerika", "Gregor Samsa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Emily Brontë'nin ünlü romanı 'Wuthering Heights' hangi karakterlerin hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Heathcliff ve Catherine Earnshaw"],
+      "w_ans": ["Jane Eyre ve Mr. Rochester", "Elizabeth Bennet ve Mr. Darcy", "Emma Woodhouse ve Mr. Knightley"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Albert Camus'nün 'Yabancı' adlı romanının ana karakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Meursault"],
+      "w_ans": ["Rieux", "Tarrou", "Grand"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "J.R.R. Tolkien'ün 'Hobbit' adlı romanının başkarakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bilbo Baggins"],
+      "w_ans": ["Frodo Baggins", "Samwise Gamgee", "Aragorn"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Leo Tolstoy'un ünlü romanı 'Anna Karenina' hangi karakterin hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Anna Karenina"],
+      "w_ans": ["War and Peace", "Crime and Punishment", "The Brothers Karamazov"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Jules Verne'in romanı 'Denizler Altında Yirmi Bin Fersah' hangi karakterin maceralarını anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Captain Nemo"],
+      "w_ans": ["Phileas Fogg", "Robinson Crusoe", "Tom Sawyer"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Nathaniel Hawthorne'un romanı 'The Scarlet Letter' hangi temayı işler?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Ahlaki İntikam ve Suçluluk"],
+      "w_ans": ["Aşk ve İntikam", "Cadılık ve Büyü", "Zaman Yolculuğu"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Gabriel García Márquez'in 'Yüzyıllık Yalnızlık' adlı romanı hangi aile üyelerinin yaşamını anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Buendea Ailesi"],
+      "w_ans": ["García Ailesi", "Fernández Ailesi", "Rodríguez Ailesi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Herman Melville'in meşhur romanı 'Moby Dick' hangi deniz canlısını avlamak isteyen kaptanın hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Beyaz Balina (Moby Dick)"],
+      "w_ans": ["Dev Ahtapot", "Köpekbalığı", "Deniz Ejderhası"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Thomas Hardy'nin romanı 'Tess of the d'Urbervilles' hangi temayı işler?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kadının Toplumsal Statüsü ve Ahlaki Değerler"],
+      "w_ans": ["Aşk ve İntikam", "Doğaüstü Olaylar", "Hayatta Kalma"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Jane Austen'ın ünlü romanı 'Pride and Prejudice' hangi karakterin aşk hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Elizabeth Bennet"],
+      "w_ans": ["Catherine Morland", "Emma Woodhouse", "Elinor Dashwood"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Charlotte Brontë'nin ünlü romanı 'Jane Eyre' hangi karakterin yaşamını anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Jane Eyre"],
+      "w_ans": ["Emma Woodhouse", "Catherine Earnshaw", "Elinor Dashwood"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Emily Brontë'nin ünlü romanı 'Wuthering Heights' hangi karakterlerin hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Heathcliff ve Catherine Earnshaw"],
+      "w_ans": ["Jane Eyre ve Mr. Rochester", "Elizabeth Bennet ve Mr. Darcy", "Emma Woodhouse ve Mr. Knightley"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Edgar Allan Poe'nun ünlü hikayesi 'The Tell-Tale Heart' hangi temayı işler?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Delilik ve Suçluluk"],
+      "w_ans": ["Aşk ve İntikam", "Doğaüstü Olaylar", "Hayatta Kalma"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kazuo Ishiguro'nun 'Remains of the Day' adlı romanı hangi tarihsel dönemde geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["II. Dünya Savaşı Dönemi"],
+      "w_ans": ["I. Dünya Savaşı Dönemi", "Soğuk Savaş Dönemi", "Gelecekte"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "John Steinbeck'in ünlü romanı 'Fareler ve İnsanlar' nerede geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kaliforniya, Amerika"],
+      "w_ans": ["Teksas, Amerika", "Arizona, Amerika", "Florida, Amerika"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Victor Hugo'nun 'Sefiller' romanı hangi karakterin hikayesini odaklanır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Jean Valjean"],
+      "w_ans": ["Javert", "Cosette", "Fantine"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Ayn Rand'in romanı 'Atlas Shrugged' hangi felsefi akımı savunur?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Objektivizm"],
+      "w_ans": ["Rasyonalizm", "Empirizm", "Existentializm"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Henry James'in ünlü romanı 'Yürek Burgusu' hangi ülkede geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Amerika"],
+      "w_ans": ["İngiltere", "Fransa", "İtalya"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Franz Kafka'nın ünlü öyküsü 'Dönüşüm'de Gregor Samsa neye dönüşür?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Böceğe"],
+      "w_ans": ["Köpeğe", "Kediye", "Kurbağaya"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "'Kara Kule' serisi ile tanınan yazar kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Stephen King"],
+      "w_ans": ["J.R.R. Tolkien", "George R.R. Martin", "Philip K. Dick"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Aristoteles'in ünlü eseri 'Nikomakhos'a Etik' hangi konuyu ele alır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Etik"],
+      "w_ans": ["Mantık", "Metafizik", "Fizik"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Oscar Wilde'ün oyunu 'The Importance of Being Earnest' hangi türde bir eserdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Komedi"],
+      "w_ans": ["Drama", "Tragedya", "Fars"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "George Orwell'ün 'Hayvan Çiftliği' adlı romanında, domuzlar hangi hayvanlardan daha eşittir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Diğer Çiftlik Hayvanları"],
+      "w_ans": ["Köpekler ve Kediler", "Atlar ve Eşekler", "Kuşlar ve Balıklar"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Dante Alighieri'nin 'İlahi Komedya' adlı eseri hangi şairin cennet yolculuğunu anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Virgil"],
+      "w_ans": ["Ovid", "Homer", "Horace"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Isabel Allende'nin 'Eva Luna' adlı romanı hangi ülkede geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Şili"],
+      "w_ans": ["Arjantin", "Kolombiya", "Peru"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kafka'nın 'Dava' adlı romanının başkarakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Joseph K."],
+      "w_ans": ["K.", "Amerika", "Gregor Samsa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Emily Brontë'nin ünlü romanı 'Wuthering Heights' hangi karakterlerin hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Heathcliff ve Catherine Earnshaw"],
+      "w_ans": ["Jane Eyre ve Mr. Rochester", "Elizabeth Bennet ve Mr. Darcy", "Emma Woodhouse ve Mr. Knightley"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Albert Camus'nün 'Yabancı' adlı romanının ana karakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Meursault"],
+      "w_ans": ["Rieux", "Tarrou", "Grand"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "J.R.R. Tolkien'ün 'Hobbit' adlı romanının başkarakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bilbo Baggins"],
+      "w_ans": ["Frodo Baggins", "Samwise Gamgee", "Aragorn"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Leo Tolstoy'un ünlü romanı 'Anna Karenina' hangi karakterin hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Anna Karenina"],
+      "w_ans": ["War and Peace", "Crime and Punishment", "The Brothers Karamazov"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Jules Verne'in romanı 'Denizler Altında Yirmi Bin Fersah' hangi karakterin maceralarını anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Captain Nemo"],
+      "w_ans": ["Phileas Fogg", "Robinson Crusoe", "Tom Sawyer"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Nathaniel Hawthorne'un romanı 'The Scarlet Letter' hangi temayı işler?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Ahlaki İntikam ve Suçluluk"],
+      "w_ans": ["Aşk ve İntikam", "Cadılık ve Büyü", "Zaman Yolculuğu"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Gabriel García Márquez'in 'Yüzyıllık Yalnızlık' adlı romanı hangi aile üyelerinin yaşamını anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Buendea Ailesi"],
+      "w_ans": ["García Ailesi", "Fernández Ailesi", "Rodríguez Ailesi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Herman Melville'in meşhur romanı 'Moby Dick' hangi deniz canlısını avlamak isteyen kaptanın hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Beyaz Balina (Moby Dick)"],
+      "w_ans": ["Dev Ahtapot", "Köpekbalığı", "Deniz Ejderhası"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Thomas Hardy'nin romanı 'Tess of the d'Urbervilles' hangi temayı işler?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kadının Toplumsal Statüsü ve Ahlaki Değerler"],
+      "w_ans": ["Aşk ve İntikam", "Doğaüstü Olaylar", "Hayatta Kalma"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Jane Austen'ın ünlü romanı 'Pride and Prejudice' hangi karakterin aşk hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Elizabeth Bennet"],
+      "w_ans": ["Catherine Morland", "Emma Woodhouse", "Elinor Dashwood"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Charlotte Brontë'nin ünlü romanı 'Jane Eyre' hangi karakterin yaşamını anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Jane Eyre"],
+      "w_ans": ["Emma Woodhouse", "Catherine Earnshaw", "Elinor Dashwood"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Emily Brontë'nin ünlü romanı 'Wuthering Heights' hangi karakterlerin hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Heathcliff ve Catherine Earnshaw"],
+      "w_ans": ["Jane Eyre ve Mr. Rochester", "Elizabeth Bennet ve Mr. Darcy", "Emma Woodhouse ve Mr. Knightley"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Edgar Allan Poe'nun ünlü hikayesi 'The Tell-Tale Heart' hangi temayı işler?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Delilik ve Suçluluk"],
+      "w_ans": ["Aşk ve İntikam", "Doğaüstü Olaylar", "Hayatta Kalma"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kazuo Ishiguro'nun 'Remains of the Day' adlı romanı hangi tarihsel dönemde geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["II. Dünya Savaşı Dönemi"],
+      "w_ans": ["I. Dünya Savaşı Dönemi", "Soğuk Savaş Dönemi", "Gelecekte"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "John Steinbeck'in ünlü romanı 'Fareler ve İnsanlar' nerede geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kaliforniya, Amerika"],
+      "w_ans": ["Teksas, Amerika", "Arizona, Amerika", "Florida, Amerika"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Victor Hugo'nun 'Sefiller' romanı hangi karakterin hikayesini odaklanır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Jean Valjean"],
+      "w_ans": ["Javert", "Cosette", "Fantine"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Ayn Rand'in romanı 'Atlas Shrugged' hangi felsefi akımı savunur?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Objektivizm"],
+      "w_ans": ["Rasyonalizm", "Empirizm", "Existentializm"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Henry James'in ünlü romanı 'Yürek Burgusu' hangi ülkede geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Amerika"],
+      "w_ans": ["İngiltere", "Fransa", "İtalya"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Franz Kafka'nın ünlü öyküsü 'Dönüşüm'de Gregor Samsa neye dönüşür?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Böceğe"],
+      "w_ans": ["Köpeğe", "Kediye", "Kurbağaya"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "'Kara Kule' serisi ile tanınan yazar kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Stephen King"],
+      "w_ans": ["J.R.R. Tolkien", "George R.R. Martin", "Philip K. Dick"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Aristoteles'in ünlü eseri 'Nikomakhos'a Etik' hangi konuyu ele alır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Etik"],
+      "w_ans": ["Mantık", "Metafizik", "Fizik"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Oscar Wilde'ün oyunu 'The Importance of Being Earnest' hangi türde bir eserdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Komedi"],
+      "w_ans": ["Drama", "Tragedya", "Fars"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "George Orwell'ün 'Hayvan Çiftliği' adlı romanında, domuzlar hangi hayvanlardan daha eşittir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Diğer Çiftlik Hayvanları"],
+      "w_ans": ["Köpekler ve Kediler", "Atlar ve Eşekler", "Kuşlar ve Balıklar"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Dante Alighieri'nin 'İlahi Komedya' adlı eseri hangi şairin cennet yolculuğunu anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Virgil"],
+      "w_ans": ["Ovid", "Homer", "Horace"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Isabel Allende'nin 'Eva Luna' adlı romanı hangi ülkede geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Şili"],
+      "w_ans": ["Arjantin", "Kolombiya", "Peru"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kafka'nın 'Dava' adlı romanının başkarakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Joseph K."],
+      "w_ans": ["K.", "Amerika", "Gregor Samsa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Emily Brontë'nin ünlü romanı 'Wuthering Heights' hangi karakterlerin hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Heathcliff ve Catherine Earnshaw"],
+      "w_ans": ["Jane Eyre ve Mr. Rochester", "Elizabeth Bennet ve Mr. Darcy", "Emma Woodhouse ve Mr. Knightley"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Albert Camus'nün 'Yabancı' adlı romanının ana karakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Meursault"],
+      "w_ans": ["Rieux", "Tarrou", "Grand"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "J.R.R. Tolkien'ün 'Hobbit' adlı romanının başkarakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bilbo Baggins"],
+      "w_ans": ["Frodo Baggins", "Samwise Gamgee", "Aragorn"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Leo Tolstoy'un ünlü romanı 'Anna Karenina' hangi karakterin hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Anna Karenina"],
+      "w_ans": ["War and Peace", "Crime and Punishment", "The Brothers Karamazov"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Jules Verne'in romanı 'Denizler Altında Yirmi Bin Fersah' hangi karakterin maceralarını anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Captain Nemo"],
+      "w_ans": ["Phileas Fogg", "Robinson Crusoe", "Tom Sawyer"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Nathaniel Hawthorne'un romanı 'The Scarlet Letter' hangi temayı işler?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Ahlaki İntikam ve Suçluluk"],
+      "w_ans": ["Aşk ve İntikam", "Cadılık ve Büyü", "Zaman Yolculuğu"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Gabriel García Márquez'in 'Yüzyıllık Yalnızlık' adlı romanı hangi aile üyelerinin yaşamını anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Buendea Ailesi"],
+      "w_ans": ["García Ailesi", "Fernández Ailesi", "Rodríguez Ailesi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Herman Melville'in meşhur romanı 'Moby Dick' hangi deniz canlısını avlamak isteyen kaptanın hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Beyaz Balina (Moby Dick)"],
+      "w_ans": ["Dev Ahtapot", "Köpekbalığı", "Deniz Ejderhası"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Thomas Hardy'nin romanı 'Tess of the d'Urbervilles' hangi temayı işler?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kadının Toplumsal Statüsü ve Ahlaki Değerler"],
+      "w_ans": ["Aşk ve İntikam", "Doğaüstü Olaylar", "Hayatta Kalma"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Jane Austen'ın ünlü romanı 'Pride and Prejudice' hangi karakterin aşk hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Elizabeth Bennet"],
+      "w_ans": ["Catherine Morland", "Emma Woodhouse", "Elinor Dashwood"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Charlotte Brontë'nin ünlü romanı 'Jane Eyre' hangi karakterin yaşamını anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Jane Eyre"],
+      "w_ans": ["Emma Woodhouse", "Catherine Earnshaw", "Elinor Dashwood"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Emily Brontë'nin ünlü romanı 'Wuthering Heights' hangi karakterlerin hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Heathcliff ve Catherine Earnshaw"],
+      "w_ans": ["Jane Eyre ve Mr. Rochester", "Elizabeth Bennet ve Mr. Darcy", "Emma Woodhouse ve Mr. Knightley"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Edgar Allan Poe'nun ünlü hikayesi 'The Tell-Tale Heart' hangi temayı işler?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Delilik ve Suçluluk"],
+      "w_ans": ["Aşk ve İntikam", "Doğaüstü Olaylar", "Hayatta Kalma"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kazuo Ishiguro'nun 'Remains of the Day' adlı romanı hangi tarihsel dönemde geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["II. Dünya Savaşı Dönemi"],
+      "w_ans": ["I. Dünya Savaşı Dönemi", "Soğuk Savaş Dönemi", "Gelecekte"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "John Steinbeck'in ünlü romanı 'Fareler ve İnsanlar' nerede geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kaliforniya, Amerika"],
+      "w_ans": ["Teksas, Amerika", "Arizona, Amerika", "Florida, Amerika"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Victor Hugo'nun 'Sefiller' romanı hangi karakterin hikayesini odaklanır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Jean Valjean"],
+      "w_ans": ["Javert", "Cosette", "Fantine"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Ayn Rand'in romanı 'Atlas Shrugged' hangi felsefi akımı savunur?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Objektivizm"],
+      "w_ans": ["Rasyonalizm", "Empirizm", "Existentializm"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Henry James'in ünlü romanı 'Yürek Burgusu' hangi ülkede geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Amerika"],
+      "w_ans": ["İngiltere", "Fransa", "İtalya"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Franz Kafka'nın ünlü öyküsü 'Dönüşüm'de Gregor Samsa neye dönüşür?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Böceğe"],
+      "w_ans": ["Köpeğe", "Kediye", "Kurbağaya"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "'Kara Kule' serisi ile tanınan yazar kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Stephen King"],
+      "w_ans": ["J.R.R. Tolkien", "George R.R. Martin", "Philip K. Dick"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Aristoteles'in ünlü eseri 'Nikomakhos'a Etik' hangi konuyu ele alır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Etik"],
+      "w_ans": ["Mantık", "Metafizik", "Fizik"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Oscar Wilde'ün oyunu 'The Importance of Being Earnest' hangi türde bir eserdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Komedi"],
+      "w_ans": ["Drama", "Tragedya", "Fars"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "George Orwell'ün 'Hayvan Çiftliği' adlı romanında, domuzlar hangi hayvanlardan daha eşittir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Diğer Çiftlik Hayvanları"],
+      "w_ans": ["Köpekler ve Kediler", "Atlar ve Eşekler", "Kuşlar ve Balıklar"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Dante Alighieri'nin 'İlahi Komedya' adlı eseri hangi şairin cennet yolculuğunu anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Virgil"],
+      "w_ans": ["Ovid", "Homer", "Horace"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Isabel Allende'nin 'Eva Luna' adlı romanı hangi ülkede geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Şili"],
+      "w_ans": ["Arjantin", "Kolombiya", "Peru"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kafka'nın 'Dava' adlı romanının başkarakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Joseph K."],
+      "w_ans": ["K.", "Amerika", "Gregor Samsa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Emily Brontë'nin ünlü romanı 'Wuthering Heights' hangi karakterlerin hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Heathcliff ve Catherine Earnshaw"],
+      "w_ans": ["Jane Eyre ve Mr. Rochester", "Elizabeth Bennet ve Mr. Darcy", "Emma Woodhouse ve Mr. Knightley"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Albert Camus'nün 'Yabancı' adlı romanının ana karakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Meursault"],
+      "w_ans": ["Rieux", "Tarrou", "Grand"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "J.R.R. Tolkien'ün 'Hobbit' adlı romanının başkarakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bilbo Baggins"],
+      "w_ans": ["Frodo Baggins", "Samwise Gamgee", "Aragorn"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Leo Tolstoy'un ünlü romanı 'Anna Karenina' hangi karakterin hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Anna Karenina"],
+      "w_ans": ["War and Peace", "Crime and Punishment", "The Brothers Karamazov"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Jules Verne'in romanı 'Denizler Altında Yirmi Bin Fersah' hangi karakterin maceralarını anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Captain Nemo"],
+      "w_ans": ["Phileas Fogg", "Robinson Crusoe", "Tom Sawyer"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Nathaniel Hawthorne'un romanı 'The Scarlet Letter' hangi temayı işler?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Ahlaki İntikam ve Suçluluk"],
+      "w_ans": ["Aşk ve İntikam", "Cadılık ve Büyü", "Zaman Yolculuğu"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Gabriel García Márquez'in 'Yüzyıllık Yalnızlık' adlı romanı hangi aile üyelerinin yaşamını anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Buendea Ailesi"],
+      "w_ans": ["García Ailesi", "Fernández Ailesi", "Rodríguez Ailesi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Herman Melville'in meşhur romanı 'Moby Dick' hangi deniz canlısını avlamak isteyen kaptanın hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Beyaz Balina (Moby Dick)"],
+      "w_ans": ["Dev Ahtapot", "Köpekbalığı", "Deniz Ejderhası"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Thomas Hardy'nin romanı 'Tess of the d'Urbervilles' hangi temayı işler?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kadının Toplumsal Statüsü ve Ahlaki Değerler"],
+      "w_ans": ["Aşk ve İntikam", "Doğaüstü Olaylar", "Hayatta Kalma"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Jane Austen'ın ünlü romanı 'Pride and Prejudice' hangi karakterin aşk hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Elizabeth Bennet"],
+      "w_ans": ["Catherine Morland", "Emma Woodhouse", "Elinor Dashwood"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Charlotte Brontë'nin ünlü romanı 'Jane Eyre' hangi karakterin yaşamını anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Jane Eyre"],
+      "w_ans": ["Emma Woodhouse", "Catherine Earnshaw", "Elinor Dashwood"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Emily Brontë'nin ünlü romanı 'Wuthering Heights' hangi karakterlerin hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Heathcliff ve Catherine Earnshaw"],
+      "w_ans": ["Jane Eyre ve Mr. Rochester", "Elizabeth Bennet ve Mr. Darcy", "Emma Woodhouse ve Mr. Knightley"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Edgar Allan Poe'nun ünlü hikayesi 'The Tell-Tale Heart' hangi temayı işler?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Delilik ve Suçluluk"],
+      "w_ans": ["Aşk ve İntikam", "Doğaüstü Olaylar", "Hayatta Kalma"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kazuo Ishiguro'nun 'Remains of the Day' adlı romanı hangi tarihsel dönemde geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["II. Dünya Savaşı Dönemi"],
+      "w_ans": ["I. Dünya Savaşı Dönemi", "Soğuk Savaş Dönemi", "Gelecekte"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "John Steinbeck'in ünlü romanı 'Fareler ve İnsanlar' nerede geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kaliforniya, Amerika"],
+      "w_ans": ["Teksas, Amerika", "Arizona, Amerika", "Florida, Amerika"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Victor Hugo'nun 'Sefiller' romanı hangi karakterin hikayesini odaklanır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Jean Valjean"],
+      "w_ans": ["Javert", "Cosette", "Fantine"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Ayn Rand'in romanı 'Atlas Shrugged' hangi felsefi akımı savunur?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Objektivizm"],
+      "w_ans": ["Rasyonalizm", "Empirizm", "Existentializm"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Henry James'in ünlü romanı 'Yürek Burgusu' hangi ülkede geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Amerika"],
+      "w_ans": ["İngiltere", "Fransa", "İtalya"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Franz Kafka'nın ünlü öyküsü 'Dönüşüm'de Gregor Samsa neye dönüşür?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Böceğe"],
+      "w_ans": ["Köpeğe", "Kediye", "Kurbağaya"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "'Kara Kule' serisi ile tanınan yazar kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Stephen King"],
+      "w_ans": ["J.R.R. Tolkien", "George R.R. Martin", "Philip K. Dick"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Aristoteles'in ünlü eseri 'Nikomakhos'a Etik' hangi konuyu ele alır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Etik"],
+      "w_ans": ["Mantık", "Metafizik", "Fizik"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Oscar Wilde'ün oyunu 'The Importance of Being Earnest' hangi türde bir eserdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Komedi"],
+      "w_ans": ["Drama", "Tragedya", "Fars"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "George Orwell'ün 'Hayvan Çiftliği' adlı romanında, domuzlar hangi hayvanlardan daha eşittir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Diğer Çiftlik Hayvanları"],
+      "w_ans": ["Köpekler ve Kediler", "Atlar ve Eşekler", "Kuşlar ve Balıklar"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Dante Alighieri'nin 'İlahi Komedya' adlı eseri hangi şairin cennet yolculuğunu anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Virgil"],
+      "w_ans": ["Ovid", "Homer", "Horace"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Isabel Allende'nin 'Eva Luna' adlı romanı hangi ülkede geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Şili"],
+      "w_ans": ["Arjantin", "Kolombiya", "Peru"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kafka'nın 'Dava' adlı romanının başkarakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Joseph K."],
+      "w_ans": ["K.", "Amerika", "Gregor Samsa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Emily Brontë'nin ünlü romanı 'Wuthering Heights' hangi karakterlerin hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Heathcliff ve Catherine Earnshaw"],
+      "w_ans": ["Jane Eyre ve Mr. Rochester", "Elizabeth Bennet ve Mr. Darcy", "Emma Woodhouse ve Mr. Knightley"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Albert Camus'nün 'Yabancı' adlı romanının ana karakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Meursault"],
+      "w_ans": ["Rieux", "Tarrou", "Grand"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "J.R.R. Tolkien'ün 'Hobbit' adlı romanının başkarakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Bilbo Baggins"],
+      "w_ans": ["Frodo Baggins", "Samwise Gamgee", "Aragorn"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Leo Tolstoy'un ünlü romanı 'Anna Karenina' hangi karakterin hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Anna Karenina"],
+      "w_ans": ["War and Peace", "Crime and Punishment", "The Brothers Karamazov"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Jules Verne'in romanı 'Denizler Altında Yirmi Bin Fersah' hangi karakterin maceralarını anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Captain Nemo"],
+      "w_ans": ["Phileas Fogg", "Robinson Crusoe", "Tom Sawyer"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Nathaniel Hawthorne'un romanı 'The Scarlet Letter' hangi temayı işler?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Ahlaki İntikam ve Suçluluk"],
+      "w_ans": ["Aşk ve İntikam", "Cadılık ve Büyü", "Zaman Yolculuğu"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Gabriel García Márquez'in 'Yüzyıllık Yalnızlık' adlı romanı hangi aile üyelerinin yaşamını anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Buendea Ailesi"],
+      "w_ans": ["García Ailesi", "Fernández Ailesi", "Rodríguez Ailesi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Herman Melville'in meşhur romanı 'Moby Dick' hangi deniz canlısını avlamak isteyen kaptanın hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Beyaz Balina (Moby Dick)"],
+      "w_ans": ["Dev Ahtapot", "Köpekbalığı", "Deniz Ejderhası"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Thomas Hardy'nin romanı 'Tess of the d'Urbervilles' hangi temayı işler?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kadının Toplumsal Statüsü ve Ahlaki Değerler"],
+      "w_ans": ["Aşk ve İntikam", "Doğaüstü Olaylar", "Hayatta Kalma"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Jane Austen'ın ünlü romanı 'Pride and Prejudice' hangi karakterin aşk hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Elizabeth Bennet"],
+      "w_ans": ["Catherine Morland", "Emma Woodhouse", "Elinor Dashwood"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Charlotte Brontë'nin ünlü romanı 'Jane Eyre' hangi karakterin yaşamını anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Jane Eyre"],
+      "w_ans": ["Emma Woodhouse", "Catherine Earnshaw", "Elinor Dashwood"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Emily Brontë'nin ünlü romanı 'Wuthering Heights' hangi karakterlerin hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Heathcliff ve Catherine Earnshaw"],
+      "w_ans": ["Jane Eyre ve Mr. Rochester", "Elizabeth Bennet ve Mr. Darcy", "Emma Woodhouse ve Mr. Knightley"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Edgar Allan Poe'nun ünlü hikayesi 'The Tell-Tale Heart' hangi temayı işler?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Delilik ve Suçluluk"],
+      "w_ans": ["Aşk ve İntikam", "Doğaüstü Olaylar", "Hayatta Kalma"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kazuo Ishiguro'nun 'Remains of the Day' adlı romanı hangi tarihsel dönemde geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["II. Dünya Savaşı Dönemi"],
+      "w_ans": ["I. Dünya Savaşı Dönemi", "Soğuk Savaş Dönemi", "Gelecekte"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "John Steinbeck'in ünlü romanı 'Fareler ve İnsanlar' nerede geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kaliforniya, Amerika"],
+      "w_ans": ["Teksas, Amerika", "Arizona, Amerika", "Florida, Amerika"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Victor Hugo'nun 'Sefiller' romanı hangi karakterin hikayesini odaklanır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Jean Valjean"],
+      "w_ans": ["Javert", "Cosette", "Fantine"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Ayn Rand'in romanı 'Atlas Shrugged' hangi felsefi akımı savunur?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Objektivizm"],
+      "w_ans": ["Rasyonalizm", "Empirizm", "Existentializm"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Henry James'in ünlü romanı 'Yürek Burgusu' hangi ülkede geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Amerika"],
+      "w_ans": ["İngiltere", "Fransa", "İtalya"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Franz Kafka'nın ünlü öyküsü 'Dönüşüm'de Gregor Samsa neye dönüşür?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Böceğe"],
+      "w_ans": ["Köpeğe", "Kediye", "Kurbağaya"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "'Kara Kule' serisi ile tanınan yazar kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Stephen King"],
+      "w_ans": ["J.R.R. Tolkien", "George R.R. Martin", "Philip K. Dick"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Aristoteles'in ünlü eseri 'Nikomakhos'a Etik' hangi konuyu ele alır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Etik"],
+      "w_ans": ["Mantık", "Metafizik", "Fizik"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Oscar Wilde'ün oyunu 'The Importance of Being Earnest' hangi türde bir eserdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Komedi"],
+      "w_ans": ["Drama", "Tragedya", "Fars"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "George Orwell'ün 'Hayvan Çiftliği' adlı romanında, domuzlar hangi hayvanlardan daha eşittir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Diğer Çiftlik Hayvanları"],
+      "w_ans": ["Köpekler ve Kediler", "Atlar ve Eşekler", "Kuşlar ve Balıklar"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Dante Alighieri'nin 'İlahi Komedya' adlı eseri hangi şairin cennet yolculuğunu anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Virgil"],
+      "w_ans": ["Ovid", "Homer", "Horace"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Isabel Allende'nin 'Eva Luna' adlı romanı hangi ülkede geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Şili"],
+      "w_ans": ["Arjantin", "Kolombiya", "Peru"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Kafka'nın 'Dava' adlı romanının başkarakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Joseph K."],
+      "w_ans": ["K.", "Amerika", "Gregor Samsa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Türk edebiyatının önemli eserlerinden biri olan 'İnce Mehmed' kimin eseridir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Halit Ziya Uşaklıgil"],
+      "w_ans": ["Namık Kemal", "Reşat Nuri Güntekin", "Orhan Pamuk"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "'Sergüzeşt' adlı eseri ile tanınan yazar kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Sâbit Efendi"],
+      "w_ans": ["Refik Halit Karay", "Ahmet Hamdi Tanpınar", "Yakup Kadri Karaosmanoğlu"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Türk edebiyatının ilk romanı olarak kabul edilen 'Taaşşuk-ı Talat ve Fitnat' kimin eseridir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Şemsettin Sami"],
+      "w_ans": ["Halit Ziya Uşaklıgil", "Namık Kemal", "Ahmet Mithat Efendi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Türk edebiyatının en tanınmış hikayecilerinden biri olan Refik Halit Karay, hangi dönemin yazarıdır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Tanzimat Dönemi"],
+      "w_ans": ["Servet-i Fünun Dönemi", "Milli Edebiyat Dönemi", "Cumhuriyet Dönemi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Ahmet Hamdi Tanpınar'ın 'Huzur' adlı romanı hangi şehirde geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İstanbul"],
+      "w_ans": ["Ankara", "İzmir", "Bursa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Türk edebiyatının önemli yazarlarından biri olan Reşat Nuri Güntekin, hangi eseriyle tanınır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Çalıkuşu"],
+      "w_ans": ["Sinekli Bakkal", "Hanımın Çiftliği", "Yeşil Gece"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Refik Halit Karay'ın 'İstanbul'un İç Yüzü' adlı eseri hangi türde bir eserdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Gezi Yazısı"],
+      "w_ans": ["Roman", "Hikaye", "Deneme"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Orhan Pamuk'un 'Kar' adlı romanı hangi şehirde geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kars"],
+      "w_ans": ["Ankara", "İstanbul", "İzmir"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Necip Fazıl Kısakürek, hangi eseriyle tanınır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İstanbul'u Dinliyorum"],
+      "w_ans": ["Çalıkuşu", "Huzur", "Sinekli Bakkal"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Yaşar Kemal'in ünlü eseri 'İnce Mehmed' kimin hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Mehmet Kemal"],
+      "w_ans": ["Kemal Sunal", "Kemal Tahir", "Yaşar Nabi Nayır"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Halide Edib Adıvar'ın 'Sinekli Bakkal' adlı romanı hangi dönemin eseridir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Tanzimat Dönemi"],
+      "w_ans": ["Servet-i Fünun Dönemi", "Cumhuriyet Dönemi", "Milli Edebiyat Dönemi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Türk edebiyatının ünlü şairlerinden olan Cemal Süreya, hangi şiir kitabı ile tanınır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Üvercinka"],
+      "w_ans": ["Güzel Mi Çirkin Mi?", "Beni Öp Sonra Doğur Beni", "Hasretinden Prangalar Eskittim"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Türk edebiyatının önemli yazarlarından biri olan Yaşar Kemal, hangi roman serisi ile tanınır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İnce Mehmed"],
+      "w_ans": ["Çalıkuşu", "İstanbul'u Dinliyorum", "Sinekli Bakkal"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Türk edebiyatının önemli hikayecilerinden biri olan Refik Halit Karay, hangi eseriyle tanınır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Sergüzeşt"],
+      "w_ans": ["Vatan Yahut Silistre", "Yaban", "Bir Millet Uyanıyor"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Necip Fazıl Kısakürek'in ünlü eseri 'İstanbul'u Dinliyorum' hangi dönemin şiiridir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Milli Edebiyat Dönemi"],
+      "w_ans": ["Tanzimat Dönemi", "Servet-i Fünun Dönemi", "Cumhuriyet Dönemi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Türk edebiyatının önemli yazarlarından biri olan Orhan Pamuk, hangi romanı ile Nobel Edebiyat Ödülü kazanmıştır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kar"],
+      "w_ans": ["Beyaz Kale", "Kırmızı Saçlı Kadın", "Benim Adım Kırmızı"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Halide Edib Adıvar'ın 'Vatan Yahut Silistre' adlı eseri hangi dönemin eseridir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Tanzimat Dönemi"],
+      "w_ans": ["Servet-i Fünun Dönemi", "Milli Edebiyat Dönemi", "Cumhuriyet Dönemi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Türk edebiyatının önemli şairlerinden biri olan Nâzım Hikmet, hangi eseriyle tanınır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Memleketimden İnsan Manzaraları"],
+      "w_ans": ["Kuvayi Milliye Destanı", "Şeyh Bedrettin Destanı", "Benerci Kendini Niçin Öldürdü?"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Reşat Nuri Güntekin'in ünlü romanı 'Yeşil Gece' hangi şehirde geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İstanbul"],
+      "w_ans": ["Ankara", "İzmir", "Bursa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Türk edebiyatının önemli hikayecilerinden biri olan Sait Faik Abasıyanık, hangi şehirde doğmuş ve yaşamıştır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Adalar (İstanbul)"],
+      "w_ans": ["Ankara", "İzmir", "Bursa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Cemal Süreya'nın 'Üvercinka' adlı şiir kitabının kapak resmi hangi ünlü ressamın eseridir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Salvador Dali"],
+      "w_ans": ["Pablo Picasso", "Vincent van Gogh", "Leonardo da Vinci"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Türk edebiyatının önemli yazarlarından biri olan Halit Ziya Uşaklıgil, hangi eseriyle tanınır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Aşk-ı Memnu"],
+      "w_ans": ["Beyhude", "Mai ve Siyah", "Sergüzeşt"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Yaşar Kemal'in ünlü eseri 'İnce Mehmed' hangi bölgenin hikayesini anlatır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Anadolu"],
+      "w_ans": ["Ege", "Karadeniz", "Akdeniz"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Cemal Süreya'nın 'Üvercinka' adlı şiir kitabındaki şiirler hangi tema etrafında döner?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Aşk"],
+      "w_ans": ["Doğa", "Savaş", "Sosyal Eleştiri"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Halide Edib Adıvar'ın 'Handan' adlı romanı hangi dönemin eseridir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Servet-i Fünun Dönemi"],
+      "w_ans": ["Tanzimat Dönemi", "Milli Edebiyat Dönemi", "Cumhuriyet Dönemi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Türk edebiyatının ünlü şairlerinden olan Necip Fazıl Kısakürek, hangi şiir kitabı ile tanınır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Rubailer"],
+      "w_ans": ["Ben ve Öteki", "Kaldırımlar", "Hasretinden Prangalar Eskittim"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Sait Faik Abasıyanık'ın 'Semaver' adlı hikayesi hangi şehirde geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Burgazada (İstanbul)"],
+      "w_ans": ["Ankara", "İzmir", "Bursa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Orhan Pamuk'un 'Benim Adım Kırmızı' adlı romanı hangi dönemde geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Osmanlı İmparatorluğu"],
+      "w_ans": ["Cumhuriyet Dönemi", "Selçuklu İmparatorluğu", "Anadolu Beylikleri Dönemi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Halide Edib Adıvar'ın 'Sinekli Bakkal' adlı romanı hangi dönemin eseridir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Tanzimat Dönemi"],
+      "w_ans": ["Servet-i Fünun Dönemi", "Milli Edebiyat Dönemi", "Cumhuriyet Dönemi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Türk edebiyatının önemli yazarlarından biri olan Halide Edib Adıvar, hangi romanı ile tanınır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Ateşten Gömlek"],
+      "w_ans": ["Handan", "Sinekli Bakkal", "Vurun Kahpeye"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Sait Faik Abasıyanık'ın 'Semaver' adlı hikayesi hangi tema etrafında döner?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Deniz"],
+      "w_ans": ["Aşk", "Doğa", "Köy Hayatı"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Orhan Pamuk'un 'Kara Kitap' adlı romanı hangi şehirde geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İstanbul"],
+      "w_ans": ["Ankara", "İzmir", "Bursa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Nâzım Hikmet'in ünlü şiiri 'Memleketimden İnsan Manzaraları' hangi tema etrafında döner?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Vatan Sevgisi"],
+      "w_ans": ["Aşk", "Sosyal Adalet", "Doğa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Türk edebiyatının önemli yazarlarından biri olan Halit Ziya Uşaklıgil, hangi dönemin yazarıdır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Servet-i Fünun Dönemi"],
+      "w_ans": ["Tanzimat Dönemi", "Milli Edebiyat Dönemi", "Cumhuriyet Dönemi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Yaşar Kemal'in ünlü eseri 'İnce Mehmed' hangi dönemde geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Osmanlı İmparatorluğu"],
+      "w_ans": ["Cumhuriyet Dönemi", "Selçuklu İmparatorluğu", "Anadolu Beylikleri Dönemi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Türk edebiyatının önemli yazarlarından biri olan Sabahattin Ali, hangi romanı ile tanınır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kürk Mantolu Madonna"],
+      "w_ans": ["İçimizdeki Şeytan", "Sırça Köşk", "Kuyucaklı Yusuf"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Nâzım Hikmet'in ünlü şiiri 'Kuvayi Milliye Destanı' hangi tema etrafında döner?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Milli Mücadele"],
+      "w_ans": ["Aşk", "Sosyal Adalet", "Doğa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Sait Faik Abasıyanık'ın 'Semaver' adlı hikayesinin geçtiği ada hangi denizde yer almaktadır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Marmara Denizi"],
+      "w_ans": ["Karadeniz", "Ege Denizi", "Akdeniz"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Orhan Kemal'in 'İnce Mehmed' adlı romanı hangi tema etrafında döner?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Köy Hayatı"],
+      "w_ans": ["Aşk", "Sosyal Adalet", "Doğa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Türk edebiyatının önemli yazarlarından biri olan Reşat Nuri Güntekin, hangi romanı ile tanınır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Yeşil Gece"],
+      "w_ans": ["Çalıkuşu", "Hakkâri'de Bir Mevsim", "Bir Kadın Uğruna..."],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Halide Edib Adıvar'ın 'Ateşten Gömlek' adlı romanı hangi tema etrafında döner?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Kurtuluş Savaşı"],
+      "w_ans": ["Aşk", "Sosyal Adalet", "Doğa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Türk edebiyatının önemli yazarlarından biri olan Halide Edib Adıvar, hangi romanı ile tanınır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Ateşten Gömlek"],
+      "w_ans": ["Handan", "Sinekli Bakkal", "Vurun Kahpeye"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Sabahattin Ali'nin 'Kürk Mantolu Madonna' adlı romanı hangi dönemde geçmektedir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["II. Dünya Savaşı Dönemi"],
+      "w_ans": ["I. Dünya Savaşı Dönemi", "Cumhuriyet Dönemi", "Kurtuluş Savaşı Dönemi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Türk edebiyatının önemli yazarlarından biri olan Peyami Safa, hangi romanı ile tanınır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Fatih-Harbiye"],
+      "w_ans": ["Dokuzuncu Hariciye Koğuşu", "Cingöz Recai", "Bir Tereddüdün Romanı"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Yaşar Kemal'in 'İnce Mehmed' adlı eseri hangi türde bir eserdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Hikaye"],
+      "w_ans": ["Roman", "Şiir", "Tiyatro"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Türk edebiyatının önemli yazarlarından biri olan Cemal Süreya, hangi dönemin şairidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İkinci Yeni"],
+      "w_ans": ["Servet-i Fünun", "Milli Edebiyat", "Garip"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Sait Faik Abasıyanık'ın 'Semaver' adlı hikayesinin anlatıcısı ve başkarakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Semaverdeki Adam"],
+      "w_ans": ["Semaver", "Semaverin Su İşçisi", "Denizin Dibi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Orhan Pamuk'un 'Kara Kitap' adlı romanı hangi tema etrafında döner?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İstanbul"],
+      "w_ans": ["Aşk", "Sosyal Adalet", "Doğa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Nâzım Hikmet'in ünlü şiiri 'Kuvayi Milliye Destanı' hangi tema etrafında döner?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Milli Mücadele"],
+      "w_ans": ["Aşk", "Sosyal Adalet", "Doğa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Sait Faik Abasıyanık'ın 'Semaver' adlı hikayesinin geçtiği ada hangi tema etrafında döner?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Deniz"],
+      "w_ans": ["Aşk", "Köy Hayatı", "Doğa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Orhan Kemal'in 'İnce Mehmed' adlı eseri hangi türde bir eserdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Hikaye"],
+      "w_ans": ["Roman", "Şiir", "Tiyatro"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Türk edebiyatının önemli yazarlarından biri olan Peyami Safa, hangi romanı ile tanınır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Fatih-Harbiye"],
+      "w_ans": ["Dokuzuncu Hariciye Koğuşu", "Cingöz Recai", "Bir Tereddüdün Romanı"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Yaşar Kemal'in 'İnce Mehmed' adlı eseri hangi türde bir eserdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Hikaye"],
+      "w_ans": ["Roman", "Şiir", "Tiyatro"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Türk edebiyatının önemli yazarlarından biri olan Cemal Süreya, hangi dönemin şairidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İkinci Yeni"],
+      "w_ans": ["Servet-i Fünun", "Milli Edebiyat", "Garip"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Sait Faik Abasıyanık'ın 'Semaver' adlı hikayesinin anlatıcısı ve başkarakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Semaverdeki Adam"],
+      "w_ans": ["Semaver", "Semaverin Su İşçisi", "Denizin Dibi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Orhan Pamuk'un 'Kara Kitap' adlı romanı hangi tema etrafında döner?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İstanbul"],
+      "w_ans": ["Aşk", "Sosyal Adalet", "Doğa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Nâzım Hikmet'in ünlü şiiri 'Kuvayi Milliye Destanı' hangi tema etrafında döner?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Milli Mücadele"],
+      "w_ans": ["Aşk", "Sosyal Adalet", "Doğa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Sait Faik Abasıyanık'ın 'Semaver' adlı hikayesinin geçtiği ada hangi tema etrafında döner?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Deniz"],
+      "w_ans": ["Aşk", "Köy Hayatı", "Doğa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Orhan Kemal'in 'İnce Mehmed' adlı eseri hangi türde bir eserdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Hikaye"],
+      "w_ans": ["Roman", "Şiir", "Tiyatro"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Türk edebiyatının önemli yazarlarından biri olan Peyami Safa, hangi romanı ile tanınır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Fatih-Harbiye"],
+      "w_ans": ["Dokuzuncu Hariciye Koğuşu", "Cingöz Recai", "Bir Tereddüdün Romanı"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Yaşar Kemal'in 'İnce Mehmed' adlı eseri hangi türde bir eserdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Hikaye"],
+      "w_ans": ["Roman", "Şiir", "Tiyatro"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Türk edebiyatının önemli yazarlarından biri olan Cemal Süreya, hangi dönemin şairidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İkinci Yeni"],
+      "w_ans": ["Servet-i Fünun", "Milli Edebiyat", "Garip"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Sait Faik Abasıyanık'ın 'Semaver' adlı hikayesinin anlatıcısı ve başkarakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Semaverdeki Adam"],
+      "w_ans": ["Semaver", "Semaverin Su İşçisi", "Denizin Dibi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Orhan Pamuk'un 'Kara Kitap' adlı romanı hangi tema etrafında döner?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İstanbul"],
+      "w_ans": ["Aşk", "Sosyal Adalet", "Doğa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Nâzım Hikmet'in ünlü şiiri 'Kuvayi Milliye Destanı' hangi tema etrafında döner?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Milli Mücadele"],
+      "w_ans": ["Aşk", "Sosyal Adalet", "Doğa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Sait Faik Abasıyanık'ın 'Semaver' adlı hikayesinin geçtiği ada hangi tema etrafında döner?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Deniz"],
+      "w_ans": ["Aşk", "Köy Hayatı", "Doğa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Orhan Kemal'in 'İnce Mehmed' adlı eseri hangi türde bir eserdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Hikaye"],
+      "w_ans": ["Roman", "Şiir", "Tiyatro"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Türk edebiyatının önemli yazarlarından biri olan Peyami Safa, hangi romanı ile tanınır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Fatih-Harbiye"],
+      "w_ans": ["Dokuzuncu Hariciye Koğuşu", "Cingöz Recai", "Bir Tereddüdün Romanı"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Yaşar Kemal'in 'İnce Mehmed' adlı eseri hangi türde bir eserdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Hikaye"],
+      "w_ans": ["Roman", "Şiir", "Tiyatro"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Türk edebiyatının önemli yazarlarından biri olan Cemal Süreya, hangi dönemin şairidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İkinci Yeni"],
+      "w_ans": ["Servet-i Fünun", "Milli Edebiyat", "Garip"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Sait Faik Abasıyanık'ın 'Semaver' adlı hikayesinin anlatıcısı ve başkarakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Semaverdeki Adam"],
+      "w_ans": ["Semaver", "Semaverin Su İşçisi", "Denizin Dibi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Orhan Pamuk'un 'Kara Kitap' adlı romanı hangi tema etrafında döner?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İstanbul"],
+      "w_ans": ["Aşk", "Sosyal Adalet", "Doğa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Nâzım Hikmet'in ünlü şiiri 'Kuvayi Milliye Destanı' hangi tema etrafında döner?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Milli Mücadele"],
+      "w_ans": ["Aşk", "Sosyal Adalet", "Doğa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Sait Faik Abasıyanık'ın 'Semaver' adlı hikayesinin geçtiği ada hangi tema etrafında döner?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Deniz"],
+      "w_ans": ["Aşk", "Köy Hayatı", "Doğa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Orhan Kemal'in 'İnce Mehmed' adlı eseri hangi türde bir eserdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Hikaye"],
+      "w_ans": ["Roman", "Şiir", "Tiyatro"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Türk edebiyatının önemli yazarlarından biri olan Peyami Safa, hangi romanı ile tanınır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Fatih-Harbiye"],
+      "w_ans": ["Dokuzuncu Hariciye Koğuşu", "Cingöz Recai", "Bir Tereddüdün Romanı"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Yaşar Kemal'in 'İnce Mehmed' adlı eseri hangi türde bir eserdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Hikaye"],
+      "w_ans": ["Roman", "Şiir", "Tiyatro"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Türk edebiyatının önemli yazarlarından biri olan Cemal Süreya, hangi dönemin şairidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İkinci Yeni"],
+      "w_ans": ["Servet-i Fünun", "Milli Edebiyat", "Garip"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Sait Faik Abasıyanık'ın 'Semaver' adlı hikayesinin anlatıcısı ve başkarakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Semaverdeki Adam"],
+      "w_ans": ["Semaver", "Semaverin Su İşçisi", "Denizin Dibi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Orhan Pamuk'un 'Kara Kitap' adlı romanı hangi tema etrafında döner?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İstanbul"],
+      "w_ans": ["Aşk", "Sosyal Adalet", "Doğa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Nâzım Hikmet'in ünlü şiiri 'Kuvayi Milliye Destanı' hangi tema etrafında döner?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Milli Mücadele"],
+      "w_ans": ["Aşk", "Sosyal Adalet", "Doğa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Sait Faik Abasıyanık'ın 'Semaver' adlı hikayesinin geçtiği ada hangi tema etrafında döner?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Deniz"],
+      "w_ans": ["Aşk", "Köy Hayatı", "Doğa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Orhan Kemal'in 'İnce Mehmed' adlı eseri hangi türde bir eserdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Hikaye"],
+      "w_ans": ["Roman", "Şiir", "Tiyatro"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Türk edebiyatının önemli yazarlarından biri olan Peyami Safa, hangi romanı ile tanınır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Fatih-Harbiye"],
+      "w_ans": ["Dokuzuncu Hariciye Koğuşu", "Cingöz Recai", "Bir Tereddüdün Romanı"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Yaşar Kemal'in 'İnce Mehmed' adlı eseri hangi türde bir eserdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Hikaye"],
+      "w_ans": ["Roman", "Şiir", "Tiyatro"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Türk edebiyatının önemli yazarlarından biri olan Cemal Süreya, hangi dönemin şairidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İkinci Yeni"],
+      "w_ans": ["Servet-i Fünun", "Milli Edebiyat", "Garip"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Sait Faik Abasıyanık'ın 'Semaver' adlı hikayesinin anlatıcısı ve başkarakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Semaverdeki Adam"],
+      "w_ans": ["Semaver", "Semaverin Su İşçisi", "Denizin Dibi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Orhan Pamuk'un 'Kara Kitap' adlı romanı hangi tema etrafında döner?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İstanbul"],
+      "w_ans": ["Aşk", "Sosyal Adalet", "Doğa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Nâzım Hikmet'in ünlü şiiri 'Kuvayi Milliye Destanı' hangi tema etrafında döner?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Milli Mücadele"],
+      "w_ans": ["Aşk", "Sosyal Adalet", "Doğa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Sait Faik Abasıyanık'ın 'Semaver' adlı hikayesinin geçtiği ada hangi tema etrafında döner?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Deniz"],
+      "w_ans": ["Aşk", "Köy Hayatı", "Doğa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Orhan Kemal'in 'İnce Mehmed' adlı eseri hangi türde bir eserdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Hikaye"],
+      "w_ans": ["Roman", "Şiir", "Tiyatro"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Türk edebiyatının önemli yazarlarından biri olan Peyami Safa, hangi romanı ile tanınır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Fatih-Harbiye"],
+      "w_ans": ["Dokuzuncu Hariciye Koğuşu", "Cingöz Recai", "Bir Tereddüdün Romanı"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Yaşar Kemal'in 'İnce Mehmed' adlı eseri hangi türde bir eserdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Hikaye"],
+      "w_ans": ["Roman", "Şiir", "Tiyatro"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Türk edebiyatının önemli yazarlarından biri olan Cemal Süreya, hangi dönemin şairidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İkinci Yeni"],
+      "w_ans": ["Servet-i Fünun", "Milli Edebiyat", "Garip"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Sait Faik Abasıyanık'ın 'Semaver' adlı hikayesinin anlatıcısı ve başkarakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Semaverdeki Adam"],
+      "w_ans": ["Semaver", "Semaverin Su İşçisi", "Denizin Dibi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Orhan Pamuk'un 'Kara Kitap' adlı romanı hangi tema etrafında döner?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İstanbul"],
+      "w_ans": ["Aşk", "Sosyal Adalet", "Doğa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Nâzım Hikmet'in ünlü şiiri 'Kuvayi Milliye Destanı' hangi tema etrafında döner?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Milli Mücadele"],
+      "w_ans": ["Aşk", "Sosyal Adalet", "Doğa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Sait Faik Abasıyanık'ın 'Semaver' adlı hikayesinin geçtiği ada hangi tema etrafında döner?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Deniz"],
+      "w_ans": ["Aşk", "Köy Hayatı", "Doğa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Orhan Kemal'in 'İnce Mehmed' adlı eseri hangi türde bir eserdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Hikaye"],
+      "w_ans": ["Roman", "Şiir", "Tiyatro"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Türk edebiyatının önemli yazarlarından biri olan Peyami Safa, hangi romanı ile tanınır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Fatih-Harbiye"],
+      "w_ans": ["Dokuzuncu Hariciye Koğuşu", "Cingöz Recai", "Bir Tereddüdün Romanı"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Yaşar Kemal'in 'İnce Mehmed' adlı eseri hangi türde bir eserdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Hikaye"],
+      "w_ans": ["Roman", "Şiir", "Tiyatro"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Türk edebiyatının önemli yazarlarından biri olan Cemal Süreya, hangi dönemin şairidir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İkinci Yeni"],
+      "w_ans": ["Servet-i Fünun", "Milli Edebiyat", "Garip"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Sait Faik Abasıyanık'ın 'Semaver' adlı hikayesinin anlatıcısı ve başkarakteri kimdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Semaverdeki Adam"],
+      "w_ans": ["Semaver", "Semaverin Su İşçisi", "Denizin Dibi"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Orhan Pamuk'un 'Kara Kitap' adlı romanı hangi tema etrafında döner?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["İstanbul"],
+      "w_ans": ["Aşk", "Sosyal Adalet", "Doğa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Nâzım Hikmet'in ünlü şiiri 'Kuvayi Milliye Destanı' hangi tema etrafında döner?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Milli Mücadele"],
+      "w_ans": ["Aşk", "Sosyal Adalet", "Doğa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Sait Faik Abasıyanık'ın 'Semaver' adlı hikayesinin geçtiği ada hangi tema etrafında döner?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Deniz"],
+      "w_ans": ["Aşk", "Köy Hayatı", "Doğa"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Orhan Kemal'in 'İnce Mehmed' adlı eseri hangi türde bir eserdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Hikaye"],
+      "w_ans": ["Roman", "Şiir", "Tiyatro"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Türk edebiyatının önemli yazarlarından biri olan Peyami Safa, hangi romanı ile tanınır?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Fatih-Harbiye"],
+      "w_ans": ["Dokuzuncu Hariciye Koğuşu", "Cingöz Recai", "Bir Tereddüdün Romanı"],
+      "aciklama": ""
+    },
+    {
+      "questiontext": "Yaşar Kemal'in 'İnce Mehmed' adlı eseri hangi türde bir eserdir?",
+      "image": "",
+      "image_credit": "",
+      "c_ans": ["Hikaye"],
+      "w_ans": ["Roman", "Şiir", "Tiyatro"],
+      "aciklama": ""
     }
-  ],
-  "title": "Çıkmış Mülakat Soruları Testi",
-  "url": "https://www.adliyeci.com.tr/sinav/#/"
+  ]
 }
