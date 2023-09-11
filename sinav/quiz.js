@@ -22,23 +22,26 @@ $.fn.quiz = function(filename) {
 
 // create html structure for quiz
 // using loaded questions json
-function render(quiz_opts) {  
-
-
-  // list of questions to insert into quiz
-  var questions = quiz_opts.questions;
-  questions = shuffle(questions);
-  var siklar = [];
-  var cevaplar = ["A - ", "B - ", "C - ", "D - ", "E - ", "F - ", "G - "];
-
-  // keep track of the state of correct
-  // answers to the quiz so far
+function render(quiz_opts) {
+  
   var state = {
     correct : 0,
     maxQ : 10,
     total : questions.length,
     currentQ: 1,
   };
+
+  questions = shuffle(questions);
+
+  questions = questions.arr.slice(0, state.maxQ);
+  // list of questions to insert into quiz
+  var questions = quiz_opts.questions; 
+  var siklar = [];
+  var cevaplar = ["A - ", "B - ", "C - ", "D - ", "E - ", "F - ", "G - "];
+
+  // keep track of the state of correct
+  // answers to the quiz so far
+  
 
   var $quiz = $(this)
     .attr("class", "carousel slide")
@@ -133,7 +136,9 @@ function render(quiz_opts) {
   */
   $.each(questions, function(question_index, question) {
 
-    var last_question = (question_index + 1 === state.total);
+    
+
+    var last_question = (question_index + 1 === state.maxQ);
 
     var $item = $("<div>")
       .attr("class", "item")
@@ -296,7 +301,7 @@ function render(quiz_opts) {
 
 function resultsText(state) {
 
-  var ratio = state.correct / state.total;
+  var ratio = state.correct / state.maxQ;
   var text = "Sınav bitti";
   return text;
 
