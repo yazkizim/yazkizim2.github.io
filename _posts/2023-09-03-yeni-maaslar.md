@@ -7,7 +7,7 @@ date: '2023-09-03 06:01:54 +0530'
 category: Maaş
 thumbnail: /assets/img/posts/maas.jpg
 keywords: En düşük Katip Maaşı, En düşük Katip Mübaşir, En düşük Yazı İşleri Müdürü Maaşı, Katip Maaşı, Mübaşir Maaşı, Yazı İşleri Müdürü Maaşı
-permalink: /blog/7-toplu-sozlesme-2023/
+permalink: /blog/yazi-isleri-muduru-maasi-2023/
 usemathjax: true
 posttype: news
 ---

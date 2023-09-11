@@ -7,7 +7,7 @@ date: '2023-09-01 06:00:00 +0530'
 category: Tarifeler
 thumbnail: /assets/img/posts/harc.jpg
 keywords: ıslah harcı hesaplama, ıslah
-permalink: /blog/islah-harci-2023/
+permalink: /blog/avukatlik-ucreti-harci-2023/
 usemathjax: true
 posttype: news
 ---

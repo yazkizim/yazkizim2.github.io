@@ -7,7 +7,7 @@ date: '2023-09-04 10:01:22 +0530'
 category: Maaş
 thumbnail: /assets/img/posts/enflasyon.jpg
 keywords: 2023 Ağustos Ayı Enflasyon, enflasyon, enflasyon farkı
-permalink: /blog/7-toplu-sozlesme-2023/
+permalink: /blog/agustos-enflasyon-2023/
 usemathjax: true
 posttype: news
 ---

@@ -7,7 +7,7 @@ date: '2023-09-02 05:00:00 +0530'
 category: Hesaplamalar
 thumbnail: /assets/img/posts/mahkeme.jpg
 keywords: mahkeme parasal sınırlar
-permalink: /blog/mahkeme-parasal-sinirlar-2023/
+permalink: /blog/mahkeme-islah-2023/
 usemathjax: true
 posttype: news
 ---
