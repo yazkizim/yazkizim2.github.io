@@ -84,7 +84,7 @@ function render(quiz_opts) {
     .appendTo($title_slide);
 
   $('<h3>')
-    .text( "Toplam Soru Sayısı : " + quiz_opts.questions.length)
+    .text( "Toplam " + quiz_opts.questions.length + " sorudan rastgele " + state.maxQ + " sorudan oluşacak test getirilecektir.")
     .attr('class', 'text-center')
     .appendTo($title_slide);
 
