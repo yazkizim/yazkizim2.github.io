@@ -37,7 +37,7 @@ function render(quiz_opts) {
 
   questions = shuffle(questions);
 
-  questions = questions.arr.slice(0, state.maxQ);
+  questions = questions.slice(0, state.maxQ);
   // list of questions to insert into quiz
   
 
