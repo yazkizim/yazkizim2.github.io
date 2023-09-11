@@ -197,9 +197,6 @@ function render(quiz_opts) {
       // index is the correct index
       var correct = (question.c_ans[0] === siklar[answer_index]);      
 
-      if (last_question) {
-        opts.confirmButtonText = "Sonuçlarını gör";
-      }
 
       // bind click event to answer button,
       // using specified sweet alert options
@@ -295,8 +292,6 @@ function resultsText(state) {
 
   var ratio = state.correct / state.total;
   var text = "Sınav bitti";
-
-  
   return text;
 
 }
