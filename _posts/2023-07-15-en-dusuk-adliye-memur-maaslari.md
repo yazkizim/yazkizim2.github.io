@@ -6,7 +6,7 @@ author: gokhantasci
 date: '2023-07-15 09:01:24 +0530'
 category: Maaş
 thumbnail: /assets/img/posts/maas.jpg
-keywords: En düşük Katip Maaşı, En düşük Katip Mübaşir, En düşük Yazı İşleri Müdürü Maaşı, Katip Maaşı, Mübaşir Maaşı, Yazı İşleri Müdürü Maaşı
+keywords: En düşük Katip Maaşı, En düşük Katip Mübaşir, En düşük Yazı İşleri Müdürü Maaşı, Katip Maaşı, Mübaşir Maaşı, Yazı İşleri Müdürü Maaşı, enflasyon farkı, 14 günlük maaş, Toplu Sözleşme
 permalink: /blog/adalet-bakanligi-katip-maas-2023
 usemathjax: true
 posttype: news
