@@ -1682,7 +1682,7 @@ $(document).ready(function(){
 
 		if (paylastirilacakvekalet *1 > 0) {
 			for(var i=1; oge = document.getElementById(sirketmiktar + i + 'miktar').value ; i++) {
-				oran = (document.getElementById(sirketmiktar + i + 'miktar').value * 1) / (toplamtutar * 1);
+				oran = (document.getElementById(sirketmiktar + i + 'miktar') * 1) / (toplamtutar * 1);
 				paytutari = (paylastirilacakvekalet * 1) * (oran * 1);
 				sirketadi = document.getElementById(sirketmiktar + i).value;
 
@@ -1694,7 +1694,7 @@ $(document).ready(function(){
 		}
 
 		if (paylastirilacakharclar *1 > 0) {
-			for(var i=1; oge = document.getElementById(sirketmiktar + i + 'miktar').value ; i++) {
+			for(var i=1; oge = document.getElementById(sirketmiktar + i + 'miktar') ; i++) {
 				oran = (document.getElementById(sirketmiktar + i + 'miktar').value * 1) / (toplamtutar * 1);
 				paytutari = (paylastirilacakharclar * 1) * (oran * 1);
 				sirketadi = document.getElementById(sirketmiktar + i).value;
@@ -1708,7 +1708,7 @@ $(document).ready(function(){
 
 		
 		if (paylastirilacakyargilama *1 > 0) {
-			for(var i=1; oge = document.getElementById(sirketmiktar + i + 'miktar').value ; i++) {
+			for(var i=1; oge = document.getElementById(sirketmiktar + i + 'miktar') ; i++) {
 				oran = (document.getElementById(sirketmiktar + i + 'miktar').value * 1) / (toplamtutar * 1);
 				paytutari = (paylastirilacakyargilama * 1) * (oran * 1);
 				sirketadi = document.getElementById(sirketmiktar + i).value;
