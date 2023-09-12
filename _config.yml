@@ -29,7 +29,7 @@ tarifeler:
 hesaplamalar:      
     - text: Islah Harcı Hesaplama
       url: /islahharci
-    - text: Vekalet Harcı Hesaplama (Nispi)  
+    - text: Vekalet Ücreti Hesaplama (Nispi)  
       url: /nispivekalet
     - text: İstinaf Harcı Hesaplama (Nispi)  
       url: /istinafharci
