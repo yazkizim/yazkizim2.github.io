@@ -1644,8 +1644,9 @@ $(document).ready(function(){
 		
 	})
 
-	document.getElementById("gokhan").reset();
-
+	$( "#gidertemizle" ).click(function() {		
+		document.getElementById("yargilamagideriform").reset();			
+	})
 	
 
 	$( "#yenimaashesapla" ).click(function() {
