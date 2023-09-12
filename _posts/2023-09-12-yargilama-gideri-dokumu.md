@@ -16,6 +16,4 @@ Bir çok mahkemede karar verildikten sonra değişen tebligat ücretlerine istin
 Bu işlemi kimimiz bir excel dosyasından kimimiz masamıza yapıştırdığımız notlarla yapmaktayız.
 Kendim için kullandığım Web uygulamasını genele göre tekrar uyardım.
 
-Aşağıdaki bağlantıdan erişebilirsiniz.
-
-[Yargılmaa Gideri Dökümü Hesaplamaları için Tıklayınız]({{ site.url }}{% link yargilamagideridokumu/?%})
+<code class="highlighter-rouge">Hesaplamalar > Yargılama Gideri Dökümü</code> yoluyla erişebilirsiniz.
