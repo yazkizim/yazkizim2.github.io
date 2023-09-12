@@ -1,0 +1,176 @@
+---
+title: Vekalet Ücreti Hesaplama
+layout: hesaplamalar
+---
+
+<div class="card-header">
+    <h3 class="card-title">Yargılama Giderleri Hesaplama</h3>
+  </div>
+  <div class="card-body">
+    <h3>Paylaştırılacak kalemler</h2>
+    <div class="col-12">
+        <div class="form-group row">
+          <label for="yargilamagideri" class="col-sm-3 col-form-label">Yargılama Giderleri</label>
+          <div class="col-sm-6">
+            <input type="number" class="form-control" id="yargilamagideri" value="0.00" placeholder="0,00 TL">
+          </div>
+       </div>
+  </div>     
+    
+  <div class="col-12">
+          <div class="form-group row">
+              <label for="vekaletucreti" class="col-sm-3 col-form-label">Vekalet Ücretleri</label>
+              <div class="col-sm-6">
+                <input type="number" class="form-control" id="vekaletucreti" value="0.00" placeholder="0,00 TL">
+              </div>
+          </div>
+  </div>    
+    
+    <div class="col-12">
+        <div class="form-group row">
+          <label for="harclar" class="col-sm-3 col-form-label">Harçlar</label>
+          <div class="col-sm-6">
+            <input type="number" class="form-control" id="harclar" value="0.00" placeholder="0,00 TL">
+          </div>
+      </div>
+    </div>
+    <h3>Kimler arasında paylaştırılacak</h2>
+    <footer class="blockquote-footer">Rakamları 0 dan değiştirdikçe  yenileri açılacaktır</footer>
+    <div class="col-12">
+        <div class="form-group row">
+          <div class="col-sm-6">
+            <input type="text" class="form-control" id="sirket1" value="0.00" placeholder="0,00 TL">
+          </div>
+          <div class="col-sm-6">
+            <input type="number" class="form-control" id="sirket1miktar" value="0.00" placeholder="0,00 TL">
+          </div>
+      </div>
+      <div class="col-12">
+        <div class="form-group row">
+          <div class="col-sm-6">
+            <input type="text" class="form-control" id="sirket2" value="0.00" placeholder="0,00 TL">
+          </div>
+          <div class="col-sm-6">
+            <input type="number" class="form-control" id="sirket2miktar" value="0.00" placeholder="0,00 TL">
+          </div>
+      </div>
+      <div class="col-12">
+        <div class="form-group row">
+          <div class="col-sm-6">
+            <input type="text" class="form-control" id="sirket3" value="0.00" placeholder="0,00 TL">
+          </div>
+          <div class="col-sm-6">
+            <input type="number" class="form-control" id="sirket3miktar" value="0.00" placeholder="0,00 TL">
+          </div>
+      </div>
+      <div class="col-12" id="sirket4div" hidden>
+        <div class="form-group row">
+          <div class="col-sm-6">
+            <input type="text" class="form-control" id="sirket4" value="0.00" placeholder="0,00 TL">
+          </div>
+          <div class="col-sm-6">
+            <input type="number" class="form-control" id="sirket4miktar" value="0.00" placeholder="0,00 TL">
+          </div>
+      </div>
+      <div class="col-12" id="sirket5div" hidden>
+        <div class="form-group row">
+          <div class="col-sm-6">
+            <input type="text" class="form-control" id="sirket5" value="0.00" placeholder="0,00 TL">
+          </div>
+          <div class="col-sm-6">
+            <input type="number" class="form-control" id="sirket5miktar" value="0.00" placeholder="0,00 TL">
+          </div>
+      </div>
+          <div class="col-12" id="sirket6div" hidden>
+        <div class="form-group row">
+          <div class="col-sm-6">
+            <input type="text" class="form-control" id="sirket6" value="0.00" placeholder="0,00 TL">
+          </div>
+          <div class="col-sm-6">
+            <input type="number" class="form-control" id="sirket6miktar" value="0.00" placeholder="0,00 TL">
+          </div>
+      </div>
+              <div class="col-12" id="sirket7div" hidden>
+        <div class="form-group row">
+          <div class="col-sm-6">
+            <input type="text" class="form-control" id="sirket7" value="0.00" placeholder="0,00 TL">
+          </div>
+          <div class="col-sm-6">
+            <input type="number" class="form-control" id="sirket6miktar" value="0.00" placeholder="0,00 TL">
+          </div>
+      </div>
+                  <div class="col-12" id="sirket8div" hidden>
+        <div class="form-group row">
+          <div class="col-sm-6">
+            <input type="text" class="form-control" id="sirket8" value="0.00" placeholder="0,00 TL">
+          </div>
+          <div class="col-sm-6">
+            <input type="number" class="form-control" id="sirket8miktar" value="0.00" placeholder="0,00 TL">
+          </div>
+      </div>
+                      <div class="col-12" id="sirket9div" hidden>
+        <div class="form-group row">
+          <div class="col-sm-6">
+            <input type="text" class="form-control" id="sirket9" value="0.00" placeholder="0,00 TL">
+          </div>
+          <div class="col-sm-6">
+            <input type="number" class="form-control" id="sirke9miktar" value="0.00" placeholder="0,00 TL">
+          </div>
+      </div>
+                          <div class="col-12" id="sirket10div" hidden>
+        <div class="form-group row">
+          <div class="col-sm-6">
+            <input type="text" class="form-control" id="sirket10" value="0.00" placeholder="0,00 TL">
+          </div>
+          <div class="col-sm-6">
+            <input type="number" class="form-control" id="sirke10miktar" value="0.00" placeholder="0,00 TL">
+          </div>
+      </div>
+      
+                          <div class="col-12" id="sirket11div" hidden>
+        <div class="form-group row">
+          <div class="col-sm-6">
+            <input type="text" class="form-control" id="sirket11" value="0.00" placeholder="0,00 TL">
+          </div>
+          <div class="col-sm-6">
+            <input type="number" class="form-control" id="sirke11miktar" value="0.00" placeholder="0,00 TL">
+          </div>
+      </div>
+      
+                              <div class="col-12" id="sirket12div" hidden>
+        <div class="form-group row">
+          <div class="col-sm-6">
+            <input type="text" class="form-control" id="sirket12" value="0.00" placeholder="0,00 TL">
+          </div>
+          <div class="col-sm-6">
+            <input type="number" class="form-control" id="sirke12miktar" value="0.00" placeholder="0,00 TL">
+          </div>
+      </div>
+  </div>
+    
+    <div class="card-footer">
+      <button type="button float-right" class="btn btn-outline-primary" id="harchesapla">Hesapla</button>
+    </div>
+</div> 
+
+  <div class="row justify-content-center">
+    <div class="col-lg-12">
+      <div class="col-md-8 offset-md-2">
+        <div class="card border-primary mb-3">
+          <div class="card-header text-center"> KARAR </div>
+          <div class="card-body">
+            <p class="card-text">
+            <p class="card-text text-justify">HÜKÜM: Yukarıda açıklanan nedenlerle; <br>..... -Harçlar kanunu gereğince alınması gereken 269,85-TL harcın mahsubu ile fazladan alınan 230,15-TL'nin yatıran tarafa iadesine, <br>
+              <br> -Davacı kendisini vekil ile temsil ettirdiginden A.A.Ü.T (Madde-13 İkinci Kısım İkinci Bölüm) göre hesaplanan 9.200,00-TL maktu vekalet ücretinin davalıdan alınarak davacıya verilmesine, <br>
+              <br> -Davalı kendisini vekil ile temsil ettirdiginden A.A.Ü.T göre hesaplanan 9.200,00-TL maktu vekalet ücretinin davacıdan alınarak davalıya verilmesine, <br>
+              <br> -Davacı tarafından yapılan; 500,00-TL Başvuru Harcı, 500,00-TL Tamamlama Harcı, olmak üzere toplam 1.000,00-TL yargılama giderinden iadesine karar verilen harç düşüldükten sonra kalan 769,85 TL'nindavalıdan alınarak davacıya verilmesine, <br>
+              <br>
+              <br>
+              <br> - - Fazla yatan gider avansı ile delil avansı var ise 12/1/2011 tarihli ve 6100 sayılı Adalet Bakanlığı Hukuk Muhakemeleri Gider Avansı Tarifesinin 5.maddesine göre karar kesinleştikten sonra istek halinde ve taraflar hesap numarası bildirilmiş ise iade elektronik ortamda hesaba aktarılmasına, hesap numarası bildirilmemiş ise masrafı avanstan karşılanmak suretiyle PTT merkez ve işyerleri vasıtasıyla adreste ödemeli olarak taraflara İADESİNE,
+            </p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
