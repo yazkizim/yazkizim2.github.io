@@ -18,4 +18,4 @@ Kendim için kullandığım Web uygulamasını genele göre tekrar uyardım.
 
 Aşağıdaki bağlantıdan erişebilirsiniz.
 
-[Yargılmaa Gideri Dökümü Hesaplamaları için Tıklayınız]({{ site.url }}{% link yargilamagideridokumu/?#/%})
+[Yargılmaa Gideri Dökümü Hesaplamaları için Tıklayınız]({{ site.url }}{% link yargilamagideridokumu/?%})

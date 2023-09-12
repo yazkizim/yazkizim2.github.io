@@ -28,7 +28,7 @@ tarifeler:
 
 hesaplamalar:  
     - text: Yargılama Gideri Dökümü
-      url: /yargilamagideridokumu/?#/
+      url: /yargilamagideridokumu/?
     - text: Islah Harcı Hesaplama
       url: /islahharci
     - text: Vekalet Ücreti Hesaplama (Nispi)  
