@@ -13,7 +13,7 @@ layout: hesaplamalar
             <div class="form-group row">
                 <label for="yargilamagideri" class="col-sm-3 col-form-label">Yargılama Giderleri</label>
                 <div class="col-sm-6">
-                    <input type="number" class="form-control" id="yargilamagideri" value="0.00" placeholder="0,00 TL">
+                    <input type="number" class="form-control" id="yargilamagideri" value="0.00" step=".01">
                 </div>
             </div>
         </div>
@@ -21,7 +21,7 @@ layout: hesaplamalar
             <div class="form-group row">
                 <label for="vekaletucreti" class="col-sm-3 col-form-label">Vekalet Ücretleri</label>
                 <div class="col-sm-6">
-                    <input type="number" class="form-control" id="vekaletucreti" value="0.00" placeholder="0,00 TL">
+                    <input type="number" class="form-control" id="vekaletucreti" value="0.00" step=".01">
                 </div>
             </div>
         </div>
@@ -29,133 +29,132 @@ layout: hesaplamalar
             <div class="form-group row">
                 <label for="harclar" class="col-sm-3 col-form-label">Harçlar</label>
                 <div class="col-sm-6">
-                    <input type="number" class="form-control" id="harclar" value="0.00" placeholder="0,00 TL">
+                    <input type="number" class="form-control" id="harclar" value="0.00" step=".01">
                 </div>
             </div>
         </div>
         <h3>Kimler arasında paylaştırılacak</h3>
-        <footer class="blockquote-footer">Rakamları 0 dan değiştirdikçe  yenileri açılacaktır</footer>
         <div class="col-12">
             <div class="form-group row">
                 <div class="col-sm-6">
-                    <input type="text" class="form-control" id="sirket1" value="Şirket - 1 Ltd.Şti." placeholder="0,00 TL">
+                    <input type="text" class="form-control" id="sirket1" value="Şirket - 1 Ltd.Şti." step=".01">
                 </div>
                 <div class="col-sm-6">
-                    <input type="number" class="form-control" id="sirket1miktar" value="1000" placeholder="0,00 TL">
+                    <input type="number" class="form-control" id="sirket1miktar" value="1000" step=".01">
                 </div>
             </div>
         </div>
         <div class="col-12">
             <div class="form-group row">
                 <div class="col-sm-6">
-                    <input type="text" class="form-control" id="sirket2" value="Şirket - 2 Ltd.Şti." placeholder="0,00 TL">
+                    <input type="text" class="form-control" id="sirket2" value="Şirket - 2 Ltd.Şti." step=".01">
                 </div>
                 <div class="col-sm-6">
-                    <input type="number" class="form-control" id="sirket2miktar" value="1000" placeholder="0,00 TL">
+                    <input type="number" class="form-control" id="sirket2miktar" value="1000" step=".01">
                 </div>
             </div>
         </div>
         <div class="col-12 text-center"> 
-            <a class="btn btn-ligth collapsed align-center" data-toggle="collapse" href="#fazlasirket" role="button" aria-expanded="false" aria-controls="collapseExample"> Daha eski yıllar </a> 
+            <a class="btn btn-ligth collapsed align-center" data-toggle="collapse" href="#fazlasirket" role="button" aria-expanded="false" aria-controls="collapseExample"> Daha fazla davalı </a> 
         </div>           
         <div class="collapse" id="fazlasirket">
             <div class="col-12">
                 <div class="form-group row">
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="sirket3" value="Şirket - 3 Ltd.Şti." placeholder="0,00 TL">
+                        <input type="text" class="form-control" id="sirket3" value="Şirket - 3 Ltd.Şti." step=".01">
                     </div>
                     <div class="col-sm-6">
-                        <input type="number" class="form-control" id="sirket3miktar" value="0.00" placeholder="0,00 TL">
+                        <input type="number" class="form-control" id="sirket3miktar" value="0.00" step=".01">
                     </div>
                 </div>
             </div>
             <div class="col-12" id="sirket4div">
                 <div class="form-group row">
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="sirket4" value="Şirket - 4 Ltd.Şti." placeholder="0,00 TL">
+                        <input type="text" class="form-control" id="sirket4" value="Şirket - 4 Ltd.Şti." step=".01">
                     </div>
                     <div class="col-sm-6">
-                        <input type="number" class="form-control" id="sirket4miktar" value="0.00" placeholder="0,00 TL">
+                        <input type="number" class="form-control" id="sirket4miktar" value="0.00" step=".01">
                     </div>
                 </div>
             </div>
             <div class="col-12" id="sirket5div">
                 <div class="form-group row">
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="sirket5" value="Şirket - 5 Ltd.Şti." placeholder="0,00 TL">
+                        <input type="text" class="form-control" id="sirket5" value="Şirket - 5 Ltd.Şti." step=".01">
                     </div>
                     <div class="col-sm-6">
-                        <input type="number" class="form-control" id="sirket5miktar" value="0.00" placeholder="0,00 TL">
+                        <input type="number" class="form-control" id="sirket5miktar" value="0.00" step=".01">
                     </div>
                 </div>
             </div>
             <div class="col-12" id="sirket6div">
                 <div class="form-group row">
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="sirket6" value="Şirket - 6 Ltd.Şti." placeholder="0,00 TL">
+                        <input type="text" class="form-control" id="sirket6" value="Şirket - 6 Ltd.Şti." step=".01">
                     </div>
                     <div class="col-sm-6">
-                        <input type="number" class="form-control" id="sirket6miktar" value="0.00" placeholder="0,00 TL">
+                        <input type="number" class="form-control" id="sirket6miktar" value="0.00" step=".01">
                     </div>
                 </div>
             </div>
             <div class="col-12" id="sirket7div">
                 <div class="form-group row">
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="sirket7" value="Şirket - 7 Ltd.Şti." placeholder="0,00 TL">
+                        <input type="text" class="form-control" id="sirket7" value="Şirket - 7 Ltd.Şti." step=".01">
                     </div>
                     <div class="col-sm-6">
-                        <input type="number" class="form-control" id="sirket6miktar" value="0.00" placeholder="0,00 TL">
+                        <input type="number" class="form-control" id="sirket6miktar" value="0.00" step=".01">
                     </div>
                 </div>
             </div>
             <div class="col-12" id="sirket8div">
                 <div class="form-group row">
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="sirket8" value="Şirket - 8 Ltd.Şti." placeholder="0,00 TL">
+                        <input type="text" class="form-control" id="sirket8" value="Şirket - 8 Ltd.Şti." step=".01">
                     </div>
                     <div class="col-sm-6">
-                        <input type="number" class="form-control" id="sirket8miktar" value="0.00" placeholder="0,00 TL">
+                        <input type="number" class="form-control" id="sirket8miktar" value="0.00" step=".01">
                     </div>
                 </div>
             </div>
             <div class="col-12" id="sirket9div">
                 <div class="form-group row">
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="sirket9" value="Şirket - 9 Ltd.Şti." placeholder="0,00 TL">
+                        <input type="text" class="form-control" id="sirket9" value="Şirket - 9 Ltd.Şti." step=".01">
                     </div>
                     <div class="col-sm-6">
-                        <input type="number" class="form-control" id="sirke9miktar" value="0.00" placeholder="0,00 TL">
+                        <input type="number" class="form-control" id="sirke9miktar" value="0.00" step=".01">
                     </div>
                 </div>
             </div>
             <div class="col-12" id="sirket10div">
                 <div class="form-group row">
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="sirket10" value="Şirket - 10 Ltd.Şti." placeholder="0,00 TL">
+                        <input type="text" class="form-control" id="sirket10" value="Şirket - 10 Ltd.Şti." step=".01">
                     </div>
                     <div class="col-sm-6">
-                        <input type="number" class="form-control" id="sirke10miktar" value="0.00" placeholder="0,00 TL">
+                        <input type="number" class="form-control" id="sirke10miktar" value="0.00" step=".01">
                     </div>
                 </div>
             </div>
             <div class="col-12" id="sirket11div">
                 <div class="form-group row">
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="sirket11" value="Şirket - 11 Ltd.Şti." placeholder="0,00 TL">
+                        <input type="text" class="form-control" id="sirket11" value="Şirket - 11 Ltd.Şti." step=".01">
                     </div>
                     <div class="col-sm-6">
-                        <input type="number" class="form-control" id="sirke11miktar" value="0.00" placeholder="0,00 TL">
+                        <input type="number" class="form-control" id="sirke11miktar" value="0.00" step=".01">
                     </div>
                 </div>
             </div>
             <div class="col-12" id="sirket12div">
                 <div class="form-group row">
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="sirket12" value="Şirket - 12 Ltd.Şti." placeholder="0,00 TL">
+                        <input type="text" class="form-control" id="sirket12" value="Şirket - 12 Ltd.Şti." step=".01">
                     </div>
                     <div class="col-sm-6">
-                        <input type="number" class="form-control" id="sirke12miktar" value="0.00" placeholder="0,00 TL">
+                        <input type="number" class="form-control" id="sirke12miktar" value="0.00" step=".01">
                     </div>
                 </div>
             </div>
@@ -174,7 +173,7 @@ layout: hesaplamalar
                     <div class="card-header text-center font-weight-bold text-success"> SONUÇ </div>
                     <div class="card-body">
                         <p class="card-text text-justify font-weight-bold">HÜKÜM: Gerekçesi yukarıda açıklandığı üzere;</p>
-                        <p class="card-text text-justify" id="yargilamadokum"></p>
+                        <p class="card-text text-justify" id="paylasimdokum"></p>
                     </div>
                 </div>
             </div>

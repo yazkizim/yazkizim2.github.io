@@ -1647,6 +1647,82 @@ $(document).ready(function(){
 	$( "#gidertemizle" ).click(function() {		
 		document.getElementById("yargilamagideriform").reset();			
 	})
+
+	$( "#paylasimtemizle" ).click(function() {		
+		document.getElementById("paylasimform").reset();			
+	})
+
+	$( "#paylasimhesapla" ).click(function() {
+		var paylastirilacakyargilama = document.getElementById('yargilamagideri').value;
+		var paylastirilacakvekalet = document.getElementById('vekaletucreti').value;
+		var paylastirilacakharclar = document.getElementById('harclar').value;
+		var oge;
+		var oran;
+		var payi;
+		var paytutari;
+		var sirketadi;
+		var eklenecekmetin;
+
+		var temelmetin = '';
+		var yargilamametin = "Davacı tarafından yapılan toplam  "+ paylastirilacakyargilama +" TL yargılama giderinin; ";
+		var vekaletmametin = "Davacı lehine hükmedilen toplam  "+ paylastirilacakvekalet +" TL vekalet ücretinin; ";
+		var harclarmametin = "Harçlar kanunu gereğince alınması gerekli toplam "+ paylastirilacakharclar +" TL'nin; ";
+
+		var toplamtutar;
+		var sirketmiktar = 'sirket';
+
+
+		var paylasimtxt = "4.790,00-TL'sinin Deneme1 Ltd. Şti. Aş'den, 4.790,00-TL'sinin Deneme2 Ltd. Şti. Aş'den";
+		var sonek ="alınarak davacıya verilmesine";		
+
+
+		for(var i = 1; el = document.getElementById(sirketmiktar + i + 'miktar'); i++) {
+			toplamtutar = (toplamtutar * 1) + (document.getElementById(sirketmiktar + i + 'miktar').value * 1);
+		}
+
+		if (paylastirilacakvekalet *1 > 0) {
+			for(var i=1; oge = document.getElementById(sirketmiktar + i + 'miktar').value ; i++) {
+				oran = (document.getElementById(sirketmiktar + i + 'miktar').value * 1) / (toplamtutar * 1);
+				paytutari = (paylastirilacakvekalet * 1) * (oran * 1);
+				sirketadi = document.getElementById(sirketmiktar + i).value;
+
+				if (oge * 1 > 0) {
+					eklenecekmetin = paytutari + " TL'sinin " + sirketadi + "'den, "
+				}				
+			}
+			temelmetin = temelmetin + vekaletmametin + eklenecekmetin + ' alınarak kendisini vekaletnameli vekil ile temsil ettiren davacıya verilmesine,\n\n';
+		}
+
+		if (paylastirilacakharclar *1 > 0) {
+			for(var i=1; oge = document.getElementById(sirketmiktar + i + 'miktar').value ; i++) {
+				oran = (document.getElementById(sirketmiktar + i + 'miktar').value * 1) / (toplamtutar * 1);
+				paytutari = (paylastirilacakharclar * 1) * (oran * 1);
+				sirketadi = document.getElementById(sirketmiktar + i).value;
+
+				if (oge * 1 > 0) {
+					eklenecekmetin = paytutari + " TL'sinin " + sirketadi + "'den, "
+				}				
+			}
+			temelmetin = temelmetin + harclarmametin + eklenecekmetin + ' alınarak hazineye irad kaydına,\n\n';
+		}
+
+		
+		if (paylastirilacakyargilama *1 > 0) {
+			for(var i=1; oge = document.getElementById(sirketmiktar + i + 'miktar').value ; i++) {
+				oran = (document.getElementById(sirketmiktar + i + 'miktar').value * 1) / (toplamtutar * 1);
+				paytutari = (paylastirilacakyargilama * 1) * (oran * 1);
+				sirketadi = document.getElementById(sirketmiktar + i).value;
+
+				if (oge * 1 > 0) {
+					eklenecekmetin = paytutari + " TL'sinin " + sirketadi + "'den, "
+				}				
+			}
+			temelmetin = temelmetin + yargilamametin + eklenecekmetin + ' alınarak davacıya verilmesine,\n\n';
+		}
+
+		document.getElementById('paylasimdokum').innerText = temelmetin;			
+		
+	})
 	
 
 	$( "#yenimaashesapla" ).click(function() {
