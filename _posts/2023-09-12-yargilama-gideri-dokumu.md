@@ -4,7 +4,7 @@ title:  "Mahkeme Masraf Dökümü Güncellemesi"
 summary: ""
 author: gokhantasci
 date: '2023-09-12 14:01:32 +0300'
-category: Sınav
+category: Güncelleme
 thumbnail: /assets/img/posts/guncelleme.jpg
 keywords: Mahkeme masrafları, mahkeme giderleri, yargılama giderleri, posta masrafları, bilirkişi masrafları, adliye masrafları, adliye cezası, mahkeme cezası
 permalink: /blog/mahkeme-masraf-dokumu-2023/
