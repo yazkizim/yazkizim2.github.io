@@ -7,7 +7,7 @@ layout: hesaplamalar
     <h3 class="card-title">Yargılama Gideri Dökümü Hesaplama</h3>
 </div>
 <div class="card-body">
-    <h4>Tebligatlar</h4>
+    <h5>Tebligatlar</h5>
     <div class="col-12">
         <div class="form-group row">
             <label for="yargilamagideri" class="col-sm-4 col-form-label">01/08/2023-halen</label>
@@ -53,9 +53,9 @@ layout: hesaplamalar
             </div>
         </div>
     </div>
-    <a class="btn btn-ligth" data-toggle="collapse" href="#eskitebligatlar" role="button" aria-expanded="true" aria-controls="collapseExample">
-        Daha eski yıllar
-    </a>            
+    <div class="col-12 text-center"> 
+        <a class="btn btn-ligth collapsed align-center" data-toggle="collapse" href="#eskitebligatlar" role="button" aria-expanded="false" aria-controls="collapseExample"> Daha eski yıllar </a> 
+    </div>           
     <div class="collapse" id="eskitebligatlar">
         <div class="col-12">
             <div class="form-group row">
@@ -175,7 +175,7 @@ layout: hesaplamalar
             </div>
         </div>
     </div>
-    <h4>Elektronik Tebligatlar</h4>
+    <h5>Elektronik Tebligatlar</h5>
     <div class="col-12">
         <div class="form-group row">
             <label for="yargilamagideri" class="col-sm-4 col-form-label">01/02/2023-halen</label>
@@ -212,7 +212,7 @@ layout: hesaplamalar
             </div>
         </div>
     </div>
-    <h4>Diğer Giderler</h4>
+    <h5>Diğer Giderler</h5>
     <div class="col-12">
         <div class="form-group row">
             <label for="yargilamagideri" class="col-sm-4 col-form-label">Posta Gideri</label>
@@ -255,8 +255,8 @@ layout: hesaplamalar
     </div>
 </div>
 <div class="card-footer">
-    <button type="button float-left" class="btn btn-outline-danger" id="harchesapla">Temizle</button>
-    <button type="button float-right" class="btn btn-outline-primary" id="harchesapla">Hesapla</button>
+    <button type="button float-left" class="btn btn-outline-danger" id="gidertemizle">Temizle</button>
+    <button type="button float-right" class="btn btn-outline-primary" id="giderhesapla">Hesapla</button>
 </div>
 
 <div class="row justify-content-center">
@@ -265,8 +265,7 @@ layout: hesaplamalar
             <div class="card border-primary mb-3">
                 <div class="card-header text-center font-weight-bold text-danger"> SONUÇ </div>
                 <div class="card-body">
-                    <p class="card-text text-justify font-weight-bold">YARGILAMA GİDERİ DÖKÜMÜ</p>
-                    <p class="card-text text-justify font-weight-bold">=======================</p>
+                    <p class="card-text text-justify font-weight-bold">YARGILAMA GİDERİ DÖKÜMÜ<br>==========================</p>
                     <p class="card-text text-justify" id="yargilamadokum"></p>
                 </div>
             </div>

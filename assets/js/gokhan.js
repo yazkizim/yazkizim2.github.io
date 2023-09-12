@@ -1576,6 +1576,23 @@ $(document).ready(function(){
 		
 	})
 
+	$( "#giderhesapla" ).click(function() {
+		var el;
+		var tebligatprefix = 'gteb';
+		var tebligatgiderprefix = 'gteb';
+		
+		var etebligatprefix = 'gteb';
+		var tebligatsayisi = 0;
+
+		for(var i = 1; el = document.getElementById(prefix + i); i++) {
+			tebligatsayisi = (tebligatsayisi * 1) + (document.getElementById(prefix + i).value * 1)
+		}		
+				
+		
+	})
+
+	
+
 	$( "#yenimaashesapla" ).click(function() {
 		
 		yenimaashesapla();		
