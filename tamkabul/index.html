@@ -1,0 +1,115 @@
+---
+title: Vekalet Ücreti Hesaplama
+layout: hesaplamalar
+---
+
+<div class="card-header">
+    <h3 class="card-title">Dava - Tam Kabul</h3>
+  </div>
+  <div class="card-body">
+    <div class="mb-3">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="davacibrdenfazla">
+        <label class="form-check-label" for="davacibrdenfazla">
+          Davacı birden fazla mı?
+        </label>
+      </div>
+    </div>
+    <div class="mb-3">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="davacivekili" checked>
+        <label class="form-check-label" for="davacivekili">
+          Davacı vekili var mı?
+        </label>
+      </div>
+    </div>
+    <hr class="hr hr-blurry" />
+    <div class="mb-3">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="davalibirdenfazla">
+        <label class="form-check-label" for="davalibirdenfazla">
+          Davalı birden fazla mı?
+        </label>
+      </div>
+    </div>
+    <div class="mb-3">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="davalimuaf">
+        <label class="form-check-label" for="davalimuaf">
+          Davalı harçtan muaf mı?
+        </label>
+      </div>
+    </div>
+    <hr class="hr hr-blurry" />
+    <div class="mb-3">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="davapara">
+        <label class="form-check-label" for="davapara">
+          Para ile ölçülebilen bir dava mı?
+        </label>
+      </div>
+    </div>
+    <hr class="hr hr-blurry" />
+    <div class="mb-3">
+      <label class="form-label required">Başvuru Harcı</label>
+      <div>
+        <input type="number" class="form-control col-6" data-type="currency" placeholder="Kabul edilen değeri giriniz" value="269.85" name="basvuruharci">
+        </small>
+      </div>
+    </div>
+    <div class="mb-3">
+      <label class="form-label required">Peşin/Nisbi Harç</label>
+      <div>
+        <input type="number" class="form-control col-6" data-type="currency" placeholder="Kabul edilen değeri giriniz" value="269.85" name="basvuruharci">
+        </small>
+      </div>
+    </div>
+    <div class="mb-3">
+      <label class="form-label required">Tamamlama Harcı</label>
+      <div>
+        <input type="number" class="form-control col-6" data-type="currency" placeholder="Kabul edilen değeri giriniz" value="0.00" name="tamamlamaharci">
+        </small>
+      </div>
+    </div>
+    <div class="mb-3">
+      <label class="form-label required">Islah Harcı</label>
+      <div>
+        <input type="number" class="form-control col-6" data-type="currency" placeholder="Kabul edilen değeri giriniz" value="0.00" name="islahharci">
+        </small>
+      </div>
+    </div>
+    <div class="mb-3">
+      <label class="form-label required">Keşif Harcı</label>
+      <div>
+        <input type="number" class="form-control col-6" data-type="currency" placeholder="Kabul edilen değeri giriniz" value="1912.35" name="kesifharci">
+        </small>
+      </div>
+    </div>
+    <div class="mb-3">
+      <label class="form-label required">Bilirkişi Ücretleri</label>
+      <div>
+        <input type="number" class="form-control col-6" data-type="currency" placeholder="Kabul edilen değeri giriniz" value="960" name="bilirkisiucreti">
+        </small>
+      </div>
+    </div>
+    <div class="mb-3">
+      <label class="form-label required">Tebligat, Posta ve Sair Masraf</label>
+      <div>
+        <input type="number" class="form-control col-6" data-type="currency" placeholder="Kabul edilen değeri giriniz" value="0.00" name="tebligatmasraf">
+        </small>
+      </div>
+    </div>
+    <div class="card-footer">
+       <button type="button float-right" class="btn btn-outline-primary" id="harchesapla">Hesapla</button>
+    </div>
+  </div>
+  <div class="col-12">
+      <div class="card border-primary mb-3" style="max-width: 18rem;">
+        <div class="card-header card text-white bg-primary text-center">
+          KARAR
+        </div>
+        <div class="card-body">
+          <p class="card-text">HÜKÜM: Yukarıda açıklanan nedenlerle;</p>
+        </div>
+      </div>
+  </div>
