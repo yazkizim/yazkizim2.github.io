@@ -1610,7 +1610,7 @@ $(document).ready(function(){
 		}
 
 		if (etebtoplam * 1 > 0) {
-			htmlmetin = htmlmetin + etebligatsayisi + ' adet Tebligat Gideri :' + etebtoplam + ' TL\n'
+			htmlmetin = htmlmetin + etebligatsayisi + ' adet E-Tebligat Gideri :' + etebtoplam + ' TL\n'
 			toplam = (toplam * 1) + (etebtoplam *1);
 		}
 
