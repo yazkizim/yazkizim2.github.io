@@ -1579,17 +1579,72 @@ $(document).ready(function(){
 	$( "#giderhesapla" ).click(function() {
 		var el;
 		var tebligatprefix = 'gteb';
-		var tebligatgiderprefix = 'gteb';
-		
-		var etebligatprefix = 'gteb';
+		var tebligatgiderprefix = 'uteb';
+		var etebligatprefix = 'geteb';
+		var etebligatgiderprefix = 'ueteb';
 		var tebligatsayisi = 0;
+		var tebtoplam = 0;
+		var etebligatsayisi = 0;
+		var etebtoplam = 0;
+		var htmlmetin = '';
+		var postagideri = document.getElementById('postagideri').value;
+		var atkgideri = document.getElementById('atkgideri').value;
+		var kesifgideri = document.getElementById('kesifgideri').value;
+		var uzlasmagideri = document.getElementById('uzlasmagideri').value;
+		var bilirkisigideri = document.getElementById('bilirkisigideri').value;
+		var toplam = 0;
 
-		for(var i = 1; el = document.getElementById(prefix + i); i++) {
-			tebligatsayisi = (tebligatsayisi * 1) + (document.getElementById(prefix + i).value * 1)
-		}		
-				
+		for(var i = 1; el = document.getElementById(tebligatprefix + i); i++) {
+			tebligatsayisi = (tebligatsayisi * 1) + (document.getElementById(tebligatprefix + i).value * 1);
+			tebtoplam = (tebtoplam * 1) + (document.getElementById(tebligatprefix + i).value * document.getElementById(tebligatgiderprefix + i).value);
+		}	
+
+		if (tebtoplam * 1 > 0) {
+			htmlmetin = htmlmetin + tebligatsayisi + ' adet Tebligat Gideri :' + tebtoplam + ' TL\n'
+			toplam = (toplam * 1) + (tebtoplam *1);
+		}
+		
+		for(var i = 1; el = document.getElementById(etebligatprefix + i); i++) {
+			etebligatsayisi = (etebligatsayisi * 1) + (document.getElementById(etebligatprefix + i).value * 1);
+			etebtoplam = (etebtoplam * 1) + (document.getElementById(etebligatprefix + i).value * document.getElementById(etebligatgiderprefix + i).value);
+		}
+
+		if (etebtoplam * 1 > 0) {
+			htmlmetin = htmlmetin + etebligatsayisi + ' adet Tebligat Gideri :' + etebtoplam + ' TL\n'
+			toplam = (toplam * 1) + (etebtoplam *1);
+		}
+
+		if (postagideri * 1 > 0) {
+			htmlmetin = htmlmetin + 'Posta Gideri :' + postagideri + ' TL\n'
+			toplam = (toplam * 1) + (postagideri *1);
+		}
+
+		if (atkgideri * 1 > 0) {
+			htmlmetin = htmlmetin + 'ATK Gideri :' + atkgideri + ' TL\n'
+			toplam = (toplam * 1) + (atkgideri *1);
+		}
+
+		if (kesifgideri * 1 > 0) {
+			htmlmetin = htmlmetin + 'Keşif Gideri :' + kesifgideri + ' TL\n'
+			toplam = (toplam * 1) + (kesifgideri *1);
+		}
+
+		if (uzlasmagideri * 1 > 0) {
+			htmlmetin = htmlmetin + 'Uzlaşma Gideri :' + uzlasmagideri + ' TL\n'
+			toplam = (toplam * 1) + (uzlasmagideri *1);
+		}
+
+		if (bilirkisigideri * 1 > 0) {
+			htmlmetin = htmlmetin + 'Bilirkişi Gideri :' + bilirkisigideri + ' TL\n'
+			toplam = (toplam * 1) + (uzlasmagideri *1);
+		}
+
+		htmlmetin = htmlmetin + "--------------------------\n" + "TOPLAM : " + toplam + " TL";
+		document.getElementById('yargilamadokum').innerText = htmlmetin;			
 		
 	})
+
+	document.getElementById("gokhan").reset();
 
 	
 
