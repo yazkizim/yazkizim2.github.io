@@ -1661,6 +1661,7 @@ $(document).ready(function(){
 
 	
 	$( "#sozmaashesapla" ).click(function() {
+		$('form > input:hidden').attr("disabled",true);
 		
 		var aylik_gosterge = window.katsayilar[1].aylik_katsayi;		
 		var taban_ayligi_katsayisi = window.katsayilar[1].taban_ayligi_katsayi;
