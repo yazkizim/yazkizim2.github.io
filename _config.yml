@@ -28,7 +28,7 @@ tarifeler:
 
 hesaplamalar:  
     - text: Yargılama Gideri Dökümü
-      url: /yargilamagideridokumu/?uteb18=87&uteb17=58&uteb15=42&uteb15=31&uteb14=26&uteb13=19&uteb12=16.2&uteb11=14&uteb10=12.5&uteb9=11&uteb8=10&uteb7=9&uteb6=9&uteb5=8&uteb4=7&uteb3=6&uteb2=5&uteb1=4.5&ueteb4=10&ueteb3=9&ueteb2=6.5&ueteb1=5.5#/    
+      url: /yargilamagideridokumu
     - text: Islah Harcı Hesaplama
       url: /islahharci
     - text: Vekalet Ücreti Hesaplama (Nispi)  
