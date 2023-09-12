@@ -10,43 +10,55 @@ layout: hesaplamalar
     <div class="mb-3">
       <div class="form-check">
         <input class="form-check-input" type="checkbox" value="" id="davacibrdenfazla">
-        <label class="form-check-label" for="davacibrdenfazla">
-          Davacı birden fazla mı?
-        </label>
+        <label class="form-check-label" for="davacibrdenfazla"> Davacı birden fazla mı? </label>
       </div>
     </div>
     <div class="mb-3">
       <div class="form-check">
         <input class="form-check-input" type="checkbox" value="" id="davacivekili" checked>
-        <label class="form-check-label" for="davacivekili">
-          Davacı vekili var mı?
-        </label>
+        <label class="form-check-label" for="davacivekili"> Davacı vekili var mı? </label>
       </div>
     </div>
     <hr class="hr hr-blurry" />
     <div class="mb-3">
       <div class="form-check">
         <input class="form-check-input" type="checkbox" value="" id="davalibirdenfazla">
-        <label class="form-check-label" for="davalibirdenfazla">
-          Davalı birden fazla mı?
-        </label>
+        <label class="form-check-label" for="davalibirdenfazla"> Davalı birden fazla mı? </label>
       </div>
     </div>
     <div class="mb-3">
       <div class="form-check">
         <input class="form-check-input" type="checkbox" value="" id="davalimuaf">
-        <label class="form-check-label" for="davalimuaf">
-          Davalı harçtan muaf mı?
-        </label>
+        <label class="form-check-label" for="davalimuaf"> Davalı harçtan muaf mı? </label>
       </div>
     </div>
     <hr class="hr hr-blurry" />
     <div class="mb-3">
       <div class="form-check">
+        <input class="form-check-input" type="radio" name="kabuldurumu" id="tamkabul" checked>
+        <label class="form-check-label" for="tamkabul"> Tam Kabul </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="kabuldurumu" id="kismikabul">
+        <label class="form-check-label" for="kismikabul"> Kısmen Kabul Kısmen Ret </label>
+      </div>
+      <div class="form-check">
         <input class="form-check-input" type="checkbox" value="" id="davapara">
-        <label class="form-check-label" for="davapara">
-          Para ile ölçülebilen bir dava mı?
-        </label>
+        <label class="form-check-label" for="davapara"> Para ile ölçülebilen bir dava mı? </label>
+      </div>
+      <div id="davaedilendiv">
+        <label class="form-label required">Dava edilen miktar</label>
+        <div>
+          <input type="number" class="form-control col-6" data-type="currency" placeholder="Kabul edilen değeri giriniz" value="0.00" name="davamiktar" id="davamiktar">
+          </small>
+        </div>
+      </div>
+      <div id="kabuledilendiv">
+        <label class="form-label required">Kabul edilen miktar (Dava Değeri)</label>
+        <div>
+          <input type="number" class="form-control col-6" data-type="currency" placeholder="Kabul edilen değeri giriniz" value="0.00" name="kabulmiktar" id="kabulmiktar">
+          </small>
+        </div>
       </div>
     </div>
     <hr class="hr hr-blurry" />
@@ -56,43 +68,31 @@ layout: hesaplamalar
         <input type="number" class="form-control col-6" data-type="currency" placeholder="Kabul edilen değeri giriniz" value="269.85" name="basvuruharci">
         </small>
       </div>
-    </div>
-    <div class="mb-3">
       <label class="form-label required">Peşin/Nisbi Harç</label>
       <div>
         <input type="number" class="form-control col-6" data-type="currency" placeholder="Kabul edilen değeri giriniz" value="269.85" name="basvuruharci">
         </small>
       </div>
-    </div>
-    <div class="mb-3">
       <label class="form-label required">Tamamlama Harcı</label>
       <div>
         <input type="number" class="form-control col-6" data-type="currency" placeholder="Kabul edilen değeri giriniz" value="0.00" name="tamamlamaharci">
         </small>
       </div>
-    </div>
-    <div class="mb-3">
       <label class="form-label required">Islah Harcı</label>
       <div>
         <input type="number" class="form-control col-6" data-type="currency" placeholder="Kabul edilen değeri giriniz" value="0.00" name="islahharci">
         </small>
       </div>
-    </div>
-    <div class="mb-3">
       <label class="form-label required">Keşif Harcı</label>
       <div>
         <input type="number" class="form-control col-6" data-type="currency" placeholder="Kabul edilen değeri giriniz" value="1912.35" name="kesifharci">
         </small>
       </div>
-    </div>
-    <div class="mb-3">
       <label class="form-label required">Bilirkişi Ücretleri</label>
       <div>
         <input type="number" class="form-control col-6" data-type="currency" placeholder="Kabul edilen değeri giriniz" value="960" name="bilirkisiucreti">
         </small>
       </div>
-    </div>
-    <div class="mb-3">
       <label class="form-label required">Tebligat, Posta ve Sair Masraf</label>
       <div>
         <input type="number" class="form-control col-6" data-type="currency" placeholder="Kabul edilen değeri giriniz" value="0.00" name="tebligatmasraf">
@@ -100,18 +100,21 @@ layout: hesaplamalar
       </div>
     </div>
     <div class="card-footer">
-       <button type="button float-right" class="btn btn-outline-primary" id="harchesapla">Hesapla</button>
+      <button type="button float-right" class="btn btn-outline-primary" id="harchesapla">Hesapla</button>
     </div>
   </div>
-</div>
-
-  <div class="col-12">
-      <div class="card border-primary mb-3" style="max-width: 18rem;">
-        <div class="card-header card text-white bg-primary text-center">
-          KARAR
-        </div>
-        <div class="card-body">
-          <p class="card-text">HÜKÜM: Yukarıda açıklanan nedenlerle;</p>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-lg-12">
+      <div class="card">
+        <div class="col-md-8 offset-md-2">
+          <div class="card border-primary mb-3" style="max-width: 18rem;">
+            <div class="card-header text-center"> KARAR </div>
+            <div class="card-body">
+              <p class="card-text">HÜKÜM: Yukarıda açıklanan nedenlerle;</p>
+            </div>
+          </div>
         </div>
       </div>
+    </div>
   </div>
