@@ -36,6 +36,10 @@ function listGroupcClick($this,  $alias) {
     console.log($alias);  // Will output whatever is in data-alias=""
 }
 
+function binler(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
 function maashesapla(){
 		if ($('#hesaplama').val() > 0) {
 			var aylik_gosterge = window.katsayilar[8].aylik_katsayi / 30 * 14;		
@@ -1664,9 +1668,9 @@ $(document).ready(function(){
 		var eklenecekmetin = '';
 
 		var temelmetin = '';
-		var yargilamametin = "Davacı tarafından yapılan toplam  "+ paylastirilacakyargilama +" TL yargılama giderinin; ";
-		var vekaletmametin = "Davacı lehine hükmolunan toplam  "+ paylastirilacakvekalet +" TL vekalet ücretinin; ";
-		var harclarmametin = "Harçlar kanunu uyarınca alınması gereken toplam "+ paylastirilacakharclar +" TL'nin; ";
+		var yargilamametin = "- Davacı tarafından yapılan toplam  "+ binler((paylastirilacakyargilama * 1).toFixed(2)) +" TL yargılama giderinin; ";
+		var vekaletmametin = "- Davacı lehine hükmolunan toplam  "+ binler((paylastirilacakvekalet * 1).toFixed(2)) +" TL vekalet ücretinin; ";
+		var harclarmametin = "- Harçlar kanunu uyarınca alınması gereken toplam "+ binler((paylastirilacakharclar * 1).toFixed(2)) +" TL'nin; ";
 
 		var toplamtutar = 0;
 		var sirketmiktar = 'sirket';
@@ -1680,20 +1684,21 @@ $(document).ready(function(){
 			toplamtutar = (toplamtutar * 1) + (document.getElementById(sirketmiktar + i + 'miktar').value * 1);
 		}
 
-		if (paylastirilacakvekalet *1 > 0) {
-			eklenecekmetin = '';
+		eklenecekmetin = '';
+		if (paylastirilacakvekalet *1 > 0) {			
 			for(var i=1; oge = document.getElementById(sirketmiktar + i + 'miktar') ; i++) {
 				oran = (document.getElementById(sirketmiktar + i + 'miktar').value * 1) / (toplamtutar * 1);
 				paytutari = (paylastirilacakvekalet * 1) * (oran * 1);
 				sirketadi = document.getElementById(sirketmiktar + i).value;
 
 				if (oran * 1 > 0) {
-					eklenecekmetin = paytutari.toFixed(2) + " TL'sinin " + sirketadi + "'den, "
+					eklenecekmetin = eklenecekmetin + paytutari.toFixed(2) + " TL'sinin " + sirketadi + "'den, "
 				}				
 			}
 			temelmetin = temelmetin + vekaletmametin + eklenecekmetin + ' alınarak kendisini vekaletnameli vekil ile temsil ettiren davacıya verilmesine,\n\n';
 		}
 
+		eklenecekmetin = '';
 		if (paylastirilacakharclar *1 > 0) {
 			eklenecekmetin = '';
 			for(var i=1; oge = document.getElementById(sirketmiktar + i + 'miktar') ; i++) {
@@ -1702,13 +1707,14 @@ $(document).ready(function(){
 				sirketadi = document.getElementById(sirketmiktar + i).value;
 
 				if (oran * 1 > 0) {
-					eklenecekmetin = paytutari.toFixed(2) + " TL'sinin " + sirketadi + "'den, "
+					eklenecekmetin = eklenecekmetin + paytutari.toFixed(2) + " TL'sinin " + sirketadi + "'den, "
 				}				
 			}
 			temelmetin = temelmetin + harclarmametin + eklenecekmetin + ' alınarak hazineye irad kaydına,\n\n';
 		}
 
 		
+		eklenecekmetin = '';
 		if (paylastirilacakyargilama *1 > 0) {
 			eklenecekmetin = '';
 			for(var i=1; oge = document.getElementById(sirketmiktar + i + 'miktar') ; i++) {
@@ -1717,7 +1723,7 @@ $(document).ready(function(){
 				sirketadi = document.getElementById(sirketmiktar + i).value;
 
 				if (oran * 1 > 0) {
-					eklenecekmetin = paytutari.toFixed(2) + " TL'sinin " + sirketadi + "'den, "
+					eklenecekmetin = eklenecekmetin + paytutari.toFixed(2) + " TL'sinin " + sirketadi + "'den, "
 				}				
 			}
 			temelmetin = temelmetin + yargilamametin + eklenecekmetin + ' alınarak davacıya verilmesine,\n\n';
