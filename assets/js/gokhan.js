@@ -1686,7 +1686,7 @@ $(document).ready(function(){
 				paytutari = (paylastirilacakvekalet * 1) * (oran * 1);
 				sirketadi = document.getElementById(sirketmiktar + i).value;
 
-				if (oge * 1 > 0) {
+				if (oran * 1 > 0) {
 					eklenecekmetin = paytutari + " TL'sinin " + sirketadi + "'den, "
 				}				
 			}
@@ -1699,7 +1699,7 @@ $(document).ready(function(){
 				paytutari = (paylastirilacakharclar * 1) * (oran * 1);
 				sirketadi = document.getElementById(sirketmiktar + i).value;
 
-				if (oge * 1 > 0) {
+				if (oran * 1 > 0) {
 					eklenecekmetin = paytutari + " TL'sinin " + sirketadi + "'den, "
 				}				
 			}
@@ -1713,7 +1713,7 @@ $(document).ready(function(){
 				paytutari = (paylastirilacakyargilama * 1) * (oran * 1);
 				sirketadi = document.getElementById(sirketmiktar + i).value;
 
-				if (oge * 1 > 0) {
+				if (oran * 1 > 0) {
 					eklenecekmetin = paytutari + " TL'sinin " + sirketadi + "'den, "
 				}				
 			}
