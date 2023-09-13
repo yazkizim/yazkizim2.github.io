@@ -3,7 +3,7 @@ layout: page
 title: Güncelleme
 permalink: /blog/categories/Güncelleme/
 ---
-
+ 
 <h5> {{ page.title }} </h5>
 
 <div class="card">
