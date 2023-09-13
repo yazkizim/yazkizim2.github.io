@@ -18,7 +18,7 @@ layout: default
                                   <p class="card-text">{{ post.excerpt }} </p>
 
                                   <a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" class="btn btn-dark btn-lg">Oku</a>
-                                  <span class="disqus-comment-count" data-disqus-identifier="{{ post.url }}"></span>
+                                  <span class="disqus-comment-count" data-disqus-identifier="{{site.url}}{{ post.url }}"></span>
 
                               </div>
                           </div>
