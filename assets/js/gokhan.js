@@ -963,7 +963,7 @@ $(document).ready(function(){
 			"lengthMenu": [[10, 25, 50, 100, -1], [10, 25, 50, 100, "Hepsi"]],
 			"dom": '<"topleft"PlBf><"dataTables_filter">rt<"bottom"lip><"clear">',
 			"paging": true,
-			"pageLength": 50,
+			"pageLength": 10,
 			"bAutoWidth": false, 
 			"aoColumns" : [
 				{ "sWidth": "15%" },
