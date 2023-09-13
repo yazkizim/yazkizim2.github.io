@@ -1768,6 +1768,8 @@ $(document).ready(function(){
 		hesaplananfark = hesaplananfark * 100;
 		hesaplananfark = hesaplananfark - 100;
 		hesaplananfark = hesaplananfark.toFixed(2);
+
+		let kumulatifenf = document.getElementById('tszam').value * (1+ (hesaplaanfark /100));
 		
 
 		document.getElementById('enffark').innerText = "6.Dönem sözleşmesi uyarınca 2023 yılı Temmuz ayında maaşlara %6 zam yapılmıştır\n"
@@ -1776,7 +1778,9 @@ $(document).ready(function(){
 		+ "Yapılan hesaplamalar neticesinde 2003=100 endeksi, " + (eklenecekrakam *1).toFixed(2) + " olacağı değerlendirilmiştir.\n\n"
 		+ "Bu bilgiler ışığında;\n\n"
 		+ "Toplu sözleşme sonrası oluşan enflasyonun %" + toplamenf.toFixed(2) + " olduğu,\n\n"
-		+ "Oluşacak enflasyon farkı : %" + hesaplananfark + ' olacaktır.';		
+		+ "Oluşacak enflasyon farkı : %" + hesaplananfark + ' olacaktır.\n\n'
+		+ "Bu hesaplamalar doğrultusunda %" + toplamenf.toFixed(2) +" enflasyon farkına " + " 7.Dönem Toplu sözleşmesindeki %" + document.getElementById('tszam').value 
+		+ " ilave edilmesi halinde toplam %" + kumulatifenf.toFixed(2) + " kümülatif zam meydana geleceği değerlendirilmektedir.";		
 	})
 
 	$( "#paylasimhesapla" ).click(function() {

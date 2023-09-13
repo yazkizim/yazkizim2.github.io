@@ -8,6 +8,10 @@ keywords: memur enflasyon farkı, toplu sözleşme, enflasyon nasıl hesaplanır
   <h3 class="card-title">Enflasyon Farkı Hesaplama Yöntemi</h3>
 </div>
 <div class="card-body">
+    <div class="alert alert-warning" role="alert">
+        Enflasyon sütununa beklenen rakamları yazdığınızda oluşacak enflasyon farkını ve kümülatif artışı hesaplamaktadır. 
+        <br><br>Bu rakamların maaşlara etkisini görmek için <code class="highlighter-rouge">Maaş Menüsünü</code> kullanınız.
+    </div>
   <form id="enffarkform" data-gtm-form-interact-id="0">
       <div class="form-group row">
           <label for="yargilamagideri" class="col-sm-3 col-form-label">2003=100 Haziran</label>
@@ -78,7 +82,15 @@ keywords: memur enflasyon farkı, toplu sözleşme, enflasyon nasıl hesaplanır
           <div class="col-sm-3">
               <input type="number" id="6aye" class="form-control" value="0" step=".01">
           </div>
-      </div>
+      </div>      
+      <div class="form-group row">
+        <label for="yargilamagideri" class="col-sm-3 col-form-label"></label>
+        <label for="yargilamagideri" class="col-sm-3 col-form-label"></label>
+        <label for="yargilamagideri" class="col-sm-3 col-form-label">2024 Ocak Toplu Sözleşme</label>
+        <div class="col-sm-3">
+            <input type="number" id="tszam" class="form-control" value="15" step=".01" disabled>
+        </div>
+    </div>
 </div>
 <div class="card-body d-flex align-items-center justify-content-center h-100">
   <label id="hesapsonuc" name="hesapsonuc" class="text-justify mh-25">
