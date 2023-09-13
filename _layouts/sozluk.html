@@ -11,35 +11,5 @@ layout: default
         </div>       
 </div>
 
-        <script type="text/javascript">
-
-                $("#kelime").html('Hukuk Sözlüğü');
-
-                function gup( name, url ) {
-                        if (!url) url = decodeURI(location.href);
-                        name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
-                        var regexS = "[\\?&]"+name+"=([^&#]*)";
-                        var regex = new RegExp( regexS );
-                        var results = regex.exec( url );
-                        return results == null ? null : results[1];
-                }
-
-                gelen = gup('kelime');
-
-
-                $.ajax({
-                        url: "../dist/sozluk.json",
-                        dataType: 'json',
-                        async: false,
-                        success: function(data) {
-                                kelime = data.filter(a => a.kelime == gelen);
-                                $("#kelime").html('<h1><strong>' + kelime[0].kelime + ' anlamı nedir? </strong></h1><br>' + kelime[0].anlami);	
-                        }
-                });
-                
-                
-        
-        </script>    
-        
         
         
