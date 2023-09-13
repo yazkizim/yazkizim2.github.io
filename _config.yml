@@ -201,6 +201,8 @@ defaults:
       type: sozluk
     values:
       layout: sozluk
+      kelime: "kelime"
+      anlami: "anlami"
       permalink: /sozluk/:slug
 
 # Build settings
