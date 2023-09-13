@@ -16,11 +16,11 @@ gem "github-pages", group: :jekyll_plugins
 group :jekyll_plugins do
     # gem 'devlopr', '~> 0.4.5'
     gem 'jgd', '~> 1.12'
-    gem 'jekyll-feed', '~> 0.17.0'
+    gem 'jekyll-feed'
     gem 'jekyll-paginate', '~> 1.1.0'
     gem 'jekyll-gist', '~> 1.5.0'
-    gem 'jekyll-seo-tag', '~> 2.8.0'
-    gem 'jekyll-sitemap', '~> 1.4'
+    gem 'jekyll-seo-tag'
+    gem 'jekyll-sitemap'
     gem 'jekyll-admin', '~> 0.11.1'
     gem 'jekyll_custom_permalink', '~> 0.0'
 end
