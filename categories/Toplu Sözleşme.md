@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Sınav
-permalink: /blog/categories/Sınav/
+title: Toplu Sözleşme
+permalink: /blog/categories/Toplu Sözleşme/
 ---
 
 <h5> {{ page.title }} </h5>

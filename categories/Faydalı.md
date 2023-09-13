@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Sınav
-permalink: /blog/categories/Sınav/
+title: Faydalı
+permalink: /blog/categories/Faydalı/
 ---
 
 <h5> {{ page.title }} </h5>
