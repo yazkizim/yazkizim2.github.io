@@ -31,7 +31,7 @@
 
               </div>
               <div id="article-link">
-                  <p class="recent-article-link">{{post.title}} <span style="color: #ccc; font-size: 15px;"><i></i><br>{{ post.excerpt | truncatewords: 10}}</span></p>
+                  <p class="recent-article-link">{{post.title}} <span style="color: #ccc; font-size: 15px;"><i></i><br>{{ post.excerpt | truncatewords: 10}}</p>
                 </div>
                 <div id="article-alert">
                 {% for cat in post.category limit:1 %}
