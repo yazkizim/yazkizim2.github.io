@@ -1771,9 +1771,9 @@ $(document).ready(function(){
 		
 
 		document.getElementById('enffark').innerText = "6.Dönem sözleşmesi uyarınca 2023 yılı Temmuz ayında maaşlara %6 zam yapılmıştır\n"
-		+ "Enflasyon farkı hesabında TÜİK tarafından açıklanan 2003=100 TÜFE temel alınmaktadır.\n" 
-		+ "2003 yılı Haziran ayında 2003=100, " + (temel2003 *1).toFixed(2) + " olduğu görülmektedir.\n"
-		+ "Yapılan hesaplamalar neticesinde 2003=100, " + (eklenecekrakam *1).toFixed(2) + " olacağı değerlendirilmiştir.\n\n"
+		+ "Enflasyon farkı hesabında TÜİK tarafından açıklanan 2003=100 endeksi temel alınmaktadır.\n" 
+		+ "2003 yılı Haziran ayında 2003=100 endeksi, " + (temel2003 *1).toFixed(2) + " olduğu görülmektedir.\n"
+		+ "Yapılan hesaplamalar neticesinde 2003=100 endeksi, " + (eklenecekrakam *1).toFixed(2) + " olacağı değerlendirilmiştir.\n\n"
 		+ "Bu bilgiler ışığında;\n\n"
 		+ "Toplu sözleşme sonrası oluşan enflasyonun %" + toplamenf.toFixed(2) + " olduğu,\n\n"
 		+ "Oluşacak enflasyon farkı : %" + hesaplananfark + ' olacaktır.';		
