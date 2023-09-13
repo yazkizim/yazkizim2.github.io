@@ -1,19 +1,19 @@
 ---
 layout: post
-title:  "2023 Katip Maaşları"
+title:  "2023 Katip (İcra) Maaşları"
 summary: ""
 author: gokhantasci
 date: '2023-07-15 09:01:24 +0530'
 category: İlan
 thumbnail: /assets/img/posts/maas.jpg
-keywords: Katip Maaşı 2023, Adalet Bakanlığı, Zabıt Katibi Maaşı, en düşük Zabıt Katibi Maaşı, sözleşmeli katip maaşı, sözleşmeli Zabıt Katibi Maaşı, Yargıtay, Zabıt Katibi Alımı Ne Zaman, katip nedir?, katip nasıl olunur, katiplik şartları, Zabıt Katibi ne iş yapar?
-permalink: /blog/katip-maasi-2023
+keywords: Katip (İcra) Maaşı 2023, Adalet Bakanlığı, Zabıt Katibi Maaşı, en düşük Zabıt Katibi Maaşı, sözleşmeli Katip (İcra) maaşı, sözleşmeli Zabıt Katibi Maaşı, Yargıtay, Zabıt Katibi Alımı Ne Zaman, Katip (İcra) nedir?, Katip (İcra) nasıl olunur, Katip (İcra)lik şartları, Zabıt Katibi ne iş yapar?
+permalink: /blog/icra-katibi-maasi-2023
 usemathjax: true
 posttype: news
 ---
 
 Adalet Bakanlığı Personel Genel Müdürlüğü tüm ülke genelinde zaman zaman alım için ilana çıkmaktadır.
-Bu ilanlarda Zabıt Katipliği için genel ve özel şartlar yer almaktadır.
+Bu ilanlarda İcra Katipliği için genel ve özel şartlar yer almaktadır.
 
 Bu özel şartlar yayınlanan ilanlara göre değişiklik gösterebilmektedir. 
 Adalet Bakanlığı bünyesinde yapılan alımlar için <b>Özel Şartlar</b>
@@ -77,8 +77,8 @@ Yukarıdaki bilgilerden sonra gelelim en düşük ve en yüksek Zabıt Katibi ma
     <td class="tg-0pky">İstanbul / İzmir /Ankara'da oturan</td>
   </tr>
   <tr>
-    <td class="tg-c3ow"><span style="font-weight:bold">Maaş : </span><span style="font-weight:bold;color:#FE0000">21898.50 ₺</span></td>
-    <td class="tg-c3ow"><span style="font-weight:bold">Maaş : </span><span style="font-weight:bold;color:#32CB00">30920.25 ₺</span></td>
+    <td class="tg-c3ow"><span style="font-weight:bold">Maaş : </span><span style="font-weight:bold;color:#FE0000">21802.23 ₺</span></td>
+    <td class="tg-c3ow"><span style="font-weight:bold">Maaş : </span><span style="font-weight:bold;color:#32CB00">29150.73 ₺</span></td>
   </tr>
 </tbody>
 </table>

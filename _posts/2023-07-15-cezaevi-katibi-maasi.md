@@ -1,22 +1,24 @@
 ---
 layout: post
-title:  "2023 Katip Maaşları"
+title:  "2023 Cezaevi Katibi Maaşları"
 summary: ""
 author: gokhantasci
 date: '2023-07-15 09:01:24 +0530'
 category: İlan
 thumbnail: /assets/img/posts/maas.jpg
-keywords: Katip Maaşı 2023, Adalet Bakanlığı, Zabıt Katibi Maaşı, en düşük Zabıt Katibi Maaşı, sözleşmeli katip maaşı, sözleşmeli Zabıt Katibi Maaşı, Yargıtay, Zabıt Katibi Alımı Ne Zaman, katip nedir?, katip nasıl olunur, katiplik şartları, Zabıt Katibi ne iş yapar?
-permalink: /blog/katip-maasi-2023
+keywords: Cezaevi Katibi Maaşı 2023, Adalet Bakanlığı, Cezaevi Katibi Maaşı, en düşük Cezaevi Katibi Maaşı, sözleşmeli Cezaevi Katibi Maaşı, sözleşmeli Cezaevi Katibi Maaşı, Yargıtay, Cezaevi Katibi Alımı Ne Zaman, katip nedir?, katip nasıl olunur, katiplik şartları, Cezaevi Katibi ne iş yapar?, gardiyan ne iş yapar, gardiyan maaşı 2023
+permalink: /blog/cezaevi-katip-maasi-2023
 usemathjax: true
 posttype: news
 ---
 
 Adalet Bakanlığı Personel Genel Müdürlüğü tüm ülke genelinde zaman zaman alım için ilana çıkmaktadır.
-Bu ilanlarda Zabıt Katipliği için genel ve özel şartlar yer almaktadır.
+Bu ilanlarda Cezaevi Katipliği için genel ve özel şartlar yer almaktadır.
 
 Bu özel şartlar yayınlanan ilanlara göre değişiklik gösterebilmektedir. 
-Adalet Bakanlığı bünyesinde yapılan alımlar için <b>Özel Şartlar</b>
+Adalet Bakanlığı bünyesinde yapılan alımlar için son yayınlanan <a href="https://cte.adalet.gov.tr/Home/SayfaDetay/9512-sozlesmeli-pozisyon-icin-personel-alim-sinav-ilani19042023032043">Son ilana</a> bakabilirsiniz.
+
+<b>Özel Şartlar</b>
 <blockquote>
 <span ><strong><span ><span ><span >A- Sözleşmeli zabıt kâtibi pozisyonunda istihdam edilebilmek için;</span></span></span></strong></span><br>
 <span ><span ><span ><span >a) Fakülte veya yüksekokulların bilgisayar bölümü, adalet meslek yüksekokulu veya meslek yüksekokullarının adalet, adalet ön lisans veya ceza infaz ve güvenlik hizmetleri programı, lise veya meslek liselerinin adalet alanı ve ilgili mevzuat uyarınca bunlara denkliği kabul edilen program veya alanları ile diğer lise ve dengi okulların bilgisayar veya bilişim teknolojileri alanlarından mezun olmak,&nbsp;<strong>(Bu bentte sayılan öğretim kurumlarından mezun olanlardan ayrıca daktilo veya bilgisayar sertifikası istenmeyecektir.)</strong></span></span></span></span><br>
@@ -27,11 +29,7 @@ Adalet Bakanlığı bünyesinde yapılan alımlar için <b>Özel Şartlar</b>
 
 olarak sıralanabilir.
 
-Diğer şartlar için son yayınlanan ilana bakabilirsiniz.
-<br>
-<a href="https://pgm.adalet.gov.tr/Home/SayfaDetay/sozlesmeli-zabit-k-tibi-mubasir-koruma-ve-guvenlik-gorevlisi-teknisyen-isaret-dili-ter19042023092423">Son ilan</a>.
-
-Yukarıdaki bilgilerden sonra gelelim en düşük ve en yüksek Zabıt Katibi maaşları 2023 yılı için şu şekilde oluşmaktadır.
+Yukarıdaki bilgilerden sonra gelelim en düşük ve en yüksek Cezaevi Katibi maaşları 2023 yılı için şu şekilde oluşmaktadır.
 
 
 <style type="text/css">
@@ -77,8 +75,8 @@ Yukarıdaki bilgilerden sonra gelelim en düşük ve en yüksek Zabıt Katibi ma
     <td class="tg-0pky">İstanbul / İzmir /Ankara'da oturan</td>
   </tr>
   <tr>
-    <td class="tg-c3ow"><span style="font-weight:bold">Maaş : </span><span style="font-weight:bold;color:#FE0000">21898.50 ₺</span></td>
-    <td class="tg-c3ow"><span style="font-weight:bold">Maaş : </span><span style="font-weight:bold;color:#32CB00">30920.25 ₺</span></td>
+    <td class="tg-c3ow"><span style="font-weight:bold">Maaş : </span><span style="font-weight:bold;color:#FE0000">21587.42 ₺</span></td>
+    <td class="tg-c3ow"><span style="font-weight:bold">Maaş : </span><span style="font-weight:bold;color:#32CB00">28879.85 ₺</span></td>
   </tr>
 </tbody>
 </table>
