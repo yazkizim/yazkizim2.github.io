@@ -962,6 +962,7 @@ $(document).ready(function(){
 			"order": [[ 0, "desc" ]],			
 			"lengthMenu": [[10, 25, 50, 100, -1], [10, 25, 50, 100, "Hepsi"]],
 			"dom": '<"topleft"PlBf><"dataTables_filter">rt<"bottom"lip><"clear">',
+			"paging": true,
 			"pageLength": 50,
 			"bAutoWidth": false, 
 			"aoColumns" : [
