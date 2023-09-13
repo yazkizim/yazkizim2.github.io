@@ -43,6 +43,8 @@ maas:
       url: /maas
     - text: Memur Maaşları (* Yeni Toplu Sözleşme)
       url: /maasyeni
+    - text: Enflasyon Farkı Hesaplama *
+      url: /maasyeni  
     - text: Sözleşmeli Memur Maaşları
       url: /sozlesmelimaas
     - text: Emekli Maaşları

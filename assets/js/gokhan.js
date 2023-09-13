@@ -1775,7 +1775,7 @@ $(document).ready(function(){
 		+ "2003 yılı Haziran ayında 2003=100, " + (temel2003 *1).toFixed(2) + " olduğu görülmektedir.\n"
 		+ "Yapılan hesaplamalar neticesinde 2003=100, " + (eklenecekrakam *1).toFixed(2) + " olacağı değerlendirilmiştir.\n\n"
 		+ "Bu bilgiler ışığında;\n\n"
-		+ "Toplu sözleşme sonrası oluşan enflasyonun %" + toplamenf + " olduğu,\n\n"
+		+ "Toplu sözleşme sonrası oluşan enflasyonun %" + toplamenf.toFixed(2) + " olduğu,\n\n"
 		+ "Oluşacak enflasyon farkı : %" + hesaplananfark + ' olacaktır.';		
 	})
 
