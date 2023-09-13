@@ -1,0 +1,105 @@
+---
+title: Enflasyon Farkı Hesaplama Yöntemi
+layout: hesaplamalar
+---
+
+<div class="card-header">
+  <h3 class="card-title">Enflasyon Farkı Hesaplama Yöntemi</h3>
+</div>
+<div class="card-body">
+  <form id="paylasimform" data-gtm-form-interact-id="0">
+      <div class="form-group row">
+          <label for="yargilamagideri" class="col-sm-3 col-form-label">2003=100 Haziran</label>
+          <div class="col-sm-3">
+              <input type="number" id="0ay2003" class="form-control" value="1351.59" step=".01" disabled>
+          </div>
+          <label for="yargilamagideri" class="col-sm-3 col-form-label">Enflasyon </label>
+          <div class="col-sm-3">
+              <input type="number" id="0aye" class="form-control" step=".01" disabled>
+          </div>
+      </div>
+      <div class="form-group row">
+          <label for="yargilamagideri" class="col-sm-3 col-form-label">2003=100 Temmuz</label>
+          <div class="col-sm-3">
+              <input type="number" id="1ay2003" class="form-control" value="1479.84" step=".01" disabled>
+          </div>
+          <label for="yargilamagideri" class="col-sm-3 col-form-label">Enflasyon </label>
+          <div class="col-sm-3">
+              <input type="number" id="1aye" class="form-control" value="9.43" step=".01" disabled>
+          </div>
+      </div>
+      <div class="form-group row">
+          <label for="yargilamagideri" class="col-sm-3 col-form-label">2003=100 Ağustos</label>
+          <div class="col-sm-3">
+              <input type="number" id="2ay2003" class="form-control" value="1614.31" step=".01" disabled>
+          </div>
+          <label for="yargilamagideri" class="col-sm-3 col-form-label">Enflasyon </label>
+          <div class="col-sm-3">
+              <input type="number" id="2aye" class="form-control" value="9.09" step=".01" disabled>
+          </div>
+      </div>
+      <div class="form-group row">
+          <label for="yargilamagideri" class="col-sm-3 col-form-label">2003=100 Eylül</label>
+          <div class="col-sm-3">
+              <input type="number" id="3ay2003" class="form-control" value="1614.31" step=".01">
+          </div>
+          <label for="yargilamagideri" class="col-sm-3 col-form-label">Enflasyon </label>
+          <div class="col-sm-3">
+              <input type="number" id="3aye" class="form-control" value="9.09" step=".01">
+          </div>
+      </div>
+      <div class="form-group row">
+          <label for="yargilamagideri" class="col-sm-3 col-form-label">2003=100 Ekim</label>
+          <div class="col-sm-3">
+              <input type="number" id="4ay2003" class="form-control" value="0" step=".01">
+          </div>
+          <label for="yargilamagideri" class="col-sm-3 col-form-label">Enflasyon </label>
+          <div class="col-sm-3">
+              <input type="number" id="4aye" class="form-control" value="0" step=".01">
+          </div>
+      </div>
+      <div class="form-group row">
+          <label for="yargilamagideri" class="col-sm-3 col-form-label">2003=100 Kasım</label>
+          <div class="col-sm-3">
+              <input type="number" id="5ay2003" class="form-control" value="0" step=".01">
+          </div>
+          <label for="yargilamagideri" class="col-sm-3 col-form-label">Enflasyon </label>
+          <div class="col-sm-3">
+              <input type="number" id="5aye" class="form-control" value="0" step=".01">
+          </div>
+      </div>
+      <div class="form-group row">
+          <label for="yargilamagideri" class="col-sm-3 col-form-label">2003=100 Aralık</label>
+          <div class="col-sm-3">
+              <input type="number" id="6ay2003" class="form-control" value="0" step=".01">
+          </div>
+          <label for="yargilamagideri" class="col-sm-3 col-form-label">Enflasyon </label>
+          <div class="col-sm-3">
+              <input type="number" id="6aye" class="form-control" value="0" step=".01">
+          </div>
+      </div>
+</div>
+<div class="card-body d-flex align-items-center justify-content-center h-100">
+  <label id="hesapsonuc" name="hesapsonuc" class="text-justify mh-25">
+      <h1 class="m-0"></h1>
+  </label>
+</div>
+<div class="card-footer">
+  <button type="button float-left" class="btn btn-outline-danger" id="paylasimtemizle">Temizle</button>
+  <button type="button float-right" class="btn btn-outline-primary" id="paylasimhesapla">Hesapla</button>
+</div>
+<div class="row justify-content-center">
+  <div class="col-lg-12">
+      <div class="col-lg-12">
+          <div class="card border-primary mb-3">
+              <div class="card-header text-center font-weight-bold text-primary"> SONUÇ </div>
+              <div class="card-body">
+                  <p class="card-text text-justify" id="enffark"></p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+</form>
+   
+                    
