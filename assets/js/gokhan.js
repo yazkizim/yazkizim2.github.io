@@ -1713,8 +1713,7 @@ $(document).ready(function(){
 		+ "2003 yılı Haziran ayında 2003=100, " + temel2003.toFixed(2) + " olduğu görülmektedir.\n"
 		+ "Yapılan hesaplamalar neticesinde 2003=100, " + eklenecekrakam.toFixed(2) + " olacağı değerlendirilmiştir.\n\n"
 		+ "Bu bilgiler ışığında;\n\n"
-		+ "Oluşacak enflasyon farkı : %" + hesaplananfark + ' olacaktır.';
-		
+		+ "Oluşacak enflasyon farkı : %" + hesaplananfark + ' olacaktır.';		
 	})
 
 	$( "#paylasimhesapla" ).click(function() {
