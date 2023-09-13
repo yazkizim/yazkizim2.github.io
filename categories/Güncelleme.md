@@ -5,7 +5,6 @@ permalink: /blog/categories/Güncelleme/
 ---
  
 <h5> {{ page.title }} </h5>
-
 <div class="card">
 {%- assign kelime = site.posts
                   | where: "category", {{ page.title }}
