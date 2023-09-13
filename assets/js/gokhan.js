@@ -1769,7 +1769,7 @@ $(document).ready(function(){
 		hesaplananfark = hesaplananfark - 100;
 		hesaplananfark = hesaplananfark.toFixed(2);
 
-		let kumulatifenf = document.getElementById('tszam').value * (1+ (hesaplananfark /100));
+		let kumulatifenf = hesaplananfark *  (1+ (document.getElementById('tszam').value/100));
 		
 
 		document.getElementById('enffark').innerText = "6.Dönem sözleşmesi uyarınca 2023 yılı Temmuz ayında maaşlara %6 zam yapılmıştır\n"
