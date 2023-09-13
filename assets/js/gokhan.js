@@ -1656,6 +1656,67 @@ $(document).ready(function(){
 		document.getElementById("paylasimform").reset();			
 	})
 
+	$( "#enffarktemizle" ).click(function() {		
+		document.getElementById("enffarkform").reset();			
+	})
+
+	$( "#enffarkhesapla" ).click(function() {
+
+		var temel2003 = document.getElementById('0ay2003').value;
+		var toplusozlesme = document.getElementById('0aye').value;
+
+		var t12003 = document.getElementById('1ay2003').value;
+		var e12003 = document.getElementById('1aye').value;
+
+		var eklenecekrakam = 0;
+		var hesaplanan2003 = 0;
+
+		if (document.getElementById('1aye').value * 1 > 0 && !document.getElementById('1aye').disabled) {
+			eklenecekrakam = eklenecekrakam + ((temel2003 * 1) *  (1 + ((document.getElementById('1aye').value *1) /100)));
+			document.getElementById('1ay2003').value = eklenecekrakam.toFixed(2);
+		}
+
+		if (document.getElementById('2aye').value * 1 > 0 && !document.getElementById('2aye').disabled) {
+			eklenecekrakam = eklenecekrakam + ((eklenecekrakam * 1) *  (1 + ((document.getElementById('2aye').value *1) /100)));
+			document.getElementById('2ay2003').value = eklenecekrakam.toFixed(2);
+		}
+
+		if (document.getElementById('3aye').value * 1 > 0 && !document.getElementById('3aye').disabled) {
+			eklenecekrakam = eklenecekrakam + ((eklenecekrakam * 1) *  (1 + ((document.getElementById('3aye').value *1) /100)));
+			document.getElementById('3ay2003').value = eklenecekrakam.toFixed(2);
+		}
+
+		if (document.getElementById('4aye').value * 1 > 0 && !document.getElementById('4aye').disabled) {
+			eklenecekrakam = eklenecekrakam + ((eklenecekrakam * 1) *  (1 + ((document.getElementById('4aye').value *1) /100)));
+			document.getElementById('4ay2003').value = eklenecekrakam.toFixed(2);
+		}
+
+		if (document.getElementById('5aye').value * 1 > 0 && !document.getElementById('5aye').disabled) {
+			eklenecekrakam = eklenecekrakam + ((eklenecekrakam * 1) *  (1 + ((document.getElementById('5aye').value *1) /100)));
+			document.getElementById('5ay2003').value = eklenecekrakam.toFixed(2);
+		}
+
+		if (document.getElementById('6aye').value * 1 > 0 && !document.getElementById('6aye').disabled) {
+			eklenecekrakam = eklenecekrakam + ((eklenecekrakam * 1) *  (1 + ((document.getElementById('6aye').value *1) /100)));
+			document.getElementById('6ay2003').value = eklenecekrakam.toFixed(2);
+		}
+
+		var hesaplananfark = (eklenecekrakam.toFixed(2) * 1) / (temel2003.toFixed(2) *1) * 100;
+		hesaplananfark = hesaplananfark / (100 + (toplusozlesme *1));
+		hesaplananfark = hesaplananfark * 100;
+		hesaplananfark = hesaplananfark - 100;
+		hesaplananfark = hesaplananfark.toFixed(2);
+		
+
+		document.getElementById('enffark').innerText = "6.Dönem sözleşmesi uyarınca 2023 yılı Temmuz ayında maaşlara %6 zam yapılmıştır\n"
+		+ "Enflasyon farkı hesabında TÜİK tarafından açıklanan 2003=100 TÜFE temel alınmaktadır.\n" 
+		+ "2003 yılı Haziran ayında 2003=100, " + temel2003.toFixed(2) + " olduğu görülmektedir.\n"
+		+ "Yapılan hesaplamalar neticesinde 2003=100, " + eklenecekrakam.toFixed(2) + " olacağı değerlendirilmiştir.\n\n"
+		+ "Bu bilgiler ışığında;\n\n"
+		+ "Oluşacak enflasyon farkı : %" + hesaplananfark + ' olacaktır.';
+		
+	})
+
 	$( "#paylasimhesapla" ).click(function() {
 		var paylastirilacakyargilama = document.getElementById('yargilamagideri').value;
 		var paylastirilacakvekalet = document.getElementById('vekaletucreti').value;

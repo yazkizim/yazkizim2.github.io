@@ -7,15 +7,15 @@ layout: hesaplamalar
   <h3 class="card-title">Enflasyon Farkı Hesaplama Yöntemi</h3>
 </div>
 <div class="card-body">
-  <form id="paylasimform" data-gtm-form-interact-id="0">
+  <form id="enffarkform" data-gtm-form-interact-id="0">
       <div class="form-group row">
           <label for="yargilamagideri" class="col-sm-3 col-form-label">2003=100 Haziran</label>
           <div class="col-sm-3">
               <input type="number" id="0ay2003" class="form-control" value="1351.59" step=".01" disabled>
           </div>
-          <label for="yargilamagideri" class="col-sm-3 col-form-label">Enflasyon </label>
+          <label for="yargilamagideri" class="col-sm-3 col-form-label">Toplu Sözleşme Zammı</label>
           <div class="col-sm-3">
-              <input type="number" id="0aye" class="form-control" step=".01" disabled>
+              <input type="number" id="0aye" class="form-control" value="6" step=".01" disabled>
           </div>
       </div>
       <div class="form-group row">
@@ -23,7 +23,7 @@ layout: hesaplamalar
           <div class="col-sm-3">
               <input type="number" id="1ay2003" class="form-control" value="1479.84" step=".01" disabled>
           </div>
-          <label for="yargilamagideri" class="col-sm-3 col-form-label">Enflasyon </label>
+          <label for="yargilamagideri" class="col-sm-3 col-form-label">Temmuz Enflasyon </label>
           <div class="col-sm-3">
               <input type="number" id="1aye" class="form-control" value="9.43" step=".01" disabled>
           </div>
@@ -33,7 +33,7 @@ layout: hesaplamalar
           <div class="col-sm-3">
               <input type="number" id="2ay2003" class="form-control" value="1614.31" step=".01" disabled>
           </div>
-          <label for="yargilamagideri" class="col-sm-3 col-form-label">Enflasyon </label>
+          <label for="yargilamagideri" class="col-sm-3 col-form-label">Ağustos Enflasyon </label>
           <div class="col-sm-3">
               <input type="number" id="2aye" class="form-control" value="9.09" step=".01" disabled>
           </div>
@@ -41,11 +41,11 @@ layout: hesaplamalar
       <div class="form-group row">
           <label for="yargilamagideri" class="col-sm-3 col-form-label">2003=100 Eylül</label>
           <div class="col-sm-3">
-              <input type="number" id="3ay2003" class="form-control" value="1614.31" step=".01">
+              <input type="number" id="3ay2003" class="form-control" value="0" step=".01">
           </div>
-          <label for="yargilamagideri" class="col-sm-3 col-form-label">Enflasyon </label>
+          <label for="yargilamagideri" class="col-sm-3 col-form-label">Eylül Enflasyon</label>
           <div class="col-sm-3">
-              <input type="number" id="3aye" class="form-control" value="9.09" step=".01">
+              <input type="number" id="3aye" class="form-control" value="0" step=".01">
           </div>
       </div>
       <div class="form-group row">
@@ -53,7 +53,7 @@ layout: hesaplamalar
           <div class="col-sm-3">
               <input type="number" id="4ay2003" class="form-control" value="0" step=".01">
           </div>
-          <label for="yargilamagideri" class="col-sm-3 col-form-label">Enflasyon </label>
+          <label for="yargilamagideri" class="col-sm-3 col-form-label">Ekim Enflasyon</label>
           <div class="col-sm-3">
               <input type="number" id="4aye" class="form-control" value="0" step=".01">
           </div>
@@ -63,7 +63,7 @@ layout: hesaplamalar
           <div class="col-sm-3">
               <input type="number" id="5ay2003" class="form-control" value="0" step=".01">
           </div>
-          <label for="yargilamagideri" class="col-sm-3 col-form-label">Enflasyon </label>
+          <label for="yargilamagideri" class="col-sm-3 col-form-label">Kasım Enflasyon</label>
           <div class="col-sm-3">
               <input type="number" id="5aye" class="form-control" value="0" step=".01">
           </div>
@@ -73,7 +73,7 @@ layout: hesaplamalar
           <div class="col-sm-3">
               <input type="number" id="6ay2003" class="form-control" value="0" step=".01">
           </div>
-          <label for="yargilamagideri" class="col-sm-3 col-form-label">Enflasyon </label>
+          <label for="yargilamagideri" class="col-sm-3 col-form-label">Aralık Enflasyon</label>
           <div class="col-sm-3">
               <input type="number" id="6aye" class="form-control" value="0" step=".01">
           </div>
@@ -85,8 +85,8 @@ layout: hesaplamalar
   </label>
 </div>
 <div class="card-footer">
-  <button type="button float-left" class="btn btn-outline-danger" id="paylasimtemizle">Temizle</button>
-  <button type="button float-right" class="btn btn-outline-primary" id="paylasimhesapla">Hesapla</button>
+  <button type="button float-left" class="btn btn-outline-danger" id="enffarktemizle">Temizle</button>
+  <button type="button float-right" class="btn btn-outline-primary" id="enffarkhesapla">Hesapla</button>
 </div>
 <div class="row justify-content-center">
   <div class="col-lg-12">
