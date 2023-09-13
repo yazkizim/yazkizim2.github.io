@@ -1674,17 +1674,17 @@ $(document).ready(function(){
 		if (document.getElementById('1aye').value * 1 > 0 && !document.getElementById('1aye').disabled) {
 			eklenecekrakam = eklenecekrakam + ((temel2003 * 1) *  (1 + ((document.getElementById('1aye').value *1) /100)));
 			document.getElementById('1ay2003').value = eklenecekrakam.toFixed(2);
-		}
+		} 
 
 		if (document.getElementById('2aye').value * 1 > 0 && !document.getElementById('2aye').disabled) {
 			eklenecekrakam = eklenecekrakam + ((eklenecekrakam * 1) *  (1 + ((document.getElementById('2aye').value *1) /100)));
 			document.getElementById('2ay2003').value = eklenecekrakam.toFixed(2);
-		}
+		} 
 
 		if (document.getElementById('3aye').value * 1 > 0 && !document.getElementById('3aye').disabled) {
 			eklenecekrakam = eklenecekrakam + ((eklenecekrakam * 1) *  (1 + ((document.getElementById('3aye').value *1) /100)));
 			document.getElementById('3ay2003').value = eklenecekrakam.toFixed(2);
-		}
+		} 
 
 		if (document.getElementById('4aye').value * 1 > 0 && !document.getElementById('4aye').disabled) {
 			eklenecekrakam = eklenecekrakam + ((eklenecekrakam * 1) *  (1 + ((document.getElementById('4aye').value *1) /100)));
@@ -1701,7 +1701,7 @@ $(document).ready(function(){
 			document.getElementById('6ay2003').value = eklenecekrakam.toFixed(2);
 		}
 
-		var hesaplananfark = (eklenecekrakam.toFixed(2) * 1) / (temel2003.toFixed(2) *1) * 100;
+		var hesaplananfark = (eklenecekrakam * 1) / (temel2003 *1) * 100;
 		hesaplananfark = hesaplananfark / (100 + (toplusozlesme *1));
 		hesaplananfark = hesaplananfark * 100;
 		hesaplananfark = hesaplananfark - 100;
