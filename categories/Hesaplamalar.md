@@ -7,9 +7,12 @@ permalink: /blog/categories/Hesaplamalar/
 <h5> {{ page.title }} </h5>
 
 <div class="card">
-{% for post in site.categories.Hesaplamalar %}
-      <li class="category-posts"><span>{% assign m = post.date | date: "%-d %m %Y" %}
-{{ page.date | date: "%-d" }}
+{%- assign kelime = site.posts
+                  | where: "category", {{ page.title }}
+                -%}
+{%- for post in kelime -%}
+     <li class="category-posts"><span>{{ post.date | date: "%-d" }}
+{% assign m = post.date | date: "%-m" %}
 {% case m %}
     {% when '1' %}Ocak
     {% when '2' %}Şubat
@@ -24,6 +27,7 @@ permalink: /blog/categories/Hesaplamalar/
     {% when '11' %}Kasım
     {% when '12' %}Aralık
 {% endcase %}
-{{ page.date | date: "%Y" }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
+{{ post.date | date: "%Y" }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
+{%- endfor -%}
+
 </div>
