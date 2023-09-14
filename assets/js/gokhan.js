@@ -2244,14 +2244,30 @@ $(document).ready(function(){
 	})
 
 	$('#davasonucu').change(function() {
-		if ($(this).val() == 2) { // kısmen kabul kısmen ret
+		if ($(this).val() == 1) { // kabul			
+			document.getElementById("kabuledilendiv").style.display = "none";
+			document.getElementById("davalivekildiv").style.display = "none";	
+			document.getElementById("davacivekildiv").style.display = "block";	
+			document.getElementById("kesifharcidiv").style.display = "block";
+			document.getElementById("bilrkisidiv").style.display = "block";
+			document.getElementById("tebligatdiv").style.display = "block";
+		} else if ($(this).val() == 2) { // kısmen kabul kısmen ret
+			document.getElementById("davalivekildiv").style.display = "block";
+			document.getElementById("davacivekildiv").style.display = "block";
+			document.getElementById("kesifharcidiv").style.display = "block";
+			document.getElementById("bilrkisidiv").style.display = "block";
+			document.getElementById("tebligatdiv").style.display = "block";
 			if (davapara.checked == true){
 				document.getElementById("kabuledilendiv").style.display = "block";
 			} 			
-		} else {
+		} else { // diğer redler
 			document.getElementById("kabuledilendiv").style.display = "none";
-
-		}
+			document.getElementById("davalivekildiv").style.display = "block";
+			document.getElementById("davacivekildiv").style.display = "none";
+			document.getElementById("kesifharcidiv").style.display = "none";
+			document.getElementById("bilrkisidiv").style.display = "none";
+			document.getElementById("tebligatdiv").style.display = "none";
+		} 
 	});
 
 

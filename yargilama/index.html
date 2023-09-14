@@ -7,12 +7,29 @@ layout: hesaplamalar
   <h3 class="card-title">Yargılama Giderleri Hesaplama</h3>
 </div>
 <div class="card-body">
+  <div class="mb-3"></div>
+    <select type="text" class="form-select w-100" placeholder="Seçiniz" id="davasonucu" value="">
+        <option value="0" disabled>Seçiniz</option>
+        <option value="1" selected>Tam Kabul</option>
+        <option value="2">Kısmen Kabul/Ret</option>
+        <option value="3">Davanın Reddine (Sübut bulmadığından)</option>
+        <option value="4">Açılmamış Sayılmasına - Ön inceleme sonrası</option>
+        <option value="5">Açılmamış Sayılmasına - Ön incelemede veya önce</option>
+        <option value="6">Husumet Nedeniyle - Ön inceleme sonrası</option>
+        <option value="7">Husumet Nedeniyle - Ön incelemede veya önce</option>
+        <option value="8">Ön Şart yokluğu - Ön inceleme sonrası</option>
+        <option value="9">Ön Şart yokluğu - Ön incelemede veya önce</option>
+        <option value="10">Feragat-Sulh-Kabul - Ön inceleme sonrası</option>
+        <option value="11">Feragat-Sulh-Kabul - Ön incelemede veya önce</option>
+    </select>
+  </div>  
+  <hr class="hr hr-blurry" />
   <div class="mb-3">
       <div class="form-check">
           <input class="form-check-input" type="checkbox" value="" id="davacibrdenfazla">
           <label class="form-check-label" for="davacibrdenfazla"> Davacı birden fazla mı? </label>
       </div>
-      <div class="form-check">
+      <div class="form-check" id="davacivekilidiv" style="display: none;">
           <input class="form-check-input" type="checkbox" value="" id="davacivekili" checked>
           <label class="form-check-label" for="davacivekili"> Davacı vekili var mı? </label>
       </div>
@@ -23,7 +40,7 @@ layout: hesaplamalar
           <input class="form-check-input" type="checkbox" value="" id="davalibirdenfazla">
           <label class="form-check-label" for="davalibirdenfazla"> Davalı birden fazla mı? </label>
       </div>
-      <div class="form-check">
+      <div class="form-check" id="davalivekilidiv" style="display: none;">
           <input class="form-check-input" type="checkbox" value="" id="davalivekili" checked>
           <label class="form-check-label" for="davacivekili"> Davalı vekili var mı? </label>
       </div>
@@ -33,21 +50,7 @@ layout: hesaplamalar
       </div>
   </div>
   <hr class="hr hr-blurry" />
-  <div class="mb-3">
-      <select type="text" class="form-select w-100" placeholder="Seçiniz" id="davasonucu" value="">
-          <option value="0" disabled>Seçiniz</option>
-          <option value="1" selected>Tam Kabul</option>
-          <option value="2">Kısmen Kabul/Ret</option>
-          <option value="3">Davanın Reddine (Sübut bulmadığından)</option>
-          <option value="4">Açılmamış Sayılmasına - Ön inceleme sonrası</option>
-          <option value="5">Açılmamış Sayılmasına - Ön incelemede veya önce</option>
-          <option value="6">Husumet Nedeniyle - Ön inceleme sonrası</option>
-          <option value="7">Husumet Nedeniyle - Ön incelemede veya önce</option>
-          <option value="8">Ön Şart yokluğu - Ön inceleme sonrası</option>
-          <option value="9">Ön Şart yokluğu - Ön incelemede veya önce</option>
-          <option value="10">Feragat-Sulh-Kabul - Ön inceleme sonrası</option>
-          <option value="11">Feragat-Sulh-Kabul - Ön incelemede veya önce</option>
-      </select>
+  <div class="mb-3">      
       <div class="form-check">
           <input class="form-check-input" type="checkbox" value="" id="davapara">
           <label class="form-check-label" for="davapara"> Para ile ölçülebilen bir dava mı? </label>
@@ -89,20 +92,26 @@ layout: hesaplamalar
           <input type="number" class="form-control" data-type="currency" placeholder="Kabul edilen değeri giriniz" value="0.00" name="islahharci">
           </small>
       </div>
-      <label class="form-label required">Keşif Harcı</label>
-      <div>
-          <input type="number" class="form-control" data-type="currency" placeholder="Kabul edilen değeri giriniz" value="1912.35" name="kesifharci">
-          </small>
+      <div id="kesifharcidiv">
+        <label class="form-label required">Keşif Harcı</label>
+        <div>
+            <input type="number" class="form-control" data-type="currency" placeholder="Kabul edilen değeri giriniz" value="1912.35" name="kesifharci">
+            </small>
+        </div>
       </div>
-      <label class="form-label required">Bilirkişi Ücretleri</label>
-      <div>
-          <input type="number" class="form-control" data-type="currency" placeholder="Kabul edilen değeri giriniz" value="960" name="bilirkisiucreti">
-          </small>
+      <div id="bilrkisidiv">
+        <label class="form-label required">Bilirkişi Ücretleri</label>
+        <div>
+            <input type="number" class="form-control" data-type="currency" placeholder="Kabul edilen değeri giriniz" value="960" name="bilirkisiucreti">
+            </small>
+        </div>
       </div>
-      <label class="form-label required">Tebligat, Posta ve Sair Masraf</label>
-      <div>
-          <input type="number" class="form-control" data-type="currency" placeholder="Kabul edilen değeri giriniz" value="0.00" name="tebligatmasraf">
-          </small>
+      <div id="tebligatdiv">
+        <label class="form-label required">Tebligat, Posta ve Sair Masraf</label>
+        <div>
+            <input type="number" class="form-control" data-type="currency" placeholder="Kabul edilen değeri giriniz" value="0.00" name="tebligatmasraf">
+            </small>
+        </div>
       </div>
   </div>
   <div class="card-footer">
