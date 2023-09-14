@@ -8,7 +8,7 @@ permalink: /blog/categories/Tarifeler/
 
 <div class="card">
 {% for post in site.categories.Tarifeler %}
- <li class="category-posts"><li class="category-posts"><span>{% assign m = post.date | date: "%-m" %}
+      <li class="category-posts"><span>{% assign m = post.date | date: "%-d %-m %Y" %}
 {{ page.date | date: "%-d" }}
 {% case m %}
     {% when '1' %}Ocak
