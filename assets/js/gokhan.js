@@ -2230,5 +2230,29 @@ $(document).ready(function(){
 		$(".text-justify.w-100.border-bottom").removeClass('disabled');
 	});
 
+	// yargılama hesapları ayarları
+	// para ile ölçülebilen bir değer mi ?
+	let davapara = document.getElementById('davapara')
+
+	checkbox.addEventListener('change', (event) => {
+	if (event.currentTarget.checked) {
+		$('#davaedilendiv').show();
+	} else {
+		$('#davaedilendiv').hide();
+		
+	}
+	})
+
+	$('#davasonucu').change(function() {
+		if ($(this).val() == 2) { // kısmen kabul kısmen ret
+			if (davapara.checked == true){
+				$('#kabuledilendiv').show();
+			  } 			
+		} else {
+			$('#kabuledilendiv').hide();
+
+		}
+	});
+
 
 });
