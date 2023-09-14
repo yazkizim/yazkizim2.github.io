@@ -11,8 +11,8 @@ permalink: /blog/categories/Faydalı/
                   | where: "category", {{ page.title }}
                 -%}
 {%- for post in kelime -%}
-     <li class="category-posts"><span>{% assign m = post.date | date: "%-d %m %Y" %}
-{{ post.date | date: "%-d" }}
+     <li class="category-posts"><span>{{ post.date | date: "%-d" }}
+{% assign m = post.date | date: "%m" %}
 {% case m %}
     {% when '1' %}Ocak
     {% when '2' %}Şubat
