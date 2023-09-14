@@ -15,16 +15,16 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      - {label: "Author", name: "author", widget: "string", default:"gokhantasci"}
+      - {label: "Author", name: "author", widget: "string", default: "gokhantasci"}
+      - {label: "Ana Sayfada Goster", name: "anasayfa", widget: "select", options: ["yes", "no"]}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail-img", widget: "image"}
+      - {label: "Thumbnail", name: "thumbnail", widget: "image"}
       - {label: "Category", name: "category", widget: "string", default: "Haber"}
       - {label: "Summary", name: "summary", widget: "string"}
       - {label: "Keywords", name: "keywords", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Thumbnail", name: "thumbnail", widget: "string"}
-      - {label: "Permalink", name: "permalink", widget: "string", default:""/blog/devamı}
+      - {label: "Permalink", name: "permalink", widget: "string", default: "/blog/devamı"}
   - name: "page"
     label: "Page"
     folder: "_pages"
