@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: yazkizim.github.io
+  repo: yazkizim/yazkizim.github.io
   branch: master
   site_domain: adliye.netlify.app
 
