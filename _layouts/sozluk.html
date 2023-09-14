@@ -5,7 +5,7 @@ layout: default
         <div class="row justify-content-center">
                 <div class="card">
                         <div class="col-md-8 offset-md-2 offset-md-right">
-                                <h1 id="kelime" name="kelime">Aranan : {{ page.url }} - {{ page.path }} - {{ page.name }} - {{ page.title }} - {{ page.output_ext }} - {{ page.kelime }} - - {{ page.anlami }}    </h1>                
+                                <h1 id="kelime" name="kelime"> {{ page.kelime }} - - {{ page.anlami }}    </h1>                
                         </div>
                 </div>
         </div>       
@@ -13,3 +13,22 @@ layout: default
 
         
         
+<script>
+        const queryString = window.location.search;
+        queryString = queryString.get('kelime');
+        const kelime = urlParams.get('kelime');
+        document.title = kelime + " ne demek ? - www.Adliyeci.com.tr";
+
+        $.getJSON("../dist/sozluk.json", function(data) {
+                $.each(data, function(k, obj) {
+                if(obj['kelime'] == kelime) {
+                        $('#kelime').html('<br' + kelime + " : " + obj['anlami' + '<br>Anlamına gelmektedir.']);     
+                }
+                });
+        }); 
+
+
+
+
+
+</script>
