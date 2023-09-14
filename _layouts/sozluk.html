@@ -14,10 +14,10 @@ layout: default
         
         
 <script>
-        const queryString = window.location.search;
-        const urlParams = new URLSearchParams(queryString);
+        let queryString = window.location.search;
+        let urlParams = new URLSearchParams(queryString);
         queryString = urlParams.get('kelime');
-        const kelime = urlParams.get('kelime');
+        let kelime = urlParams.get('kelime');
         document.title = kelime + " ne demek ? - www.Adliyeci.com.tr";
 
         $.getJSON("../dist/sozluk.json", function(data) {
