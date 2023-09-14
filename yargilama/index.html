@@ -21,9 +21,8 @@ layout: hesaplamalar
         <option value="9">Ön Şart yokluğu - Ön incelemede veya önce</option>
         <option value="10">Feragat-Sulh-Kabul - Ön inceleme sonrası</option>
         <option value="11">Feragat-Sulh-Kabul - Ön incelemede veya önce</option>
-        <option value="12">Manevi Tazminatt Tam Kabul</option>
-        <option value="13">Manevi Tazminat Kısmen Kabul Kısmen Ret</option>
-        <option value="14">Manevi Tazminat - Davanın Reddine</option>
+        <option value="12">Nafaka Tam Kabul</option>
+        <option value="13">Nafaka Kısmen Kabul Kısmen Ret</option>
     </select>
   </div>  
   <hr class="hr hr-blurry" />
@@ -62,14 +61,14 @@ layout: hesaplamalar
           <label class="form-check-label" for="davapara"> Para ile ölçülebilen bir dava mı? </label>
       </div>
       <div id="davaedilendiv" style="display: none;">
-          <label class="form-label required">Dava edilen miktar</label>
+          <label class="form-label required">Dava edilen miktar / Talep edilen Nafaka (Ay)</label>
           <div>
               <input type="number" class="form-control" data-type="currency" placeholder="Kabul edilen değeri giriniz" value="0.00" name="davamiktar" id="davamiktar">
               </small>
           </div>
       </div>
       <div id="kabuledilendiv" style="display: none;">
-          <label class="form-label required">Kabul edilen miktar</label>
+          <label class="form-label required">Kabul edilen miktar / Kabul Edilen Nafaka (Ay)</label>
           <div>
               <input type="number" class="form-control" data-type="currency" placeholder="Kabul edilen değeri giriniz" value="0.00" name="kabulmiktar" id="kabulmiktar">
               </small>

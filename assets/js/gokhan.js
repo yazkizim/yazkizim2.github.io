@@ -2239,6 +2239,8 @@ $(document).ready(function(){
 		document.getElementById("davaedilendiv").style.display = "block";
 		if (document.getElementById("davasonucu").value == 2) {
 			document.getElementById("kabuledilendiv").style.display = "block";
+		} else {
+			document.getElementById("kabuledilendiv").style.display = "none";
 		}
 	} else {
 		document.getElementById("davaedilendiv").style.display = "none";		
@@ -2269,48 +2271,25 @@ $(document).ready(function(){
 			document.getElementById("tebligatdiv").style.display = "block";
 			if (davapara.checked == true){
 				document.getElementById("kabuledilendiv").style.display = "block";
+				document.getElementById("davaedilendiv").style.display = "block";
 			} else {
 				document.getElementById("kabuledilendiv").style.display = "none";
+				document.getElementById("davaedilendiv").style.display = "none";
 			}			
-		} else if ($(this).val() == 12) { // manevi tazminat tam kabul	
-			document.getElementById('davapara').prop('checked', true);
+		} else if ($(this).val() == 12) { // nafaka tam kabul 
+			document.getElementById("davacibrdenfazla").prop('checked', false);
+			document.getElementById("davalibirdenfazla").prop('checked', false);
+			document.getElementById("davapara").prop('checked', true);			
+			document.getElementById("davalivekildiv").style.display = "none";
 			document.getElementById("kabuledilendiv").style.display = "none";
 			document.getElementById("davaedilendiv").style.display = "block";
+		} else if ($(this).val() == 13) { // nafaka tam kabul 
+			document.getElementById("davacibrdenfazla").prop('checked', false);
+			document.getElementById("davalibirdenfazla").prop('checked', false);
+			document.getElementById("davapara").prop('checked', true);			
 			document.getElementById("davalivekildiv").style.display = "none";
-			document.getElementById("davacivekildiv").style.display = "block";
-			document.getElementById("basvuruharcdiv").style.display = "none";
-			document.getElementById("pesinharcdiv").style.display = "none";
-			document.getElementById("tamamlamaharcdiv").style.display = "none";
-			document.getElementById("islahharcdiv").style.display = "none";
-			document.getElementById("kesifharcidiv").style.display = "none";
-			document.getElementById("bilirkisidiv").style.display = "none";
-			document.getElementById("tebligatdiv").style.display = "none";
-		} else if ($(this).val() == 13) { // manevi tazminat tam kabul	
-			document.getElementById('davapara').prop('checked', true);
 			document.getElementById("kabuledilendiv").style.display = "block";
 			document.getElementById("davaedilendiv").style.display = "block";
-			document.getElementById("davalivekildiv").style.display = "none";
-			document.getElementById("davacivekildiv").style.display = "block";
-			document.getElementById("basvuruharcdiv").style.display = "none";
-			document.getElementById("pesinharcdiv").style.display = "none";
-			document.getElementById("tamamlamaharcdiv").style.display = "none";
-			document.getElementById("islahharcdiv").style.display = "none";
-			document.getElementById("kesifharcidiv").style.display = "none";
-			document.getElementById("bilirkisidiv").style.display = "none";
-			document.getElementById("tebligatdiv").style.display = "none";
-		} else if ($(this).val() == 14) { // manevi tazminat tam kabul	
-			document.getElementById('davapara').prop('checked', false);
-			document.getElementById("kabuledilendiv").style.display = "none";
-			document.getElementById("davaedilendiv").style.display = "none";
-			document.getElementById("davalivekildiv").style.display = "block";
-			document.getElementById("davacivekildiv").style.display = "none";
-			document.getElementById("basvuruharcdiv").style.display = "none";
-			document.getElementById("pesinharcdiv").style.display = "none";
-			document.getElementById("tamamlamaharcdiv").style.display = "none";
-			document.getElementById("islahharcdiv").style.display = "none";
-			document.getElementById("kesifharcidiv").style.display = "none";
-			document.getElementById("bilirkisidiv").style.display = "none";
-			document.getElementById("tebligatdiv").style.display = "none";
 		} else { // diğer redler
 			document.getElementById("kabuledilendiv").style.display = "none";
 			document.getElementById("davalivekildiv").style.display = "block";
