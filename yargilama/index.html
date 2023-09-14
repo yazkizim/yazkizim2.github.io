@@ -21,6 +21,9 @@ layout: hesaplamalar
         <option value="9">Ön Şart yokluğu - Ön incelemede veya önce</option>
         <option value="10">Feragat-Sulh-Kabul - Ön inceleme sonrası</option>
         <option value="11">Feragat-Sulh-Kabul - Ön incelemede veya önce</option>
+        <option value="12">Manevi Tazminatt Tam Kabul</option>
+        <option value="13">Manevi Tazminat Kısmen Kabul Kısmen Ret</option>
+        <option value="14">Manevi Tazminat - Davanın Reddine</option>
     </select>
   </div>  
   <hr class="hr hr-blurry" />
@@ -40,10 +43,13 @@ layout: hesaplamalar
           <input class="form-check-input" type="checkbox" value="" id="davalibirdenfazla">
           <label class="form-check-label" for="davalibirdenfazla"> Davalı birden fazla mı? </label>
       </div>
-      <div class="form-check" id="davalivekilidiv" style="display: none;">
-          <input class="form-check-input" type="checkbox" value="" id="davalivekili" checked>
-          <label class="form-check-label" for="davacivekili"> Davalı vekili var mı? </label>
+      <div id="davalivekildiv">
+        <div class="form-check" id="davalivekilidiv" style="display: none;">
+            <input class="form-check-input" type="checkbox" value="" id="davalivekili" checked>
+            <label class="form-check-label" for="davacivekili"> Davalı vekili var mı? </label>
+        </div>
       </div>
+      
       <div class="form-check">
           <input class="form-check-input" type="checkbox" value="" id="davalimuaf">
           <label class="form-check-label" for="davalimuaf"> Davalı harçtan muaf mı? </label>
@@ -72,26 +78,34 @@ layout: hesaplamalar
   </div>
   <hr class="hr hr-blurry" />
   <div class="mb-3">
-      <label class="form-label required">Başvuru Harcı</label>
-      <div>
-          <input type="number" class="form-control" data-type="currency" placeholder="Kabul edilen değeri giriniz" value="269.85" name="basvuruharci">
-          </small>
-      </div>
-      <label class="form-label required">Peşin/Nisbi Harç</label>
-      <div>
-          <input type="number" class="form-control" data-type="currency" placeholder="Kabul edilen değeri giriniz" value="269.85" name="basvuruharci">
-          </small>
-      </div>
-      <label class="form-label required">Tamamlama Harcı</label>
-      <div>
-          <input type="number" class="form-control" data-type="currency" placeholder="Kabul edilen değeri giriniz" value="0.00" name="tamamlamaharci">
-          </small>
-      </div>
-      <label class="form-label required">Islah Harcı</label>
-      <div>
-          <input type="number" class="form-control" data-type="currency" placeholder="Kabul edilen değeri giriniz" value="0.00" name="islahharci">
-          </small>
-      </div>
+    <div id="basvuruharcdiv">
+        <label class="form-label required">Başvuru Harcı</label>
+        <div>
+            <input type="number" class="form-control" data-type="currency" placeholder="Kabul edilen değeri giriniz" value="269.85" name="basvuruharci">
+            </small>
+        </div>
+    </div>
+    <div id="pesinharcdiv">
+        <label class="form-label required">Peşin/Nisbi Harç</label>
+        <div>
+            <input type="number" class="form-control" data-type="currency" placeholder="Kabul edilen değeri giriniz" value="269.85" name="pesinharc">
+            </small>
+        </div>
+    </div>
+    <div id="tamamlamaharcdiv">
+        <label class="form-label required">Tamamlama Harcı</label>
+        <div>
+            <input type="number" class="form-control" data-type="currency" placeholder="Kabul edilen değeri giriniz" value="0.00" name="tamamlamaharci">
+            </small>
+        </div>
+    </div>
+    <div id="islahharcdiv">
+        <label class="form-label required">Islah Harcı</label>
+        <div>
+            <input type="number" class="form-control" data-type="currency" placeholder="Kabul edilen değeri giriniz" value="0.00" name="islahharci">
+            </small>
+        </div>
+    </div>      
       <div id="kesifharcidiv">
         <label class="form-label required">Keşif Harcı</label>
         <div>

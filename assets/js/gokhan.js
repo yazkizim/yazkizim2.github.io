@@ -2237,9 +2237,11 @@ $(document).ready(function(){
 	davapara.addEventListener('change', (event) => {
 	if (event.currentTarget.checked) {
 		document.getElementById("davaedilendiv").style.display = "block";
+		if (document.getElementById("davasonucu").value == 2) {
+			document.getElementById("kabuledilendiv").style.display = "block";
+		}
 	} else {
-		document.getElementById("davaedilendiv").style.display = "none";
-		
+		document.getElementById("davaedilendiv").style.display = "none";		
 	}
 	})
 
@@ -2247,25 +2249,78 @@ $(document).ready(function(){
 		if ($(this).val() == 1) { // kabul			
 			document.getElementById("kabuledilendiv").style.display = "none";
 			document.getElementById("davalivekildiv").style.display = "none";	
-			document.getElementById("davacivekildiv").style.display = "block";	
+			document.getElementById("davacivekildiv").style.display = "block";
+			document.getElementById("basvuruharcdiv").style.display = "block";
+			document.getElementById("pesinharcdiv").style.display = "block";
+			document.getElementById("tamamlamaharcdiv").style.display = "block";
+			document.getElementById("islahharcdiv").style.display = "block";	
 			document.getElementById("kesifharcidiv").style.display = "block";
-			document.getElementById("bilrkisidiv").style.display = "block";
+			document.getElementById("bilirkisidiv").style.display = "block";
 			document.getElementById("tebligatdiv").style.display = "block";
 		} else if ($(this).val() == 2) { // kısmen kabul kısmen ret
 			document.getElementById("davalivekildiv").style.display = "block";
 			document.getElementById("davacivekildiv").style.display = "block";
+			document.getElementById("basvuruharcdiv").style.display = "block";
+			document.getElementById("pesinharcdiv").style.display = "block";
+			document.getElementById("tamamlamaharcdiv").style.display = "block";
+			document.getElementById("islahharcdiv").style.display = "block";	
 			document.getElementById("kesifharcidiv").style.display = "block";
-			document.getElementById("bilrkisidiv").style.display = "block";
+			document.getElementById("bilirkisidiv").style.display = "block";
 			document.getElementById("tebligatdiv").style.display = "block";
 			if (davapara.checked == true){
 				document.getElementById("kabuledilendiv").style.display = "block";
-			} 			
+			} else {
+				document.getElementById("kabuledilendiv").style.display = "none";
+			}			
+		} else if ($(this).val() == 12) { // manevi tazminat tam kabul	
+			document.getElementById('davapara').prop('checked', true);
+			document.getElementById("kabuledilendiv").style.display = "none";
+			document.getElementById("davaedilendiv").style.display = "block";
+			document.getElementById("davalivekildiv").style.display = "none";
+			document.getElementById("davacivekildiv").style.display = "block";
+			document.getElementById("basvuruharcdiv").style.display = "none";
+			document.getElementById("pesinharcdiv").style.display = "none";
+			document.getElementById("tamamlamaharcdiv").style.display = "none";
+			document.getElementById("islahharcdiv").style.display = "none";
+			document.getElementById("kesifharcidiv").style.display = "none";
+			document.getElementById("bilirkisidiv").style.display = "none";
+			document.getElementById("tebligatdiv").style.display = "none";
+		} else if ($(this).val() == 13) { // manevi tazminat tam kabul	
+			document.getElementById('davapara').prop('checked', true);
+			document.getElementById("kabuledilendiv").style.display = "block";
+			document.getElementById("davaedilendiv").style.display = "block";
+			document.getElementById("davalivekildiv").style.display = "none";
+			document.getElementById("davacivekildiv").style.display = "block";
+			document.getElementById("basvuruharcdiv").style.display = "none";
+			document.getElementById("pesinharcdiv").style.display = "none";
+			document.getElementById("tamamlamaharcdiv").style.display = "none";
+			document.getElementById("islahharcdiv").style.display = "none";
+			document.getElementById("kesifharcidiv").style.display = "none";
+			document.getElementById("bilirkisidiv").style.display = "none";
+			document.getElementById("tebligatdiv").style.display = "none";
+		} else if ($(this).val() == 14) { // manevi tazminat tam kabul	
+			document.getElementById('davapara').prop('checked', false);
+			document.getElementById("kabuledilendiv").style.display = "none";
+			document.getElementById("davaedilendiv").style.display = "none";
+			document.getElementById("davalivekildiv").style.display = "block";
+			document.getElementById("davacivekildiv").style.display = "none";
+			document.getElementById("basvuruharcdiv").style.display = "none";
+			document.getElementById("pesinharcdiv").style.display = "none";
+			document.getElementById("tamamlamaharcdiv").style.display = "none";
+			document.getElementById("islahharcdiv").style.display = "none";
+			document.getElementById("kesifharcidiv").style.display = "none";
+			document.getElementById("bilirkisidiv").style.display = "none";
+			document.getElementById("tebligatdiv").style.display = "none";
 		} else { // diğer redler
 			document.getElementById("kabuledilendiv").style.display = "none";
 			document.getElementById("davalivekildiv").style.display = "block";
 			document.getElementById("davacivekildiv").style.display = "none";
+			document.getElementById("basvuruharcdiv").style.display = "block";
+			document.getElementById("pesinharcdiv").style.display = "block";
+			document.getElementById("tamamlamaharcdiv").style.display = "block";
+			document.getElementById("islahharcdiv").style.display = "block";	
 			document.getElementById("kesifharcidiv").style.display = "none";
-			document.getElementById("bilrkisidiv").style.display = "none";
+			document.getElementById("bilirkisidiv").style.display = "none";
 			document.getElementById("tebligatdiv").style.display = "none";
 		} 
 	});
