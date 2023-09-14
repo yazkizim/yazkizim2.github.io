@@ -2234,11 +2234,11 @@ $(document).ready(function(){
 	// para ile ölçülebilen bir değer mi ?
 	let davapara = document.getElementById('davapara')
 
-	davapara.addEventListener('change', (event) => {
+	checkbox.addEventListener('change', (event) => {
 	if (event.currentTarget.checked) {
-		$('#davaedilendiv').show();
+		document.getElementById("davaedilendiv").style.display = "block";
 	} else {
-		$('#davaedilendiv').hide();
+		document.getElementById("davaedilendiv").style.display = "none";
 		
 	}
 	})
@@ -2246,10 +2246,10 @@ $(document).ready(function(){
 	$('#davasonucu').change(function() {
 		if ($(this).val() == 2) { // kısmen kabul kısmen ret
 			if (davapara.checked == true){
-				$('#kabuledilendiv').show();
-			  } 			
+				document.getElementById("kabuledilendiv").style.display = "block";
+			} 			
 		} else {
-			$('#kabuledilendiv').hide();
+			document.getElementById("kabuledilendiv").style.display = "none";
 
 		}
 	});
