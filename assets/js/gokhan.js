@@ -2259,6 +2259,7 @@ $(document).ready(function(){
 			document.getElementById("kesifharcidiv").style.display = "block";
 			document.getElementById("bilirkisidiv").style.display = "block";
 			document.getElementById("tebligatdiv").style.display = "block";
+			document.getElementById("davaliharctanmuaf").style.display = "block";
 		} else if ($(this).val() == 2) { // kısmen kabul kısmen ret
 			document.getElementById("davalivekildiv").style.display = "block";
 			document.getElementById("davacivekildiv").style.display = "block";
@@ -2269,6 +2270,7 @@ $(document).ready(function(){
 			document.getElementById("kesifharcidiv").style.display = "block";
 			document.getElementById("bilirkisidiv").style.display = "block";
 			document.getElementById("tebligatdiv").style.display = "block";
+			document.getElementById("davaliharctanmuaf").style.display = "block";
 			if (davapara.checked == true){
 				document.getElementById("kabuledilendiv").style.display = "block";
 				document.getElementById("davaedilendiv").style.display = "block";
@@ -2283,13 +2285,15 @@ $(document).ready(function(){
 			document.getElementById("davalivekildiv").style.display = "none";
 			document.getElementById("kabuledilendiv").style.display = "none";
 			document.getElementById("davaedilendiv").style.display = "block";
-		} else if ($(this).val() == 13) { // nafaka tam kabul 
+			document.getElementById("davaliharctanmuaf").style.display = "none";
+		} else if ($(this).val() == 13) { // nafaka kısmen kabul 
 			document.getElementById("davacibrdenfazla").prop('checked', false);
 			document.getElementById("davalibirdenfazla").prop('checked', false);
 			document.getElementById("davapara").prop('checked', true);			
 			document.getElementById("davalivekildiv").style.display = "none";
 			document.getElementById("kabuledilendiv").style.display = "block";
 			document.getElementById("davaedilendiv").style.display = "block";
+			document.getElementById("davaliharctanmuaf").style.display = "none";
 		} else { // diğer redler
 			document.getElementById("kabuledilendiv").style.display = "none";
 			document.getElementById("davalivekildiv").style.display = "block";
@@ -2301,6 +2305,7 @@ $(document).ready(function(){
 			document.getElementById("kesifharcidiv").style.display = "none";
 			document.getElementById("bilirkisidiv").style.display = "none";
 			document.getElementById("tebligatdiv").style.display = "none";
+			document.getElementById("davaliharctanmuaf").style.display = "none";
 		} 
 	});
 
