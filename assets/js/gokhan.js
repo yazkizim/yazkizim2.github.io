@@ -2279,17 +2279,17 @@ $(document).ready(function(){
 				document.getElementById("davaedilendiv").style.display = "none";
 			}			
 		} else if ($(this).val() == 12) { // nafaka tam kabul 
-			document.getElementById("davacibirdenfazla").prop('checked', false);
-			document.getElementById("davalibirdenfazla").prop('checked', false);
-			document.getElementById("davapara").prop('checked', true);			
+			document.getElementById("davacibirdenfazla").checked = 'false';
+			document.getElementById("davalibirdenfazla").checked = 'false';
+			document.getElementById("davapara").checked = 'true'			
 			document.getElementById("davalivekildiv").style.display = "none";
 			document.getElementById("kabuledilendiv").style.display = "none";
 			document.getElementById("davaedilendiv").style.display = "block";
 			document.getElementById("davaliharctanmuaf").style.display = "none";
 		} else if ($(this).val() == 13) { // nafaka kısmen kabul 
-			document.getElementById("davacibirdenfazla").prop('checked', false);
-			document.getElementById("davalibirdenfazla").prop('checked', false);
-			document.getElementById("davapara").prop('checked', true);			
+			document.getElementById("davacibirdenfazla").checked = 'false';
+			document.getElementById("davalibirdenfazla").checked = 'false';
+			document.getElementById("davapara").checked = 'true';			
 			document.getElementById("davalivekildiv").style.display = "none";
 			document.getElementById("kabuledilendiv").style.display = "block";
 			document.getElementById("davaedilendiv").style.display = "block";
