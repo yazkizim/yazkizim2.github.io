@@ -35,5 +35,16 @@ layout: null
         {% endif %}
       {% endif %}
     {% endfor %}
+
+    {% assign sozluk = "www.adliyeci.com.tr/sozluk?" %}
+    {% for post in site.dist.sozluk %}
+          <item>
+            <title>{{ post.kelime | xml_escape }}</title>
+            <description>{{ post.anlami | xml_escape }}</description>
+            <link>{{ post.kelime | append: sozluk }}</link>
+          </item>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
   </channel>
 </rss>
