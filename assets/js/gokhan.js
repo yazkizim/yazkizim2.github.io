@@ -2294,7 +2294,7 @@ $(document).ready(function(){
 			document.getElementById("kabuledilendiv").style.display = "none";
 			document.getElementById("davalivekildiv").style.display = "block";
 			document.getElementById("davacivekildiv").style.display = "none";
-			document.getElementById("basvuruharcdiv").style.display = "block";
+			document.getElementById("basvuruharcdiv").style.display = "none";
 			document.getElementById("pesinharcdiv").style.display = "block";
 			document.getElementById("tamamlamaharcdiv").style.display = "block";
 			document.getElementById("islahharcdiv").style.display = "block";	
