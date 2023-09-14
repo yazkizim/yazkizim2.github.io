@@ -2234,7 +2234,7 @@ $(document).ready(function(){
 	// para ile ölçülebilen bir değer mi ?
 	let davapara = document.getElementById('davapara')
 
-	checkbox.addEventListener('change', (event) => {
+	davapara.addEventListener('change', (event) => {
 	if (event.currentTarget.checked) {
 		document.getElementById("davaedilendiv").style.display = "block";
 	} else {
