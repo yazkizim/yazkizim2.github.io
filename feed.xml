@@ -43,8 +43,6 @@ layout: null
             <description>{{ post.anlami | xml_escape }}</description>
             <link>{{ post.kelime | append: sozluk }}</link>
           </item>
-        {% endif %}
-      {% endif %}
     {% endfor %}
   </channel>
 </rss>
