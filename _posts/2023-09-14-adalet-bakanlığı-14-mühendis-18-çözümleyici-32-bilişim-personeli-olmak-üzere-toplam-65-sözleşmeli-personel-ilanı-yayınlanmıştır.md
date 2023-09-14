@@ -4,7 +4,7 @@ author: gokhantasci
 title: Adalet Bakanlığı 14 Mühendis, 18 Çözümleyici, 32 Bilişim Personeli olmak
   üzere toplam 65 Sözleşmeli Personel ilanı yayınlanmıştır
 date: 2023-09-14T09:30:49.301Z
-thumbnail-img: /assets/img/posts/code.jpg
+thumbnail: /assets/img/posts/code.jpg
 category: Haber
 summary: adalet bakanlığı personel, adalet bakanlığı mühendis, adalet bakanlığı
   bilişim, bilgi işlem genel müdürlüğü
