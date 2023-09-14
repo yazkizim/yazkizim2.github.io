@@ -8,7 +8,7 @@ permalink: /blog/categories/Hesaplamalar/
 
 <div class="card">
 {% for post in site.categories.Hesaplamalar %}
-      <li class="category-posts"><span>{% assign m = post.date | date: "%-d %-m %Y" %}
+      <li class="category-posts"><span>{% assign m = post.date | date: "%-d %m %Y" %}
 {{ page.date | date: "%-d" }}
 {% case m %}
     {% when '1' %}Ocak

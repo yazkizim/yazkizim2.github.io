@@ -10,7 +10,7 @@ permalink: /blog/categories/Güncelleme/
                   | where: "category", {{ page.title }}
                 -%}
 {%- for post in kelime -%}
-    <li class="category-posts"><span>{% assign m = post.date | date: "%-d %-m %Y" %}
+    <li class="category-posts"><span>{% assign m = post.date | date: "%-d %m %Y" %}
 {{ page.date | date: "%-d" }}
 {% case m %}
     {% when '1' %}Ocak
