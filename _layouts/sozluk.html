@@ -25,8 +25,8 @@ keywords: ne anlamına gelmektedir, ne demektir
 
         $.getJSON("../dist/sozluk.json", function(data) {
                 $.each(data, function(k, obj) {
-                if(obj['kelime'] == kelime) {
-                        $('#kelime').html('<br' + kelime + " : " + obj['anlami'] + '<br>Anlamına gelmektedir.');     
+                if(obj['kelime'].toLowerCase() == kelime.toLowerCase()) {
+                        $('#kelime').html('<br>' + kelime + " : " + obj['anlami'] + '<br>Anlamına gelmektedir.');     
                 }
                 });
         }); 
