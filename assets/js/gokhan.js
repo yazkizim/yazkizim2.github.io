@@ -242,7 +242,7 @@ function harchesapla(){
 			if ((davamiktar *1) < (asgarivekaletasliye * 1)) {
 				asgarivekaletasliye = (davamiktar *1).toFixed(2);
 			} else { 
-				asgarivekaletasliye = (nispiaaut(davamiktar *1) * 1).toFixed(2);
+				asgarivekaletasliye = (nispiaaut(davamiktar *1) * 1).toFixed(2); // buralarda birşey var ama ne 
 			}
 		} else if (davasonucu == '2') {
 			if ((kabulmiktar * 1 * nispi) > (temelharc * 1)) {
@@ -331,7 +331,7 @@ function harchesapla(){
 			} else if (bakiyeharc * 1 > 0) {
 				if((temelharc*1) - (bakiyeharc*1) >0){
 					harcmetin = "- Harçlar Kanunu uyarınca " + davadegeriuzerinden + "alınması gereken toplam " + (temelharc*1).toFixed(2) + " TL "
-					harcmetin = harcmetin + " harçtan daha önce ödenen toplam " + ((temelharc*1) - (bakiyeharc*1)).toFixed(2) + " TL harç düşüldükten sonra eksik kalan " + (bakiyeharc*1).toFixed(2) + " TL harcın " + davalimetinden + "alınarak hazineye gelir kaydına,\n\n";
+					harcmetin = harcmetin + " harçtan daha önce ödenen toplam " + ((temelharc*1) - (bakiyeharc*1)).toFixed(2) + " TL harç düşüldükten sonra eksik kalan " + (bakiyeharc*1).toFixed(2) + " TL harcın " + davalimetinden + " hazineye gelir kaydına,\n\n";
 				} else {
 					harcmetin = "- Harçlar Kanunu uyarınca " + davadegeriuzerinden + "alınması gereken toplam " + (temelharc*1).toFixed(2) + " TL "
 					harcmetin = harcmetin + " harcın " + davalimetinden + "hazineye gelir kaydına,\n\n";
@@ -363,7 +363,7 @@ function harchesapla(){
 			} else if (bakiyeharc * 1 > 0) {
 				if((temelharc*1) - (bakiyeharc*1) >0){
 					harcmetin = "- Harçlar Kanunu uyarınca " + davadegeriuzerinden + "alınması gereken toplam " + (temelharc*1).toFixed(2) + " TL "
-					harcmetin = harcmetin + " harçtan daha önce ödenen toplam " + ((temelharc*1) - (bakiyeharc*1)).toFixed(2) + " TL harç düşüldükten sonra eksik kalan " + (bakiyeharc*1).toFixed(2) + " TL harcın " + davalimetinden + "alınarak hazineye gelir kaydına,\n\n";
+					harcmetin = harcmetin + " harçtan daha önce ödenen toplam " + ((temelharc*1) - (bakiyeharc*1)).toFixed(2) + " TL harç düşüldükten sonra eksik kalan " + (bakiyeharc*1).toFixed(2) + " TL harcın " + davalimetinden + " hazineye gelir kaydına,\n\n";
 				} else {
 					harcmetin = "- Harçlar Kanunu uyarınca " + davadegeriuzerinden + "alınması gereken toplam " + (temelharc*1).toFixed(2) + " TL "
 					harcmetin = harcmetin + " harcın " + davalimetinden + "hazineye gelir kaydına,\n\n";
@@ -398,7 +398,7 @@ function harchesapla(){
 			} else if (bakiyeharc * 1 > 0) {
 				if((temelharc*1) - (bakiyeharc*1) >0){
 					harcmetin = "- Harçlar Kanunu uyarınca " + davadegeriuzerinden + "alınması gereken toplam " + (temelharc*1).toFixed(2) + " TL "
-					harcmetin = harcmetin + " harçtan daha önce ödenen toplam " + ((temelharc*1) - (bakiyeharc*1)).toFixed(2) + " TL harç düşüldükten sonra eksik kalan " + (bakiyeharc*1).toFixed(2) + " TL harcın " + davalimetinden + "alınarak hazineye gelir kaydına,\n\n";
+					harcmetin = harcmetin + " harçtan daha önce ödenen toplam " + ((temelharc*1) - (bakiyeharc*1)).toFixed(2) + " TL harç düşüldükten sonra eksik kalan " + (bakiyeharc*1).toFixed(2) + " TL harcın " + davalimetinden + " hazineye gelir kaydına,\n\n";
 				} else {
 					harcmetin = "- Harçlar Kanunu uyarınca " + davadegeriuzerinden + "alınması gereken toplam " + (temelharc*1).toFixed(2) + " TL "
 					harcmetin = harcmetin + " harcın " + davalimetinden + "hazineye gelir kaydına,\n\n";
@@ -408,7 +408,8 @@ function harchesapla(){
 				harcmetin = "- Harçlar Kanunu uyarınca " + davadegeriuzerinden + "alınması gereken toplam " + (temelharc*1).toFixed(2) + " TL "
 				harcmetin = harcmetin + " harcın mahsubu ile fazladan alınan " + (bakiyeharc*-1).toFixed(2) + " TL'nin yatıran tarafa iadesine,\n\n";
 			}
-		}	
+		}
+			
 
 		if (davacivekili) {
 			if ((kabulmiktar *1) < (asgarivekaletasliye *1)) {
@@ -455,7 +456,7 @@ function harchesapla(){
 		} else if (bakiyeharc * 1 > 0) {
 			if((temelharc*1) - (bakiyeharc*1) >0){
 				harcmetin = "- Harçlar Kanunu uyarınca " + davadegeriuzerinden + "alınması gereken toplam " + (temelharc*1).toFixed(2) + " TL "
-				harcmetin = harcmetin + " harçtan daha önce ödenen toplam " + ((temelharc*1) - (bakiyeharc*1)).toFixed(2) + " TL harç düşüldükten sonra eksik kalan " + (bakiyeharc*1).toFixed(2) + " TL harcın " + davacimetinden + "alınarak hazineye gelir kaydına,\n\n";
+				harcmetin = harcmetin + " harçtan daha önce ödenen toplam " + ((temelharc*1) - (bakiyeharc*1)).toFixed(2) + " TL harç düşüldükten sonra eksik kalan " + (bakiyeharc*1).toFixed(2) + " TL harcın " + davacimetinden + " hazineye gelir kaydına,\n\n";
 			} else {
 				harcmetin = "- Harçlar Kanunu uyarınca " + davadegeriuzerinden + "alınması gereken toplam " + (temelharc*1).toFixed(2) + " TL "
 				harcmetin = harcmetin + " harcın " + davacimetinden + "hazineye gelir kaydına,\n\n";
@@ -486,7 +487,7 @@ function harchesapla(){
 			if((temelharc*1) - (bakiyeharc*1) >0){
 				harcmetin = "- Harçlar kanunu gereğince davadan feragat veya davayı kabul veya sulh, muhakemenin ilk celsesinden sonra vuku bulduğundan, maktu karar ve ilam harcının üçte ikisi olan toplam " + davadegeriuzerinden;
 				+ "alınması gereken toplam " + (temelharc*1).toFixed(2) + " TL ";
-				harcmetin = harcmetin + " harçtan daha önce ödenen toplam " + ((temelharc*1) - (bakiyeharc*1)).toFixed(2) + " TL harç düşüldükten sonra eksik kalan " + (bakiyeharc*1).toFixed(2) + " TL harcın " + davacimetinden + "alınarak hazineye gelir kaydına,\n\n";
+				harcmetin = harcmetin + " harçtan daha önce ödenen toplam " + ((temelharc*1) - (bakiyeharc*1)).toFixed(2) + " TL harç düşüldükten sonra eksik kalan " + (bakiyeharc*1).toFixed(2) + " TL harcın " + davacimetinden + " hazineye gelir kaydına,\n\n";
 			} else {
 				harcmetin = "- Harçlar kanunu gereğince davadan feragat veya davayı kabul veya sulh, muhakemenin ilk celsesinden sonra vuku bulduğundan, maktu karar ve ilam harcının üçte ikisi olan toplam " + davadegeriuzerinden;
 				+ "alınması gereken toplam " + (temelharc*1).toFixed(2) + " TL ";
@@ -519,7 +520,7 @@ function harchesapla(){
 			if((temelharc*1) - (bakiyeharc*1) >0){
 				harcmetin = "- Harçlar kanunu gereğince davadan feragat veya davayı kabul veya sulh, muhakemenin ilk celsesinden sonra vuku bulduğundan, maktu karar ve ilam harcının üçte biri olan toplam " + davadegeriuzerinden
 				+ (temelharc*1).toFixed(2) + " TL ";
-				harcmetin = harcmetin + " harçtan daha önce ödenen toplam " + ((temelharc*1) - (bakiyeharc*1)).toFixed(2) + " TL harç düşüldükten sonra eksik kalan " + (bakiyeharc*1).toFixed(2) + " TL harcın " + davacimetinden + "alınarak hazineye gelir kaydına,\n\n";
+				harcmetin = harcmetin + " harçtan daha önce ödenen toplam " + ((temelharc*1) - (bakiyeharc*1)).toFixed(2) + " TL harç düşüldükten sonra eksik kalan " + (bakiyeharc*1).toFixed(2) + " TL harcın " + davacimetinden + " hazineye gelir kaydına,\n\n";
 			} else {
 				harcmetin = "- Harçlar kanunu gereğince davadan feragat veya davayı kabul veya sulh, muhakemenin ilk celsesinden sonra vuku bulduğundan, maktu karar ve ilam harcının üçte biri olan toplam " + davadegeriuzerinden
 				+ "alınması gereken toplam " + (temelharc*1).toFixed(2) + " TL ";
@@ -601,7 +602,7 @@ function harchesapla(){
 				+ " TL'nin ";
 			}
 			gidermetin = gidermetin + davalimetinden;
-			gidermetin = gidermetin + " verilmesine,\n\n";
+			gidermetin = gidermetin + " davacıya verilmesine,\n\n";
 		}	
 	} else if (davasonucu == '3' || davasonucu == '4' || davasonucu == '6' || davasonucu == '7' || davasonucu == '8' || davasonucu == '9' || davasonucu == '10') {
 		gidermetin = "- Davacı tarafından yapılan yargılama giderlerinin kendi üzerinde bırakılmasına,\n\n"
