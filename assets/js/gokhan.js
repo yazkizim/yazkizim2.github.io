@@ -42,7 +42,7 @@ function binler(x) {
 
 function harchesapla(){
 	let temelharc = 269.85;
-	let asgarivekaletasliye = 9200;
+	let asgarivekaletasliye = 9200.00;
 	let davasonucu = document.getElementById("davasonucu").value *1;
 	var davacibirdenfazla = document.getElementById("davacibirdenfazla").checked;
 	var davacivekili = document.getElementById("davacivekili").checked;
@@ -75,41 +75,41 @@ function harchesapla(){
 	var bilirkisiucretimetin = '';
 	var tebligatmetin = '';
 	let toplammasraf = 0;
-	var fazlayatanmetin = "- -Fazla yatan gider avansı ile delil avansı var ise 12/1/2011 tarihli ve 6100 sayılı Adalet Bakanlığı Hukuk Muhakemeleri Gider Avansı Tarifesinin 5.maddesine göre karar kesinleştikten sonra istek halinde ve taraflar hesap numarası bildirilmiş ise iade elektronik ortamda hesaba aktarılmasına, hesap numarası bildirilmemiş ise masrafı avanstan karşılanmak suretiyle PTT merkez ve işyerleri vasıtasıyla adreste ödemeli olarak taraflara İADESİNE";
+	var fazlayatanmetin = "- Fazla yatan gider avansı ile delil avansı var ise 12/1/2011 tarihli ve 6100 sayılı Adalet Bakanlığı Hukuk Muhakemeleri Gider Avansı Tarifesinin 5.maddesine göre karar kesinleştikten sonra istek halinde ve taraflar hesap numarası bildirilmiş ise iade elektronik ortamda hesaba aktarılmasına, hesap numarası bildirilmemiş ise masrafı avanstan karşılanmak suretiyle PTT merkez ve işyerleri vasıtasıyla adreste ödemeli olarak taraflara İADESİNE";
 
 
 	if (basvuruharci || basvuruharci > 0) {
-		basvuruharcmetin = basvuruharci.toFixed(2) + ' TL Başvuru Harcı,';
+		basvuruharcmetin = basvuruharci.toFixed(2) + ' TL Başvuru Harcı, ';
 		toplammasraf = toplammasraf +  basvuruharci.toFixed(2);
 	}
 
 	if (pesinharc || pesinharc > 0) {
-		pesinharcmetin = pesinharc.toFixed(2) + ' TL Peşin/nisbi Harcı,';
+		pesinharcmetin = pesinharc.toFixed(2) + ' TL Peşin/nisbi Harcı, ';
 		toplammasraf = toplammasraf +  pesinharc.toFixed(2);
 	}
 
 	if (tamamlamaharci || tamamlamaharci > 0) {
-		tamamlamaharcmetin = tamamlamaharci.toFixed(2) + ' TL Tamamlama Harcı,';
+		tamamlamaharcmetin = tamamlamaharci.toFixed(2) + ' TL Tamamlama Harcı, ';
 		toplammasraf = toplammasraf +  tamamlamaharci.toFixed(2);
 	}
 
 	if (islahharci || islahharci > 0) {
-		islahharcimetin = islahharci.toFixed(2) + ' TL Islah Harcı,';
+		islahharcimetin = islahharci.toFixed(2) + ' TL Islah Harcı, ';
 		toplammasraf = toplammasraf +  islahharci.toFixed(2);		
 	}
 
 	if (kesifharci || kesifharci > 0) {
-		kesifharcimetin = kesifharci.toFixed(2) + ' TL Keşif Harcı,';
+		kesifharcimetin = kesifharci.toFixed(2) + ' TL Keşif Harcı, ';
 		toplammasraf = toplammasraf +  kesifharci.toFixed(2);		
 	}
 	
 	if (bilirkisiucreti || bilirkisiucreti > 0) {
-		bilirkisiucretimetin = bilirkisiucreti.toFixed(2) + ' TL Bilirkişi Ücreti,';
+		bilirkisiucretimetin = bilirkisiucreti.toFixed(2) + ' TL Bilirkişi Ücreti, ';
 		toplammasraf = toplammasraf +  bilirkisiucreti.toFixed(2);		
 	}
 
 	if (tebligatmasraf || tebligatmasraf > 0) {
-		tebligatmetin = tebligatmasraf.toFixed(2) + ' TL Posta ve sair masraflar';
+		tebligatmetin = tebligatmasraf.toFixed(2) + ' TL Posta ve sair masraflar ';
 		toplammasraf = toplammasraf +  bilirkisiucreti.toFixed(2);		
 	}
 	
@@ -160,7 +160,7 @@ function harchesapla(){
 	if (toplammasraf == 0) {
 		gidermetin = "- " + davalimetin + " tarafından yapılan herhangi bir yargılama gideri olmadığından bu hususta karar verilmesine yer olmadığına,\n"
 	} else {
-		gidermetin = davalimetin + " tarafından yapılan; " + basvuruharci + pesinharcmetin + tamamlamaharcmetin + islahharcimetin + kesifharcimetin + bilirkisiucretimetin + tebligatmetin + " olmak üzere toplam " + toplammasraf.toFixed(2) + " TL'nin ";
+		gidermetin = davalimetin + " tarafından yapılan; " + basvuruharcimetin + pesinharcmetin + tamamlamaharcmetin + islahharcimetin + kesifharcimetin + bilirkisiucretimetin + tebligatmetin + " olmak üzere toplam " + toplammasraf.toFixed(2) + " TL'nin ";
 
 		if (!davalibirdenfazla) {
 			gidermetin = gidermetin + " davalıdan alınarak ";
