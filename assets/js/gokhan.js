@@ -97,25 +97,25 @@ function harchesapla(){
 	}
 	console.log("4 geldi : " + toplammasraf);
 
-	if (islahharci || islahharci > 0) {
+	if (islahharci || islahharci*1 > 0) {
 		islahharcimetin = islahharci.toFixed(2) + ' TL Islah Harcı, ';
 		toplammasraf = toplammasraf +  (islahharci*1).toFixed(2);		
 	}
 	console.log("5 geldi : " + toplammasraf);
 
-	if (kesifharci || kesifharci > 0) {
+	if (kesifharci || kesifharci*1 > 0) {
 		kesifharcimetin = kesifharci.toFixed(2) + ' TL Keşif Harcı, ';
 		toplammasraf = toplammasraf +  (kesifharci*1).toFixed(2);		
 	}
 	console.log("6 geldi : " + toplammasraf);
 	
-	if (bilirkisiucreti || bilirkisiucreti > 0) {
+	if (bilirkisiucreti || bilirkisiucreti*1 > 0) {
 		bilirkisiucretimetin = bilirkisiucreti.toFixed(2) + ' TL Bilirkişi Ücreti, ';
 		toplammasraf = toplammasraf +  (bilirkisiucreti*1).toFixed(2);		
 	}
 	console.log("7 geldi : " + toplammasraf);
 
-	if (tebligatmasraf || tebligatmasraf > 0) {
+	if (tebligatmasraf || tebligatmasraf*1 > 0) {
 		tebligatmetin = tebligatmasraf.toFixed(2) + ' TL Posta ve sair masraflar ';
 		toplammasraf = toplammasraf +  (bilirkisiucreti*1).toFixed(2);		
 	}
