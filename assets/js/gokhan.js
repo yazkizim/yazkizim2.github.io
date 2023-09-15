@@ -243,6 +243,12 @@ function harchesapla(){
 			} else { 
 				asgarivekaletasliye = (nispiaaut(davamiktar *1) * 1).toFixed(2);
 			}
+		} else if (davasonucu == '2') {
+			if ((kabulmiktar * 1 * nispi) > (temelharc * 1)) {
+				temelharc = (kabulmiktar * 1 * nispi).toFixed(2);
+				bakiyeharc = temelharc - pesinharc - tamamlamaharci - islahharci;
+			}
+			
 		} else if (davasonucu == '3'){
 			if ((davamiktar *1) < (asgarivekaletasliye *1)) {
 				asgarivekaletasliye = (davamiktar * 1).toFixed(2);
@@ -331,7 +337,7 @@ function harchesapla(){
 		/* davalı muafsa */
 		if (davalimuaf) {
 			harcmetin = "- Davalı kurum harçtan muaf olduğundan bu hususta karar verilmesine yer olmadığına,\n\n";
-		} else{
+		} else {
 			if (bakiyeharc == "0") {
 				harcmetin = "Harçlar kanunu gereğince alınması gereken harç peşin yatırıldığından yeniden alınmasına yer olmadığına,\n\n";
 			} else if (bakiyeharc * 1 > 0) {
@@ -350,6 +356,12 @@ function harchesapla(){
 		}	
 
 		if (davacivekili) {
+			if ((kabul *1) < (asgarivekaletasliye *1)) {
+				asgarivekaletasliye = (kabul * 1).toFixed(2);
+			} else {
+				asgarivekaletasliye = (nispiaaut(kabul *1) * 1).toFixed(2);
+			}
+
 			vekaletnamemetin = "- " + davacimetin + " kendisini vekaletnameli vekil ile temsil ettirdiğinden karar tarihi itibariyle yürürlükte bulunan Avukatlık Asgari Ücret Tarifesi uyarınca hesaplanan ";
 			vekaletnamemetin = vekaletnamemetin + asgarivekaletasliye + " TL vekalet ücretinin ";
 			vekaletnamemetin = vekaletnamemetin + davalimetinden;
@@ -363,6 +375,13 @@ function harchesapla(){
 		}
 
 		if (davalivekili) {
+
+			if (((davamiktar*1) - (kabul *1))*1 < (asgarivekaletasliye *1)) {
+				asgarivekaletasliye = (((davamiktar*1) - (kabul *1)) * 1).toFixed(2);
+			} else {
+				asgarivekaletasliye = (nispiaaut(((davamiktar*1) - (kabul *1)) *1) * 1).toFixed(2);
+			}
+
 			vekaletnamemetin = vekaletnamemetin + "- " + davalimetin + " kendisini vekaletnameli vekil ile temsil ettirdiğinden karar tarihi itibariyle yürürlükte bulunan Avukatlık Asgari Ücret Tarifesi uyarınca hesaplanan ";
 			vekaletnamemetin = vekaletnamemetin + asgarivekaletasliye + " TL vekalet ücretinin ";
 			vekaletnamemetin = vekaletnamemetin + davacimetinden;			
@@ -2730,8 +2749,10 @@ $(document).ready(function(){
 	if (event.currentTarget.checked) {
 		document.getElementById("davaedilendiv").style.display = "block";
 		if (document.getElementById("davasonucu").value == 2) {
+			document.getElementById("davaedilendiv").style.display = "block";
 			document.getElementById("kabuledilendiv").style.display = "block";
 		} else {
+			document.getElementById("davaedilendiv").style.display = "none";
 			document.getElementById("kabuledilendiv").style.display = "none";
 		}
 	} else {
