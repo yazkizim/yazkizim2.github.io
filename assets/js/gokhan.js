@@ -177,6 +177,8 @@ function harchesapla(){
 			metin = metin + harcmetin + vekaletnamemetin + gidermetin + fazlayatanmetin;
 		}
 	}
+
+	document.getElementById('yargilamahukum').innerText = metin;
 }
 
 function maashesapla(){
