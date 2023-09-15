@@ -41,7 +41,7 @@ function binler(x) {
 }
 
 function harchesapla(){
-	let basvuruharci = 269.85;
+	let temelharc = 269.85;
 	let asgarivekaletasliye = 9200;
 	let davasonucu = document.getElementById("davasonucu").value;
 	var davacibirdenfazla = document.getElementById("davacibirdenfazla").checked;
