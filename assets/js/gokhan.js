@@ -155,6 +155,8 @@ function harchesapla(){
 		vekaletnamemetin = vekaletnamemetin + " verilmesine\n\n";
 	}
 
+	toplammasraf = toplammasraf * 1;
+
 	if (toplammasraf == 0) {
 		gidermetin = "- " + davalimetin + " tarafından yapılan herhangi bir yargılama gideri olmadığından bu hususta karar verilmesine yer olmadığına,\n"
 	} else {
