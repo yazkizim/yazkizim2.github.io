@@ -250,6 +250,28 @@ function harchesapla(){
 				bakiyeharc = temelharc - pesinharc - tamamlamaharci - islahharci;
 			}
 			
+		} else if (davasonucu == '12') { // nafaka tam kabul
+			if ((davamiktar * 1 * ailenispi) > (temelharc * 1)) {
+				temelharc = (davamiktar * 1 * ailenispi).toFixed(2);
+				bakiyeharc = temelharc - pesinharc - tamamlamaharci - islahharci;
+			}
+
+			if ((davamiktar *1 *12) < (asgarivekaletasliye * 1)) {
+				asgarivekaletasliye = asgarivekaletasliye;
+			} else { 
+				asgarivekaletasliye = (nispiaaut(davamiktar * 1 * 12) * 1).toFixed(2);
+			}
+		} else if (davasonucu == '13') { // nafaka kısmen kabul
+			if ((kabulmiktar * 1 * ailenispi) > (temelharc * 1)) {
+				temelharc = (kabulmiktar * 1 * ailenispi).toFixed(2);
+				bakiyeharc = temelharc - pesinharc - tamamlamaharci - islahharci;
+			}
+
+			if ((kabulmiktar *1 *12) < (asgarivekaletasliye * 1)) {
+				asgarivekaletasliye = asgarivekaletasliye;
+			} else { 
+				asgarivekaletasliye = (nispiaaut(kabulmiktar * 1 * 12) * 1).toFixed(2);
+			}
 		} else if (davasonucu == '3'){
 			if ((davamiktar *1) < (asgarivekaletasliye *1)) {
 				asgarivekaletasliye = (davamiktar * 1).toFixed(2);
@@ -333,7 +355,39 @@ function harchesapla(){
 			}
 			vekaletnamemetin = vekaletnamemetin + " verilmesine,\n\n";
 		}
-	} else if (davasonucu == '2') { // kısmen kabul red
+	} else if (davasonucu == '12' || davasonucu == '13') { // nafaka tam kabul davası
+		
+		/* davalı muafsa */		
+			if (bakiyeharc == "0") {
+				harcmetin = "Harçlar kanunu gereğince alınması gereken harç peşin yatırıldığından yeniden alınmasına yer olmadığına,\n\n";
+			} else if (bakiyeharc * 1 > 0) {
+				if((temelharc*1) - (bakiyeharc*1) >0){
+					harcmetin = "- Harçlar Kanunu uyarınca " + davadegeriuzerinden + "alınması gereken toplam " + (temelharc*1).toFixed(2) + " TL "
+					harcmetin = harcmetin + " harçtan daha önce ödenen toplam " + ((temelharc*1) - (bakiyeharc*1)).toFixed(2) + " TL harç düşüldükten sonra eksik kalan " + (bakiyeharc*1).toFixed(2) + " TL harcın " + davalimetinden + "alınarak hazineye gelir kaydına,\n\n";
+				} else {
+					harcmetin = "- Harçlar Kanunu uyarınca " + davadegeriuzerinden + "alınması gereken toplam " + (temelharc*1).toFixed(2) + " TL "
+					harcmetin = harcmetin + " harcın " + davalimetinden + "hazineye gelir kaydına,\n\n";
+				}
+				
+			} else {			
+				harcmetin = "- Harçlar Kanunu uyarınca " + davadegeriuzerinden + "alınması gereken toplam " + (temelharc*1).toFixed(2) + " TL "
+				harcmetin = harcmetin + " harcın mahsubu ile fazladan alınan " + (bakiyeharc*-1).toFixed(2) + " TL'nin yatıran tarafa iadesine,\n\n";
+			}
+		
+
+		if (davacivekili) {
+			vekaletnamemetin = "- " + davacimetin + " kendisini vekaletnameli vekil ile temsil ettirdiğinden karar tarihi itibariyle yürürlükte bulunan Avukatlık Asgari Ücret Tarifesi uyarınca hesaplanan ";
+			vekaletnamemetin = vekaletnamemetin + asgarivekaletasliye + " TL vekalet ücretinin ";
+			vekaletnamemetin = vekaletnamemetin + davalimetinden;
+			
+			if (davacibirdenfazla) {
+				vekaletnamemetin = vekaletnamemetin + " davacılara ";
+			} else {
+				vekaletnamemetin = vekaletnamemetin + " davacıya ";
+			}
+			vekaletnamemetin = vekaletnamemetin + " verilmesine,\n\n";
+		}
+	}  else if (davasonucu == '2') { // kısmen kabul red
 		
 		/* davalı muafsa */
 		if (davalimuaf) {
