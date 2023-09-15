@@ -231,13 +231,13 @@ function harchesapla(){
 			asgarivekaletasliye = (davamiktar *1).toFixed(2);
 		} else { 
 			asgarivekaletasliye = (nispiaaut(davamiktar *1) * 1).toFixed(2);
-
 		}
-
-		if ((davamiktar * 1 * nispi) > (temelharc * 1)) {
-			temelharc = (davamiktar * 1 * nispi).toFixed(2);
-			bakiyeharc = temelharc - pesinharc - tamamlamaharci - islahharci;
-		}		
+		if (davasonucu == '1') {
+			if ((davamiktar * 1 * nispi) > (temelharc * 1)) {
+				temelharc = (davamiktar * 1 * nispi).toFixed(2);
+				bakiyeharc = temelharc - pesinharc - tamamlamaharci - islahharci;
+			}	
+		} 			
 	}
 	/* davalı muafsa */
 	if (davalimuaf) {
