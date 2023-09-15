@@ -320,7 +320,9 @@ function harchesapla(){
 
 	if (davasonucu == '1') { // tam kabul davası
 		metin = metin + harcmetin + vekaletnamemetin + gidermetin + fazlayatanmetin;
-	} else if {davasonucu == '2'} {
+	} else if (davasonucu == '2') {
+		metin = metin + harcmetin + vekaletnamemetin + gidermetin + fazlayatanmetin;
+	} else {
 		metin = metin + harcmetin + vekaletnamemetin + gidermetin + fazlayatanmetin;
 	}
 
