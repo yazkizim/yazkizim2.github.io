@@ -60,13 +60,14 @@ function harchesapla(){
 	let bilirkisiucreti = document.getElementById("bilirkisiucreti").value;
 	let tebligatmasraf = document.getElementById("tebligatmasraf").value;
 	var metin = '';
-	let bakiyeharc = basvuruharci - pesinharc - tamamlamaharci - islahharci;
+	let bakiyeharc = temelharc - pesinharc - tamamlamaharci - islahharci;
 	var davacimetin = 'Davacı';
 	var davalimetin = 'Davalı';
 	var davadegeriuzerinden = '';
 	var harcmetin = '';
 	var gidermetin = '';
 	var vekaletnamemetin = '';
+	var basvuruharcmetin = '';
 	var pesinharcmetin = '';	
 	var tamamlamaharcmetin = ''; 
 	var islahharcimetin = '';
@@ -76,6 +77,11 @@ function harchesapla(){
 	let toplammasraf = 0;
 	var fazlayatanmetin = "- -Fazla yatan gider avansı ile delil avansı var ise 12/1/2011 tarihli ve 6100 sayılı Adalet Bakanlığı Hukuk Muhakemeleri Gider Avansı Tarifesinin 5.maddesine göre karar kesinleştikten sonra istek halinde ve taraflar hesap numarası bildirilmiş ise iade elektronik ortamda hesaba aktarılmasına, hesap numarası bildirilmemiş ise masrafı avanstan karşılanmak suretiyle PTT merkez ve işyerleri vasıtasıyla adreste ödemeli olarak taraflara İADESİNE";
 
+
+	if (basvuruharci || basvuruharci > 0) {
+		basvuruharcmetin = basvuruharci.toFixed(2) + ' TL Başvuru Harcı,';
+		toplammasraf = toplammasraf +  basvuruharci.toFixed(2);
+	}
 
 	if (pesinharc || pesinharc > 0) {
 		pesinharcmetin = pesinharc.toFixed(2) + ' TL Peşin/nisbi Harcı,';
@@ -124,11 +130,11 @@ function harchesapla(){
 	if (bakiyeharc == 0) {
 		harcmetin = "Harçlar kanunu gereğince alınması gereken harç peşin yatırıldığından yeniden alınmasına yer olmadığına,\n\n";
 	} else if (bakiyeharc > 0) {
-		harcmetin = "- Harçlar Kanunu uyarınca " + davadegeriuzerinden + "alınması gereken toplam " + basvuruharci.toFixed(2) + " TL "
-		harcmetin = harcmetin + " harçtan daha önce ödenen toplam " + (basvuruharci - bakiyeharc).toFixed(2) + " TL harç düşüldükten sonra eksik kalan " + bakiyeharc.toFixed(2) + " TL harcın davalıdan alınarak hazineye gelir kaydına,\n\n";
+		harcmetin = "- Harçlar Kanunu uyarınca " + davadegeriuzerinden + "alınması gereken toplam " + temelharc.toFixed(2) + " TL "
+		harcmetin = harcmetin + " harçtan daha önce ödenen toplam " + (temelharc - bakiyeharc).toFixed(2) + " TL harç düşüldükten sonra eksik kalan " + bakiyeharc.toFixed(2) + " TL harcın davalıdan alınarak hazineye gelir kaydına,\n\n";
 	} else {
-		harcmetin = "- Harçlar Kanunu uyarınca " + davadegeriuzerinden + "alınması gereken toplam " + basvuruharci.toFixed(2) + " TL "
-		harcmetin = harcmetin + " harcın mahsubu ile fazladan alınan " + (bakiyeharc - basvuruharci).toFixed(2) + " TL'nin yatıran tarafa iadesine,\n\n";
+		harcmetin = "- Harçlar Kanunu uyarınca " + davadegeriuzerinden + "alınması gereken toplam " + temelharc.toFixed(2) + " TL "
+		harcmetin = harcmetin + " harcın mahsubu ile fazladan alınan " + (bakiyeharc - temelharc).toFixed(2) + " TL'nin yatıran tarafa iadesine,\n\n";
 	}
 	
 
@@ -152,7 +158,7 @@ function harchesapla(){
 	if (toplammasraf == 0) {
 		gidermetin = "- " + davalimetin + " tarafından yapılan herhangi bir yargılama gideri olmadığından bu hususta karar verilmesine yer olmadığına,\n"
 	} else {
-		gidermetin = davalimetin + " tarafından yapılan; " + pesinharcmetin + tamamlamaharcmetin + islahharcimetin + kesifharcimetin + bilirkisiucretimetin + tebligatmetin + " olmak üzere toplam " + toplammasraf.toFixed(2) + " TL'nin ";
+		gidermetin = davalimetin + " tarafından yapılan; " + basvuruharci + pesinharcmetin + tamamlamaharcmetin + islahharcimetin + kesifharcimetin + bilirkisiucretimetin + tebligatmetin + " olmak üzere toplam " + toplammasraf.toFixed(2) + " TL'nin ";
 
 		if (!davalibirdenfazla) {
 			gidermetin = gidermetin + " davalıdan alınarak ";
