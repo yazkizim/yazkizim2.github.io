@@ -249,7 +249,7 @@ function harchesapla(){
 			if ((davamiktar *1) < (asgarivekaletasliye *1)) {
 				asgarivekaletasliye = (davamiktar * 1).toFixed(2);
 			} else {
-				asgarivekaletasliye = (asgarivekaletasliye *1).toFixed(2);
+				asgarivekaletasliye = (nispiaaut(davamiktar *1) * 1).toFixed(2);
 			}
 		} else if (davasonucu == '4'){
 			if ((davamiktar *1) < (asgarivekaletasliye *1)) {
@@ -312,7 +312,7 @@ function harchesapla(){
 			}
 			vekaletnamemetin = vekaletnamemetin + " verilmesine,\n\n";
 		}
-	} else if (davasonucu == '3') {
+	} else if (davasonucu == '3' || davasonucu == '4' || davasonucu == '5' || davasonucu == '6' || davasonucu == '7' || davasonucu == '8' || davasonucu == '9') {
 
 		if (bakiyeharc == "0") {
 			harcmetin = "Harçlar kanunu gereğince alınması gereken harç peşin yatırıldığından yeniden alınmasına yer olmadığına,\n\n";
@@ -343,9 +343,6 @@ function harchesapla(){
 			vekaletnamemetin = vekaletnamemetin + " verilmesine,\n\n";
 		} 
 	} 
-		
-	
-	
 
 	toplammasraf = toplammasraf * 1;
 	if (davasonucu == '1') { 
