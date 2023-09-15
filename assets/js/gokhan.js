@@ -239,7 +239,7 @@ function harchesapla(){
 			bakiyeharc = temelharc - pesinharc - tamamlamaharci - islahharci;
 		}		
 	}
-
+	/* davalı muafsa */
 	if (davalimuaf) {
 		harcmetin = "- Davalı kurum harçtan muaf olduğundan bu hususta karar verilmesine yer olmadığına,\n\n";
 	} else{
@@ -254,45 +254,73 @@ function harchesapla(){
 		}
 	}	
 
-	if (davacivekili) {
-		vekaletnamemetin = "- " + davacimetin + " kendisini vekaletnameli vekil ile temsil ettirdiğinden karar tarihi itibariyle yürürlükte bulunan Avukatlık Asgari Ücret Tarifesi (m. 13 İkinci kısım İkinci bölüm) uyarınca hesaplanan ";
-		vekaletnamemetin = vekaletnamemetin + asgarivekaletasliye + " TL vekalet ücretinin ";
-		if (!davalibirdenfazla) {
-			vekaletnamemetin = vekaletnamemetin + " davalıdan alınarak ";
-		} else {
-			vekaletnamemetin = vekaletnamemetin + " davalılardan müştereken müteselsilen alınarak ";
+	if (davasonucu == '1') { // tam kabul davası
+		if (davacivekili) {
+			vekaletnamemetin = "- " + davacimetin + " kendisini vekaletnameli vekil ile temsil ettirdiğinden karar tarihi itibariyle yürürlükte bulunan Avukatlık Asgari Ücret Tarifesi (m. 13 İkinci kısım İkinci bölüm) uyarınca hesaplanan ";
+			vekaletnamemetin = vekaletnamemetin + asgarivekaletasliye + " TL vekalet ücretinin ";
+			if (!davalibirdenfazla) {
+				vekaletnamemetin = vekaletnamemetin + " davalıdan alınarak ";
+			} else {
+				vekaletnamemetin = vekaletnamemetin + " davalılardan müştereken müteselsilen alınarak ";
+			}
+	
+			if (davacibirdenfazla) {
+				vekaletnamemetin = vekaletnamemetin + " davacılara ";
+			} else {
+				vekaletnamemetin = vekaletnamemetin + " davacıya ";
+			}
+			vekaletnamemetin = vekaletnamemetin + " verilmesine,\n\n";
 		}
+	} else if (davasonucu == '2') {
+		if (davalivekili) {
+			vekaletnamemetin = "- " + davalimetin + " kendisini vekaletnameli vekil ile temsil ettirdiğinden karar tarihi itibariyle yürürlükte bulunan Avukatlık Asgari Ücret Tarifesi (m. 13 İkinci kısım İkinci bölüm) uyarınca hesaplanan ";
+			vekaletnamemetin = vekaletnamemetin + asgarivekaletasliye + " TL vekalet ücretinin ";
 
-		if (davacibirdenfazla) {
-			vekaletnamemetin = vekaletnamemetin + " davacılara ";
-		} else {
-			vekaletnamemetin = vekaletnamemetin + " davacıya ";
-		}
-		vekaletnamemetin = vekaletnamemetin + " verilmesine\n\n";
-	}
+			if (!davalibirdenfazla) {
+				vekaletnamemetin = vekaletnamemetin + " davacıdan alınarak ";
+			} else {
+				vekaletnamemetin = vekaletnamemetin + " davacılardan müştereken müteselsilen alınarak ";
+			}
+	
+			if (davalibirdenfazla) {
+				vekaletnamemetin = vekaletnamemetin + " davalılara ";
+			} else {
+				vekaletnamemetin = vekaletnamemetin + " davalıya ";
+			}
+			vekaletnamemetin = vekaletnamemetin + " verilmesine,\n\n";
+		}		
+	}	
+	
+	
 
 	toplammasraf = toplammasraf * 1;
-
-	if (toplammasraf == 0) {
-		gidermetin = "- " + davalimetin + " tarafından yapılan herhangi bir yargılama gideri olmadığından bu hususta karar verilmesine yer olmadığına,\n"
-	} else {
-		gidermetin = "- " + davalimetin + " tarafından yapılan; " + basvuruharcmetin + pesinharcmetin + tamamlamaharcmetin + islahharcimetin + kesifharcimetin + bilirkisiucretimetin + tebligatmetin + " olmak üzere toplam " + (toplammasraf *1).toFixed(2) + " TL'nin ";
-
-		if (!davalibirdenfazla) {
-			gidermetin = gidermetin + " davalıdan alınarak ";
+	if (davasonucu == '1') { 
+		if (toplammasraf == 0) {
+			gidermetin = "- " + davalimetin + " tarafından yapılan herhangi bir yargılama gideri olmadığından bu hususta karar verilmesine yer olmadığına,\n"
 		} else {
-			gidermetin = gidermetin + " davalılardan müştereken müteselsilen alınarak ";
-		}
-
-		if (davacibirdenfazla) {
-			gidermetin = gidermetin + " davacılara ";
-		} else {
-			gidermetin = gidermetin + " davacıya ";
-		}
-		gidermetin = gidermetin + " verilmesine\n\n";
-	}	
+			gidermetin = "- " + davalimetin + " tarafından yapılan; " + basvuruharcmetin + pesinharcmetin + tamamlamaharcmetin + islahharcimetin + kesifharcimetin + bilirkisiucretimetin + tebligatmetin + " olmak üzere toplam " + (toplammasraf *1).toFixed(2) + " TL'nin ";
+	
+			if (!davalibirdenfazla) {
+				gidermetin = gidermetin + " davalıdan alınarak ";
+			} else {
+				gidermetin = gidermetin + " davalılardan müştereken müteselsilen alınarak ";
+			}
+	
+			if (davacibirdenfazla) {
+				gidermetin = gidermetin + " davacılara ";
+			} else {
+				gidermetin = gidermetin + " davacıya ";
+			}
+			gidermetin = gidermetin + " verilmesine,\n\n";
+		}	
+	} else if (davasonucu == '2') {
+		gidermetin = "- Davacı tarafından yapılan yargılama giderlerinin kendi üzerinde bırakılmasına,\n\n"
+	}
+	
 
 	if (davasonucu == '1') { // tam kabul davası
+		metin = metin + harcmetin + vekaletnamemetin + gidermetin + fazlayatanmetin;
+	} else if {davasonucu == '2'} {
 		metin = metin + harcmetin + vekaletnamemetin + gidermetin + fazlayatanmetin;
 	}
 
@@ -2536,7 +2564,8 @@ $(document).ready(function(){
 			} else {
 				document.getElementById("kabuledilendiv").style.display = "none";
 				document.getElementById("davaedilendiv").style.display = "none";
-			}			
+			}
+			document.getElementById("davalimuaf").checked = false;
 		} else if ($(this).val() == 12) { // nafaka tam kabul 
 			document.getElementById("davacibirdenfazla").checked = false;
 			document.getElementById("davalibirdenfazla").checked = false;
@@ -2565,6 +2594,7 @@ $(document).ready(function(){
 			document.getElementById("bilirkisidiv").style.display = "none";
 			document.getElementById("tebligatdiv").style.display = "none";
 			document.getElementById("davaliharctanmuaf").style.display = "none";
+			document.getElementById("davalimuaf").checked = false;
 		} 
 	});
 
