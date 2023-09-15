@@ -12,6 +12,19 @@ var goruntulenecekSayfa = 5;
 var sayfadakiHaber = 5;
 var sonSayfaZiyaretCount = 0;
 var adliyeler;
+
+function myNoty(MYlayout,MYtype,MYtext){
+	/*
+	noty({
+		layout: MYlayout,
+		theme: 'relax', 
+		type: MYtype, // success, error, warning, information, notification
+		text: MYtext,
+		timeout: 3000,
+		closeWith: ['hover','click'],
+	});
+	*/
+}
  
 
 function hesaplax(x, y){	
@@ -222,19 +235,16 @@ function harchesapla(){
 	}
 
 	if (davapara) {
-		if ((kabulmiktar *1) < (asgarivekaletasliye * 1)) {
-			asgarivekaletasliye = (kabulmiktar *1).toFixed(2);
+		if ((davamiktar *1) < (asgarivekaletasliye * 1)) {
+			asgarivekaletasliye = (davamiktar *1).toFixed(2);
 		} else { 
-			console.log('ab '+ kabulmiktar);
-			console.log('abc '+ nispiaaut(kabulmiktar *1));
-			asgarivekaletasliye = (nispiaaut(kabulmiktar *1) * 1).toFixed(2);
-			console.log('abcd '+ asgarivekaletasliye);
+			asgarivekaletasliye = (nispiaaut(davamiktar *1) * 1).toFixed(2);
+
 		}
 
-		if ((kabulmiktar * 1 * nispi) > (temelharc * 1)) {
-			temelharc = (kabulmiktar * 1 * nispi).toFixed(2);
+		if ((davamiktar * 1 * nispi) > (temelharc * 1)) {
+			temelharc = (davamiktar * 1 * nispi).toFixed(2);
 			bakiyeharc = temelharc - pesinharc - tamamlamaharci - islahharci;
-			console.log('abcd '+ bakiyeharc + ' / ' + temelharc);
 		}		
 	}
 
@@ -972,16 +982,7 @@ function getfarkDates (startDate, endDate) {
 }
 
 
-function myNoty(MYlayout,MYtype,MYtext){
-	noty({
-		layout: MYlayout,
-		theme: 'relax', 
-		type: MYtype, // success, error, warning, information, notification
-		text: MYtext,
-		timeout: 3000,
-		closeWith: ['hover','click'],
-	});
-}
+
 
 $.ajax({
   url: "../dist/katsayilar.json",
