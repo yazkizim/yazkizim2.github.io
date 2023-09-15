@@ -245,9 +245,9 @@ function harchesapla(){
 	if (davalimuaf) {
 		harcmetin = "- Davalı kurum harçtan muaf olduğundan bu hususta karar verilmesine yer olmadığına,\n\n";
 	} else{
-		if (bakiyeharc == 0) {
+		if (bakiyeharc == "0") {
 			harcmetin = "Harçlar kanunu gereğince alınması gereken harç peşin yatırıldığından yeniden alınmasına yer olmadığına,\n\n";
-		} else if (bakiyeharc > 0) {
+		} else if (bakiyeharc *1 > 0) {
 			harcmetin = "- Harçlar Kanunu uyarınca " + davadegeriuzerinden + "alınması gereken toplam " + (temelharc*1).toFixed(2) + " TL "
 			harcmetin = harcmetin + " harçtan daha önce ödenen toplam " + ((temelharc*1) - (bakiyeharc*1)).toFixed(2) + " TL harç düşüldükten sonra eksik kalan " + (bakiyeharc*1).toFixed(2) + " TL harcın davalıdan alınarak hazineye gelir kaydına,\n\n";
 		} else {
