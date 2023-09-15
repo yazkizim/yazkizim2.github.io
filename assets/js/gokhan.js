@@ -225,12 +225,16 @@ function harchesapla(){
 		if ((kabulmiktar *1) < (asgarivekaletasliye * 1)) {
 			asgarivekaletasliye = (kabulmiktar *1).toFixed(2);
 		} else { 
-			asgarivekaletasliye = (nispiaaut(kabulmiktar) * 1).toFixed(2);
+			console.log('ab '+ kabulmiktar);
+			console.log('abc '+ nispiaaut(kabulmiktar *1));
+			asgarivekaletasliye = (nispiaaut(kabulmiktar *1) * 1).toFixed(2);
+			console.log('abcd '+ asgarivekaletasliye);
 		}
 
 		if ((kabulmiktar * 1 * nispi) > (temelharc * 1)) {
 			temelharc = (kabulmiktar * 1 * nispi).toFixed(2);
 			bakiyeharc = temelharc - pesinharc - tamamlamaharci - islahharci;
+			console.log('abcd '+ bakiyeharc + ' / ' + temelharc);
 		}		
 	}
 
@@ -246,8 +250,7 @@ function harchesapla(){
 			harcmetin = "- Harçlar Kanunu uyarınca " + davadegeriuzerinden + "alınması gereken toplam " + temelharc.toFixed(2) + " TL "
 			harcmetin = harcmetin + " harcın mahsubu ile fazladan alınan " + (bakiyeharc - temelharc).toFixed(2) + " TL'nin yatıran tarafa iadesine,\n\n";
 		}
-	}		
-	
+	}	
 
 	if (davacivekili) {
 		vekaletnamemetin = "- " + davacimetin + " kendisini vekaletnameili vekil ile temsil ettirdiğinden karar tarihi itibariyle yürürlükte bulunan Avukatlık Asgari Ücret Tarifesi (m. 13 İkinci kısım İkinci bölüm) uyarınca hesaplanan ";
@@ -286,9 +289,7 @@ function harchesapla(){
 			gidermetin = gidermetin + " davacıya ";
 		}
 		gidermetin = gidermetin + " verilmesine\n\n";
-	}
-
-	
+	}	
 
 	if (davasonucu == '1') { // tam kabul davası
 		metin = metin + harcmetin + vekaletnamemetin + gidermetin + fazlayatanmetin;
