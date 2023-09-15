@@ -40,6 +40,145 @@ function binler(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
+function harchesapla(){
+	let basvuruharci = 269.85;
+	let asgarivekaletasliye = 9200;
+	let davasonucu = document.getElementById("davasonucu").value;
+	var davacibirdenfazla = document.getElementById("davacibirdenfazla").checked;
+	var davacivekili = document.getElementById("davacivekili").checked;
+	var davalibirdenfazla = document.getElementById("davalibirdenfazla").checked;
+	var davalivekili = document.getElementById("davalivekili").checked;
+	var davalimuaf = document.getElementById("davalimuaf").checked;
+	var davapara = document.getElementById("davapara").checked; // para ile ölçülebilen bir dava mı ?
+	let davamiktar = document.getElementById("davamiktar").value;
+	let kabulmiktar = document.getElementById("kabulmiktar").value;
+	let basvuruharci = document.getElementById("basvuruharci").value;
+	let pesinharc = document.getElementById("pesinharc").value;
+	let tamamlamaharci = document.getElementById("tamamlamaharci").value;
+	let islahharci = document.getElementById("islahharci").value;
+	let kesifharci = document.getElementById("kesifharci").value;
+	let bilirkisiucreti = document.getElementById("bilirkisiucreti").value;
+	let tebligatmasraf = document.getElementById("tebligatmasraf").value;
+	var metin = '';
+	let bakiyeharc = basvuruharci - pesinharc - tamamlamaharci - islahharci;
+	var davacimetin = 'Davacı';
+	var davalimetin = 'Davalı';
+	var davadegeriuzerinden = '';
+	var harcmetin = '';
+	var gidermetin = '';
+	var vekaletnamemetin = '';
+	var pesinharcmetin = '';	
+	var tamamlamaharcmetin = ''; 
+	var islahharcimetin = '';
+	var kesifharcimetin = '';
+	var bilirkisiucretimetin = '';
+	var tebligatmetin = '';
+	let toplammasraf = 0;
+	var fazlayatanmetin = "- -Fazla yatan gider avansı ile delil avansı var ise 12/1/2011 tarihli ve 6100 sayılı Adalet Bakanlığı Hukuk Muhakemeleri Gider Avansı Tarifesinin 5.maddesine göre karar kesinleştikten sonra istek halinde ve taraflar hesap numarası bildirilmiş ise iade elektronik ortamda hesaba aktarılmasına, hesap numarası bildirilmemiş ise masrafı avanstan karşılanmak suretiyle PTT merkez ve işyerleri vasıtasıyla adreste ödemeli olarak taraflara İADESİNE";
+
+
+	if (pesinharc || pesinharc > 0) {
+		pesinharcmetin = pesinharc.toFixed(2) + ' TL Peşin/nisbi Harcı,';
+		toplammasraf = toplammasraf +  pesinharc.toFixed(2);
+	}
+
+	if (tamamlamaharci || tamamlamaharci > 0) {
+		tamamlamaharcmetin = tamamlamaharci.toFixed(2) + ' TL Tamamlama Harcı,';
+		toplammasraf = toplammasraf +  tamamlamaharci.toFixed(2);
+	}
+
+	if (islahharci || islahharci > 0) {
+		islahharcimetin = islahharci.toFixed(2) + ' TL Islah Harcı,';
+		toplammasraf = toplammasraf +  islahharci.toFixed(2);		
+	}
+
+	if (kesifharci || kesifharci > 0) {
+		kesifharcimetin = kesifharci.toFixed(2) + ' TL Keşif Harcı,';
+		toplammasraf = toplammasraf +  kesifharci.toFixed(2);		
+	}
+	
+	if (bilirkisiucreti || bilirkisiucreti > 0) {
+		bilirkisiucretimetin = bilirkisiucreti.toFixed(2) + ' TL Bilirkişi Ücreti,';
+		toplammasraf = toplammasraf +  bilirkisiucreti.toFixed(2);		
+	}
+
+	if (tebligatmasraf || tebligatmasraf > 0) {
+		tebligatmetin = tebligatmasraf.toFixed(2) + ' TL Posta ve sair masraflar';
+		toplammasraf = toplammasraf +  bilirkisiucreti.toFixed(2);		
+	}
+	
+
+
+	if (davapara) {
+		davadegeriuzerinden = 'dava değeri üzerinden '
+	}
+
+	if (davacibirdenfazla) {
+		davacimetin = 'Davacılar';
+	}
+
+	if (davalibirdenfazla) {
+		davalimetin = 'Davalılar';
+	}
+
+	if (bakiyeharc == 0) {
+		harcmetin = "Harçlar kanunu gereğince alınması gereken harç peşin yatırıldığından yeniden alınmasına yer olmadığına,\n\n";
+	} else if (bakiyeharc > 0) {
+		harcmetin = "- Harçlar Kanunu uyarınca " + davadegeriuzerinden + "alınması gereken toplam " + basvuruharci.toFixed(2) + " TL "
+		harcmetin = harcmetin + " harçtan daha önce ödenen toplam " + (basvuruharci - bakiyeharc).toFixed(2) + " TL harç düşüldükten sonra eksik kalan " + bakiyeharc.toFixed(2) + " TL harcın davalıdan alınarak hazineye gelir kaydına,\n\n";
+	} else {
+		harcmetin = "- Harçlar Kanunu uyarınca " + davadegeriuzerinden + "alınması gereken toplam " + basvuruharci.toFixed(2) + " TL "
+		harcmetin = harcmetin + " harcın mahsubu ile fazladan alınan " + (bakiyeharc - basvuruharci).toFixed(2) + " TL'nin yatıran tarafa iadesine,\n\n";
+	}
+	
+
+	if (davacivekili) {
+		vekaletnamemetin = "- " + davacimetin + " kendisini vekaletnameili vekil ile temsil ettirdiğinden karar tarihi itibariyle yürürlükte bulunan Avukatlık Asgari Ücret Tarifesi (m. 13 İkinci kısım İkinci bölüm) uyarınca hesaplanan ";
+		vekaletnamemetin = vekaletnamemetin + asgarivekaletasliye + " TL vekalet ücretinin ";
+		if (!davalibirdenfazla) {
+			vekaletnamemetin = vekaletnamemetin + " davalıdan alınarak ";
+		} else {
+			vekaletnamemetin = vekaletnamemetin + " davalılardan müştereken müteselsilen alınarak ";
+		}
+
+		if (davacibirdenfazla) {
+			vekaletnamemetin = vekaletnamemetin + " davacılara ";
+		} else {
+			vekaletnamemetin = vekaletnamemetin + " davacıya ";
+		}
+		vekaletnamemetin = vekaletnamemetin + " verilmesine\n\n";
+	}
+
+	if (toplammasraf == 0) {
+		gidermetin = "- " + davalimetin + " tarafından yapılan herhangi bir yargılama gideri olmadığından bu hususta karar verilmesine yer olmadığına,\n"
+	} else {
+		gidermetin = davalimetin + " tarafından yapılan; " + pesinharcmetin + tamamlamaharcmetin + islahharcimetin + kesifharcimetin + bilirkisiucretimetin + tebligatmetin + " olmak üzere toplam " + toplammasraf.toFixed(2) + " TL'nin ";
+
+		if (!davalibirdenfazla) {
+			gidermetin = gidermetin + " davalıdan alınarak ";
+		} else {
+			gidermetin = gidermetin + " davalılardan müştereken müteselsilen alınarak ";
+		}
+
+		if (davacibirdenfazla) {
+			gidermetin = gidermetin + " davacılara ";
+		} else {
+			gidermetin = gidermetin + " davacıya ";
+		}
+		gidermetin = gidermetin + " verilmesine\n\n";
+	}
+
+
+
+	if (davasonucu == '1') { // tam kabul davası
+		if (davapara) {
+
+		} else {
+			metin = metin + harcmetin + vekaletnamemetin + gidermetin + fazlayatanmetin;
+		}
+	}
+}
+
 function maashesapla(){
 		if ($('#hesaplama').val() > 0) {
 			var aylik_gosterge = window.katsayilar[8].aylik_katsayi / 30 * 14;		
@@ -1653,6 +1792,8 @@ $(document).ready(function(){
 		document.getElementById("yargilamagideriform").reset();			
 	})
 
+	
+
 	$( "#paylasimtemizle" ).click(function() {		
 		document.getElementById("paylasimform").reset();			
 	})
@@ -1866,6 +2007,13 @@ $(document).ready(function(){
 	$( "#yenimaashesapla" ).click(function() {
 		
 		yenimaashesapla();		
+		
+	})
+
+	$( "#harchesapla" ).click(function() {
+		
+		harchesapla();	
+		scrollToBottom();	
 		
 	})
 	
