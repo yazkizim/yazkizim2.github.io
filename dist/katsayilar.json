@@ -2,10 +2,10 @@
     {
         "durum": "eski",
         "enflasyon": 1,
-        "aylik_katsayi": 0.761942,
-        "taban_ayligi_katsayi": 11.925840,
-        "yan_odeme_katsayi": 0.241637,
-        "gelir_vergisi_istisna": 3408,
+        "aylik_katsayi": 0.772239,
+        "taban_ayligi_katsayi": 12.08702,
+        "yan_odeme_katsayi": 0.244902,
+        "gelir_vergisi_istisna": 3453,
         "damga_vergisi_istisna": 152.18
     },
     {
@@ -15,7 +15,7 @@
         "taban_ayligi_katsayi": 7.979285,
         "yan_odeme_katsayi": 0.161673,
         "gelir_vergisi_istisna": 2280,
-        "damga_vergisi_istisna": 101.82
+        "damga_vergisi_istisna": 154.23
     },
     {
         "durum": "fark",
@@ -53,10 +53,10 @@
     {
         "durum": "farkkatsayilarenf",
         "enflasyon": 1,
-        "aylik_katsayi": 0.252146,
-        "taban_ayligi_katsayi": 3.946555,
-        "yan_odeme_katsayi": 0.079964,
-        "gelir_vergisi_istisna": 102,
+        "aylik_katsayi": 0.262443,
+        "taban_ayligi_katsayi": 4.07735,
+        "yan_odeme_katsayi": 0.083229,
+        "gelir_vergisi_istisna": 110,
         "damga_vergisi_istisna": 0
     }
 ]
