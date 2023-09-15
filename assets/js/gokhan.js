@@ -160,7 +160,7 @@ function harchesapla(){
 	if (toplammasraf == 0) {
 		gidermetin = "- " + davalimetin + " tarafından yapılan herhangi bir yargılama gideri olmadığından bu hususta karar verilmesine yer olmadığına,\n"
 	} else {
-		gidermetin = davalimetin + " tarafından yapılan; " + basvuruharcimetin + pesinharcmetin + tamamlamaharcmetin + islahharcimetin + kesifharcimetin + bilirkisiucretimetin + tebligatmetin + " olmak üzere toplam " + toplammasraf.toFixed(2) + " TL'nin ";
+		gidermetin = davalimetin + " tarafından yapılan; " + basvuruharcmetin + pesinharcmetin + tamamlamaharcmetin + islahharcimetin + kesifharcimetin + bilirkisiucretimetin + tebligatmetin + " olmak üzere toplam " + toplammasraf.toFixed(2) + " TL'nin ";
 
 		if (!davalibirdenfazla) {
 			gidermetin = gidermetin + " davalıdan alınarak ";
