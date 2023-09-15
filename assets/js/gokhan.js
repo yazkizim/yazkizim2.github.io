@@ -263,6 +263,23 @@ function harchesapla(){
 			} else {
 				asgarivekaletasliye = (asgarivekaletasliye * 1 * 0.5).toFixed(2);
 			}
+		} else if(davasonucu == '10') {
+			temelharc = (temelharc * 2 / 3).toFixed(2);			
+			bakiyeharc = temelharc - pesinharc - tamamlamaharci - islahharci;
+			if ((davamiktar *1) < (asgarivekaletasliye *1)) {
+				asgarivekaletasliye = (davamiktar * 1).toFixed(2);
+			} else {
+				asgarivekaletasliye = (nispiaaut(davamiktar *1) * 1).toFixed(2);
+			}
+		} else if(davasonucu == '11') {
+			temelharc = (temelharc * 1 / 3).toFixed(2);			
+			bakiyeharc = temelharc - pesinharc - tamamlamaharci - islahharci;
+			if ((davamiktar *1) < (asgarivekaletasliye *1)) {
+				asgarivekaletasliye = (davamiktar * 1 * 0.5).toFixed(2);
+			} else {
+				asgarivekaletasliye = (nispiaaut(davamiktar *1) * 0.5).toFixed(2);
+			}
+
 		} else {
 			if ((davamiktar *1) < (asgarivekaletasliye * 1)) {
 				asgarivekaletasliye = (davamiktar *1).toFixed(2);
@@ -275,7 +292,6 @@ function harchesapla(){
 			}
 		}
 	}
-
 
 	if (davasonucu == '1') { // tam kabul davası
 		
@@ -333,7 +349,7 @@ function harchesapla(){
 		if (davalivekili) {
 			vekaletnamemetin = "- " + davalimetin + " kendisini vekaletnameli vekil ile temsil ettirdiğinden karar tarihi itibariyle yürürlükte bulunan Avukatlık Asgari Ücret Tarifesi uyarınca hesaplanan ";
 			vekaletnamemetin = vekaletnamemetin + asgarivekaletasliye + " TL vekalet ücretinin ";
-			vekaletnamemetin = vekaletnamemetin + davalimetinden;			
+			vekaletnamemetin = vekaletnamemetin + davacimetinden;			
 	
 			if (davalibirdenfazla) {
 				vekaletnamemetin = vekaletnamemetin + " davalılara ";
@@ -342,7 +358,73 @@ function harchesapla(){
 			}
 			vekaletnamemetin = vekaletnamemetin + " verilmesine,\n\n";
 		} 
-	} 
+	} else if ((davasonucu == '10')) {
+
+		if (bakiyeharc == "0") {
+			harcmetin = "Harçlar kanunu uyarınca alınması gereken harç peşin yatırıldığından yeniden alınmasına yer olmadığına,\n\n";
+		} else if (bakiyeharc * 1 > 0) {
+			if((temelharc*1) - (bakiyeharc*1) >0){
+				harcmetin = "- Harçlar kanunu gereğince davadan feragat veya davayı kabul veya sulh, muhakemenin ilk celsesinden sonra vuku bulduğundan, maktu karar ve ilam harcının üçte ikisi olan toplam " + davadegeriuzerinden;
+				+ "alınması gereken toplam " + (temelharc*1).toFixed(2) + " TL ";
+				harcmetin = harcmetin + " harçtan daha önce ödenen toplam " + ((temelharc*1) - (bakiyeharc*1)).toFixed(2) + " TL harç düşüldükten sonra eksik kalan " + (bakiyeharc*1).toFixed(2) + " TL harcın " + davacimetinden + "alınarak hazineye gelir kaydına,\n\n";
+			} else {
+				harcmetin = "- Harçlar kanunu gereğince davadan feragat veya davayı kabul veya sulh, muhakemenin ilk celsesinden sonra vuku bulduğundan, maktu karar ve ilam harcının üçte ikisi olan toplam " + davadegeriuzerinden;
+				+ "alınması gereken toplam " + (temelharc*1).toFixed(2) + " TL ";
+				harcmetin = harcmetin + " harcın " + davacimetinden + "hazineye gelir kaydına,\n\n";
+			}
+			
+		} else {			
+			harcmetin = "- Harçlar kanunu gereğince davadan feragat veya davayı kabul veya sulh, muhakemenin ilk celsesinden sonra vuku bulduğundan, maktu karar ve ilam harcının üçte ikisi olan toplam " + davadegeriuzerinden;
+			+ "alınması gereken toplam " + (temelharc*1).toFixed(2) + " TL ";
+			harcmetin = harcmetin + " harcın mahsubu ile fazladan alınan " + (bakiyeharc*-1).toFixed(2) + " TL'nin yatıran tarafa iadesine,\n\n";
+		}
+		
+		if (davalivekili) {
+			vekaletnamemetin = "- " + davalimetin + " kendisini vekaletnameli vekil ile temsil ettirdiğinden karar tarihi itibariyle yürürlükte bulunan Avukatlık Asgari Ücret Tarifesi uyarınca hesaplanan ";
+			vekaletnamemetin = vekaletnamemetin + asgarivekaletasliye + " TL vekalet ücretinin ";
+			vekaletnamemetin = vekaletnamemetin + davacimetinden;			
+	
+			if (davalibirdenfazla) {
+				vekaletnamemetin = vekaletnamemetin + " davalılara ";
+			} else {
+				vekaletnamemetin = vekaletnamemetin + " davalıya ";
+			}
+			vekaletnamemetin = vekaletnamemetin + " verilmesine,\n\n";
+		} 
+	} else if ((davasonucu == '11')) {
+
+		if (bakiyeharc == "0") {
+			harcmetin = "Harçlar kanunu uyarınca alınması gereken harç peşin yatırıldığından yeniden alınmasına yer olmadığına,\n\n";
+		} else if (bakiyeharc * 1 > 0) {
+			if((temelharc*1) - (bakiyeharc*1) >0){
+				harcmetin = "- Harçlar kanunu gereğince davadan feragat veya davayı kabul veya sulh, muhakemenin ilk celsesinden sonra vuku bulduğundan, maktu karar ve ilam harcının üçte biri olan toplam " + davadegeriuzerinden;
+				+ "alınması gereken toplam " + (temelharc*1).toFixed(2) + " TL ";
+				harcmetin = harcmetin + " harçtan daha önce ödenen toplam " + ((temelharc*1) - (bakiyeharc*1)).toFixed(2) + " TL harç düşüldükten sonra eksik kalan " + (bakiyeharc*1).toFixed(2) + " TL harcın " + davacimetinden + "alınarak hazineye gelir kaydına,\n\n";
+			} else {
+				harcmetin = "- Harçlar kanunu gereğince davadan feragat veya davayı kabul veya sulh, muhakemenin ilk celsesinden sonra vuku bulduğundan, maktu karar ve ilam harcının üçte biri olan toplam " + davadegeriuzerinden;
+				+ "alınması gereken toplam " + (temelharc*1).toFixed(2) + " TL ";
+				harcmetin = harcmetin + " harcın " + davacimetinden + "hazineye gelir kaydına,\n\n";
+			}
+			
+		} else {			
+			harcmetin = "- Harçlar kanunu gereğince davadan feragat veya davayı kabul veya sulh, muhakemenin ilk celsesinden sonra vuku bulduğundan, maktu karar ve ilam harcının üçte biri olan toplam " + davadegeriuzerinden;
+			+ "alınması gereken toplam " + (temelharc*1).toFixed(2) + " TL ";
+			harcmetin = harcmetin + " harcın mahsubu ile fazladan alınan " + (bakiyeharc*-1).toFixed(2) + " TL'nin yatıran tarafa iadesine,\n\n";
+		}
+		
+		if (davalivekili) {
+			vekaletnamemetin = "- " + davalimetin + " kendisini vekaletnameli vekil ile temsil ettirdiğinden karar tarihi itibariyle yürürlükte bulunan Avukatlık Asgari Ücret Tarifesi uyarınca hesaplanan ";
+			vekaletnamemetin = vekaletnamemetin + asgarivekaletasliye + " TL vekalet ücretinin ";
+			vekaletnamemetin = vekaletnamemetin + davacimetinden;			
+	
+			if (davalibirdenfazla) {
+				vekaletnamemetin = vekaletnamemetin + " davalılara ";
+			} else {
+				vekaletnamemetin = vekaletnamemetin + " davalıya ";
+			}
+			vekaletnamemetin = vekaletnamemetin + " verilmesine,\n\n";
+		} 
+	}
 
 	toplammasraf = toplammasraf * 1;
 	if (davasonucu == '1') { 
@@ -364,7 +446,7 @@ function harchesapla(){
 			}
 			gidermetin = gidermetin + " verilmesine,\n\n";
 		}	
-	} else if (davasonucu == '3' || davasonucu == '4' || davasonucu == '6' || davasonucu == '8' || davasonucu == '10') {
+	} else if (davasonucu == '3' || davasonucu == '4' || davasonucu == '6' || davasonucu == '7' || davasonucu == '8' || davasonucu == '9' || davasonucu == '10') {
 		gidermetin = "- Davacı tarafından yapılan yargılama giderlerinin kendi üzerinde bırakılmasına,\n\n"
 	}
 	
