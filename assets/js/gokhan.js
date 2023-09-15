@@ -2748,16 +2748,16 @@ $(document).ready(function(){
 
 	davapara.addEventListener('change', (event) => {
 	if (event.currentTarget.checked) {
-		document.getElementById("davaedilendiv").style.display = "block";
-		if (document.getElementById("davasonucu").value == '2') {
+		if (document.getElementById("davasonucu").value == '2' || document.getElementById("davasonucu").value == '13') {
 			document.getElementById("davaedilendiv").style.display = "block";
 			document.getElementById("kabuledilendiv").style.display = "block";
 		} else {
-			document.getElementById("davaedilendiv").style.display = "none";
+			document.getElementById("davaedilendiv").style.display = "block";
 			document.getElementById("kabuledilendiv").style.display = "none";
 		}
 	} else {
-		document.getElementById("davaedilendiv").style.display = "none";		
+		document.getElementById("davaedilendiv").style.display = "none";
+		document.getElementById("kabuledilendiv").style.display = "none";		
 	}
 	})
 
