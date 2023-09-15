@@ -143,6 +143,7 @@ function nispiaaut(sonuc){
 function harchesapla(){
 	let temelharc = 269.85;
 	let nispi = 0.06831;
+	let ailenispi = 0.01138;
 	let asgarivekaletasliye = 9200.00;
 	let davasonucu = document.getElementById("davasonucu").value *1;
 	var davacibirdenfazla = document.getElementById("davacibirdenfazla").checked;
@@ -356,10 +357,10 @@ function harchesapla(){
 		}	
 
 		if (davacivekili) {
-			if ((kabul *1) < (asgarivekaletasliye *1)) {
-				asgarivekaletasliye = (kabul * 1).toFixed(2);
+			if ((kabulmiktar *1) < (asgarivekaletasliye *1)) {
+				asgarivekaletasliye = (kabulmiktar * 1).toFixed(2);
 			} else {
-				asgarivekaletasliye = (nispiaaut(kabul *1) * 1).toFixed(2);
+				asgarivekaletasliye = (nispiaaut(kabulmiktar *1) * 1).toFixed(2);
 			}
 
 			vekaletnamemetin = "- " + davacimetin + " kendisini vekaletnameli vekil ile temsil ettirdiğinden karar tarihi itibariyle yürürlükte bulunan Avukatlık Asgari Ücret Tarifesi uyarınca hesaplanan ";
@@ -376,10 +377,10 @@ function harchesapla(){
 
 		if (davalivekili) {
 
-			if (((davamiktar*1) - (kabul *1))*1 < (asgarivekaletasliye *1)) {
-				asgarivekaletasliye = (((davamiktar*1) - (kabul *1)) * 1).toFixed(2);
+			if (((davamiktar*1) - (kabulmiktar *1))*1 < (asgarivekaletasliye *1)) {
+				asgarivekaletasliye = (((davamiktar*1) - (kabulmiktar *1)) * 1).toFixed(2);
 			} else {
-				asgarivekaletasliye = (nispiaaut(((davamiktar*1) - (kabul *1)) *1) * 1).toFixed(2);
+				asgarivekaletasliye = (nispiaaut(((davamiktar*1) - (kabulmiktar *1)) *1) * 1).toFixed(2);
 			}
 
 			vekaletnamemetin = vekaletnamemetin + "- " + davalimetin + " kendisini vekaletnameli vekil ile temsil ettirdiğinden karar tarihi itibariyle yürürlükte bulunan Avukatlık Asgari Ücret Tarifesi uyarınca hesaplanan ";
