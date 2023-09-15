@@ -40,8 +40,96 @@ function binler(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
+function nispiaaut(sonuc){
+	// İlk 100.000 için %16	
+	var hesaplanandeger = 0.00;		
+	if (sonuc > 0 && sonuc <= 100000) { 
+		hesaplanandeger = sonuc * 0.16;
+	}
+	
+	// Sonraki 100.000 için %15 - 200
+	if (sonuc > 100000 && sonuc <= 200000) { 
+		hesaplanandeger = 100000 * 0.16;
+		hesaplanandeger = hesaplanandeger + ((sonuc - 100000) * 0.15);
+	} 	
+	
+	// Sonraki 300.000 için %14 - 500		
+	if (sonuc > 200000 && sonuc <= 500000) { 
+		hesaplanandeger = 100000 * 0.16;
+		hesaplanandeger = hesaplanandeger + (100000 * 0.15);
+		hesaplanandeger = hesaplanandeger + ((sonuc - 200000) * 0.14);
+	} 
+	 
+	// Sonraki 500.000 için %11 - 1m		
+	if (sonuc > 500000 && sonuc <= 1000000) { 
+		hesaplanandeger = 100000 * 0.16;
+		hesaplanandeger = hesaplanandeger + (100000 * 0.15);
+		hesaplanandeger = hesaplanandeger + (300000 * 0.14);
+		hesaplanandeger = hesaplanandeger + ((sonuc - 500000) * 0.11);
+	} 
+	
+	// Sonraki 700.000 için %8 - 1.7m		
+	if (sonuc > 1000000 && sonuc <= 1700000) { 
+		hesaplanandeger = 100000 * 0.16;
+		hesaplanandeger = hesaplanandeger + (100000 * 0.15);
+		hesaplanandeger = hesaplanandeger + (300000 * 0.14);
+		hesaplanandeger = hesaplanandeger + (500000 * 0.11);
+		hesaplanandeger = hesaplanandeger + ((sonuc - 1000000) * 0.08);
+	} 
+	
+	// Sonraki 900.000 için %5 - 2.6m
+	if (sonuc > 1700000 && sonuc <= 2600000) { 
+		hesaplanandeger = 100000 * 0.16;
+		hesaplanandeger = hesaplanandeger + (100000 * 0.15);
+		hesaplanandeger = hesaplanandeger + (300000 * 0.14);
+		hesaplanandeger = hesaplanandeger + (500000 * 0.11);
+		hesaplanandeger = hesaplanandeger + (700000 * 0.08);
+		hesaplanandeger = hesaplanandeger + ((sonuc - 1700000) * 0.05);
+	} 
+	
+	// Sonraki 1.1m için %3 - 3.7m
+	if (sonuc > 2600000 && sonuc <= 3700000) { 
+		hesaplanandeger = 100000 * 0.16;
+		hesaplanandeger = hesaplanandeger + (100000 * 0.15);
+		hesaplanandeger = hesaplanandeger + (300000 * 0.14);
+		hesaplanandeger = hesaplanandeger + (500000 * 0.11);
+		hesaplanandeger = hesaplanandeger + (700000 * 0.08);
+		hesaplanandeger = hesaplanandeger + (900000 * 0.05);
+		hesaplanandeger = hesaplanandeger + ((sonuc - 2600000) * 0.03);
+	} 
+	
+	// Sonraki 1.3m için %2 - 5m
+	if (sonuc > 3700000 && sonuc <= 5000000) { 
+		hesaplanandeger = 100000 * 0.16;
+		hesaplanandeger = hesaplanandeger + (100000 * 0.15);
+		hesaplanandeger = hesaplanandeger + (300000 * 0.14);
+		hesaplanandeger = hesaplanandeger + (500000 * 0.11);
+		hesaplanandeger = hesaplanandeger + (700000 * 0.08);
+		hesaplanandeger = hesaplanandeger + (900000 * 0.05);
+		hesaplanandeger = hesaplanandeger + (1100000 * 0.03);
+		hesaplanandeger = hesaplanandeger + ((sonuc - 3700000) * 0.02);
+	}
+
+	// Sonraki 5m sonrası için %1 
+	if (sonuc > 5000000) { 
+		hesaplanandeger = 100000 * 0.16;
+		hesaplanandeger = hesaplanandeger + (100000 * 0.15);
+		hesaplanandeger = hesaplanandeger + (300000 * 0.14);
+		hesaplanandeger = hesaplanandeger + (500000 * 0.11);
+		hesaplanandeger = hesaplanandeger + (700000 * 0.08);
+		hesaplanandeger = hesaplanandeger + (900000 * 0.05);
+		hesaplanandeger = hesaplanandeger + (1100000 * 0.03);
+		hesaplanandeger = hesaplanandeger + (3700000 * 0.02);
+		hesaplanandeger = hesaplanandeger + ((sonuc - 5000000) * 0.01);
+	}
+
+	return hesaplanandeger;
+
+}
+
 function harchesapla(){
 	let temelharc = 269.85;
+	let nispi = 0.06831;
 	let asgarivekaletasliye = 9200.00;
 	let davasonucu = document.getElementById("davasonucu").value *1;
 	var davacibirdenfazla = document.getElementById("davacibirdenfazla").checked;
@@ -75,7 +163,7 @@ function harchesapla(){
 	var bilirkisiucretimetin = '';
 	var tebligatmetin = '';
 	let toplammasraf = 0.0;
-	var fazlayatanmetin = "- Fazla yatan gider avansı ile delil avansı var ise 12/1/2011 tarihli ve 6100 sayılı Adalet Bakanlığı Hukuk Muhakemeleri Gider Avansı Tarifesinin 5.maddesine göre karar kesinleştikten sonra istek halinde ve taraflar hesap numarası bildirilmiş ise iade elektronik ortamda hesaba aktarılmasına, hesap numarası bildirilmemiş ise masrafı avanstan karşılanmak suretiyle PTT merkez ve işyerleri vasıtasıyla adreste ödemeli olarak taraflara İADESİNE";
+	var fazlayatanmetin = "- Fazla yatan gider avansı ile delil avansı var ise 12/01/2011 tarihli ve 6100 sayılı Adalet Bakanlığı Hukuk Muhakemeleri Gider Avansı Tarifesinin 5.maddesine göre karar kesinleştikten sonra istek halinde ve taraflar hesap numarası bildirilmiş ise iade elektronik ortamda hesaba aktarılmasına, hesap numarası bildirilmemiş ise masrafı avanstan karşılanmak suretiyle PTT merkez ve işyerleri vasıtasıyla adreste ödemeli olarak taraflara İADESİNE,";
 
 	toplammasraf = toplammasraf *1;
 	console.log("1 geldi : " + toplammasraf);
@@ -83,44 +171,42 @@ function harchesapla(){
 		basvuruharcmetin = basvuruharci.toFixed(2) + ' TL Başvuru Harcı, ';
 		toplammasraf = ((toplammasraf*1) +  (basvuruharci*1)).toFixed(2);		
 	}
-	console.log("2 geldi : " + toplammasraf);
+	
 
 	if (pesinharc || pesinharc *1 > 0) {
 		pesinharcmetin = pesinharc.toFixed(2) + ' TL Peşin/nisbi Harcı, ';
 		toplammasraf = ((toplammasraf*1) +  (pesinharc*1)).toFixed(2);
 	}
-	console.log("3 geldi : " + toplammasraf);
+	
 
 	if (tamamlamaharci || tamamlamaharci *1 > 0) {
 		tamamlamaharcmetin = tamamlamaharci.toFixed(2) + ' TL Tamamlama Harcı, ';
 		toplammasraf = ((toplammasraf*1) +  (tamamlamaharci*1)).toFixed(2);
 	}
-	console.log("4 geldi : " + toplammasraf);
+	
 
 	if (islahharci || islahharci*1 > 0) {
 		islahharcimetin = islahharci.toFixed(2) + ' TL Islah Harcı, ';
 		toplammasraf = ((toplammasraf*1) +  (islahharci*1)).toFixed(2);		
 	}
-	console.log("5 geldi : " + toplammasraf);
+	
 
 	if (kesifharci || kesifharci*1 > 0) {
 		kesifharcimetin = kesifharci.toFixed(2) + ' TL Keşif Harcı, ';
 		toplammasraf = ((toplammasraf*1) +  (kesifharci*1)).toFixed(2);		
 	}
-	console.log("6 geldi : " + toplammasraf);
+	
 	
 	if (bilirkisiucreti || bilirkisiucreti*1 > 0) {
 		bilirkisiucretimetin = bilirkisiucreti.toFixed(2) + ' TL Bilirkişi Ücreti, ';
 		toplammasraf = ((toplammasraf*1) +  (bilirkisiucreti*1)).toFixed(2);		
 	}
-	console.log("7 geldi : " + toplammasraf);
+	
 
 	if (tebligatmasraf || tebligatmasraf*1 > 0) {
 		tebligatmetin = tebligatmasraf.toFixed(2) + ' TL Posta ve sair masraflar ';
 		toplammasraf = ((toplammasraf*1) +  (tebligatmasraf*1)).toFixed(2);		
-	}
-	console.log("8 geldi : " + toplammasraf);
-	
+	}	
 
 
 	if (davapara) {
@@ -135,8 +221,21 @@ function harchesapla(){
 		davalimetin = 'Davalılar';
 	}
 
+	if (davapara) {
+		if ((kabulmiktar *1) < (asgarivekaletasliye * 1)) {
+			asgarivekaletasliye = (kabulmiktar *1).toFixed(2);
+		} else { 
+			asgarivekaletasliye = (nispiaaut(kabulmiktar) * 1).toFixed(2);
+		}
+
+		if ((kabulmiktar * 1 * nispi) > (temelharc * 1)) {
+			temelharc = (kabulmiktar * 1 * nispi).toFixed(2);
+			bakiyeharc = temelharc - pesinharc - tamamlamaharci - islahharci;
+		}		
+	}
+
 	if (davalimuaf) {
-		harcmetin = "- Davalı kurum harçtan muaf olduğundan bu hususta karar verilmesine yer olmadığına,";
+		harcmetin = "- Davalı kurum harçtan muaf olduğundan bu hususta karar verilmesine yer olmadığına,\n\n";
 	} else{
 		if (bakiyeharc == 0) {
 			harcmetin = "Harçlar kanunu gereğince alınması gereken harç peşin yatırıldığından yeniden alınmasına yer olmadığına,\n\n";
@@ -147,7 +246,7 @@ function harchesapla(){
 			harcmetin = "- Harçlar Kanunu uyarınca " + davadegeriuzerinden + "alınması gereken toplam " + temelharc.toFixed(2) + " TL "
 			harcmetin = harcmetin + " harcın mahsubu ile fazladan alınan " + (bakiyeharc - temelharc).toFixed(2) + " TL'nin yatıran tarafa iadesine,\n\n";
 		}
-	}	
+	}		
 	
 
 	if (davacivekili) {
@@ -189,14 +288,10 @@ function harchesapla(){
 		gidermetin = gidermetin + " verilmesine\n\n";
 	}
 
-
+	
 
 	if (davasonucu == '1') { // tam kabul davası
-		if (davapara) {
-
-		} else {
-			metin = metin + harcmetin + vekaletnamemetin + gidermetin + fazlayatanmetin;
-		}
+		metin = metin + harcmetin + vekaletnamemetin + gidermetin + fazlayatanmetin;
 	}
 
 	document.getElementById('yargilamahukum').innerText = metin;
