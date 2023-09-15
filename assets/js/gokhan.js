@@ -234,7 +234,7 @@ function harchesapla(){
 
 	if (davapara) {		
 		
-		if (davasonucu == '1' || davasonucu == '3') {
+		if (davasonucu == '1') {
 			if ((davamiktar * 1 * nispi) > (temelharc * 1)) {
 				temelharc = (davamiktar * 1 * nispi).toFixed(2);
 				bakiyeharc = temelharc - pesinharc - tamamlamaharci - islahharci;
@@ -244,6 +244,12 @@ function harchesapla(){
 				asgarivekaletasliye = (davamiktar *1).toFixed(2);
 			} else { 
 				asgarivekaletasliye = (nispiaaut(davamiktar *1) * 1).toFixed(2);
+			}
+		} else if (davasonucu == '3'){
+			if ((davamiktar *1) < (asgarivekaletasliye *1)) {
+				asgarivekaletasliye = (davamiktar * 1).toFixed(2);
+			} else {
+				asgarivekaletasliye = (asgarivekaletasliye *1).toFixed(2);
 			}
 		} else if (davasonucu == '4'){
 			if ((davamiktar *1) < (asgarivekaletasliye *1)) {
@@ -307,6 +313,7 @@ function harchesapla(){
 			vekaletnamemetin = vekaletnamemetin + " verilmesine,\n\n";
 		}
 	} else if (davasonucu == '3') {
+
 		if (bakiyeharc == "0") {
 			harcmetin = "Harçlar kanunu gereğince alınması gereken harç peşin yatırıldığından yeniden alınmasına yer olmadığına,\n\n";
 		} else if (bakiyeharc * 1 > 0) {
@@ -343,7 +350,7 @@ function harchesapla(){
 	toplammasraf = toplammasraf * 1;
 	if (davasonucu == '1') { 
 		if (toplammasraf == 0) {
-			gidermetin = "- " + davalimetin + " tarafından yapılan herhangi bir yargılama gideri olmadığından bu hususta karar verilmesine yer olmadığına,\n"
+			gidermetin = "- " + davalimetin + " tarafından yapılan herhangi bir yargılama gideri olmadığından bu hususta karar verilmesine yer olmadığına,\n\n"
 		} else {
 			gidermetin = "- " + davalimetin + " tarafından yapılan; " + basvuruharcmetin + pesinharcmetin + tamamlamaharcmetin + islahharcimetin + kesifharcimetin + bilirkisiucretimetin + tebligatmetin + " olmak üzere toplam " + (toplammasraf *1).toFixed(2) + " TL'nin ";
 	
