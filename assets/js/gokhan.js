@@ -81,43 +81,43 @@ function harchesapla(){
 	console.log("1 geldi : " + toplammasraf);
 	if (basvuruharci || basvuruharci *1 > 0) {
 		basvuruharcmetin = basvuruharci.toFixed(2) + ' TL Başvuru Harcı, ';
-		toplammasraf = toplammasraf +  (basvuruharci*1).toFixed(2);		
+		toplammasraf = ((toplammasraf*1) +  (basvuruharci*1)).toFixed(2);		
 	}
 	console.log("2 geldi : " + toplammasraf);
 
 	if (pesinharc || pesinharc *1 > 0) {
 		pesinharcmetin = pesinharc.toFixed(2) + ' TL Peşin/nisbi Harcı, ';
-		toplammasraf = toplammasraf +  (pesinharc*1).toFixed(2);
+		toplammasraf = ((toplammasraf*1) +  (pesinharc*1)).toFixed(2);
 	}
 	console.log("3 geldi : " + toplammasraf);
 
 	if (tamamlamaharci || tamamlamaharci *1 > 0) {
 		tamamlamaharcmetin = tamamlamaharci.toFixed(2) + ' TL Tamamlama Harcı, ';
-		toplammasraf = toplammasraf +  (tamamlamaharci*1).toFixed(2);
+		toplammasraf = ((toplammasraf*1) +  (tamamlamaharci*1)).toFixed(2);
 	}
 	console.log("4 geldi : " + toplammasraf);
 
 	if (islahharci || islahharci*1 > 0) {
 		islahharcimetin = islahharci.toFixed(2) + ' TL Islah Harcı, ';
-		toplammasraf = toplammasraf +  (islahharci*1).toFixed(2);		
+		toplammasraf = ((toplammasraf*1) +  (islahharci*1)).toFixed(2);		
 	}
 	console.log("5 geldi : " + toplammasraf);
 
 	if (kesifharci || kesifharci*1 > 0) {
 		kesifharcimetin = kesifharci.toFixed(2) + ' TL Keşif Harcı, ';
-		toplammasraf = toplammasraf +  (kesifharci*1).toFixed(2);		
+		toplammasraf = ((toplammasraf*1) +  (kesifharci*1)).toFixed(2);		
 	}
 	console.log("6 geldi : " + toplammasraf);
 	
 	if (bilirkisiucreti || bilirkisiucreti*1 > 0) {
 		bilirkisiucretimetin = bilirkisiucreti.toFixed(2) + ' TL Bilirkişi Ücreti, ';
-		toplammasraf = toplammasraf +  (bilirkisiucreti*1).toFixed(2);		
+		toplammasraf = ((toplammasraf*1) +  (bilirkisiucreti*1)).toFixed(2);		
 	}
 	console.log("7 geldi : " + toplammasraf);
 
 	if (tebligatmasraf || tebligatmasraf*1 > 0) {
 		tebligatmetin = tebligatmasraf.toFixed(2) + ' TL Posta ve sair masraflar ';
-		toplammasraf = toplammasraf +  (bilirkisiucreti*1).toFixed(2);		
+		toplammasraf = ((toplammasraf*1) +  (tebligatmasraf*1)).toFixed(2);		
 	}
 	console.log("8 geldi : " + toplammasraf);
 	
