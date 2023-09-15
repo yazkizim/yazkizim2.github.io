@@ -271,7 +271,7 @@ function harchesapla(){
 			}
 			vekaletnamemetin = vekaletnamemetin + " verilmesine,\n\n";
 		}
-	} else if (davasonucu == '2') {
+	} else if (davasonucu == '3' || davasonucu == '4' || davasonucu == '6' || davasonucu == '8' || davasonucu == '10') {
 		if (davalivekili) {
 			vekaletnamemetin = "- " + davalimetin + " kendisini vekaletnameli vekil ile temsil ettirdiğinden karar tarihi itibariyle yürürlükte bulunan Avukatlık Asgari Ücret Tarifesi (m. 13 İkinci kısım İkinci bölüm) uyarınca hesaplanan ";
 			vekaletnamemetin = vekaletnamemetin + asgarivekaletasliye + " TL vekalet ücretinin ";
@@ -313,14 +313,14 @@ function harchesapla(){
 			}
 			gidermetin = gidermetin + " verilmesine,\n\n";
 		}	
-	} else if (davasonucu == '2') {
+	} else if (davasonucu == '3' || davasonucu == '4' || davasonucu == '6' || davasonucu == '8' || davasonucu == '10') {
 		gidermetin = "- Davacı tarafından yapılan yargılama giderlerinin kendi üzerinde bırakılmasına,\n\n"
 	}
 	
 
 	if (davasonucu == '1') { // tam kabul davası
 		metin = metin + harcmetin + vekaletnamemetin + gidermetin + fazlayatanmetin;
-	} else if (davasonucu == '2') {
+	} else if (davasonucu == '3' || davasonucu == '4' || davasonucu == '6' || davasonucu == '8' || davasonucu == '10') {
 		metin = metin + harcmetin + vekaletnamemetin + gidermetin + fazlayatanmetin;
 	} else {
 		metin = metin + harcmetin + vekaletnamemetin + gidermetin + fazlayatanmetin;
