@@ -374,13 +374,13 @@ function harchesapla(){
 			}
 			
 		} else {			
-			harcmetin = "- Harçlar kanunu gereğince davadan feragat veya davayı kabul veya sulh, muhakemenin ilk celsesinden sonra vuku bulduğundan, maktu karar ve ilam harcının üçte ikisi olan toplam " + davadegeriuzerinden;
-			+ "alınması gereken toplam " + (temelharc*1).toFixed(2) + " TL ";
+			harcmetin = "- Harçlar kanunu gereğince davadan feragat veya davayı kabul veya sulh, muhakemenin ilk celsesinden sonra vuku bulduğundan, maktu karar ve ilam harcının üçte ikisi olan toplam " + davadegeriuzerinden
+			+ (temelharc*1).toFixed(2) + " TL ";
 			harcmetin = harcmetin + " harcın mahsubu ile fazladan alınan " + (bakiyeharc*-1).toFixed(2) + " TL'nin yatıran tarafa iadesine,\n\n";
 		}
 		
 		if (davalivekili) {
-			vekaletnamemetin = "- " + davalimetin + " kendisini vekaletnameli vekil ile temsil ettirdiğinden karar tarihi itibariyle yürürlükte bulunan Avukatlık Asgari Ücret Tarifesi uyarınca hesaplanan ";
+			vekaletnamemetin = "- " + davalimetin + " kendisini vekaletnameli vekil ile temsil ettirdiğinden karar tarihi itibariyle yürürlükte bulunan Avukatlık Asgari Ücret Tarifesi uyarınca hesaplanan "
 			vekaletnamemetin = vekaletnamemetin + asgarivekaletasliye + " TL vekalet ücretinin ";
 			vekaletnamemetin = vekaletnamemetin + davacimetinden;			
 	
@@ -397,18 +397,18 @@ function harchesapla(){
 			harcmetin = "Harçlar kanunu uyarınca alınması gereken harç peşin yatırıldığından yeniden alınmasına yer olmadığına,\n\n";
 		} else if (bakiyeharc * 1 > 0) {
 			if((temelharc*1) - (bakiyeharc*1) >0){
-				harcmetin = "- Harçlar kanunu gereğince davadan feragat veya davayı kabul veya sulh, muhakemenin ilk celsesinden sonra vuku bulduğundan, maktu karar ve ilam harcının üçte biri olan toplam " + davadegeriuzerinden;
-				+ "alınması gereken toplam " + (temelharc*1).toFixed(2) + " TL ";
+				harcmetin = "- Harçlar kanunu gereğince davadan feragat veya davayı kabul veya sulh, muhakemenin ilk celsesinden sonra vuku bulduğundan, maktu karar ve ilam harcının üçte biri olan toplam " + davadegeriuzerinden
+				+ (temelharc*1).toFixed(2) + " TL ";
 				harcmetin = harcmetin + " harçtan daha önce ödenen toplam " + ((temelharc*1) - (bakiyeharc*1)).toFixed(2) + " TL harç düşüldükten sonra eksik kalan " + (bakiyeharc*1).toFixed(2) + " TL harcın " + davacimetinden + "alınarak hazineye gelir kaydına,\n\n";
 			} else {
-				harcmetin = "- Harçlar kanunu gereğince davadan feragat veya davayı kabul veya sulh, muhakemenin ilk celsesinden sonra vuku bulduğundan, maktu karar ve ilam harcının üçte biri olan toplam " + davadegeriuzerinden;
+				harcmetin = "- Harçlar kanunu gereğince davadan feragat veya davayı kabul veya sulh, muhakemenin ilk celsesinden sonra vuku bulduğundan, maktu karar ve ilam harcının üçte biri olan toplam " + davadegeriuzerinden
 				+ "alınması gereken toplam " + (temelharc*1).toFixed(2) + " TL ";
 				harcmetin = harcmetin + " harcın " + davacimetinden + "hazineye gelir kaydına,\n\n";
 			}
 			
 		} else {			
-			harcmetin = "- Harçlar kanunu gereğince davadan feragat veya davayı kabul veya sulh, muhakemenin ilk celsesinden sonra vuku bulduğundan, maktu karar ve ilam harcının üçte biri olan toplam " + davadegeriuzerinden;
-			+ "alınması gereken toplam " + (temelharc*1).toFixed(2) + " TL ";
+			harcmetin = "- Harçlar kanunu gereğince davadan feragat veya davayı kabul veya sulh, muhakemenin ilk celsesinden sonra vuku bulduğundan, maktu karar ve ilam harcının üçte biri olan toplam " + davadegeriuzerinden
+			+ (temelharc*1).toFixed(2) + " TL ";
 			harcmetin = harcmetin + " harcın mahsubu ile fazladan alınan " + (bakiyeharc*-1).toFixed(2) + " TL'nin yatıran tarafa iadesine,\n\n";
 		}
 		
