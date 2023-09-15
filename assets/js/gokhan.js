@@ -251,26 +251,26 @@ function harchesapla(){
 			}
 			
 		} else if (davasonucu == '12') { // nafaka tam kabul
-			if ((davamiktar * 1 * ailenispi) > (temelharc * 1)) {
-				temelharc = (davamiktar * 1 * ailenispi).toFixed(2);
+			if ((davamiktar * 12 * ailenispi) > (temelharc * 1)) {
+				temelharc = (davamiktar * 12 * ailenispi).toFixed(2);
 				bakiyeharc = temelharc - pesinharc - tamamlamaharci - islahharci;
 			}
 
-			if ((davamiktar *1 *12) < (asgarivekaletasliye * 1)) {
+			if (nispiaaut((davamiktar *1 *12)) < (asgarivekaletasliye * 1)) {
 				asgarivekaletasliye = asgarivekaletasliye;
 			} else { 
-				asgarivekaletasliye = (nispiaaut(davamiktar * 1 * 12) * 1).toFixed(2);
+				asgarivekaletasliye = (nispiaaut((davamiktar *1 *12)) * 1).toFixed(2);
 			}
 		} else if (davasonucu == '13') { // nafaka kısmen kabul
-			if ((kabulmiktar * 1 * ailenispi) > (temelharc * 1)) {
-				temelharc = (kabulmiktar * 1 * ailenispi).toFixed(2);
+			if ((kabulmiktar * 12 * ailenispi) > (temelharc * 1)) {
+				temelharc = (kabulmiktar * 12 * ailenispi).toFixed(2);
 				bakiyeharc = temelharc - pesinharc - tamamlamaharci - islahharci;
 			}
 
-			if ((kabulmiktar *1 *12) < (asgarivekaletasliye * 1)) {
+			if (nispiaaut((kabulmiktar *1 *12)) < (asgarivekaletasliye * 1)) {
 				asgarivekaletasliye = asgarivekaletasliye;
 			} else { 
-				asgarivekaletasliye = (nispiaaut(kabulmiktar * 1 * 12) * 1).toFixed(2);
+				asgarivekaletasliye = (nispiaaut((kabulmiktar *1 *12)) * 1).toFixed(2);
 			}
 		} else if (davasonucu == '3'){
 			if ((davamiktar *1) < (asgarivekaletasliye *1)) {
@@ -587,6 +587,18 @@ function harchesapla(){
 				gidermetin = gidermetin + " davacılara ";
 			} else {
 				gidermetin = gidermetin + " davacıya ";
+			}
+			gidermetin = gidermetin + " verilmesine,\n\n";
+		}	
+	} else if (davasonucu == '12' || davasonucu == '13') { 
+		if (toplammasraf == 0) {
+			gidermetin = "- " + davalimetin + " tarafından yapılan herhangi bir yargılama gideri olmadığından bu hususta karar verilmesine yer olmadığına,\n\n"
+		} else {
+			gidermetin = "- " + davalimetin + " tarafından yapılan; " + basvuruharcmetin + pesinharcmetin + tamamlamaharcmetin + islahharcimetin + kesifharcimetin + bilirkisiucretimetin + tebligatmetin + " olmak üzere toplam " + (toplammasraf *1).toFixed(2) + " TL'nin ";
+			
+			if (bakiyeharc < 0){
+				gidermetin = gidermetin + ", iadesine karar verilen "  + (bakiyeharc*-1).toFixed(2) + " TL harç düşüldükten sonra bakiye " + ((toplammasraf *1) - (bakiyeharc*-1)).toFixed(2)
+				+ " TL'nin ";
 			}
 			gidermetin = gidermetin + " verilmesine,\n\n";
 		}	
