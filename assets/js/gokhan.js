@@ -586,7 +586,7 @@ function harchesapla(){
 			if (davacibirdenfazla) {
 				gidermetin = gidermetin + " davacılara ";
 			} else {
-				gidermetin = gidermetin + " davacıya ";
+				
 			}
 			gidermetin = gidermetin + " verilmesine,\n\n";
 		}	
@@ -600,6 +600,7 @@ function harchesapla(){
 				gidermetin = gidermetin + ", iadesine karar verilen "  + (bakiyeharc*-1).toFixed(2) + " TL harç düşüldükten sonra bakiye " + ((toplammasraf *1) - (bakiyeharc*-1)).toFixed(2)
 				+ " TL'nin ";
 			}
+			gidermetin = gidermetin + davalimetinden;
 			gidermetin = gidermetin + " verilmesine,\n\n";
 		}	
 	} else if (davasonucu == '3' || davasonucu == '4' || davasonucu == '6' || davasonucu == '7' || davasonucu == '8' || davasonucu == '9' || davasonucu == '10') {
