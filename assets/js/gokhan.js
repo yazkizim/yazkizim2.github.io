@@ -77,7 +77,7 @@ function harchesapla(){
 	let toplammasraf = 0;
 	var fazlayatanmetin = "- Fazla yatan gider avansı ile delil avansı var ise 12/1/2011 tarihli ve 6100 sayılı Adalet Bakanlığı Hukuk Muhakemeleri Gider Avansı Tarifesinin 5.maddesine göre karar kesinleştikten sonra istek halinde ve taraflar hesap numarası bildirilmiş ise iade elektronik ortamda hesaba aktarılmasına, hesap numarası bildirilmemiş ise masrafı avanstan karşılanmak suretiyle PTT merkez ve işyerleri vasıtasıyla adreste ödemeli olarak taraflara İADESİNE";
 
-
+	toplammasraf = toplammasraf *1;
 	if (basvuruharci || basvuruharci > 0) {
 		basvuruharcmetin = basvuruharci.toFixed(2) + ' TL Başvuru Harcı, ';
 		toplammasraf = toplammasraf +  basvuruharci.toFixed(2);
@@ -156,11 +156,12 @@ function harchesapla(){
 	}
 
 	toplammasraf = toplammasraf * 1;
+	console.log("Toplam masraf geldi : " + toplammasraf);
 
 	if (toplammasraf == 0) {
 		gidermetin = "- " + davalimetin + " tarafından yapılan herhangi bir yargılama gideri olmadığından bu hususta karar verilmesine yer olmadığına,\n"
 	} else {
-		gidermetin = davalimetin + " tarafından yapılan; " + basvuruharcmetin + pesinharcmetin + tamamlamaharcmetin + islahharcimetin + kesifharcimetin + bilirkisiucretimetin + tebligatmetin + " olmak üzere toplam " + toplammasraf.toFixed(2) + " TL'nin ";
+		gidermetin = "- " + davalimetin + " tarafından yapılan; " + basvuruharcmetin + pesinharcmetin + tamamlamaharcmetin + islahharcimetin + kesifharcimetin + bilirkisiucretimetin + tebligatmetin + " olmak üzere toplam " + (toplammasraf *1).toFixed(2) + " TL'nin ";
 
 		if (!davalibirdenfazla) {
 			gidermetin = gidermetin + " davalıdan alınarak ";
