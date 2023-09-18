@@ -145,6 +145,7 @@ function harchesapla(){
 	let nispi = 0.06831;
 	let ailenispi = 0.01138;
 	let asgarivekaletasliye = 9200.00;
+	let sabitvekalet = 9200.00;
 	let davasonucu = document.getElementById("davasonucu").value *1;
 	var davacibirdenfazla = document.getElementById("davacibirdenfazla").checked;
 	var davacivekili = document.getElementById("davacivekili").checked;
@@ -243,6 +244,9 @@ function harchesapla(){
 				asgarivekaletasliye = (davamiktar *1).toFixed(2);
 			} else { 
 				asgarivekaletasliye = (nispiaaut(davamiktar *1) * 1).toFixed(2); // buralarda birşey var ama ne 
+				if (asgarivekaletasliye * 1< sabitvekalet) {
+					asgarivekaletasliye = sabitvekalet;
+				}
 			}
 		} else if (davasonucu == '2') {
 			if ((kabulmiktar * 1 * nispi) > (temelharc * 1)) {
