@@ -16,12 +16,7 @@ layout: tablo
           <th><button class="table-sort" data-sort="sort-sehir">Görev Bölgesindeki Şehir/Semt</button></th>	
           <th><button class="table-sort" data-sort="sort-pk">Posta Kodu</button></th>										
         </tr>
-      </thead>
-      <tbody class="table-tbody">
-      {% for satir in site.data.konsolosluk limit:10 %}
-      <tr><td class="sort-ulke">{{ satir.ulke }}<td class="sort-temsilcilik">{{ satir.temsilcilik }}<td class="sort-eyalet">{{ satir.eyalet }}</td><td class="sort-sehir">{{ satir.sehir }}</td><td class="sort-pk">{{ satir.pk }}</td></tr>
-      {% endfor %}         										
-      </tbody>
+      </thead>      
     </table>
   </div>
   
